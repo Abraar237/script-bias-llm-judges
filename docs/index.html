@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Do LLM Judges Penalise the Script?</title>
+<meta name="description" content="A script-controlled audit of LLM-as-judge scoring for Hindi in Devanagari versus romanized orthographies.">
+<style>
+  :root {
+    --slate: #155e8c;      /* IAST / Devanagari-native / primary series */
+    --hot: #b3006b;        /* the intervention, the finding */
+    --shelf: #c0641a;      /* ASCII romanization / second series */
+    --good: #1c7a55;       /* Hinglish / third series */
+    --ink: #16130d;
+    --ink2: #3a352b;
+    --muted: #6d665a;
+    --faint: #a49c8c;
+    --rule: #e7e2d5;
+    --rule2: #d9d3c3;
+    --slate-soft: #eaf1f7;
+    --shelf-soft: #f9efe5;
+    --hot-soft: #f9e9f2;
+    --good-soft: #e9f4ef;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: #ffffff; color: var(--ink);
+    font-size: 18px; line-height: 1.72;
+  }
+  .sans { font-family: Helvetica, Arial, sans-serif; }
+
+  /* ---- navbar ---- */
+  nav {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(255,255,255,0.96);
+    border-bottom: 1px solid var(--rule);
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  .navin {
+    max-width: 860px; margin: 0 auto; padding: 10px 24px;
+    display: flex; align-items: center; gap: 18px;
+  }
+  .navtitle { font-size: 13px; font-weight: 700; color: var(--ink2); letter-spacing: 0.3px; margin-right: auto; }
+  nav a { color: var(--ink2); text-decoration: none; font-size: 13px; display: inline-flex; align-items: center; gap: 6px; }
+  nav a:hover { color: var(--slate); }
+  .pill {
+    border: 1px solid var(--rule2); border-radius: 999px;
+    padding: 5px 14px; font-weight: 600; color: var(--slate) !important;
+  }
+  .pill:hover { background: var(--slate-soft); }
+
+  /* ---- layout ---- */
+  .wrap { max-width: 760px; margin: 0 auto; padding: 56px 24px 90px; }
+  .eyebrow {
+    font-family: Helvetica, Arial, sans-serif; font-size: 12px;
+    letter-spacing: 2.5px; text-transform: uppercase;
+    color: var(--muted); font-weight: 700; margin-bottom: 16px;
+  }
+  h1 { font-size: 40px; line-height: 1.14; margin-bottom: 8px; letter-spacing: -0.3px; }
+  .subtitle { font-size: 20px; color: var(--ink2); margin-bottom: 20px; line-height: 1.45; }
+  .dek {
+    font-style: italic; font-size: 20px; line-height: 1.55; color: var(--ink2);
+    border-left: 3px solid var(--hot); padding-left: 18px; margin: 26px 0;
+  }
+  .byline {
+    font-family: Helvetica, Arial, sans-serif; font-size: 13.5px; color: var(--muted);
+    display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: baseline;
+    padding-bottom: 22px; border-bottom: 1px solid var(--rule);
+  }
+  .byline b { color: var(--ink2); font-weight: 700; }
+  .byline .dot { color: var(--faint); }
+  .byline a { color: var(--slate); text-decoration: none; }
+  .byline a:hover { text-decoration: underline; }
+
+  /* ---- TOC (a div, deliberately not <nav>) ---- */
+  .toc {
+    font-family: Helvetica, Arial, sans-serif; font-size: 14px;
+    margin: 26px 0 12px; padding: 20px 22px;
+    border: 1px solid var(--rule); border-radius: 12px; background: #fdfcfa;
+  }
+  .toc .toctitle { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); font-weight: 700; margin-bottom: 12px; }
+  .toc ol { columns: 2; column-gap: 34px; list-style: none; counter-reset: toc; }
+  .toc li {
+    counter-increment: toc; margin-bottom: 8px; line-height: 1.4;
+    break-inside: avoid; padding-left: 26px; text-indent: -26px;
+  }
+  .toc li::before {
+    content: counter(toc); display: inline-block; width: 20px; text-indent: 0;
+    margin-right: 6px; color: var(--faint); font-variant-numeric: tabular-nums;
+  }
+  .toc a { color: var(--ink2); text-decoration: none; }
+  .toc a:hover { color: var(--slate); }
+
+  /* ---- article ---- */
+  h2 {
+    font-size: 26px; line-height: 1.25; margin: 60px 0 8px;
+    padding-top: 26px; border-top: 1px solid var(--rule); letter-spacing: -0.2px;
+  }
+  .kicker { font-family: Helvetica, Arial, sans-serif; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 60px 0 -52px; padding-top: 26px; }
+  h3 { font-size: 18px; margin: 26px 0 8px; }
+  p { margin: 0 0 16px; }
+  em { font-style: italic; }
+  a { color: var(--slate); }
+  .num { font-family: 'SF Mono', Menlo, Consolas, monospace; font-size: 0.92em; font-variant-numeric: tabular-nums; }
+  ul.plain { margin: 0 0 16px 24px; }
+  ul.plain li { margin-bottom: 8px; }
+  ol.plain { margin: 0 0 16px 26px; }
+  ol.plain li { margin-bottom: 8px; }
+
+  .fig { margin: 28px 0 32px; border: 1px solid var(--rule); border-radius: 12px; padding: 18px 18px 14px; background: #fff; overflow-x: auto; }
+  .fig img { display: block; width: 100%; height: auto; max-width: 100%; }
+  .figcap { font-family: Helvetica, Arial, sans-serif; font-size: 13px; line-height: 1.55; color: var(--muted); margin-top: 12px; }
+  .figcap b { color: var(--ink2); }
+  svg text { font-family: Helvetica, Arial, sans-serif; }
+
+  .card { border-radius: 12px; padding: 18px 22px; margin: 22px 0; border: 1px solid var(--rule); }
+  .card.hot { background: var(--hot-soft); border-color: #ecc9de; }
+  .card.slate { background: var(--slate-soft); border-color: #cfdfeb; }
+  .card.good { background: var(--good-soft); border-color: #c8e2d5; }
+  .card h3 { font-family: Helvetica, Arial, sans-serif; font-size: 15px; margin: 0 0 8px; }
+  .card p:last-child { margin-bottom: 0; }
+
+  .stats {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
+    margin: 26px 0; font-family: Helvetica, Arial, sans-serif;
+  }
+  .stat { border: 1px solid var(--rule); border-radius: 10px; padding: 14px 12px; text-align: center; }
+  .stat .v { font-size: 22px; font-weight: 700; color: var(--slate); font-variant-numeric: tabular-nums; }
+  .stat .k { font-size: 11.5px; color: var(--muted); margin-top: 4px; line-height: 1.35; }
+
+  table { width: 100%; border-collapse: collapse; margin: 18px 0 24px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; }
+  th { text-align: left; padding: 8px 10px; border-bottom: 2px solid var(--ink); font-size: 12.5px; }
+  td { padding: 9px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  td.r, th.r { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .tablewrap { overflow-x: auto; }
+
+  .swatch { display: inline-block; width: 11px; height: 11px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+
+  code { font-family: 'SF Mono', Menlo, Consolas, monospace; font-size: 14px; background: #f4f2ec; padding: 1px 6px; border-radius: 4px; }
+  .devanagari { font-size: 1.08em; }
+
+  footer {
+    border-top: 1px solid var(--rule); margin-top: 70px; padding-top: 24px;
+    font-family: Helvetica, Arial, sans-serif; font-size: 13.5px; color: var(--muted); line-height: 1.8;
+  }
+  footer a { color: var(--slate); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    body { font-size: 17px; }
+    h1 { font-size: 30px; }
+    h2 { font-size: 22px; }
+    .toc ol { columns: 1; }
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .hidesm { display: none; }
+    .wrap { padding-top: 36px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="navin">
+    <span class="navtitle">Script Bias in LLM Judges</span>
+    <a class="hidesm" href="#practitioners">For practitioners</a>
+    <a href="https://github.com/Abraar237/script-bias-llm-judges" aria-label="GitHub repository">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      <span class="hidesm">Code</span>
+    </a>
+    <a class="pill" href="paper.pdf">Paper (PDF)</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <div class="eyebrow">Vizuara Research &middot; August 29, 2026</div>
+  <h1>Do LLM judges penalise the script?</h1>
+  <p class="subtitle">A script-controlled audit of LLM-as-judge scoring for Hindi, in native Devanagari versus three romanizations.</p>
+
+  <p class="dek">We held Hindi answers fixed and changed only the writing system. We predicted romanized text would score lower. Instead, Gemini judges scored it higher, by up to 7.8 points on ambiguous content, Claude judges did not move, a small open judge inflated bad answers by up to 17.8 points, and telling the judge to ignore the script changed nothing.</p>
+
+  <div class="byline">
+    <b>Team Vizuara</b>
+    <span class="dot">&middot;</span> <span>working draft v1</span>
+    <span class="dot">&middot;</span> <span>14 minute read</span>
+    <span class="dot">&middot;</span> <a href="paper.pdf">read the paper</a>
+    <span class="dot">&middot;</span> <a href="https://github.com/Abraar237/script-bias-llm-judges">get the code and data</a>
+  </div>
+
+  <div class="toc" role="navigation" aria-label="Table of contents">
+    <div class="toctitle">Contents</div>
+    <ol>
+      <li><a href="#scripts">One language, two ways to write it down</a></li>
+      <li><a href="#judges">Machines now grade machines, and nobody checked the letters</a></li>
+      <li><a href="#design">The experiment: one answer, four spellings, six judges</a></li>
+      <li><a href="#reversal">We predicted a penalty. The judges gave a bonus.</a></li>
+      <li><a href="#discretion">The inflation lives where the judge has discretion</a></li>
+      <li><a href="#mitigation">Telling the judge to ignore the script does not work</a></li>
+      <li><a href="#mechanism">The judge sees the script and inflates anyway</a></li>
+      <li><a href="#practitioners">What practitioners should do</a></li>
+      <li><a href="#limitations">What this study cannot claim</a></li>
+      <li><a href="#reproduce">Paper, data, and code</a></li>
+    </ol>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="v">150</div><div class="k">fixed Hindi items, 3 quality tiers</div></div>
+    <div class="stat"><div class="v">4</div><div class="k">orthographies of each item</div></div>
+    <div class="stat"><div class="v">6</div><div class="k">judges from 3 model families</div></div>
+    <div class="stat"><div class="v">4,200</div><div class="k">scripted judgments</div></div>
+  </div>
+
+  <h2 id="scripts">1. One language, two ways to write it down</h2>
+  <p>A language is what you speak. A script is the set of symbols you use to write it down. The two are separable: the same sentence can be written in different symbol systems, the way the same song can be pressed on vinyl or saved as a file.</p>
+  <p><b>Devanagari</b> (<span class="devanagari">देवनागरी</span>) is the native script of Hindi. It is also the script of Marathi, Nepali, and Sanskrit, and over 600 million people read it. <b>The Latin script</b> is the one you are reading right now. Writing Hindi in Latin letters is called <b>romanization</b>: you spell out the sounds of the Hindi words using English letters.</p>
+
+  <div class="fig">
+    <svg viewBox="0 0 800 200" width="100%" role="img" aria-label="Character by character mapping from Devanagari to Latin letters for the word namaste">
+      <text x="400" y="30" text-anchor="middle" font-size="13" font-weight="bold" fill="#155e8c">HOW ROMANIZATION MAPS SOUNDS, CHARACTER BY CHARACTER</text>
+      <g font-size="22" fill="#16130d">
+        <rect x="60" y="50" width="90" height="44" rx="8" fill="#eaf1f7" stroke="#cfdfeb"/><text x="105" y="80" text-anchor="middle">न</text>
+        <rect x="160" y="50" width="90" height="44" rx="8" fill="#eaf1f7" stroke="#cfdfeb"/><text x="205" y="80" text-anchor="middle">म</text>
+        <rect x="260" y="50" width="90" height="44" rx="8" fill="#eaf1f7" stroke="#cfdfeb"/><text x="305" y="80" text-anchor="middle">स्</text>
+        <rect x="360" y="50" width="90" height="44" rx="8" fill="#eaf1f7" stroke="#cfdfeb"/><text x="405" y="80" text-anchor="middle">ते</text>
+      </g>
+      <g font-size="14" fill="#6d665a">
+        <text x="105" y="118" text-anchor="middle">&#8595;</text>
+        <text x="205" y="118" text-anchor="middle">&#8595;</text>
+        <text x="305" y="118" text-anchor="middle">&#8595;</text>
+        <text x="405" y="118" text-anchor="middle">&#8595;</text>
+      </g>
+      <g font-size="18" fill="#16130d">
+        <rect x="60" y="128" width="90" height="40" rx="8" fill="#f9efe5" stroke="#e8d4bd"/><text x="105" y="154" text-anchor="middle">na</text>
+        <rect x="160" y="128" width="90" height="40" rx="8" fill="#f9efe5" stroke="#e8d4bd"/><text x="205" y="154" text-anchor="middle">ma</text>
+        <rect x="260" y="128" width="90" height="40" rx="8" fill="#f9efe5" stroke="#e8d4bd"/><text x="305" y="154" text-anchor="middle">s</text>
+        <rect x="360" y="128" width="90" height="40" rx="8" fill="#f9efe5" stroke="#e8d4bd"/><text x="405" y="154" text-anchor="middle">te</text>
+      </g>
+      <text x="520" y="80" font-size="20" fill="#16130d">नमस्ते</text>
+      <text x="520" y="112" font-size="14" fill="#6d665a">"namaste" (hello)</text>
+      <text x="520" y="154" font-size="18" fill="#16130d">namaste</text>
+      <text x="680" y="118" font-size="13" fill="#6d665a">same sounds,</text>
+      <text x="680" y="136" font-size="13" fill="#6d665a">same meaning,</text>
+      <text x="680" y="154" font-size="13" fill="#6d665a">different symbols</text>
+    </svg>
+    <div class="figcap">Romanization is a sound-by-sound respelling. <span class="devanagari">नमस्ते</span> and "namaste" are one word, written twice.</div>
+  </div>
+
+  <p>Hindi lives in both scripts every day. Books, news, and formal writing use Devanagari. But when people chat, comment, or search on a phone, a very large share of them type Hindi words on the English keyboard. Same words, same grammar, same meaning. Different letters. This habit is called romanized Hindi, or Hinglish.</p>
+
+  <div class="fig">
+    <svg viewBox="0 0 800 190" width="100%" role="img" aria-label="The same Hindi sentence written in Devanagari and in Latin letters">
+      <rect x="30" y="25" width="350" height="130" rx="12" fill="#eaf1f7"/>
+      <text x="205" y="52" text-anchor="middle" font-size="13" font-weight="bold" fill="#155e8c">DEVANAGARI (the native script)</text>
+      <text x="205" y="95" text-anchor="middle" font-size="24" fill="#16130d">आप कैसे हैं?</text>
+      <text x="205" y="132" text-anchor="middle" font-size="12" fill="#6d665a">books, news, formal writing</text>
+      <rect x="420" y="25" width="350" height="130" rx="12" fill="#f9efe5"/>
+      <text x="595" y="52" text-anchor="middle" font-size="13" font-weight="bold" fill="#c0641a">ROMANIZED (what people type)</text>
+      <text x="595" y="95" text-anchor="middle" font-size="22" fill="#16130d">aap kaise hain?</text>
+      <text x="595" y="132" text-anchor="middle" font-size="12" fill="#6d665a">chat, social media, search</text>
+      <text x="400" y="98" text-anchor="middle" font-size="20" fill="#6d665a">=</text>
+    </svg>
+    <div class="figcap">The same Hindi sentence ("How are you?") in both writing systems. A fluent reader gets identical meaning from either.</div>
+  </div>
+
+  <p>One more thing matters for the experiment. Romanization has no official spelling. Scholars use a precise system with accent marks called IAST (<code>kaise hai&#7745; &#257;pa</code>), keyboards strip those marks to plain ASCII (<code>kaise haim apa</code>), and everyday users improvise (<code>kaise hain aap</code>). That spread from formal to casual is exactly the gradient our experimental conditions walk down.</p>
+
+  <h2 id="judges">2. Machines now grade machines, and nobody checked the letters</h2>
+  <p>Testing a chatbot used to mean hiring people to read its answers. That is slow and expensive, so the field switched to a shortcut: ask a strong language model to do the grading. This grader is called an LLM judge. You show it a question and an answer, and it returns a score, say 82 out of 100.</p>
+  <p>That score is not a side note. It flows into three places that decide what gets built and shipped.</p>
+
+  <div class="fig">
+    <svg viewBox="0 0 800 330" width="100%" role="img" aria-label="One judge score feeds leaderboards, reward models, and production gates">
+      <rect x="290" y="20" width="220" height="80" rx="12" fill="#155e8c"/>
+      <text x="400" y="52" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">LLM JUDGE</text>
+      <text x="400" y="74" text-anchor="middle" font-size="12" fill="#cfe0f5">"this answer deserves 82/100"</text>
+      <line x1="330" y1="100" x2="150" y2="170" stroke="#6d665a" stroke-width="2"/>
+      <line x1="400" y1="100" x2="400" y2="170" stroke="#6d665a" stroke-width="2"/>
+      <line x1="470" y1="100" x2="650" y2="170" stroke="#6d665a" stroke-width="2"/>
+      <polygon points="150,170 158,158 164,168" fill="#6d665a"/>
+      <polygon points="400,170 394,158 406,158" fill="#6d665a"/>
+      <polygon points="650,170 636,168 642,158" fill="#6d665a"/>
+      <rect x="40" y="175" width="220" height="120" rx="12" fill="#eaf1f7"/>
+      <text x="150" y="203" text-anchor="middle" font-size="13" font-weight="bold" fill="#155e8c">LEADERBOARDS</text>
+      <text x="150" y="228" text-anchor="middle" font-size="12" fill="#3a352b">Which model is "best at Hindi"</text>
+      <text x="150" y="248" text-anchor="middle" font-size="12" fill="#3a352b">decides what companies deploy</text>
+      <text x="150" y="268" text-anchor="middle" font-size="12" fill="#3a352b">and what researchers build on</text>
+      <rect x="290" y="175" width="220" height="120" rx="12" fill="#eaf1f7"/>
+      <text x="400" y="203" text-anchor="middle" font-size="13" font-weight="bold" fill="#155e8c">REWARD MODELS (RLHF)</text>
+      <text x="400" y="228" text-anchor="middle" font-size="12" fill="#3a352b">Scores become the training signal.</text>
+      <text x="400" y="248" text-anchor="middle" font-size="12" fill="#3a352b">The next model learns to produce</text>
+      <text x="400" y="268" text-anchor="middle" font-size="12" fill="#3a352b">whatever the judge rewards</text>
+      <rect x="540" y="175" width="220" height="120" rx="12" fill="#eaf1f7"/>
+      <text x="650" y="203" text-anchor="middle" font-size="13" font-weight="bold" fill="#155e8c">PRODUCTION GATES</text>
+      <text x="650" y="228" text-anchor="middle" font-size="12" fill="#3a352b">"Only ship replies scoring 70+."</text>
+      <text x="650" y="248" text-anchor="middle" font-size="12" fill="#3a352b">Low-scored answers get blocked,</text>
+      <text x="650" y="268" text-anchor="middle" font-size="12" fill="#3a352b">rerouted, or regenerated</text>
+    </svg>
+    <div class="figcap">One judge score feeds three consequential systems. A bias in the judge silently becomes a bias in all three.</div>
+  </div>
+
+  <p>The reliability literature has catalogued many failure modes of these judges: position bias, verbosity bias, self-preference. Every catalogue so far shares one silent assumption: the <em>writing system</em> of the judged text does not move the score. For a language with two written lives, that assumption carries real weight. A judge that scores <span class="devanagari">आप कैसे हैं?</span> and <code>aap kaise hain?</code> differently is not measuring quality. It is measuring orthography.</p>
+  <p>Prior work could not test this cleanly. Studies that compared Hindi against English compared two different texts, so language and script were tangled together. We untangle them: hold the language and the content fixed, flip only the script, and watch the score.</p>
+
+  <h2 id="design">3. The experiment: one answer, four spellings, six judges</h2>
+
+  <div class="fig">
+    <img src="assets/fig1_schematic.png" alt="Schematic: one Hindi answer rendered in two scripts, both scored blind by the same judge; the measured medium-tier means are 51 for Devanagari and 59 for romanized under Gemini 3.6 Flash">
+    <div class="figcap"><b>The experiment in one picture.</b> One Hindi answer is rendered in two scripts and both versions are scored by the same judge, which never sees the two side by side. Content is identical on both paths, so any score gap is script bias by construction. The numbers shown (51 versus 59) are the measured Devanagari and romanized means for medium-quality items under Gemini 3.6 Flash.</div>
+  </div>
+
+  <p>We wrote 150 Hindi instruction and response pairs across ten everyday domains, at three intended quality tiers of 50 items each: high (correct and complete), medium (correct but visibly incomplete), and low (curt, vague, or shallow). The responses were authored in Devanagari and frozen before any judging.</p>
+  <p>Each frozen response was then rendered in four orthographies:</p>
+  <ul class="plain">
+    <li><span class="swatch" style="background:#a49c8c"></span><b>deva</b>: the original Devanagari.</li>
+    <li><span class="swatch" style="background:#155e8c"></span><b>iast</b>: scholarly romanization with diacritics, produced deterministically.</li>
+    <li><span class="swatch" style="background:#c0641a"></span><b>ascii</b>: IAST with the diacritics stripped, a proxy for plain-keyboard romanization.</li>
+    <li><span class="swatch" style="background:#1c7a55"></span><b>hinglish</b>: a natural user-style respelling, under a strict no-paraphrase rule. Every word, the word order, and all punctuation are preserved.</li>
+  </ul>
+  <p>These colors keep their meaning in every figure below.</p>
+  <p>Six judges from three families scored every item in every condition on a 0 to 100 rubric: Gemini 3.6 Flash and Gemini 3.1 Pro through the API at temperature 0, one item per call, in randomized order; Claude Sonnet 5, Opus 5, and Fable 5 through blind sessions arranged in a Latin square, so no session ever saw the same item in two scripts; and Qwen2.5-7B-Instruct running open-weights on a single GPU. No judge was told the study concerns scripts. Each judge returned a score and a one-sentence reason, and the reasons became data too.</p>
+  <p>The unit of analysis is the within-item paired difference: the score of the romanized version minus the score of the Devanagari version of the same item. We report mean shifts with bootstrap 95 percent confidence intervals and two-sided permutation tests. Every number on this page comes from one scripted analysis, <code>analyze.py</code>, and its output ships with the paper.</p>
+
+  <div class="card slate">
+    <h3>We called our shot before collecting data</h3>
+    <p>Before running the experiment we recorded a directional prediction: romanized versions will score <b>lower</b> than Devanagari versions, by analogy to the task-performance literature, where romanized input degrades model accuracy. Pre-registering the direction removes the suspicion of cherry-picking. It also means we must report whatever we find. We did not find what we predicted.</p>
+  </div>
+
+  <h2 id="reversal">4. We predicted a penalty. The judges gave a bonus.</h2>
+
+  <div class="fig">
+    <img src="assets/fig2_forest.png" alt="Forest plot of score shift by judge and romanization with 95 percent confidence intervals; Gemini and Qwen intervals sit right of zero, Claude intervals straddle zero except Opus on ASCII">
+    <div class="figcap"><b>Score shift by judge and romanization, with 95 percent bootstrap confidence intervals.</b> Each interval is the mean within-item shift (romanized minus Devanagari) over n = 150 paired items. Right of the dashed zero line means romanized content scored higher than the same content in Devanagari.</div>
+  </div>
+
+  <p>This figure is the study in one view, and it holds three different stories.</p>
+  <p><b>Gemini inflates romanized Hindi.</b> Gemini 3.6 Flash scores the same content higher when romanized: <span class="num">+3.43</span> points for IAST (CI [2.37, 4.63], p = 5&times;10<sup>&minus;5</sup>), <span class="num">+2.17</span> for ASCII (CI [0.83, 3.73], p = 0.003), and <span class="num">+3.13</span> for Hinglish (CI [2.23, 4.13], p = 5&times;10<sup>&minus;5</sup>). Gemini 3.1 Pro shows the same sign at a third the size: <span class="num">+1.17</span>, <span class="num">+1.10</span>, and <span class="num">+1.13</span> points (all p &le; 0.003). The bias shrinks at the stronger tier, but it does not vanish.</p>
+  <p><b>Claude does not move.</b> Sonnet 5, Opus 5, and Fable 5 shift by at most 0.54 points in eight of their nine judge-by-condition comparisons, with confidence intervals containing zero and p &ge; 0.09. The single exception is the only significant result in our pre-registered direction anywhere in the study: Opus 5 penalises diacritic-stripped ASCII by <span class="num">&minus;1.23</span> points (CI [&minus;1.99, &minus;0.43], p = 0.002). That is the condition that most visibly degrades the text.</p>
+  <p><b>The small open judge fails in its own way.</b> Qwen2.5-7B inflates formal romanizations dramatically: <span class="num">+7.63</span> points for IAST (CI [4.9, 10.37]) and <span class="num">+6.03</span> for ASCII (CI [3.33, 8.73]). Yet on natural Hinglish it is flat: <span class="num">+0.07</span> points, p = 0.97. Its inflation also lives in a different place. Low-quality items shift <span class="num">+17.8</span> (IAST) and <span class="num">+17.4</span> (ASCII) points. The small judge loses the ability to recognise bad content once it is dressed in diacritics, while Hinglish, which is plentiful in web text, is judged as soberly as Devanagari.</p>
+  <p>Three conclusions follow. Script bias in LLM judges exists. It is a property of the judge, not of the task: same items, same protocol, three different behaviours across three families. And it is not monotone in how natural the romanization is: the strongest family is invariant everywhere, the mid-tier family inflates every romanization moderately, and the small open judge inflates exactly the romanizations it saw least in training.</p>
+
+  <h2 id="discretion">5. The inflation lives where the judge has discretion</h2>
+
+  <div class="fig">
+    <img src="assets/fig3_tiers.png" alt="Score shift by quality tier for the two Gemini judges; high and low tiers move little, medium tier items shift 6.5 to 7.8 points under Flash and 2.1 to 2.7 under Pro">
+    <div class="figcap"><b>The bias concentrates in medium-quality responses.</b> Mean shift by intended quality tier for the two Gemini judges, with 95 percent bootstrap intervals (n = 50 items per tier).</div>
+  </div>
+
+  <p>Splitting the shift by quality tier shows where the points come from. Under Gemini 3.6 Flash, high-quality items already score near 99 in Devanagari, so the scale offers no headroom, and they shift by at most 1.3 points in either direction. Low-quality items sit against a floor near 15 and shift by at most 2.7 points. Medium-quality items, which score near 51 in Devanagari, inflate by <span class="num">+7.8</span> (IAST), <span class="num">+7.4</span> (ASCII), and <span class="num">+6.5</span> (Hinglish) points, all p &le; 1.5&times;10<sup>&minus;4</sup>. The same shape holds for Pro at smaller size: <span class="num">+2.2</span>, <span class="num">+2.1</span>, and <span class="num">+2.7</span> points on medium items.</p>
+  <p>This is the pattern one expects if romanization blurs the judge's view of quality. Content whose flaws are obvious stays low. Content whose merits are obvious stays high. Ambiguous content drifts toward a generous middle. And ambiguous content is exactly where real systems compete: a 7-point swing at the middle of the scale is enough to reorder closely ranked models.</p>
+
+  <h2 id="mitigation">6. Telling the judge to ignore the script does not work</h2>
+
+  <div class="fig">
+    <img src="assets/fig4_mitigation.png" alt="Medium-tier shift under the standard rubric versus the rubric with an ignore-the-script instruction; the two lines overlap">
+    <div class="figcap"><b>The mitigation fails.</b> Medium-tier mean shift under Gemini 3.6 Flash with the standard rubric (<span style="color:#155e8c">slate</span>) versus the same rubric plus a script-blindness line (<span style="color:#b3006b">pink</span>). Intervals are 95 percent bootstrap CIs over n = 50 medium-tier items.</div>
+  </div>
+
+  <p>The remedy every practitioner would try first is one sentence in the judge prompt. We ran the full four-condition protocol again under Gemini 3.6 Flash with this line added to the rubric: "Evaluate the content regardless of the script or orthography it is written in."</p>
+  <p>The instructed judge inflates as much as the uninstructed one. Medium-tier inflation is <span class="num">+7.2</span> (IAST), <span class="num">+6.1</span> (ASCII), and <span class="num">+7.2</span> (Hinglish) points with the instruction, against <span class="num">+7.8</span>, <span class="num">+7.4</span>, and <span class="num">+6.5</span> without it. The confidence intervals overlap almost completely. The bias is not a surface behaviour the model can suspend on request.</p>
+
+  <h2 id="mechanism">7. The judge sees the script and inflates anyway</h2>
+
+  <div class="fig">
+    <img src="assets/fig5_mechanism.png" alt="Left: romanized Hindi costs 1.33 to 1.98 times the tokens of Devanagari. Right: the judge's rationales mention the script on 41 to 57 percent of romanized items and 1 percent of Devanagari items">
+    <div class="figcap"><b>Two mechanism probes.</b> Left: the same content costs 1.33 to 1.98 times as many tokens romanized as in Devanagari under the Gemini tokenizer. Right: share of the judge's one-sentence rationales that mention script, romanization, or transliteration, by condition, under Gemini 3.6 Flash (n = 150 per condition).</div>
+  </div>
+
+  <p>Two probes narrow the explanation space.</p>
+  <p><b>It is not token length.</b> A standing hypothesis in the tokenizer-fairness literature is that length disparities drive downstream behaviour. We measured every item in every condition with the Gemini tokenizer. Romanized Hindi turns out to be the <em>expensive</em> form: <span class="num">1.98&times;</span> (IAST), <span class="num">1.47&times;</span> (ASCII), and <span class="num">1.33&times;</span> (Hinglish) the tokens of the same content in Devanagari. That is itself worth recording, because it reverses the folk wisdom of the 2024 romanization literature, which reported 2 to 4-fold savings from romanization; modern tokenizers have since closed the Devanagari gap. But token inflation does not explain the score inflation. The per-item correlation between token ratio and score shift is r = +0.11 (IAST), +0.05 (ASCII), and &minus;0.08 (Hinglish), and no tier-restricted correlation exceeds |r| = 0.18. Longer input is not what earns the higher score.</p>
+  <p><b>The script is perceived.</b> The judge's own rationales show it sees what it is scoring. Under Gemini 3.6 Flash, 47 percent of IAST rationales, 57 percent of ASCII rationales, and 41 percent of Hinglish rationales explicitly mention the script or the romanization, against 1 percent for Devanagari. Some rationales even name the orthography as a deficiency while the score lands higher than the Devanagari twin's.</p>
+  <p>Put together, the bias operates despite awareness. That is consistent with the mitigation failure: this is a miscalibration of quality assessment through an unfamiliar surface form, not an oversight the model can be alerted out of.</p>
+
+  <h2 id="practitioners">8. What practitioners should do</h2>
+  <p>The audience for this result is anyone who runs an LLM judge over Hindi text: Hindi leaderboard evaluations, reward models trained on judged Hindi generations, and quality gates in front of romanized-Hindi chatbots. Three concrete steps follow from the data.</p>
+  <ol class="plain">
+    <li><b>Do not rely on a prompt line.</b> The script-blindness instruction left medium-tier inflation at 6.1 to 7.2 points. Section 6 is the direct evidence.</li>
+    <li><b>Report native-script and romanized slices separately.</b> A single pooled number mixes a biased slice with an unbiased one. Stratified reporting makes the script axis visible instead of averaging it away.</li>
+    <li><b>Pick and audit the judge.</b> The bias is a property of the judge, in both size and sign. In this study the Claude judges were script-invariant to within half a point, the Gemini judges inflated every romanization, and a 7B open judge inflated formal romanizations of bad answers by up to 17.8 points. Run a script-invariance check like ours on your judge before you trust its Hindi numbers, and say which judge produced any number you publish.</li>
+  </ol>
+  <div class="card hot">
+    <h3>The one-sentence takeaway</h3>
+    <p>Which judge a practitioner picks silently changes how romanized-Hindi systems rank, and the size of that change (roughly 7 points on ambiguous content under Gemini 3.6 Flash) is enough to reorder closely ranked systems.</p>
+  </div>
+
+  <h2 id="limitations">9. What this study cannot claim</h2>
+  <p>Several weaknesses were design choices made for speed and budget, and a reader should weigh them.</p>
+  <ul class="plain">
+    <li><b>The dataset is model-authored.</b> All 150 items and their quality tiers were generated by a language model under human-specified tier definitions, then frozen. Tier intent was strongly realised in the scores, but model-authored Hindi may differ from human Hindi in ways that interact with romanization. The hinglish condition is likewise a model respelling under a strict no-paraphrase rule; the protocol includes a 20-item native-speaker fidelity audit, and the audited sample ships with the data.</li>
+    <li><b>The Claude arm is less controlled than the Gemini arm.</b> The Claude judges ran through interactive sessions, not a version-pinned API, and each session scored 150 items in one context rather than one item per call. The Latin-square rotation keeps the script comparison fair, and no session could compare scripts within an item, but the setting is weaker. One of the three Claude judges shares a model family with the orchestrator of this study; the blind packets mitigate, and the Claude results are null results, which self-favouritism would not produce.</li>
+    <li><b>Scale and scope are modest.</b> One language, 150 items, six judges, one seed at temperature 0. The mitigation test covers one instruction phrasing on one judge. The quality tiers are coarse; a continuous-quality design would resolve the discretion story more finely.</li>
+    <li><b>The pre-registration was directional and informal.</b> It was recorded in the project log before data collection, not filed with a third-party registry. We state it because it disciplined our reporting: the headline effect is opposite to what we predicted.</li>
+  </ul>
+
+  <h2 id="reproduce">10. Paper, data, and code</h2>
+  <p>The full paper contains the method, the statistics, and the prior-work delineation in detail.</p>
+  <ul class="plain">
+    <li><a href="paper.pdf">Read the paper (PDF)</a></li>
+    <li><a href="https://github.com/Abraar237/script-bias-llm-judges">Code, datasets, and per-call score files on GitHub</a></li>
+  </ul>
+  <p>All datasets, per-call score files, the scripted analysis, figure build scripts, and spend logs are released. Every number on this page traces to <code>results/analysis.json</code>, generated by <code>experiments/analyze.py</code> from the raw judgment files. Total marginal compute cost of the study: under 5 US dollars of API spend plus roughly one A10G GPU-hour.</p>
+
+  <footer>
+    <div><b style="color:var(--ink2)">Team Vizuara</b> &middot; <a href="mailto:hello@viz-scl.com">hello@viz-scl.com</a></div>
+    <div><a href="paper.pdf">Paper</a> &middot; <a href="https://github.com/Abraar237/script-bias-llm-judges">GitHub</a> &middot; Working draft v1, August 29, 2026</div>
+  </footer>
+
+</div>
+</body>
+</html>
