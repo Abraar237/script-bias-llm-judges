@@ -1,0 +1,68 @@
+<!doctype html><meta charset="utf-8">
+<style>
+  body { margin:0; background:#ffffff; width:1560px; font-family:'Times New Roman',serif; }
+  .stage { position:relative; width:1560px; height:660px; }
+  .card { position:absolute; border-radius:10px; border:1.6px solid; padding:10px 14px; box-sizing:border-box; text-align:center; }
+  .ctitle { font-style:italic; font-weight:bold; font-size:19px; margin-bottom:6px; }
+  .ctext { font-size:22px; color:#16130d; }
+  .deva { font-family:'Tiro Devanagari Hindi','Devanagari MT'; }
+  .sub { font-size:16px; color:#6d665a; margin-top:6px; }
+  svg.arrows { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; }
+  .outrow { position:absolute; width:340px; height:56px; border:1.4px solid #b9b2a4; border-radius:9px;
+            display:flex; align-items:center; justify-content:space-between; padding:0 16px; box-sizing:border-box; background:#fff; }
+  .oname { font-size:19px; color:#16130d; }
+  .oval  { font-size:21px; font-weight:bold; }
+  .note { position:absolute; font-size:15.5px; color:#6d665a; text-align:center; }
+  .eyeb { position:absolute; font-style:italic; font-size:18px; color:#6d665a; }
+</style>
+<div class="stage">
+  <svg class="arrows">
+    <defs><marker id="m" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 z" fill="#6d665a"/></marker>
+      <marker id="mg" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 z" fill="#b9b2a4"/></marker></defs>
+    <line x1="278" y1="285" x2="352" y2="112" stroke="#6d665a" stroke-width="2" marker-end="url(#m)"/>
+    <line x1="278" y1="315" x2="352" y2="258" stroke="#6d665a" stroke-width="2" marker-end="url(#m)"/>
+    <line x1="278" y1="345" x2="352" y2="404" stroke="#6d665a" stroke-width="2" marker-end="url(#m)"/>
+    <line x1="278" y1="375" x2="352" y2="550" stroke="#6d665a" stroke-width="2" marker-end="url(#m)"/>
+    <line x1="768" y1="105" x2="852" y2="270" stroke="#6d665a" stroke-width="2" marker-end="url(#m)"/>
+    <line x1="768" y1="251" x2="852" y2="305" stroke="#6d665a" stroke-width="2" marker-end="url(#m)"/>
+    <line x1="768" y1="397" x2="852" y2="345" stroke="#6d665a" stroke-width="2" marker-end="url(#m)"/>
+    <line x1="768" y1="543" x2="852" y2="385" stroke="#6d665a" stroke-width="2" marker-end="url(#m)"/>
+    <line x1="1058" y1="330" x2="1128" y2="128" stroke="#b9b2a4" stroke-width="1.8" marker-end="url(#mg)"/>
+    <line x1="1058" y1="330" x2="1128" y2="268" stroke="#b9b2a4" stroke-width="1.8" marker-end="url(#mg)"/>
+    <line x1="1058" y1="330" x2="1128" y2="408" stroke="#b9b2a4" stroke-width="1.8" marker-end="url(#mg)"/>
+    <line x1="1058" y1="330" x2="1128" y2="548" stroke="#b9b2a4" stroke-width="1.8" marker-end="url(#mg)"/>
+  </svg>
+
+  <div class="card" style="left:30px; top:240px; width:248px; height:190px; background:#f2f0ea; border-color:#b9b2a4;">
+    <div class="ctitle" style="color:#6d665a;">fixed Hindi response</div>
+    <div class="ctext deva">प्रकाश संश्लेषण वह<br>प्रक्रिया है ...</div>
+    <div class="sub">identical content<br>150 items, 3 quality tiers</div>
+  </div>
+
+  <div class="card" style="left:355px; top:60px;  width:410px; height:96px; background:#e8eff5; border-color:#155e8c;">
+    <div class="ctitle" style="color:#155e8c;">Devanagari (native)</div>
+    <div class="ctext deva">प्रकाश संश्लेषण वह प्रक्रिया है ...</div></div>
+  <div class="card" style="left:355px; top:206px; width:410px; height:96px; background:#f7ece1; border-color:#c0641a;">
+    <div class="ctitle" style="color:#c0641a;">IAST (scholarly romanization)</div>
+    <div class="ctext">prakāśa saṃśleṣaṇa vaha prakriyā hai ...</div></div>
+  <div class="card" style="left:355px; top:352px; width:410px; height:96px; background:#e7f2ec; border-color:#1c7a55;">
+    <div class="ctitle" style="color:#1c7a55;">ASCII (diacritics stripped)</div>
+    <div class="ctext">prakasa samslesana vaha prakriya hai ...</div></div>
+  <div class="card" style="left:355px; top:498px; width:410px; height:96px; background:#f7e4ee; border-color:#b3006b;">
+    <div class="ctitle" style="color:#b3006b;">Hinglish (user-style)</div>
+    <div class="ctext">prakash sanshleshan vah prakriya hai ...</div></div>
+
+  <div class="card" style="left:855px; top:262px; width:200px; height:136px; background:#ffffff; border-color:#16130d;">
+    <div class="ctitle" style="color:#16130d;">LLM judge</div>
+    <div class="sub" style="color:#16130d; font-size:17px;">0–100 rubric<br>one item per call<br>blind to pairing</div>
+  </div>
+
+  <div class="eyeb" style="left:1130px; top:52px;">measured shift vs. Devanagari</div>
+  <div class="outrow" style="left:1130px; top:100px;"><span class="oname">Gemini 3.6 Flash</span><span class="oval" style="color:#b3006b;">+2.2 to +3.4</span></div>
+  <div class="outrow" style="left:1130px; top:240px;"><span class="oname">Gemini 3.1 Pro</span><span class="oval" style="color:#b3006b;">+1.1</span></div>
+  <div class="outrow" style="left:1130px; top:380px;"><span class="oname">Qwen2.5-7B</span><span class="oval" style="color:#b3006b;">+6.0 to +7.6*</span></div>
+  <div class="outrow" style="left:1130px; top:520px;"><span class="oname">Claude (3 judges)</span><span class="oval" style="color:#1c7a55;">&asymp; 0</span></div>
+  <div class="note" style="left:1130px; top:588px; width:340px;">*flat on Hinglish; concentrated in formal<br>romanizations of low-quality items</div>
+</div>
