@@ -1,0 +1,202 @@
+{
+  "L01": {
+    "instruction": "Prakash sanshleshan ki prakriya ko charnon aur mahatva sahit vistar se samjhaiye.",
+    "response": "Paudhe dhoop se khana banate hain. Pattiyan hari hoti hain isliye aisa hota hai. Pani bhi lagta hai. Bas yahi prakriya hai, ismein zyada samajhne wali koi baat nahi hai."
+  },
+  "L02": {
+    "instruction": "Newton ke gati ke teenon niyam udaharan sahit vistar se bataiye.",
+    "response": "Newton ke teen niyam hain. Pehla niyam gati ke baare mein hai, doosra niyam bhi gati ke baare mein hai aur teesra niyam bhi gati se juda hai. Teenon mahatvapurn hain."
+  },
+  "L03": {
+    "instruction": "Jal chakra kya hai? Iske vibhinn charnon ko vistar se samjhaiye.",
+    "response": "Pani bhaap banta hai, baadal bante hain, barish hoti hai. Yahi chakra baar-baar chalta rehta hai. Ismein aur kuch khaas nahi hai."
+  },
+  "L04": {
+    "instruction": "Manav pachan tantra kaise kaam karta hai, angon ke naam sahit vistar se likhiye.",
+    "response": "Khana pet mein jata hai aur wahin poora pach jata hai. Phir urja milti hai. Ang to kai hote hain par mukhya kaam pet hi karta hai."
+  },
+  "L05": {
+    "instruction": "Saurmandal ke grahon ke baare mein vistar se jankari dijiye.",
+    "response": "Saurmandal mein nau grah hain. Sabse bada Brihaspati hai aur sab Surya ke chakkar lagate hain. Prithvi par jeevan hai, baki grahon par kuch nahi."
+  },
+  "L06": {
+    "instruction": "1857 ke swatantrata sangram ke karnon aur parinamon ka vistar se varnan kijiye.",
+    "response": "1857 mein vidroh hua tha kyunki log angrezon se naraz the. Ladai hui aur baad mein sab shant ho gaya. Itihas ki kitabon mein sab likha hai."
+  },
+  "L07": {
+    "instruction": "Samrat Ashok ke shasankaal aur unki neetiyon ke baare mein vistar se bataiye.",
+    "response": "Ashok ek raja tha. Usne yuddh kiya, phir yuddh chhod diya. Accha raja mana jata hai. Shasan bhi accha tha aur neetiyan bhi acchi thin."
+  },
+  "L08": {
+    "instruction": "Mughal samrajya ki sthapna aur pramukh shasakon ka vivran vistar se dijiye.",
+    "response": "Mughal samrajya Akbar ne shuru kiya tha. Phir kai badshah aaye, Taj Mahal bhi bana. Dheere-dheere samrajya khatm ho gaya, bas yahi kahani hai."
+  },
+  "L09": {
+    "instruction": "Mahatma Gandhi ke namak satyagrah (Dandi March) ke baare mein vistar se likhiye.",
+    "response": "Gandhiji paidal chalkar samudra tak gaye aur namak banaya. Angrez naraz hue. Yeh ek prasiddh ghatna hai, isse zyada batane ki zaroorat nahi."
+  },
+  "L10": {
+    "instruction": "Sindhu Ghati sabhyata ki pramukh visheshtayen vistar se samjhaiye.",
+    "response": "Yeh bahut purani sabhyata thi. Log shehron mein rehte the. Khudai mein kuch cheezein mili hain. Purani sabhyata thi isliye zyada jankari nahi milti."
+  },
+  "L11": {
+    "instruction": "Ghar par paneer butter masala banane ki poori vidhi samagri sahit vistar se bataiye.",
+    "response": "Paneer aur masale daalkar paka lijiye. Swad apne hisab se rakh lein. YouTube par video dekh lijiye, wahan acche se samajh aayega."
+  },
+  "L12": {
+    "instruction": "Dal makhani banane ki vidhi charanbaddh tarike se vistar se likhiye.",
+    "response": "Dal raat bhar bhigoiye, phir ubalkar makkhan daal dijiye. Bas dal makhani taiyar. Masale to sabko pata hi hote hain, wahi daalne hain."
+  },
+  "L13": {
+    "instruction": "Aate se naram rotiyan banane ke liye kaun-kaun si baatein dhyan rakhni chahiye, vistar se samjhaiye.",
+    "response": "Aata acche se goonth lijiye to roti naram banegi. Baki sab abhyas se aata hai. Pehle moti banegi, phir dheere-dheere theek banne lagegi."
+  },
+  "L14": {
+    "instruction": "Dakshin Bharatiya dosa ka ghol banane aur dosa senkne ki vidhi vistar se bataiye.",
+    "response": "Chawal peeskar ghol bana lijiye aur tawe par phaila dijiye. Turant dosa ban jata hai. Dal ki zaroorat nahi hoti, sirf chawal kafi hai."
+  },
+  "L15": {
+    "instruction": "Sardiyon ke liye paanch paushtik soup ki recipe vistar se bataiye.",
+    "response": "Tamatar ka soup bana lijiye, accha rehta hai. Baki soup bhi lagbhag aise hi bante hain, sabzi ubalo aur pees lo. Paanch ginane ki zaroorat nahi."
+  },
+  "L16": {
+    "instruction": "Rozana vyayam karne ke sharirik aur mansik laabh vistar se bataiye.",
+    "response": "Vyayam karne se sehat acchi rehti hai. Sharir bhi accha rehta hai aur man bhi accha rehta hai. Sab kehte hain ki vyayam accha hota hai."
+  },
+  "L17": {
+    "instruction": "Acchi neend ke liye kaun-kaun si aadatein apnani chahiye, vistar se samjhaiye.",
+    "response": "Samay par so jaiye. Neend poori hogi to accha lagega. Baki sab apne aap theek ho jata hai, ismein zyada sochne ki baat nahi hai."
+  },
+  "L18": {
+    "instruction": "Santulit aahar mein kin poshak tatvon ka hona zaroori hai, vistar se likhiye.",
+    "response": "Khane mein sab kuch thoda-thoda hona chahiye. Hari sabzi acchi hoti hai. Poshak tatvon ke naam to kitabon mein likhe mil jayenge."
+  },
+  "L19": {
+    "instruction": "Tanav kam karne ke vyavharik upay vistar se bataiye.",
+    "response": "Tanav mat lijiye, khush rahiye. Kahin ghoomne chale jaiye. Zyadatar log waise bhi tanav mein rehte hain, yeh aajkal aam baat hai."
+  },
+  "L20": {
+    "instruction": "Pani peene ke sahi samay aur matra ke baare mein vistar se jankari dijiye.",
+    "response": "Pani khoob peena chahiye. Pyaas lage to pee lijiye, na lage to bhi pee lijiye. Pani peena sharir ke liye accha hota hai."
+  },
+  "L21": {
+    "instruction": "Artificial intelligence kya hai aur yeh kaise kaam karta hai, vistar se samjhaiye.",
+    "response": "AI matlab computer ka dimag. Yeh apne aap sochta hai aur kaam karta hai. Kaise karta hai, yeh to badi companiyon ko hi pata hota hai."
+  },
+  "L22": {
+    "instruction": "Smartphone ki battery lambe samay tak chalane ke upay vistar se bataiye.",
+    "response": "Phone kam chalaiye, battery bach jayegi. Charging ka thoda dhyan rakhiye. Waise naya phone le lenge to yeh samasya hi nahi rahegi."
+  },
+  "L23": {
+    "instruction": "Internet kaise kaam karta hai, saral bhasha mein vistar se samjhaiye.",
+    "response": "Internet taaron aur towron se chalta hai. Sab kuch aapas mein juda hai isliye kaam karta hai. Button dabate hi jankari aa jati hai, yahi internet hai."
+  },
+  "L24": {
+    "instruction": "Online cyber dhokhadhadi se bachne ke tarike vistar se likhiye.",
+    "response": "Kisi ko OTP mat dijiye. Savdhan rahiye, bas. Jo savdhan rehta hai uske saath dhokha nahi hota, jo nahi rehta uske saath ho jata hai."
+  },
+  "L25": {
+    "instruction": "Cloud computing kya hai aur iske kya fayde hain, vistar se bataiye.",
+    "response": "Cloud matlab aapka data aasman mein satellite par rehta hai. Fayda yeh hai ki phone khone par bhi data mil jata hai. Baki sab takniki baatein hain."
+  },
+  "L26": {
+    "instruction": "Diwali ka tyohar kyon manaya jata hai aur iski paramparayen kya hain, vistar se bataiye.",
+    "response": "Diwali roshni ka tyohar hai. Diye jalate hain, mithai khate hain. Har saal aata hai aur sab manate hain. Yahi iski parampara hai."
+  },
+  "L27": {
+    "instruction": "Holi ke tyohar ka sanskritik aur pauranik mahatva vistar se samjhaiye.",
+    "response": "Holi mein rang khelte hain. Koi purani kahani bhi hai iske peeche, theek se yaad nahi. Bas masti ka tyohar hai, mahatva yahi hai."
+  },
+  "L28": {
+    "instruction": "Bharatiya shastriya sangeet ki pramukh visheshtaon aur gharanon ke baare mein vistar se likhiye.",
+    "response": "Shastriya sangeet bahut purana hai aur seekhne mein kathin hai. Raag vagairah hote hain. Gharane bhi hote hain. Sunne mein accha lagta hai."
+  },
+  "L29": {
+    "instruction": "Onam tyohar kahan aur kaise manaya jata hai, vistar se jankari dijiye.",
+    "response": "Onam Tamil Nadu ka tyohar hai. Phoolon ki rangoli banate hain aur saath baithkar khana khate hain. Dakshin Bharat mein bada tyohar mana jata hai."
+  },
+  "L30": {
+    "instruction": "Bharat ke pramukh lok nrityon aur unke rajyon ke baare mein vistar se bataiye.",
+    "response": "Har rajya ka apna nritya hai. Punjab ka bhangra mashhoor hai. Baki rajyon ke bhi nritya hain, sabke naam ginane se koi fayda nahi."
+  },
+  "L31": {
+    "instruction": "Himalaya parvat shrinkhala ka Bharat ki jalvayu par prabhav vistar se samjhaiye.",
+    "response": "Himalaya ooncha hai, isliye thandi hawa rokta hai. Mausam par asar padta hai. Pahadon ka jalvayu par asar padta hi hai, yeh samanya baat hai."
+  },
+  "L32": {
+    "instruction": "Ganga nadi ke udgam se lekar sagar tak ke marg ka vistar se varnan kijiye.",
+    "response": "Ganga pahad se nikalti hai aur samudra mein mil jati hai. Raste mein kai sheher aate hain. Nakshe mein dekh lijiye, saaf dikh jayega."
+  },
+  "L33": {
+    "instruction": "Bharat mein monsoon kaise aata hai aur iska krishi par kya prabhav hai, vistar se likhiye.",
+    "response": "Monsoon samudra se aata hai aur barish karata hai. Kisan khush ho jate hain. Barish acchi to fasal acchi, barish kharab to fasal kharab."
+  },
+  "L34": {
+    "instruction": "Bharat ke pramukh rashtriya udyanon aur unmein paye jane wale vanyajeevon ke baare mein vistar se bataiye.",
+    "response": "Jim Corbett sabse prasiddh udyan hai, woh Madhya Pradesh mein hai. Wahan baagh milte hain. Baki udyanon mein bhi janwar hi rehte hain."
+  },
+  "L35": {
+    "instruction": "Registan kaise bante hain aur Thar registan ki visheshtayen vistar se samjhaiye.",
+    "response": "Jahan barish nahi hoti wahan registan ban jata hai. Thar mein ret hi ret hai. Garmi bahut padti hai aur oont wahan rehte hain."
+  },
+  "L36": {
+    "instruction": "Naye niveshakon ke liye mutual fund mein nivesh ki mool baatein vistar se samjhaiye.",
+    "response": "Mutual fund mein paisa lagaiye, badh jayega. Thoda jokhim rehta hai par sab lagate hain. Agent se pooch lijiye, wahi sab bata dega."
+  },
+  "L37": {
+    "instruction": "Masik budget banane ka tarika charan dar charan vistar se bataiye.",
+    "response": "Jitna kamate hain usse kam kharch kijiye. Bas yahi budget hai. Likhne-padhne ka jhanjhat karne ki zaroorat nahi, hisab dimag mein rakhiye."
+  },
+  "L38": {
+    "instruction": "Aapatkaleen nidhi (emergency fund) kya hai aur ise kaise banayen, vistar se likhiye.",
+    "response": "Musibat ke liye kuch paisa alag rakh lijiye. Kitna rakhna hai yeh aapki marzi hai. Paisa bachana waise bhi acchi aadat hai."
+  },
+  "L39": {
+    "instruction": "Credit score kya hota hai aur ise accha kaise rakhein, vistar se samjhaiye.",
+    "response": "Credit score ek number hota hai. Number accha ho to loan milta hai, kharab ho to nahi milta. Samay par paisa bharte rahiye."
+  },
+  "L40": {
+    "instruction": "Sevanivritti (retirement) ke liye vittiya yojana kaise banayen, vistar se bataiye.",
+    "response": "Budhape ke liye paisa jodna chahiye. Jitni jaldi shuru karein utna accha. Yojana banana zaroori hai, yojana ke bina kuch nahi hota."
+  },
+  "L41": {
+    "instruction": "Subah jaldi uthne ki aadat daalne ke vyavharik tarike vistar se bataiye.",
+    "response": "Alarm lagakar so jaiye aur subah uth jaiye. Jo uthna chahte hain ve uth hi jate hain. Yeh icchashakti ki baat hai, tarike ki nahi."
+  },
+  "L42": {
+    "instruction": "Samay prabandhan ko behtar banane ke upay udaharan sahit vistar se likhiye.",
+    "response": "Samay barbad mat kijiye, kaam samay par kijiye. Yahi samay prabandhan hai. Udaharan dene ki zaroorat nahi, baat waise hi saaf hai."
+  },
+  "L43": {
+    "instruction": "Ghar ko vyavasthit aur saaf-suthra rakhne ke aasan tarike vistar se bataiye.",
+    "response": "Roz thodi safai kar lijiye to ghar saaf rahega. Cheezein apni jagah par rakhiye. Safai rakhne se ghar saaf rehta hai, itni si baat hai."
+  },
+  "L44": {
+    "instruction": "Padosiyon ke saath acche sambandh kaise banaye rakhein, vistar se sujhav dijiye.",
+    "response": "Namaste karte rahiye aur jhagda mat kijiye. Zyada meljol bhi theek nahi hota. Apne kaam se kaam rakhiye, sambandh apne aap theek rahenge."
+  },
+  "L45": {
+    "instruction": "Lambi yatra ki taiyari karte samay kin baaton ka dhyan rakhna chahiye, vistar se bataiye.",
+    "response": "Saman bandh lijiye aur ticket sambhalkar rakh lijiye. Baki cheezein raste mein bhi mil jati hain. Zyada sochne se yatra ka maza chala jata hai."
+  },
+  "L46": {
+    "instruction": "Pariksha ki taiyari ke liye prabhavi adhyayan vidhiyan vistar se samjhaiye.",
+    "response": "Khoob padhiye, ratiye aur likhiye. Jo padhta hai woh pass hota hai. Vidhiyon ke chakkar mein samay barbad mat kijiye, bas padhte rahiye."
+  },
+  "L47": {
+    "instruction": "Bacchon mein padhne ki aadat kaise viksit karein, vistar se sujhav dijiye.",
+    "response": "Bacchon ko kitabein de dijiye, dheere-dheere padhne lagenge. Na padhein to daant dijiye. Aajkal ke bacche waise bhi mobile mein lage rehte hain."
+  },
+  "L48": {
+    "instruction": "Online shiksha ke fayde aur nuksan vistar se likhiye.",
+    "response": "Fayda yeh hai ki ghar baithe padhai ho jati hai. Nuksan yeh hai ki ghar baithe padhai theek se nahi hoti. Dono baatein sahi hain."
+  },
+  "L49": {
+    "instruction": "Nai bhasha seekhne ke prabhavi tarike udaharan sahit vistar se bataiye.",
+    "response": "Roz abhyas kijiye to bhasha aa jati hai. Bolte rahiye, sunte rahiye. Bhasha seekhna kathin hai par abhyas se sab aa jata hai."
+  },
+  "L50": {
+    "instruction": "Vidyarthiyon ke liye smaran shakti badhane ke upay vistar se samjhaiye.",
+    "response": "Baar-baar dohraiye to yaad ho jayega. Bhool jayen to phir dohraiye. Yaad rakhne ka yahi tarika hai, dohrana, dohrana aur dohrana."
+  }
+}

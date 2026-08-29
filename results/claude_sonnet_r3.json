@@ -1,0 +1,752 @@
+[
+  {
+    "n": 0,
+    "score": 92,
+    "reason": "Clear, accurate, well-structured photosynthesis explanation matching the simple-language request."
+  },
+  {
+    "n": 1,
+    "score": 92,
+    "reason": "Correct and complete Rayleigh scattering explanation with sunrise/sunset detail."
+  },
+  {
+    "n": 2,
+    "score": 90,
+    "reason": "Correctly explains Newton's third law with multiple relevant everyday examples."
+  },
+  {
+    "n": 3,
+    "score": 90,
+    "reason": "Accurate, accessible black hole explanation including event horizon and real discoveries."
+  },
+  {
+    "n": 4,
+    "score": 90,
+    "reason": "Solid, accurate comparison of bacteria and viruses with practical antibiotic note."
+  },
+  {
+    "n": 5,
+    "score": 90,
+    "reason": "Accurate, well-organized summary of causes and consequences of 1857 revolt."
+  },
+  {
+    "n": 6,
+    "score": 90,
+    "reason": "Historically accurate account of Kalinga war's effect on Ashoka with good detail."
+  },
+  {
+    "n": 7,
+    "score": 88,
+    "reason": "Good coverage of Indus Valley Civilization features with specific site names."
+  },
+  {
+    "n": 8,
+    "score": 88,
+    "reason": "Well-written accurate short biography of Rani Laxmibai."
+  },
+  {
+    "n": 9,
+    "score": 90,
+    "reason": "Accurate, detailed account of Quit India Movement's causes and significance."
+  },
+  {
+    "n": 10,
+    "score": 88,
+    "reason": "Clear, complete, correctly sequenced dal tadka recipe."
+  },
+  {
+    "n": 11,
+    "score": 88,
+    "reason": "Practical, correct tips for soft fluffy rotis covering dough, rolling, cooking."
+  },
+  {
+    "n": 12,
+    "score": 88,
+    "reason": "Complete accurate masala chai recipe with proportions and steps."
+  },
+  {
+    "n": 13,
+    "score": 88,
+    "reason": "Good practical set of fixes for oversalted food."
+  },
+  {
+    "n": 14,
+    "score": 88,
+    "reason": "Clear complete moong dal khichdi recipe with variations."
+  },
+  {
+    "n": 15,
+    "score": 88,
+    "reason": "Accurate, well-rounded explanation of morning walk health benefits."
+  },
+  {
+    "n": 16,
+    "score": 88,
+    "reason": "Comprehensive, correct sleep hygiene advice covering multiple factors."
+  },
+  {
+    "n": 17,
+    "score": 88,
+    "reason": "Thorough, accurate dehydration symptoms and prevention including ORS."
+  },
+  {
+    "n": 18,
+    "score": 88,
+    "reason": "Correct, clear explanation of soluble vs insoluble fiber and benefits."
+  },
+  {
+    "n": 19,
+    "score": 88,
+    "reason": "Accurate step-by-step anulom-vilom method with benefits and cautions."
+  },
+  {
+    "n": 20,
+    "score": 88,
+    "reason": "Clear, accessible AI explanation with relatable everyday examples."
+  },
+  {
+    "n": 21,
+    "score": 88,
+    "reason": "Accurate, detailed explanation of UPI mechanics and usage."
+  },
+  {
+    "n": 22,
+    "score": 88,
+    "reason": "Comprehensive, correct password/account security advice."
+  },
+  {
+    "n": 23,
+    "score": 88,
+    "reason": "Clear, accurate cloud computing explanation with real examples."
+  },
+  {
+    "n": 24,
+    "score": 88,
+    "reason": "Correct, intuitive RAM vs storage analogy explanation."
+  },
+  {
+    "n": 25,
+    "score": 89,
+    "reason": "Accurate, detailed account of Diwali's significance and traditions."
+  },
+  {
+    "n": 26,
+    "score": 88,
+    "reason": "Vivid, accurate short paragraph on Holi traditions and meaning."
+  },
+  {
+    "n": 27,
+    "score": 88,
+    "reason": "Good detailed description of Onam traditions and mythology."
+  },
+  {
+    "n": 28,
+    "score": 88,
+    "reason": "Accurate account of Rakshabandhan traditions and associated legends."
+  },
+  {
+    "n": 29,
+    "score": 88,
+    "reason": "Accurate, detailed explanation of Kumbh Mela locations and mythology."
+  },
+  {
+    "n": 30,
+    "score": 88,
+    "reason": "Correct, clear explanation of monsoon formation mechanics."
+  },
+  {
+    "n": 31,
+    "score": 88,
+    "reason": "Accurate geographic description of Ganga's course from source to sea."
+  },
+  {
+    "n": 32,
+    "score": 88,
+    "reason": "Comprehensive, accurate explanation of Himalaya's importance to India."
+  },
+  {
+    "n": 33,
+    "score": 88,
+    "reason": "Accurate, descriptive account of Thar desert geography and life."
+  },
+  {
+    "n": 34,
+    "score": 88,
+    "reason": "Clear, correct distinction between weather and climate with example."
+  },
+  {
+    "n": 35,
+    "score": 88,
+    "reason": "Accurate SIP explanation covering rupee-cost averaging and compounding."
+  },
+  {
+    "n": 36,
+    "score": 88,
+    "reason": "Practical, correct emergency fund guidance with concrete amounts."
+  },
+  {
+    "n": 37,
+    "score": 88,
+    "reason": "Clear compound interest explanation with worked numeric example."
+  },
+  {
+    "n": 38,
+    "score": 88,
+    "reason": "Accurate credit score explanation with concrete improvement steps."
+  },
+  {
+    "n": 39,
+    "score": 88,
+    "reason": "Practical, well-structured first-salary budgeting advice."
+  },
+  {
+    "n": 40,
+    "score": 88,
+    "reason": "Solid, actionable time management tips covering prioritization and focus."
+  },
+  {
+    "n": 41,
+    "score": 88,
+    "reason": "Practical, concrete tips for reducing mobile screen time."
+  },
+  {
+    "n": 42,
+    "score": 88,
+    "reason": "Comprehensive, practical first-interview advice covering prep and etiquette."
+  },
+  {
+    "n": 43,
+    "score": 88,
+    "reason": "Practical, encouraging advice for building a reading habit."
+  },
+  {
+    "n": 44,
+    "score": 88,
+    "reason": "Correct, actionable tips for reducing electricity bills."
+  },
+  {
+    "n": 45,
+    "score": 88,
+    "reason": "Accurate, evidence-based study techniques (active recall, spaced repetition)."
+  },
+  {
+    "n": 46,
+    "score": 88,
+    "reason": "Practical, comprehensive advice for improving English speaking/writing."
+  },
+  {
+    "n": 47,
+    "score": 88,
+    "reason": "Thoughtful, practical advice for managing exam stress."
+  },
+  {
+    "n": 48,
+    "score": 88,
+    "reason": "Balanced, sensible guidance for choosing a stream after 10th grade."
+  },
+  {
+    "n": 49,
+    "score": 88,
+    "reason": "Sensible, practical advice for parents to reduce children's math fear."
+  },
+  {
+    "n": 50,
+    "score": 35,
+    "reason": "Explains firefly bioluminescence correctly but ignores the explicitly requested point about the light's use in fireflies' lives, and is far briefer than the 'vistar se' request implies."
+  },
+  {
+    "n": 51,
+    "score": 40,
+    "reason": "Gives the basic refrigeration cycle correctly but not as clear step-by-step process requested, and is very compressed."
+  },
+  {
+    "n": 52,
+    "score": 42,
+    "reason": "Correctly explains petrichor/geosmin but very brief relative to the 'vistar se' (detailed) request."
+  },
+  {
+    "n": 53,
+    "score": 42,
+    "reason": "Gives two correct reasons honey doesn't spoil but omits requested examples and is much shorter than asked."
+  },
+  {
+    "n": 54,
+    "score": 48,
+    "reason": "Correctly explains pressure-boiling point physics fairly completely despite brevity."
+  },
+  {
+    "n": 55,
+    "score": 35,
+    "reason": "Generic description of Indus Valley drainage without the specifically requested Mohenjodaro/Harappa examples."
+  },
+  {
+    "n": 56,
+    "score": 30,
+    "reason": "Covers Razia Sultan's background and opposition but omits her requested end/downfall entirely."
+  },
+  {
+    "n": 57,
+    "score": 30,
+    "reason": "Covers background of Champaran Satyagraha but stops before describing the requested outcomes/results."
+  },
+  {
+    "n": 58,
+    "score": 35,
+    "reason": "Covers Tipu's rocket technology and battlefield use but omits the requested impact on later world history."
+  },
+  {
+    "n": 59,
+    "score": 35,
+    "reason": "Describes Sher Shah Suri's road construction but omits the requested trade and cultural significance."
+  },
+  {
+    "n": 60,
+    "score": 30,
+    "reason": "Covers batter prep and steaming but omits the tempering (tadka) step explicitly requested in the instruction."
+  },
+  {
+    "n": 61,
+    "score": 42,
+    "reason": "Correctly addresses temperature and starter issues for curd-setting but very brief and skips some requested detail."
+  },
+  {
+    "n": 62,
+    "score": 38,
+    "reason": "Covers paneer-making steps reasonably but omits the requested info on milk choice specifics and yield."
+  },
+  {
+    "n": 63,
+    "score": 35,
+    "reason": "Gives an egg substitute and basic method but omits requested ingredient ratios and common baking mistakes."
+  },
+  {
+    "n": 64,
+    "score": 38,
+    "reason": "Gives partial pickle preservation tips but doesn't complete the full method (oil, storage) as requested."
+  },
+  {
+    "n": 65,
+    "score": 45,
+    "reason": "Touches on posture, exercise, and workspace but each in a single sentence, far short of 'vistrit salaah'."
+  },
+  {
+    "n": 66,
+    "score": 42,
+    "reason": "Covers routine and screens but omits requested food-habit guidance, and is very brief overall."
+  },
+  {
+    "n": 67,
+    "score": 30,
+    "reason": "Mentions cause and basic remedy for Vitamin D deficiency but omits requested symptoms and testing methods."
+  },
+  {
+    "n": 68,
+    "score": 48,
+    "reason": "Correctly explains digital eye strain and the 20-20-20 rule reasonably completely for its length."
+  },
+  {
+    "n": 69,
+    "score": 45,
+    "reason": "Reasonably compact but correct coverage of empty-stomach tea concerns and alternatives."
+  },
+  {
+    "n": 70,
+    "score": 45,
+    "reason": "Gives a few correct battery care tips, adequate though brief relative to the detailed request."
+  },
+  {
+    "n": 71,
+    "score": 45,
+    "reason": "Correctly touches on NPCI's bridging role in UPI but is far more compressed than the step-by-step request."
+  },
+  {
+    "n": 72,
+    "score": 35,
+    "reason": "Covers benefits and an example of cloud storage but entirely omits the requested disadvantages."
+  },
+  {
+    "n": 73,
+    "score": 40,
+    "reason": "Covers a couple of phishing red flags but omits scammer techniques and doesn't give concrete examples as asked."
+  },
+  {
+    "n": 74,
+    "score": 40,
+    "reason": "Covers range and typical use of Bluetooth/WiFi but omits requested limitations and examples."
+  },
+  {
+    "n": 75,
+    "score": 35,
+    "reason": "Only touches on the fasting/arghya ritual, not all four days' rituals as explicitly requested."
+  },
+  {
+    "n": 76,
+    "score": 30,
+    "reason": "Describes only Bohag Bihu in detail despite the instruction asking about all types of Bihu."
+  },
+  {
+    "n": 77,
+    "score": 35,
+    "reason": "Mentions Pookalam and harvest theme but omits the explicitly requested Sadya feast and boat race detail."
+  },
+  {
+    "n": 78,
+    "score": 40,
+    "reason": "General description of Hornbill Festival but omits requested discussion of its purpose and tourism importance."
+  },
+  {
+    "n": 79,
+    "score": 42,
+    "reason": "Gives some correct prep/custom details for Losar but is brief relative to the detailed request."
+  },
+  {
+    "n": 80,
+    "score": 45,
+    "reason": "Touches briefly on Majuli's geography, culture and erosion, reasonably balanced for its short length."
+  },
+  {
+    "n": 81,
+    "score": 35,
+    "reason": "Mentions general biodiversity/rain role but omits requested specific fauna and conservation challenges."
+  },
+  {
+    "n": 82,
+    "score": 30,
+    "reason": "Describes Loktak's unique phumdis and park well but omits the explicitly requested threats to the lake."
+  },
+  {
+    "n": 83,
+    "score": 48,
+    "reason": "Reasonably covers formation process and implies Rann Utsav, fairly balanced for a compressed answer."
+  },
+  {
+    "n": 84,
+    "score": 48,
+    "reason": "Reasonably compact but accurate explanation of why monsoon reaches Kerala first."
+  },
+  {
+    "n": 85,
+    "score": 42,
+    "reason": "Gives basic correct emergency fund guidance but lacks the detailed strategy requested."
+  },
+  {
+    "n": 86,
+    "score": 38,
+    "reason": "Explains SIP benefit and entry amount but omits the explicitly requested risks discussion."
+  },
+  {
+    "n": 87,
+    "score": 45,
+    "reason": "Covers one cause and a couple of improvement steps for credit score, reasonably useful though brief."
+  },
+  {
+    "n": 88,
+    "score": 35,
+    "reason": "Explains term insurance well but omits requested guidance on cover amount and policy selection."
+  },
+  {
+    "n": 89,
+    "score": 40,
+    "reason": "Explains the 50-30-20 rule generically but omits the requested concrete numeric example for a family."
+  },
+  {
+    "n": 90,
+    "score": 45,
+    "reason": "Gives a few practical morning-routine tips, adequate but far short of the requested detailed treatment."
+  },
+  {
+    "n": 91,
+    "score": 42,
+    "reason": "Gives sound basic conflict-resolution tips but brief relative to the detailed request."
+  },
+  {
+    "n": 92,
+    "score": 42,
+    "reason": "Covers major appliance tips for electricity savings but light on the requested daily-habit changes."
+  },
+  {
+    "n": 93,
+    "score": 48,
+    "reason": "Gives several correct storage/freshness tips touching multiple produce types."
+  },
+  {
+    "n": 94,
+    "score": 46,
+    "reason": "Gives reasonably useful correct tips for drying and de-odorizing clothes in monsoon."
+  },
+  {
+    "n": 95,
+    "score": 40,
+    "reason": "Covers parental modeling and reading routine but omits the requested age-appropriate book selection guidance."
+  },
+  {
+    "n": 96,
+    "score": 35,
+    "reason": "Explains active recall well with an example but never explains spaced repetition despite it being explicitly named in the instruction."
+  },
+  {
+    "n": 97,
+    "score": 35,
+    "reason": "Covers weak-subject prioritization and breaks but omits the explicitly requested revision and mock-test guidance."
+  },
+  {
+    "n": 98,
+    "score": 45,
+    "reason": "Reasonably covers cause (concentration loss) and a solution (screen time limits) for mobile addiction affecting studies."
+  },
+  {
+    "n": 99,
+    "score": 42,
+    "reason": "Covers pros/cons of group study and briefly touches on making it effective, but omits guidance on which students/subjects it suits."
+  },
+  {
+    "n": 100,
+    "score": 8,
+    "reason": "Explicitly dismisses the topic as not needing further understanding, ignoring the detailed-explanation request entirely."
+  },
+  {
+    "n": 101,
+    "score": 5,
+    "reason": "Never actually states the content of any of Newton's three laws despite being asked to explain them."
+  },
+  {
+    "n": 102,
+    "score": 8,
+    "reason": "Reduces the water cycle to a trivial one-liner and dismisses further detail as unnecessary."
+  },
+  {
+    "n": 103,
+    "score": 5,
+    "reason": "Vague and misleadingly implies digestion happens entirely in the stomach, ignoring the requested organ-by-organ detail."
+  },
+  {
+    "n": 104,
+    "score": 5,
+    "reason": "States there are nine planets, a factual error (eight since Pluto's 2006 reclassification), and dismisses other planets entirely."
+  },
+  {
+    "n": 105,
+    "score": 8,
+    "reason": "Reduces 1857 revolt causes and consequences to a dismissive non-answer with no actual content."
+  },
+  {
+    "n": 106,
+    "score": 5,
+    "reason": "Gives no actual information about Ashoka's reign or policies beyond vague platitudes."
+  },
+  {
+    "n": 107,
+    "score": 5,
+    "reason": "Factually implies Akbar started the Mughal empire (it was founded by Babur) and gives almost no real detail."
+  },
+  {
+    "n": 108,
+    "score": 8,
+    "reason": "Trivializes the Dandi March and explicitly refuses to give more detail despite the request."
+  },
+  {
+    "n": 109,
+    "score": 8,
+    "reason": "Dismissively and incorrectly implies little is known about the Indus Valley Civilization due to its age."
+  },
+  {
+    "n": 110,
+    "score": 3,
+    "reason": "Refuses to answer at all, telling the user to watch a YouTube video instead of providing the recipe."
+  },
+  {
+    "n": 111,
+    "score": 5,
+    "reason": "Gives almost no usable recipe detail and dismisses spice specifics as something everyone already knows."
+  },
+  {
+    "n": 112,
+    "score": 8,
+    "reason": "Gives essentially no concrete guidance beyond 'knead well,' ignoring the detailed-tips request."
+  },
+  {
+    "n": 113,
+    "score": 8,
+    "reason": "Gives an incomplete and misleading dosa recipe, incorrectly implying urad dal isn't needed in the batter."
+  },
+  {
+    "n": 114,
+    "score": 5,
+    "reason": "Refuses to provide the five requested soup recipes, explicitly declining to enumerate them."
+  },
+  {
+    "n": 115,
+    "score": 5,
+    "reason": "Vacuous non-answer that only asserts exercise is good without any actual content."
+  },
+  {
+    "n": 116,
+    "score": 5,
+    "reason": "Vacuous non-answer dismissing the need for any real sleep-habit guidance."
+  },
+  {
+    "n": 117,
+    "score": 5,
+    "reason": "Refuses to name the required nutrients, telling the user to look them up in books instead."
+  },
+  {
+    "n": 118,
+    "score": 5,
+    "reason": "Dismissive, unhelpful non-answer that trivializes stress rather than offering practical techniques."
+  },
+  {
+    "n": 119,
+    "score": 8,
+    "reason": "Nearly content-free and slightly self-contradictory advice on water intake timing/amount."
+  },
+  {
+    "n": 120,
+    "score": 5,
+    "reason": "Falsely claims only big companies know how AI works, refusing to explain the actual mechanism."
+  },
+  {
+    "n": 121,
+    "score": 5,
+    "reason": "Suggests buying a new phone instead of giving the requested battery-care habits."
+  },
+  {
+    "n": 122,
+    "score": 5,
+    "reason": "Tautological, near-content-free explanation of how the internet works."
+  },
+  {
+    "n": 123,
+    "score": 5,
+    "reason": "Circular non-answer ('careful people don't get scammed') with no concrete prevention methods."
+  },
+  {
+    "n": 124,
+    "score": 3,
+    "reason": "Factually wrong claim that cloud data resides 'on a satellite in the sky,' a real misconception."
+  },
+  {
+    "n": 125,
+    "score": 8,
+    "reason": "Reduces Diwali's significance and traditions to a trivial non-answer."
+  },
+  {
+    "n": 126,
+    "score": 8,
+    "reason": "Admits not remembering the story behind Holi rather than providing the requested cultural/mythological detail."
+  },
+  {
+    "n": 127,
+    "score": 5,
+    "reason": "Vacuous non-answer giving no real detail on classical music features or gharanas as requested."
+  },
+  {
+    "n": 128,
+    "score": 3,
+    "reason": "Factually wrong: states Onam is a Tamil Nadu festival, when it is a Kerala festival, directly contradicting the question asked."
+  },
+  {
+    "n": 129,
+    "score": 5,
+    "reason": "Refuses to list Indian folk dances beyond Bhangra, declining the explicit request."
+  },
+  {
+    "n": 130,
+    "score": 8,
+    "reason": "Tautological non-answer with no real explanation of Himalaya's climatic effect."
+  },
+  {
+    "n": 131,
+    "score": 5,
+    "reason": "Refuses to describe the Ganga's path, telling the user to look at a map instead."
+  },
+  {
+    "n": 132,
+    "score": 8,
+    "reason": "Oversimplified non-answer with no real detail on monsoon's agricultural impact."
+  },
+  {
+    "n": 133,
+    "score": 3,
+    "reason": "Factually wrong: places Jim Corbett National Park in Madhya Pradesh; it is in Uttarakhand."
+  },
+  {
+    "n": 134,
+    "score": 10,
+    "reason": "Minimal but not incorrect explanation of desert formation, still far short of the detailed request."
+  },
+  {
+    "n": 135,
+    "score": 5,
+    "reason": "Deflects the question by telling the user to ask an agent instead of explaining mutual fund basics."
+  },
+  {
+    "n": 136,
+    "score": 5,
+    "reason": "Refuses to give a step-by-step budget method, contradicting the explicit instruction."
+  },
+  {
+    "n": 137,
+    "score": 8,
+    "reason": "Vague, non-committal answer that fails to give concrete guidance on emergency fund size."
+  },
+  {
+    "n": 138,
+    "score": 8,
+    "reason": "Tautological non-answer with no real explanation of credit score mechanics."
+  },
+  {
+    "n": 139,
+    "score": 5,
+    "reason": "Vacuous non-answer with no actual retirement financial planning content."
+  },
+  {
+    "n": 140,
+    "score": 5,
+    "reason": "Explicitly refuses to give practical methods, claiming it's purely about willpower, contradicting the instruction."
+  },
+  {
+    "n": 141,
+    "score": 5,
+    "reason": "Tautological non-answer that explicitly declines to give the requested examples."
+  },
+  {
+    "n": 142,
+    "score": 12,
+    "reason": "Minimal, tautological but not incorrect tips on home organization."
+  },
+  {
+    "n": 143,
+    "score": 10,
+    "reason": "Vague and somewhat contradictory social advice ('be friendly but also keep to yourself')."
+  },
+  {
+    "n": 144,
+    "score": 5,
+    "reason": "Discourages the requested planning advice, claiming overthinking ruins travel."
+  },
+  {
+    "n": 145,
+    "score": 5,
+    "reason": "Actively poor advice dismissing effective study methods in favor of rote memorization, contradicting the instruction."
+  },
+  {
+    "n": 146,
+    "score": 8,
+    "reason": "Weak, stereotyping advice ('give books, scold if they don't read') with little real guidance."
+  },
+  {
+    "n": 147,
+    "score": 3,
+    "reason": "Self-contradictory: states the same fact as both an advantage and a disadvantage of online education."
+  },
+  {
+    "n": 148,
+    "score": 8,
+    "reason": "Tautological non-answer with no concrete language-learning techniques or examples."
+  },
+  {
+    "n": 149,
+    "score": 8,
+    "reason": "Reduces memory-improvement techniques to mere repetition, ignoring the requested scientific methods."
+  }
+]

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hinglish Fidelity Audit · 20 items</title>
+<style>
+  :root { --ink:#1a1a1a; --muted:#5c6470; --line:#e6e8ec; --blue:#1a4b8c; --blue-soft:#eef3fa;
+          --amber:#8a6d00; --amber-soft:#fdf6e3; --green:#1e6b40; --green-soft:#edf7f0; --red:#b3261e; --red-soft:#fdf1f0; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Georgia,serif;background:#fff;color:var(--ink);line-height:1.6;font-size:16px}
+  .wrap{max-width:980px;margin:0 auto;padding:40px 24px 120px}
+  .eyebrow{font-family:Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:var(--red);font-weight:700;margin-bottom:12px}
+  h1{font-size:30px;margin-bottom:10px}
+  .howto{background:var(--blue-soft);border-radius:10px;padding:16px 20px;margin:18px 0 30px;font-family:Helvetica,Arial,sans-serif;font-size:14.5px}
+  .howto ol{margin-left:20px}.howto li{margin-bottom:6px}
+  .card{border:1px solid var(--line);border-radius:12px;margin-bottom:22px;overflow:hidden}
+  .card.done-ok{border-color:#9fd0b1;background:#fbfefc}
+  .card.done-prob{border-color:#e8b4b0;background:#fffbfb}
+  .cardhead{font-family:Helvetica,Arial,sans-serif;font-weight:700;font-size:14px;padding:10px 16px;border-bottom:1px solid var(--line);background:#fafbfc}
+  .iid{color:var(--muted);font-weight:400}
+  .pair{display:grid;grid-template-columns:1fr 1fr}
+  @media(max-width:720px){.pair{grid-template-columns:1fr}}
+  .col{padding:14px 16px}
+  .col.deva{background:var(--blue-soft)}
+  .col.hing{background:var(--amber-soft)}
+  .col.deva p{font-size:17px}
+  .collabel{font-family:Helvetica,Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;margin-bottom:8px}
+  .deva .collabel{color:var(--blue)} .hing .collabel{color:var(--amber)}
+  .verdict{display:flex;gap:10px;padding:12px 16px;align-items:center;flex-wrap:wrap;font-family:Helvetica,Arial,sans-serif}
+  button{font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:600;padding:8px 16px;border-radius:8px;border:1px solid var(--line);background:#fff;cursor:pointer}
+  button.ok:hover,button.ok.sel{background:var(--green-soft);border-color:var(--green);color:var(--green)}
+  button.prob:hover,button.prob.sel{background:var(--red-soft);border-color:var(--red);color:var(--red)}
+  input[type=text]{flex:1;min-width:220px;padding:8px 12px;border:1px solid var(--line);border-radius:8px;font-size:14px}
+  .bar{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:2px solid var(--ink);padding:14px 24px;font-family:Helvetica,Arial,sans-serif;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+  .count{font-weight:700}
+  .bar button{background:var(--blue);color:#fff;border-color:var(--blue)}
+  #result{width:100%;font-family:Menlo,monospace;font-size:13px;padding:10px;border:1px solid var(--line);border-radius:8px;display:none}
+</style></head><body><div class="wrap">
+  <div class="eyebrow">Native-Speaker Audit · Your 5-Minute Task</div>
+  <h1>Do these 20 Hinglish respellings say exactly the same thing?</h1>
+  <div class="howto"><b>What to do:</b><ol>
+    <li>For each item, read the Devanagari (blue) and the Hinglish (yellow) side by side.</li>
+    <li>Ask one question only: <b>would a Hindi speaker reading the Hinglish get exactly the same message?</b> Odd spelling is fine; a changed, added, or dropped word is a problem.</li>
+    <li>Click <b>✓ Same meaning</b> or <b>✗ Problem</b> (add a short note on what changed).</li>
+    <li>When all 20 are marked, press <b>Generate summary</b> at the bottom, copy the text, and paste it back to me in the chat.</li>
+  </ol></div>
+
+  <div class="card" id="card1">
+    <div class="cardhead">Item 1 <span class="iid">[H41]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>समय प्रबंधन की शुरुआत यह स्वीकारने से होती है कि सब कुछ नहीं हो सकता — चुनना पड़ता है। इसलिए हर सुबह या पिछली रात दिन के तीन सबसे महत्वपूर्ण काम तय करें और सबसे कठिन काम को पहले निपटाएं, जब ऊर्जा सर्वाधिक होती है। कामों को महत्व और तात्कालिकता के आधार पर छांटना सीखें; हर &#x27;तुरंत&#x27; दिखने वाला काम महत्वपूर्ण नहीं होता। बड़े कामों को छोटे टुकड़ों में बांटें, ताकि शुरुआत का डर कम हो। एक बार में एक ही काम करें — बार-बार ध्यान बदलने से समय और गुणवत्ता दोनों घटते हैं। मोबाइल की सूचनाएं बंद कर काम के लिए तय समय-खंड बनाएं, जैसे पच्चीस मिनट काम और पांच मिनट विराम वाली पोमोडोरो विधि। ग़ैर-ज़रूरी कामों के लिए विनम्रता से &#x27;न&#x27; कहना भी समय प्रबंधन का हिस्सा है।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Samay prabandhan ki shuruaat yeh sweekarne se hoti hai ki sab kuch nahin ho sakta — chunna padta hai. Isliye har subah ya pichhli raat din ke teen sabse mahatvapurna kaam tay karein aur sabse kathin kaam ko pehle niptayen, jab urja sarvadhik hoti hai. Kaamon ko mahatva aur taatkalikta ke aadhar par chhantna seekhein; har &#x27;turant&#x27; dikhne wala kaam mahatvapurna nahin hota. Bade kaamon ko chhote tukdon mein baantein, taaki shuruaat ka dar kam ho. Ek baar mein ek hi kaam karein — baar-baar dhyan badalne se samay aur gunvatta dono ghatte hain. Mobile ki soochnayen band kar kaam ke liye tay samay-khand banayen, jaise pachees minute kaam aur paanch minute viram wali Pomodoro vidhi. Gair-zaroori kaamon ke liye vinamrata se &#x27;na&#x27; kehna bhi samay prabandhan ka hissa hai.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(1,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(1,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note1" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card2">
+    <div class="cardhead">Item 2 <span class="iid">[H08]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>सिंधु घाटी सभ्यता, जिसे हड़प्पा सभ्यता भी कहते हैं, विश्व की प्राचीनतम नगरीय सभ्यताओं में से एक थी। इसका परिपक्व काल लगभग 2600 से 1900 ईसा पूर्व माना जाता है। हड़प्पा और मोहनजोदड़ो इसके प्रमुख नगर थे; भारत में लोथल, धोलावीरा, कालीबंगा और राखीगढ़ी जैसे स्थल मिले हैं। इस सभ्यता की सबसे बड़ी विशेषता नगर योजना थी — सीधी चौड़ी सड़कें, पकी ईंटों के मकान और ढकी नालियों वाली उत्कृष्ट जल निकासी व्यवस्था। मोहनजोदड़ो का &#x27;विशाल स्नानागार&#x27; प्रसिद्ध है। लोग कृषि, पशुपालन और व्यापार करते थे; मेसोपोटामिया तक उनके व्यापारिक संबंध होने के प्रमाण मिले हैं। मुहरों पर अंकित उनकी लिपि आज तक पढ़ी नहीं जा सकी है, इसलिए इस सभ्यता के कई रहस्य अब भी अनसुलझे हैं।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Sindhu ghati sabhyata, jise Harappa sabhyata bhi kehte hain, vishwa ki pracheentam nagariya sabhyataon mein se ek thi. Iska paripakva kaal lagbhag 2600 se 1900 Isa poorv mana jata hai. Harappa aur Mohenjodaro iske pramukh nagar the; Bharat mein Lothal, Dholavira, Kalibanga aur Rakhigarhi jaise sthal mile hain. Is sabhyata ki sabse badi visheshta nagar yojana thi — seedhi chaudi sadkein, paki eenton ke makan aur dhaki naliyon wali utkrisht jal nikasi vyavastha. Mohenjodaro ka &#x27;vishal snanagar&#x27; prasiddh hai. Log krishi, pashupalan aur vyapar karte the; Mesopotamia tak unke vyaparik sambandh hone ke praman mile hain. Muharon par ankit unki lipi aaj tak padhi nahin ja saki hai, isliye is sabhyata ke kai rahasya ab bhi ansuljhe hain.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(2,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(2,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note2" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card3">
+    <div class="cardhead">Item 3 <span class="iid">[H02]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>आसमान नीला इसलिए दिखता है क्योंकि सूर्य का प्रकाश वायुमंडल में बिखरता है। सूर्य की रोशनी वास्तव में सात रंगों से मिलकर बनी होती है, जिनकी तरंगदैर्ध्य अलग-अलग होती है। जब यह प्रकाश हवा के अणुओं से टकराता है, तो छोटी तरंगदैर्ध्य वाले रंग — नीला और बैंगनी — कहीं अधिक बिखरते हैं। इस घटना को रेले प्रकीर्णन कहते हैं। बैंगनी रंग नीले से भी अधिक बिखरता है, लेकिन सूर्य के प्रकाश में उसकी मात्रा कम होती है और हमारी आंखें नीले रंग के प्रति अधिक संवेदनशील हैं, इसलिए हमें आकाश नीला दिखाई देता है। यही कारण है कि सूर्योदय और सूर्यास्त के समय, जब प्रकाश को वायुमंडल में लंबा रास्ता तय करना पड़ता है, आसमान लाल-नारंगी नज़र आता है।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Aasman neela isliye dikhta hai kyunki surya ka prakash vayumandal mein bikharta hai. Surya ki roshni vastav mein saat rangon se milkar bani hoti hai, jinki tarangdairdhya alag-alag hoti hai. Jab yeh prakash hawa ke anuon se takrata hai, to chhoti tarangdairdhya wale rang — neela aur baingani — kahin adhik bikharte hain. Is ghatna ko Rayleigh prakirnan kehte hain. Baingani rang neele se bhi adhik bikharta hai, lekin surya ke prakash mein uski matra kam hoti hai aur hamari aankhein neele rang ke prati adhik samvedansheel hain, isliye hamein aakash neela dikhai deta hai. Yahi karan hai ki suryoday aur suryast ke samay, jab prakash ko vayumandal mein lamba rasta tay karna padta hai, aasman laal-narangi nazar aata hai.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(3,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(3,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note3" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card4">
+    <div class="cardhead">Item 4 <span class="iid">[H18]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>निर्जलीकरण यानी शरीर में पानी की कमी, गर्मियों में विशेष रूप से आम समस्या है। इसके शुरुआती लक्षण हैं — अधिक प्यास लगना, मुंह और होंठ सूखना, गहरे पीले रंग का पेशाब, थकान, सिरदर्द और चक्कर आना। छोटे बच्चों में सुस्ती, धंसी आंखें और रोते समय आंसू न आना गंभीर संकेत हैं। बचाव के लिए दिनभर थोड़ा-थोड़ा पानी पीते रहें, प्यास लगने का इंतज़ार न करें। तेज़ धूप में निकलते समय पानी साथ रखें और नींबू-पानी, नारियल पानी या छाछ जैसे पेय लेते रहें। उल्टी-दस्त की स्थिति में ओआरएस का घोल सबसे प्रभावी उपाय है, जो पानी के साथ ज़रूरी नमक-खनिज भी लौटाता है। तरबूज़ और खीरे जैसे पानी से भरपूर फल-सब्ज़ियां भी सहायक हैं। यदि पेशाब बहुत कम हो जाए या बेहोशी जैसी स्थिति बने, तो तुरंत डॉक्टर से संपर्क करें।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Nirjalikaran yani sharir mein pani ki kami, garmiyon mein vishesh roop se aam samasya hai. Iske shuruaati lakshan hain — adhik pyaas lagna, munh aur honth sookhna, gehre peele rang ka peshab, thakan, sirdard aur chakkar aana. Chhote bacchon mein susti, dhansi aankhein aur rote samay aansu na aana gambhir sanket hain. Bachav ke liye dinbhar thoda-thoda pani peete rahein, pyaas lagne ka intezaar na karein. Tez dhoop mein nikalte samay pani saath rakhein aur nimbu-pani, nariyal pani ya chhachh jaise pey lete rahein. Ulti-dast ki sthiti mein ORS ka ghol sabse prabhavi upay hai, jo pani ke saath zaroori namak-khanij bhi lautata hai. Tarbooz aur kheere jaise pani se bharpoor phal-sabziyan bhi sahayak hain. Yadi peshab bahut kam ho jaye ya behoshi jaisi sthiti bane, to turant doctor se sampark karein.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(4,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(4,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note4" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card5">
+    <div class="cardhead">Item 5 <span class="iid">[H16]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>सुबह की सैर सेहत के लिए सबसे सरल और प्रभावी व्यायामों में से एक है। नियमित तेज़ चाल से टहलने पर हृदय मज़बूत होता है, रक्त संचार सुधरता है और रक्तचाप नियंत्रित रहने में मदद मिलती है। यह वज़न घटाने और मधुमेह के खतरे को कम करने में भी सहायक है, क्योंकि चलने से कैलोरी खर्च होती है और इंसुलिन की कार्यक्षमता बेहतर होती है। सुबह की ताज़ी हवा और हल्की धूप से मन प्रसन्न रहता है; धूप शरीर में विटामिन डी बनाने में मदद करती है, जो हड्डियों के लिए आवश्यक है। नियमित सैर तनाव घटाती है और रात की नींद की गुणवत्ता सुधारती है। स्वास्थ्य विशेषज्ञ सप्ताह में कम से कम 150 मिनट मध्यम व्यायाम की सलाह देते हैं — रोज़ आधे घंटे की तेज़ सैर से यह लक्ष्य आसानी से पूरा हो जाता है।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Subah ki sair sehat ke liye sabse saral aur prabhavi vyayamon mein se ek hai. Niyamit tez chaal se tahalne par hriday mazboot hota hai, rakt sanchar sudharta hai aur raktchaap niyantrit rehne mein madad milti hai. Yeh vazan ghatane aur madhumeh ke khatre ko kam karne mein bhi sahayak hai, kyunki chalne se calorie kharch hoti hai aur insulin ki karyakshamta behtar hoti hai. Subah ki taazi hawa aur halki dhoop se man prasann rehta hai; dhoop sharir mein vitamin D banane mein madad karti hai, jo haddiyon ke liye aavashyak hai. Niyamit sair tanav ghatati hai aur raat ki neend ki gunvatta sudharti hai. Swasthya visheshagya saptah mein kam se kam 150 minute madhyam vyayam ki salah dete hain — roz aadhe ghante ki tez sair se yeh lakshya aasani se poora ho jata hai.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(5,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(5,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note5" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card6">
+    <div class="cardhead">Item 6 <span class="iid">[H15]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>मूंग दाल की खिचड़ी हल्की, पौष्टिक और पचने में आसान होती है, इसलिए इसे बीमारों से लेकर बच्चों तक सबके लिए आदर्श भोजन माना जाता है। इसे बनाने के लिए आधा कप चावल और आधा कप धुली मूंग दाल को धोकर दस मिनट भिगो दें। कुकर में एक चम्मच घी गर्म कर जीरा और हींग का तड़का लगाएं; चाहें तो कटी अदरक और हरी मिर्च भी डालें। अब भीगे चावल-दाल, हल्दी, नमक और लगभग चार कप पानी डालकर तीन सीटी आने तक पकाएं। पानी की मात्रा से गाढ़ापन तय होता है — पतली खिचड़ी चाहिए तो पानी बढ़ा दें। मौसमी सब्ज़ियां जैसे मटर, गाजर या लौकी डालने से पोषण और बढ़ जाता है। ऊपर से देसी घी डालकर दही, पापड़ या अचार के साथ गर्म परोसें।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Moong daal ki khichdi halki, paushtik aur pachne mein aasan hoti hai, isliye ise bimaron se lekar bacchon tak sabke liye aadarsh bhojan mana jata hai. Ise banane ke liye aadha cup chawal aur aadha cup dhuli moong daal ko dhokar das minute bhigo dein. Cooker mein ek chammach ghee garam kar jeera aur heeng ka tadka lagayein; chahein to kati adrak aur hari mirch bhi daalein. Ab bheege chawal-daal, haldi, namak aur lagbhag chaar cup pani daalkar teen seeti aane tak pakayein. Pani ki matra se gaadhapan tay hota hai — patli khichdi chahiye to pani badha dein. Mausami sabziyan jaise matar, gajar ya lauki daalne se poshan aur badh jata hai. Upar se desi ghee daalkar dahi, papad ya achar ke saath garam parosein.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(6,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(6,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note6" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card7">
+    <div class="cardhead">Item 7 <span class="iid">[H09]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>झांसी की रानी लक्ष्मीबाई भारतीय इतिहास की सबसे वीर महिलाओं में गिनी जाती हैं। उनका जन्म वाराणसी में हुआ था और बचपन का नाम मणिकर्णिका था, जिसे प्यार से &#x27;मनु&#x27; कहा जाता था। झांसी के राजा गंगाधर राव से विवाह के बाद वे लक्ष्मीबाई कहलाईं। पति की मृत्यु के बाद अंग्रेज़ों ने हड़प नीति के तहत उनके दत्तक पुत्र को उत्तराधिकारी मानने से इनकार कर झांसी हड़पनी चाही। रानी ने &#x27;मैं अपनी झांसी नहीं दूंगी&#x27; की घोषणा कर 1857 के स्वतंत्रता संग्राम में अंग्रेज़ों से डटकर लोहा लिया। उन्होंने स्वयं तलवार थामकर सेना का नेतृत्व किया और कालपी तथा ग्वालियर तक संघर्ष जारी रखा। जून 1858 में ग्वालियर के निकट युद्ध करते हुए वे वीरगति को प्राप्त हुईं। उनका साहस आज भी करोड़ों लोगों को प्रेरणा देता है।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Jhansi ki Rani Laxmibai bharatiya itihas ki sabse veer mahilaon mein gini jati hain. Unka janm Varanasi mein hua tha aur bachpan ka naam Manikarnika tha, jise pyar se &#x27;Manu&#x27; kaha jata tha. Jhansi ke raja Gangadhar Rao se vivah ke baad ve Laxmibai kehlayin. Pati ki mrityu ke baad angrezon ne hadap niti ke tahat unke dattak putra ko uttaradhikari manne se inkar kar Jhansi hadapni chahi. Rani ne &#x27;main apni Jhansi nahin doongi&#x27; ki ghoshna kar 1857 ke swatantrata sangram mein angrezon se datkar loha liya. Unhone swayam talwar thamkar sena ka netritva kiya aur Kalpi tatha Gwalior tak sangharsh jari rakha. June 1858 mein Gwalior ke nikat yuddh karte hue ve veergati ko prapt huin. Unka sahas aaj bhi karodon logon ko prerna deta hai.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(7,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(7,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note7" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card8">
+    <div class="cardhead">Item 8 <span class="iid">[M48]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>टाइम टेबल बनाते समय सबसे पहले अपने कमजोर विषयों की पहचान करें और उन्हें दिन के उस समय रखें जब आपकी एकाग्रता सबसे अच्छी रहती है। हर विषय को रोज थोड़ा-थोड़ा समय देना, एक ही विषय को पूरे दिन पढ़ने से बेहतर होता है। बीच-बीच में छोटे ब्रेक जरूर रखें।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Time table banate samay sabse pehle apne kamzor vishayon ki pehchan karein aur unhe din ke us samay rakhein jab aapki ekagrata sabse acchi rehti hai. Har vishay ko roz thoda-thoda samay dena, ek hi vishay ko pure din padhne se behtar hota hai. Beech-beech mein chhote break zaroor rakhein.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(8,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(8,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note8" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card9">
+    <div class="cardhead">Item 9 <span class="iid">[M07]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>रज़िया सुल्तान दिल्ली सल्तनत की पहली और एकमात्र महिला शासक थीं। वे इल्तुतमिश की बेटी थीं और 1236 में गद्दी पर बैठीं। उन्होंने पर्दा त्यागकर खुले दरबार में शासन किया, जो उस दौर में साहसिक कदम था। तुर्की अमीरों को एक महिला का शासन स्वीकार नहीं था, इसलिए उन्हें लगातार विरोध झेलना पड़ा।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Razia Sultan Dilli saltanat ki pehli aur ekmatra mahila shasak thin. Ve Iltutmish ki beti thin aur 1236 mein gaddi par baithin. Unhone parda tyagkar khule darbar mein shasan kiya, jo us daur mein sahasik kadam tha. Turki ameeron ko ek mahila ka shasan sweekar nahi tha, isliye unhe lagatar virodh jhelna pada.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(9,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(9,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note9" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card10">
+    <div class="cardhead">Item 10 <span class="iid">[M44]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>हरी पत्तेदार सब्जियों को बिना धोए, हल्के गीले कपड़े या पेपर में लपेटकर फ्रिज में रखें, धोकर रखने से वे जल्दी गलने लगती हैं। टमाटर और केले को फ्रिज से बाहर रखना बेहतर होता है। धनिया-पुदीना को पानी के गिलास में डंठल डुबोकर रखने से वे कई दिन ताजे रहते हैं।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Hari pattedar sabziyon ko bina dhoye, halke geele kapde ya paper mein lapetkar fridge mein rakhein, dhokar rakhne se ve jaldi galne lagti hain. Tamatar aur kele ko fridge se bahar rakhna behtar hota hai. Dhaniya-pudina ko paani ke gilas mein danthal dubokar rakhne se ve kai din taze rehte hain.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(10,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(10,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note10" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card11">
+    <div class="cardhead">Item 11 <span class="iid">[M35]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>दक्षिण-पश्चिम मॉनसूनी हवाएं हिंद महासागर से नमी लेकर भारत की ओर बढ़ती हैं। भौगोलिक स्थिति के कारण भारतीय मुख्य भूमि में इनका पहला पड़ाव केरल का तट होता है, जहां ये आमतौर पर जून की शुरुआत में पहुंचती हैं। इसके बाद ये हवाएं धीरे-धीरे उत्तर की ओर बढ़ते हुए पूरे देश में बारिश कराती हैं।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Dakshin-paschim monsooni hawayein Hind Mahasagar se nami lekar Bharat ki or badhti hain. Bhaugolik sthiti ke karan bharatiya mukhya bhoomi mein inka pehla padav Kerala ka tat hota hai, jahan ye aam taur par June ki shuruat mein pahunchti hain. Iske baad ye hawayein dheere-dheere uttar ki or badhte hue pure desh mein barish karati hain.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(11,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(11,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note11" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card12">
+    <div class="cardhead">Item 12 <span class="iid">[M06]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>सिंधु घाटी सभ्यता की जल निकासी व्यवस्था अपने समय की सबसे उन्नत व्यवस्थाओं में गिनी जाती है। हर घर की नालियां सड़क किनारे बनी ढकी हुई मुख्य नालियों से जुड़ी थीं। नालियां पक्की ईंटों से बनाई गई थीं और उनकी नियमित सफाई का प्रबंध था। यह दिखाता है कि नगर नियोजन में स्वच्छता को कितना महत्व दिया गया था।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Sindhu ghati sabhyata ki jal nikasi vyavastha apne samay ki sabse unnat vyavasthaon mein gini jaati hai. Har ghar ki naaliyan sadak kinare bani dhaki hui mukhya naaliyon se judi thin. Naaliyan pakki eenton se banai gayi thin aur unki niyamit safai ka prabandh tha. Yeh dikhata hai ki nagar niyojan mein swachhta ko kitna mahatva diya gaya tha.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(12,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(12,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note12" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card13">
+    <div class="cardhead">Item 13 <span class="iid">[M38]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>क्रेडिट स्कोर खराब होने का सबसे बड़ा कारण है समय पर ईएमआई या क्रेडिट कार्ड का बिल न चुकाना। इसे सुधारने के लिए सबसे पहले सारे बकाया भुगतान नियमित करें। दूसरा, क्रेडिट कार्ड की सीमा का पूरा इस्तेमाल न करें, तीस प्रतिशत से कम खर्च रखना अच्छा माना जाता है। सुधार में कुछ महीने लगते हैं।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Credit score kharab hone ka sabse bada karan hai samay par EMI ya credit card ka bill na chukana. Ise sudharne ke liye sabse pehle saare bakaya bhugtan niyamit karein. Doosra, credit card ki seema ka pura istemal na karein, tees pratishat se kam kharch rakhna accha maana jata hai. Sudhar mein kuch mahine lagte hain.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(13,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(13,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note13" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card14">
+    <div class="cardhead">Item 14 <span class="iid">[M28]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>ओणम राजा महाबली की कथा से जुड़ा है, जिनके बारे में मान्यता है कि वे साल में एक बार अपनी प्रजा से मिलने आते हैं। इस दौरान घरों के आंगन में फूलों से पूकलम नामक सुंदर रंगोली बनाई जाती है। यह त्योहार फसल कटाई की खुशी का भी प्रतीक है और दस दिनों तक चलता है।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Onam raja Mahabali ki katha se juda hai, jinke baare mein manyata hai ki ve saal mein ek baar apni praja se milne aate hain. Is dauran gharon ke aangan mein phoolon se pookalam naamak sundar rangoli banai jaati hai. Yeh tyohar fasal katai ki khushi ka bhi prateek hai aur das dinon tak chalta hai.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(14,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(14,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note14" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card15">
+    <div class="cardhead">Item 15 <span class="iid">[L03]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>पानी भाप बनता है, बादल बनते हैं, बारिश होती है। यही चक्र बार-बार चलता रहता है। इसमें और कुछ खास नहीं है।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Pani bhaap banta hai, baadal bante hain, barish hoti hai. Yahi chakra baar-baar chalta rehta hai. Ismein aur kuch khaas nahi hai.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(15,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(15,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note15" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card16">
+    <div class="cardhead">Item 16 <span class="iid">[L02]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>न्यूटन के तीन नियम हैं। पहला नियम गति के बारे में है, दूसरा नियम भी गति के बारे में है और तीसरा नियम भी गति से जुड़ा है। तीनों महत्वपूर्ण हैं।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Newton ke teen niyam hain. Pehla niyam gati ke baare mein hai, doosra niyam bhi gati ke baare mein hai aur teesra niyam bhi gati se juda hai. Teenon mahatvapurn hain.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(16,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(16,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note16" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card17">
+    <div class="cardhead">Item 17 <span class="iid">[L06]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>1857 में विद्रोह हुआ था क्योंकि लोग अंग्रेजों से नाराज थे। लड़ाई हुई और बाद में सब शांत हो गया। इतिहास की किताबों में सब लिखा है।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>1857 mein vidroh hua tha kyunki log angrezon se naraz the. Ladai hui aur baad mein sab shant ho gaya. Itihas ki kitabon mein sab likha hai.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(17,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(17,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note17" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card18">
+    <div class="cardhead">Item 18 <span class="iid">[L14]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>चावल पीसकर घोल बना लीजिए और तवे पर फैला दीजिए। तुरंत डोसा बन जाता है। दाल की जरूरत नहीं होती, सिर्फ चावल काफी है।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Chawal peeskar ghol bana lijiye aur tawe par phaila dijiye. Turant dosa ban jata hai. Dal ki zaroorat nahi hoti, sirf chawal kafi hai.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(18,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(18,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note18" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card19">
+    <div class="cardhead">Item 19 <span class="iid">[L15]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>टमाटर का सूप बना लीजिए, अच्छा रहता है। बाकी सूप भी लगभग ऐसे ही बनते हैं, सब्जी उबालो और पीस लो। पाँच गिनाने की जरूरत नहीं।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Tamatar ka soup bana lijiye, accha rehta hai. Baki soup bhi lagbhag aise hi bante hain, sabzi ubalo aur pees lo. Paanch ginane ki zaroorat nahi.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(19,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(19,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note19" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="card" id="card20">
+    <div class="cardhead">Item 20 <span class="iid">[L33]</span></div>
+    <div class="pair">
+      <div class="col deva"><div class="collabel">DEVANAGARI (original)</div><p>मानसून समुद्र से आता है और बारिश कराता है। किसान खुश हो जाते हैं। बारिश अच्छी तो फसल अच्छी, बारिश खराब तो फसल खराब।</p></div>
+      <div class="col hing"><div class="collabel">HINGLISH (respelled)</div><p>Monsoon samudra se aata hai aur barish karata hai. Kisan khush ho jate hain. Barish acchi to fasal acchi, barish kharab to fasal kharab.</p></div>
+    </div>
+    <div class="verdict">
+      <button class="ok" onclick="setV(20,'OK',this)">✓ Same meaning</button>
+      <button class="prob" onclick="setV(20,'PROBLEM',this)">✗ Problem</button>
+      <input type="text" id="note20" placeholder="if problem: what changed? (optional note)">
+    </div>
+  </div>
+  <div class="bar">
+    <span class="count" id="cnt">0 / 20 marked</span>
+    <button onclick="gen()">Generate summary</button>
+    <button onclick="copyRes()" id="copyBtn" style="display:none;background:var(--green);border-color:var(--green)">Copy to clipboard</button>
+    <textarea id="result" rows="4" readonly></textarea>
+  </div>
+</div>
+<script>
+const V={};
+function setV(i,v,btn){V[i]=v;const c=document.getElementById('card'+i);
+  c.className='card '+(v==='OK'?'done-ok':'done-prob');
+  c.querySelectorAll('button').forEach(b=>b.classList.remove('sel'));btn.classList.add('sel');
+  document.getElementById('cnt').textContent=Object.keys(V).length+' / 20 marked';}
+function gen(){const n=Object.keys(V).length;let out='HINGLISH AUDIT RESULT: '+n+'/20 marked. ';
+  const probs=[];for(let i=1;i<=20;i++){if(V[i]==='PROBLEM'){const note=document.getElementById('note'+i).value;probs.push(i+(note?(' ('+note+')'):''));}}
+  out+=probs.length? 'PROBLEMS at items: '+probs.join('; ')+'. All others OK.':'ALL OK - every pair preserves meaning.';
+  const r=document.getElementById('result');r.value=out;r.style.display='block';document.getElementById('copyBtn').style.display='inline-block';}
+function copyRes(){const r=document.getElementById('result');r.select();document.execCommand('copy');}
+</script></body></html>

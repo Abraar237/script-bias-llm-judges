@@ -1,0 +1,202 @@
+{
+  "M01": {
+    "instruction": "Jugnu andhere mein kaise chamakte hain? Iske peeche ka vigyan aur is roshni ka jugnuon ke jeevan mein kya upyog hai, vistar se samjhaiye.",
+    "response": "Jugnu ke pet ke nichle hisse mein luciferin naamak rasayan hota hai. Jab yeh oxygen ke sampark mein aata hai, to ek rasaynik kriya hoti hai jisse roshni paida hoti hai. Is prakriya ko bioluminescence kehte hain. Khaas baat yeh hai ki is roshni mein garmi lagbhag nahi hoti, isliye ise thandi roshni bhi kaha jata hai."
+  },
+  "M02": {
+    "instruction": "Refrigerator khane ko thanda kaise rakhta hai? Iske kaam karne ki puri prakriya charan dar charan samjhaiye.",
+    "response": "Refrigerator mein ek vishesh gas hoti hai jise refrigerant kehte hain. Compressor is gas ko dabakar pipon mein ghumata hai. Jab yeh gas failti hai to andar ki garmi sokh leti hai, jisse fridge ke bhitar ka taapman gir jata hai. Yahi chakra baar-baar chalta rehta hai aur khana thanda bana rehta hai."
+  },
+  "M03": {
+    "instruction": "Pehli barish ke baad mitti se aane wali sondhi khushboo ka vaigyanik karan kya hai? Isme shamil jivanuon aur rasaynon ke baare mein vistar se bataiye.",
+    "response": "Is khushboo ko petrichor kaha jata hai. Mitti mein rehne wale kuch jivanu geosmin naamak yaugik banate hain. Jab barish ki boondein sookhi mitti par girti hain, to yeh yaugik hawa mein fail jata hai aur hamein woh jaani-pehchani sondhi mehak milti hai. Hamari naak geosmin ke prati kaafi samvedansheel hoti hai."
+  },
+  "M04": {
+    "instruction": "Shahad hazaron saal tak kharab kyon nahi hota? Iske peeche ke sabhi vaigyanik karanon ko udaharan sahit samjhaiye.",
+    "response": "Shahad mein paani ki matra bahut kam hoti hai, lagbhag satrah se attharah pratishat. Itni kam nami mein jivanu aur fafund panap nahi paate. Doosra karan yeh hai ki shahad amliya hota hai, jo sukshmajivon ke liye pratikool vatavaran banata hai. Isiliye theek se band rakha gaya shahad varshon tak khane yogya rehta hai."
+  },
+  "M05": {
+    "instruction": "Pressure cooker mein khana samanya bartan ki tulna mein jaldi kyon pak jata hai? Bhautiki ke siddhanton ke aadhar par vistar se samjhaiye.",
+    "response": "Pressure cooker ka dhakkan bhaap ko bahar nahi nikalne deta, jisse andar dabav badh jata hai. Dabav badhne par paani ka kwathnank sau degree se upar chala jata hai, lagbhag ek sau bees degree tak. Zyada taapman par khana tezi se pakta hai. Yahi karan hai ki daal ya chane cooker mein jaldi gal jaate hain."
+  },
+  "M06": {
+    "instruction": "Sindhu ghati sabhyata ki jal nikasi vyavastha kitni unnat thi? Mohenjodaro aur Harappa ke udaharanon ke saath vistar se bataiye.",
+    "response": "Sindhu ghati sabhyata ki jal nikasi vyavastha apne samay ki sabse unnat vyavasthaon mein gini jaati hai. Har ghar ki naaliyan sadak kinare bani dhaki hui mukhya naaliyon se judi thin. Naaliyan pakki eenton se banai gayi thin aur unki niyamit safai ka prabandh tha. Yeh dikhata hai ki nagar niyojan mein swachhta ko kitna mahatva diya gaya tha."
+  },
+  "M07": {
+    "instruction": "Razia Sultan kaun thin aur unka shasankaal bharatiya itihas mein kyon mahatvapurn maana jata hai? Unki chunautiyon aur ant ke baare mein bhi bataiye.",
+    "response": "Razia Sultan Dilli saltanat ki pehli aur ekmatra mahila shasak thin. Ve Iltutmish ki beti thin aur 1236 mein gaddi par baithin. Unhone parda tyagkar khule darbar mein shasan kiya, jo us daur mein sahasik kadam tha. Turki ameeron ko ek mahila ka shasan sweekar nahi tha, isliye unhe lagatar virodh jhelna pada."
+  },
+  "M08": {
+    "instruction": "Champaran satyagraha kya tha aur yeh Gandhiji ke rajnitik jeevan ka nirnayak mod kyon bana? Iski prishthbhoomi, ghatnakram aur parinam vistar se bataiye.",
+    "response": "Champaran satyagraha 1917 mein Bihar ke Champaran zile mein hua tha. Wahan angrez bagan malik kisanon ko tinkathiya pranali ke tahat jabran neel ki kheti karne ke liye majboor karte the. Rajkumar Shukla ke aagrah par Gandhiji Champaran pahunche aur kisanon ki samasyaen darj kin. Yeh Bharat mein Gandhiji ka pehla satyagraha tha."
+  },
+  "M09": {
+    "instruction": "Mysore ke shasak Tipu Sultan ke rocketon ke baare mein kya jante hain? Inki takneek, yuddhon mein upyog aur baad ke vishwa itihas par prabhav samjhaiye.",
+    "response": "Tipu Sultan aur unke pita Hyder Ali ne yuddh mein lohe ke khol wale rocketon ka istemal kiya, jo us samay duniya mein sabse aage ki takneek thi. Lohe ke khol ki wajah se inki marak kshamta aur doori samanya rocketon se kahin zyada thi. Angrezon ke khilaf Mysore ke yuddhon mein inka asardar prayog hua."
+  },
+  "M10": {
+    "instruction": "Grand Trunk Road ka itihas kya hai? Sher Shah Suri ke yogdan aur is sadak ke vyaparik tatha sanskritik mahatva par vistar se prakash daliye.",
+    "response": "Grand Trunk Road dakshin Asia ki sabse purani aur lambi sadkon mein se ek hai. Solahvin sadi mein Sher Shah Suri ne is prachin marg ka bade paimane par punarnirman karvaya. Unhone raste mein sarai banwain aur ped lagwaye taki yatriyon ko suvidha mile. Yeh sadak Bengal se Peshawar tak faili hui thi."
+  },
+  "M11": {
+    "instruction": "Ghar par bazaar jaisa spongy aur jalidar dhokla kaise banayein? Batter ki taiyari se lekar tadke tak ki puri vidhi aur zaroori savdhaniyan bataiye.",
+    "response": "Spongy dhokle ke liye besan mein dahi aur thoda paani milakar gaadha ghol banayein aur use aadhe ghante ke liye rakh dein. Bhaap mein pakane se theek pehle Eno ya fruit salt daalein aur halke haath se milayein, zyada fentne se hawa nikal jaati hai. Ghol ko turant garam steamer mein rakhein aur pandrah se bees minute bhaap dein."
+  },
+  "M12": {
+    "instruction": "Sardiyon mein ghar par gaadha aur meetha dahi jamane mein kya dikkatein aati hain aur unhe kaise door karein? Taapman, jaman aur samay se jude saare upay bataiye.",
+    "response": "Sardiyon mein dahi der se jamta hai kyonki jaman ke jivanuon ko garmahat chahiye. Doodh ko gunguna karke usme ek chammach taza jaman milayein aur bartan ko kisi garam jagah par rakhein, jaise band oven ke andar ya casserole mein. Bartan ko hilayein nahi, warna dahi toot jata hai aur paani chhod deta hai."
+  },
+  "M13": {
+    "instruction": "Ghar par doodh se naram paneer kaise banayein? Doodh ke chunav, faadne ki vidhi, dabav aur milne wali matra tak ki puri jankari dijiye.",
+    "response": "Paneer banane ke liye full cream doodh ko ubalein aur ubaal aane par usme dheere-dheere nimbu ka ras ya sirka daalte jayein. Doodh fatne par chhena aur paani alag ho jayenge. Chhene ko malmal ke kapde mein chhankar thande paani se dho lein taki khataas nikal jaye. Phir kapde mein bandhkar upar se wazan rakh dein."
+  },
+  "M14": {
+    "instruction": "Bina ande ka soft chocolate cake ghar par kaise banayein? Ande ke vikalp, samagri ke anupat aur baking ke dauran hone wali aam galtiyon par vistar se bataiye.",
+    "response": "Bina ande ke cake mein dahi ya doodh ande ki jagah le sakte hain. Maida, cocoa powder, baking soda aur cheeni ko chhankar milayein, phir dahi, tel aur doodh milakar ghol taiyar karein. Ghol ko zyada na fentein. Pehle se garam oven mein ek sau assi degree par lagbhag tees minute bake karein."
+  },
+  "M15": {
+    "instruction": "Nimbu ka achar salon tak kharab na ho, iske liye banate aur rakhte samay kin-kin baton ka dhyan rakhna chahiye? Puri vidhi ke saath samjhaiye.",
+    "response": "Nimbu ke achar mein sabse zaroori hai nami se bachav. Nimbu ko dhokar acchi tarah sukha lein aur kaatne ke liye sookha chaku istemal karein. Namak achar ka prakritik parirakshak hai, isliye uski matra kam na karein. Achar ko kaanch ke saaf, sookhe jar mein bharkar kuch din dhoop dikhayein."
+  },
+  "M16": {
+    "instruction": "Dinbhar desk par baithkar kaam karne walon ko gardan aur kandhe ke dard se bachne ke liye kya karna chahiye? Baithne ki mudra, vyayam aur karyasthal ki vyavastha par vistrit salah dijiye.",
+    "response": "Sabse pehle screen ko aankhon ki seedh mein rakhein taki gardan jhukani na pade. Kursi aisi ho jisme peeth ko sahara mile aur pair zameen par tike rahein. Har chalis-paintalis minute mein uthkar thoda tehalna zaroori hai. Iske alawa gardan ko dheere-dheere dayen-bayen ghumane wale halke vyayam bhi rahat dete hain."
+  },
+  "M17": {
+    "instruction": "Raat ko gehri aur acchi neend paane ke liye dincharya mein kya-kya badlav karne chahiye? Sone ke mahaul, khan-paan aur screen ki aadaton samet vistar se bataiye.",
+    "response": "Acchi neend ke liye roz ek hi samay par sona aur uthna sabse kargar upay hai, isse sharir ki jaivik ghadi sadh jaati hai. Sone se kam se kam ek ghanta pehle mobile aur TV band kar dein, kyonki screen ki neeli roshni neend ke hormone melatonin ko daba deti hai. Kamra andhera aur shant rakhein."
+  },
+  "M18": {
+    "instruction": "Vitamin D ki kami shehri bharatiyon mein itni aam kyon hai? Iske lakshan, karan, jaanch aur purti ke saare tarike vistar se samjhaiye.",
+    "response": "Vitamin D mukhya roop se dhoop se milta hai, aur shehron mein log zyadatar samay ghar ya daftar ke andar bitate hain, isliye yeh kami bahut aam ho gayi hai. Iski kami se haddiyan kamzor hoti hain aur thakan bani rehti hai. Subah ki dhoop mein rozana kuch der baithna iska sabse aasan upay hai."
+  },
+  "M19": {
+    "instruction": "Lagatar mobile aur computer dekhne se aankhon par kya asar padta hai aur isse bachav ke kaun-kaun se upay hain? Vistar se bataiye.",
+    "response": "Lagatar screen dekhne se aankhon mein sukhapan, jalan aur dhundhlapan ho sakta hai, jise digital eye strain kehte hain. Iska ek bada karan yeh hai ki screen dekhte samay hum palkein kam jhapkate hain. Bachav ke liye bees-bees-bees niyam apnayein, yani har bees minute mein bees second ke liye bees feet door dekhein."
+  },
+  "M20": {
+    "instruction": "Subah khali pet chai peene ki aadat sehat par kya asar dalti hai? Iske nuksan, karan aur behtar vikalpon ke baare mein vistar se bataiye.",
+    "response": "Khali pet chai peene se pet mein acid ki matra badh sakti hai, jisse kuch logon ko jalan aur gas ki shikayat hoti hai. Chai mein maujood caffeine khali pet zyada tezi se asar karta hai. Behtar hai ki chai se pehle ek gilas paani pee lein ya chai ke saath kuch halka kha lein."
+  },
+  "M21": {
+    "instruction": "Smartphone ki battery lambe samay tak acchi haalat mein bani rahe, iske liye charging aur istemal ki kaun-kaun si aadatein apnani chahiye? Vistar se samjhaiye.",
+    "response": "Battery ki sehat ke liye use baar-baar puri tarah khatam hone se bachayein. Koshish karein ki charge bees se assi pratishat ke beech bana rahe. Phone ko dhoop mein ya garam jagah par charge na karein, kyonki garmi battery ki sabse badi dushman hai. Raat bhar charger laga chhodna bhi acchi aadat nahi maani jaati."
+  },
+  "M22": {
+    "instruction": "UPI se paise bhejne par parde ke peeche kya-kya hota hai? Bank, NPCI aur app ki bhoomika ke saath puri prakriya charanbaddh tarike se samjhaiye.",
+    "response": "Jab aap UPI se bhugtan karte hain, to aapka app anurodh NPCI ke system ko bhejta hai, jo dono bankon ke beech pul ka kaam karta hai. Aapke bank se paisa katkar seedhe samne wale ke bank khate mein turant pahunch jata hai. Puri prakriya mein UPI pin aapki pehchan ki pushti karta hai."
+  },
+  "M23": {
+    "instruction": "Cloud storage kya hota hai aur yeh kaise kaam karta hai? Iske fayde, nuksan aur aam aadmi ke liye istemal ke udaharan vistar se dijiye.",
+    "response": "Cloud storage mein aapki filein aapke phone ya computer ki jagah internet se jude door ke serveron par surakshit rehti hain. Iska sabse bada fayda yeh hai ki aap kisi bhi device se, kahin se bhi apni filein khol sakte hain. Phone kho jaane par bhi data surakshit rehta hai."
+  },
+  "M24": {
+    "instruction": "Phishing email aur farzi sandeshon ko kaise pehchanein? Inki aam nishaniyan, thagon ke tarike aur bachav ke upay udaharan sahit vistar se bataiye.",
+    "response": "Phishing sandeshon ki pehli nishani hai jaldbazi ka dabav, jaise aapka khata chaubees ghante mein band ho jayega. Doosri nishani hai bhejne wale ka sandigdh email pata, jo asli company se milta-julta lekin thoda alag hota hai. Kisi bhi link par click karne se pehle use dhyan se jaanch lein."
+  },
+  "M25": {
+    "instruction": "Bluetooth aur Wi-Fi mein kya antar hai? Dono ki takneek, range, upyog aur seemaon ki tulna udaharanon ke saath kijiye.",
+    "response": "Bluetooth kam doori ke liye bana hai, aam taur par das meter ke dayre mein, aur iska istemal earphone ya speaker jaise upkaran jodne mein hota hai. Wi-Fi ki range zyada hoti hai aur yeh mukhya roop se internet se judne ke kaam aata hai. Wi-Fi ki data gati Bluetooth se kaafi adhik hoti hai."
+  },
+  "M26": {
+    "instruction": "Chhath puja kis tarah manai jaati hai aur iska sanskritik tatha paryavaraniya mahatva kya hai? Charon dinon ke anushthanon ka vistar se varnan kijiye.",
+    "response": "Chhath puja mukhya roop se Bihar, Jharkhand aur purvi Uttar Pradesh mein manaya jaane wala parv hai, jisme Surya dev aur Chhathi Maiya ki upasana hoti hai. Vrati chhattis ghante ka nirjala vrat rakhte hain aur nadi ya talab mein khade hokar doobte aur ugte surya ko arghya dete hain. Thekua iska pramukh prasad hai."
+  },
+  "M27": {
+    "instruction": "Assam ka Bihu tyohar kitne prakar ka hota hai aur har Bihu ka krishi chakra se kya sambandh hai? Nritya, sangeet aur khan-paan ki paramparaon samet vistar se bataiye.",
+    "response": "Bihu Assam ka sabse bada tyohar hai aur yeh saal mein teen baar manaya jata hai. Bohag Bihu April mein Assamiya navvarsh aur buvai ke mausam ki shuruat par manaya jata hai, yahi sabse dhoomdham wala hota hai. Is dauran yuvak-yuvatiyan dhol aur pepa ki dhun par Bihu nritya karte hain."
+  },
+  "M28": {
+    "instruction": "Kerala ka Onam tyohar kis katha se juda hai aur ise kaise manaya jata hai? Pookalam, sadya aur nauka daud jaisi paramparaon ka vistar se varnan kijiye.",
+    "response": "Onam raja Mahabali ki katha se juda hai, jinke baare mein manyata hai ki ve saal mein ek baar apni praja se milne aate hain. Is dauran gharon ke aangan mein phoolon se pookalam naamak sundar rangoli banai jaati hai. Yeh tyohar fasal katai ki khushi ka bhi prateek hai aur das dinon tak chalta hai."
+  },
+  "M29": {
+    "instruction": "Nagaland ka Hornbill mahotsav kya hai aur ise tyoharon ka tyohar kyon kaha jata hai? Iski gatividhiyon, uddeshya aur paryatan mahatva par vistar se likhiye.",
+    "response": "Hornbill mahotsav har saal December ki shuruat mein Nagaland mein manaya jata hai. Isme rajya ki sabhi pramukh janjatiyan ek jagah ikattha hokar apne paramparik nritya, sangeet aur veshbhusha ka pradarshan karti hain, isiliye ise tyoharon ka tyohar kehte hain. Iska naam hornbill pakshi par rakha gaya hai, jiska Naga sanskriti mein vishesh sthan hai."
+  },
+  "M30": {
+    "instruction": "Ladakh aur Tibbati samudayon mein manaya jaane wala Losar parv kya hai? Iski taiyariyon, riti-riwazon aur sanskritik mahatva ke baare mein vistar se bataiye.",
+    "response": "Losar Tibbati bauddh samudayon ka navvarsh parv hai, jo Ladakh, Sikkim aur Arunachal ke kuch hisson mein dhoomdham se manaya jata hai. Is avsar par log gharon ki safai karte hain, taki purane saal ki nakaratmakta bahar nikal jaye. Mathon mein vishesh prarthnayein hoti hain aur paramparik nritya prastut kiye jaate hain."
+  },
+  "M31": {
+    "instruction": "Brahmaputra nadi mein sthit Majuli dweep kyon prasiddh hai aur yeh kin chunautiyon ka samna kar raha hai? Bhugol, sanskriti aur katav ki samasya par vistar se likhiye.",
+    "response": "Majuli Assam mein Brahmaputra nadi ke beech basa duniya ke sabse bade nadi dweepon mein se ek hai. Yeh vaishnav satron yani mathon ke liye prasiddh hai, jo Assamiya sanskriti ke kendra maane jaate hain. Nadi ke lagatar katav se dweep ka kshetrafal saal dar saal ghatta ja raha hai, jo iski sabse badi chinta hai."
+  },
+  "M32": {
+    "instruction": "Paschimi Ghat ko jaiv vividhata ka hotspot kyon kaha jata hai? Iski bhaugolik visheshtayein, pramukh jeev-jantu aur sanrakshan ki chunautiyan vistar se samjhaiye.",
+    "response": "Paschimi Ghat Gujarat se Kerala tak faili parvat shrinkhala hai, jise UNESCO ne vishwa dharohar ka darja diya hai. Yahan hazaron aisi vanaspatiyan aur jeev paye jaate hain jo duniya mein aur kahin nahi milte, isiliye ise jaiv vividhata ka hotspot kehte hain. Ye pahad monsooni badalon ko rokkar barish karane mein bhi ahem bhoomika nibhate hain."
+  },
+  "M33": {
+    "instruction": "Manipur ki Loktak jheel aur uski tairti hui phumdi kis tarah anokhi hain? Jheel ka paristhitik mahatva aur us par mandarate khatre vistar se bataiye.",
+    "response": "Loktak purvottar Bharat ki sabse badi meethe paani ki jheel hai, jo Manipur mein sthit hai. Iski sabse anokhi baat hai phumdi, yani ghas-phoos aur mitti ke tairte hue dweep. Inhin phumdiyon par Keibul Lamjao rashtriya udyan basa hai, jo duniya ka ekmatra tairta rashtriya udyan maana jata hai."
+  },
+  "M34": {
+    "instruction": "Kutch ka Rann safed registan kyon kehlata hai? Iske banne ki bhaugolik prakriya, mausam ke anusar badlav aur Rann utsav ke baare mein vistar se bataiye.",
+    "response": "Kutch ka Rann Gujarat mein sthit ek vishal namak ka maidan hai. Monsoon mein yeh ilaka samudri aur barish ke paani se bhar jata hai, aur garmiyon mein paani sukhne par namak ki safed parat bichh jaati hai. Isi chamakti safed zameen ke karan ise safed registan kaha jata hai. Purnima ki raat yahan ka nazara dekhne layak hota hai."
+  },
+  "M35": {
+    "instruction": "Bharat mein monsoon sabse pehle Kerala mein hi kyon pahunchta hai? Monsooni hawaon ki utpatti, disha aur deshbhar mein failne ki prakriya vistar se samjhaiye.",
+    "response": "Dakshin-paschim monsooni hawayein Hind Mahasagar se nami lekar Bharat ki or badhti hain. Bhaugolik sthiti ke karan bharatiya mukhya bhoomi mein inka pehla padav Kerala ka tat hota hai, jahan ye aam taur par June ki shuruat mein pahunchti hain. Iske baad ye hawayein dheere-dheere uttar ki or badhte hue pure desh mein barish karati hain."
+  },
+  "M36": {
+    "instruction": "Aapatkalin fund kya hota hai, kitna hona chahiye aur ise kahan rakhna chahiye? Naukripesha vyakti ke liye ise banane ki puri ranniti vistar se bataiye.",
+    "response": "Aapatkalin fund woh bachat hai jo naukri chhootne ya achanak bimari jaisi sthiti mein kaam aati hai. Aam taur par isme kam se kam chhah mahine ke kharch ke barabar rakam honi chahiye. Ise aisi jagah rakhein jahan se zaroorat padne par turant nikala ja sake, jaise bachat khata ya fixed deposit."
+  },
+  "M37": {
+    "instruction": "Mutual fund mein SIP kya hoti hai aur yeh ekmusht nivesh se kaise alag hai? Iske fayde, jokhim aur shuruat karne ka tarika udaharan sahit samjhaiye.",
+    "response": "SIP yani Systematic Investment Plan mein aap har mahine ek tay rakam mutual fund mein lagate hain. Iska fayda yeh hai ki bazaar upar-neeche hone par kharid ki ausat lagat santulit ho jaati hai. Chhoti rakam se shuruat ho sakti hai, kai fund paanch sau rupaye mahine se bhi SIP ki suvidha dete hain."
+  },
+  "M38": {
+    "instruction": "Credit score kharab hone ke kya karan hote hain aur ise sudharne ke liye kaun-kaun se thos kadam uthane chahiye? Vistar se bataiye.",
+    "response": "Credit score kharab hone ka sabse bada karan hai samay par EMI ya credit card ka bill na chukana. Ise sudharne ke liye sabse pehle saare bakaya bhugtan niyamit karein. Doosra, credit card ki seema ka pura istemal na karein, tees pratishat se kam kharch rakhna accha maana jata hai. Sudhar mein kuch mahine lagte hain."
+  },
+  "M39": {
+    "instruction": "Term insurance kya hota hai aur yuvaon ko ise jaldi kyon le lena chahiye? Cover ki rakam tay karne aur policy chunne ke tarike bhi vistar se bataiye.",
+    "response": "Term insurance shuddh jeevan bima hai, jisme policydharak ki mrityu hone par parivar ko tay rakam milti hai. Isme nivesh ka koi hissa nahi hota, isliye kam premium mein bada cover mil jata hai. Kam umar mein lene par premium kaafi sasta padta hai aur puri avadhi ke liye wahi dar bani rehti hai."
+  },
+  "M40": {
+    "instruction": "Budget banane ka pachas-tees-bees niyam kya hai aur ise bharatiya madhyamvargiya parivar apni aamdani par kaise lagu kare? Udaharan ke saath vistar se samjhaiye.",
+    "response": "Is niyam ke anusar aamdani ka pachas pratishat zaroori kharchon par, tees pratishat shauk aur ichchhaon par, aur bees pratishat bachat tatha nivesh par lagana chahiye. Zaroori kharchon mein kiraya, rashan aur bijli-paani ke bill aate hain. Yeh niyam kharchon par nazar rakhne ka ek saral dhancha deta hai."
+  },
+  "M41": {
+    "instruction": "Subah ki bhagdaud kam karne aur din ki shuruat vyavasthit dhang se karne ke liye dincharya mein kya-kya badlav karne chahiye? Vyavaharik sujhav vistar se dijiye.",
+    "response": "Subah ki bhagdaud kam karne ki asli taiyari raat mein hoti hai. Agle din ke kapde, bag aur zaroori saman raat ko hi nikalkar rakh dein. Subah uthte hi mobile dekhne ki aadat chhodein, kyonki isme bina dhyan diye aadha ghanta nikal jata hai. Roz ek hi samay par uthna bhi bahut madad karta hai."
+  },
+  "M42": {
+    "instruction": "Padosi se parking ya shor jaisi baton par vivad ho jaye to use baatcheet se kaise suljhayein? Rishte bigaade bina samadhan nikalne ke tarike vistar se bataiye.",
+    "response": "Sabse pehle gusse mein turant pratikriya dene se bachein aur shant hokar sahi samay par baat karein. Baatcheet mein aarop lagane ki bajay apni pareshani batayein, jaise yeh kehna ki raat mein awaaz se bacchon ki neend tootti hai, seedha ulahna dene se behtar kaam karta hai. Samne wale ka paksh bhi dhyan se sunein."
+  },
+  "M43": {
+    "instruction": "Ghar ka bijli bill kam karne ke liye kaun-kaun se vyavaharik upay apnaye ja sakte hain? Upkaranon ke chunav se lekar rozmarra ki aadaton tak vistar se bataiye.",
+    "response": "Bijli bill mein sabse bada hissa AC, geyser aur fridge jaise bhaari upkaranon ka hota hai. AC ko chaubees degree par chalane se thandak bhi milti hai aur khapat bhi ghatti hai. Purane bulbon ki jagah LED lagana ek baar ka kharch hai, lekin bachat salon chalti hai. Upkaranon ko standby par chhodne se bhi bijli kharch hoti rehti hai."
+  },
+  "M44": {
+    "instruction": "Hari sabziyan aur phal hafte bhar taza kaise rakhein? Kharidari, dhulai, bhandaran aur fridge mein rakhne ke sahi tarikon ke baare mein vistar se bataiye.",
+    "response": "Hari pattedar sabziyon ko bina dhoye, halke geele kapde ya paper mein lapetkar fridge mein rakhein, dhokar rakhne se ve jaldi galne lagti hain. Tamatar aur kele ko fridge se bahar rakhna behtar hota hai. Dhaniya-pudina ko paani ke gilas mein danthal dubokar rakhne se ve kai din taze rehte hain."
+  },
+  "M45": {
+    "instruction": "Barsaat ke mausam mein kapdon se seelan ki badboo kaise door karein aur unhe ghar ke andar theek se kaise sukhayein? Saare kargar upay vistar se bataiye.",
+    "response": "Barsaat mein kapdon mein badboo ka karan hai nami mein panapne wali fafund. Dhote samay paani mein thoda sirka ya Dettol milane se badboo kam hoti hai. Kapdon ko ghar ke andar aisi jagah sukhayein jahan hawa ka aana-jaana ho, pankhe ke neeche failane se ve jaldi sookhte hain. Kapdon ke beech jagah chhodkar tangein."
+  },
+  "M46": {
+    "instruction": "Chhote bacchon mein roz padhne ki aadat kaise viksit karein? Mata-pita ki bhoomika, ghar ke mahaul aur umar ke hisab se kitabon ke chunav par vistar se salah dijiye.",
+    "response": "Bacchon mein padhne ki aadat daalne ka sabse asardar tarika hai ki mata-pita khud unke samne kitabein padhein, kyonki bacche dekhkar seekhte hain. Roz sone se pehle kahani sunane ka niyam banayein. Kitabein bacche ki pahunch mein rakhein taki woh jab chahe unhe utha sake. Shuruat rangin chitron wali kitabon se karein."
+  },
+  "M47": {
+    "instruction": "Ratne ki bajay samajhkar yaad rakhne ke kaun-kaun se vaigyanik tarike hain? Active recall aur spaced repetition jaisi vidhiyon ko udaharan sahit vistar se samjhaiye.",
+    "response": "Samajhkar yaad rakhne ka ek kargar tarika hai active recall, yani kitab band karke khud se sawal poochna ki abhi kya padha. Isse dimag ko jankari kheenchkar nikalne ki aadat padti hai, jo ratne se kahin zyada tikau hai. Doosra tarika hai padhe hue vishay ko apne shabdon mein kisi aur ko samjhana."
+  },
+  "M48": {
+    "instruction": "Pratiyogi pariksha ki taiyari ke liye asardar time table kaise banayein? Vishayon ke bantware, revision, mock test aur aaram ke santulan par vistar se bataiye.",
+    "response": "Time table banate samay sabse pehle apne kamzor vishayon ki pehchan karein aur unhe din ke us samay rakhein jab aapki ekagrata sabse acchi rehti hai. Har vishay ko roz thoda-thoda samay dena, ek hi vishay ko pure din padhne se behtar hota hai. Beech-beech mein chhote break zaroor rakhein."
+  },
+  "M49": {
+    "instruction": "Bacchon mein mobile ki badhti lat padhai par kaise asar dalti hai aur abhibhavak ise kaise niyantrit karein? Karan, prabhav aur vyavaharik samadhan vistar se bataiye.",
+    "response": "Mobile ki lat se bacchon ki ekagrata ghatti hai, kyonki dimag ko baar-baar turant manoranjan milne ki aadat pad jaati hai aur kitab ubau lagne lagti hai. Abhibhavak screen ka samay tay karein, jaise padhai aur khane ke dauran mobile puri tarah band. Khud bhi bacchon ke samne phone ka seemit istemal karein."
+  },
+  "M50": {
+    "instruction": "Samuh mein padhai karne ke kya fayde aur nuksan hain? Yeh kin chhatron aur kin vishayon ke liye upyukt hai, aur ise prabhavi banane ke niyam kya hon? Vistar se bataiye.",
+    "response": "Samuh mein padhai ka sabse bada fayda yeh hai ki kathin vishay aapas mein charcha karke aasani se samajh aa jaate hain, aur ek-doosre ko samjhane se khud ki samajh bhi pakki hoti hai. Nuksan yeh hai ki baatcheet bhatakkar gapshap mein badal sakti hai, jisse samay barbad hota hai. Isliye samuh chhota rakhein."
+  }
+}

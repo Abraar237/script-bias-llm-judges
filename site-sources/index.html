@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Do LLM Judges Penalise the Script? · Experiment Plan</title>
+<style>
+  :root {
+    --ink: #1a1a1a; --muted: #5c6470; --line: #e6e8ec;
+    --accent: #b3261e; --accent-soft: #fdf1f0;
+    --blue: #1a4b8c; --blue-soft: #eef3fa;
+    --green: #1e6b40; --green-soft: #edf7f0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: #ffffff; color: var(--ink);
+    line-height: 1.65; font-size: 17px;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 48px 28px 80px; }
+  .eyebrow {
+    font-family: Helvetica, Arial, sans-serif; font-size: 12px; letter-spacing: 2.5px;
+    text-transform: uppercase; color: var(--accent); font-weight: 700; margin-bottom: 14px;
+  }
+  h1 { font-size: 40px; line-height: 1.15; font-weight: 700; margin-bottom: 10px; }
+  .sub { font-size: 19px; color: var(--muted); margin-bottom: 8px; }
+  .meta { font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: var(--muted); margin-bottom: 40px; }
+  .meta b { color: var(--ink); }
+  h2 {
+    font-size: 24px; margin: 52px 0 6px; padding-top: 22px;
+    border-top: 1px solid var(--line);
+  }
+  .h2note { font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: var(--muted); margin-bottom: 16px; }
+  p { margin-bottom: 14px; }
+  .lede { font-size: 18px; }
+  .card {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 18px 20px; margin: 18px 0; background: #fafbfc;
+  }
+  .card.red { background: var(--accent-soft); border-color: #f2d7d5; }
+  .card.blue { background: var(--blue-soft); border-color: #d7e2f2; }
+  .card.green { background: var(--green-soft); border-color: #d0e8d9; }
+  .card h3 { font-size: 16px; font-family: Helvetica, Arial, sans-serif; margin-bottom: 8px; }
+  table {
+    width: 100%; border-collapse: collapse; margin: 16px 0 22px;
+    font-family: Helvetica, Arial, sans-serif; font-size: 14px;
+  }
+  th { text-align: left; padding: 9px 12px; border-bottom: 2px solid var(--ink); font-size: 13px; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .pill {
+    display: inline-block; font-family: Helvetica, Arial, sans-serif; font-size: 12px;
+    font-weight: 700; padding: 2px 10px; border-radius: 999px; margin-right: 6px;
+  }
+  .pill.g { background: var(--green-soft); color: var(--green); }
+  .pill.b { background: var(--blue-soft); color: var(--blue); }
+  .pill.r { background: var(--accent-soft); color: var(--accent); }
+  .devanagari { font-size: 18px; }
+  code, .mono { font-family: 'SF Mono', Menlo, monospace; font-size: 14px; background: #f4f5f7; padding: 1px 6px; border-radius: 4px; }
+  ol.steps { margin: 10px 0 18px 22px; }
+  ol.steps li { margin-bottom: 10px; }
+  ul.plain { margin: 8px 0 16px 22px; }
+  ul.plain li { margin-bottom: 8px; }
+  .total-row td { font-weight: 700; border-top: 2px solid var(--ink); }
+  .footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid var(--line);
+    font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="eyebrow">Vizuara Research · Experiment Plan · Awaiting Your Confirmation</div>
+  <h1>Do LLM Judges Penalise the Script?</h1>
+  <p class="sub">Same Hindi content, native Devanagari versus romanized. Does the judge score it lower?</p>
+  <p class="meta"><b>Date:</b> 29 Aug 2026 &nbsp;·&nbsp; <b>Target:</b> ARR → ACL 2027 &nbsp;·&nbsp; <b>Budget cap:</b> $30 (tracked per call) &nbsp;·&nbsp; <b>Status:</b> Lit review done (35 papers), pilot done, plan ready</p>
+
+  <h2>1. The problem we are solving</h2>
+  <p class="lede">Hundreds of millions of Hindi speakers type Hindi in the Latin alphabet: in chat, on social media, in voice transcripts. At the same time, the field now grades language models with other language models. These LLM judges sit inside leaderboards, reward models, and production quality gates.</p>
+  <p>Those pipelines silently assume one thing: that the writing system does not move the score. Nobody has tested that assumption. If a judge gives the same answer a lower score just because it is written in Latin letters instead of Devanagari, then every system serving romanized-Hindi users is being mis-ranked and mis-rewarded. If the judge is robust, that robustness deserves evidence instead of assumption. Either answer changes practice, and we pre-registered the direction: we predict romanized scores lower.</p>
+
+  <div class="card red">
+    <h3>Why nobody has caught this</h3>
+    <p style="margin:0">Prior work measures either (a) how well the model performs a task on romanized input (Script Gap, 2025: up to 24 points worse), or (b) how a judge scores identical content across different languages (Lower-Resource Higher Scores, 2026: up to 43% acceptance-rate shifts). Nobody has held the language fixed and varied only the script for a judge. Both major judge-bias taxonomies (CALM's 12 biases, JudgeBiasBench) do not even list orthography as a bias type. That is our slot.</p>
+  </div>
+
+  <h2>2. What the literature says</h2>
+  <p class="h2note">35 verified papers reviewed · full table in lit_review.csv · verdict: alive but crowded, publish fast</p>
+  <table>
+    <tr><th>Already established (not ours)</th><th>The gap we fill</th></tr>
+    <tr><td>Romanized input hurts LLM <b>task accuracy</b> up to 24 points (Script Gap, 2512.10780)</td><td>Nobody measured <b>judge scoring</b> of fixed content</td></tr>
+    <tr><td>Judges shift scores across <b>languages</b> on identical content (2607.14480)</td><td>Script was confounded with language; we isolate script</td></tr>
+    <tr><td>Indian languages pay an <b>8x token premium</b> from failed BPE merges (Tokenizer Tax, 2607.24276)</td><td>Token counts only; we test the behavioral consequence</td></tr>
+    <tr><td>Models are not script-invariant internally (Serbian digraphia probing, 2603.08869)</td><td>Representations only; we measure the score the user sees</td></tr>
+  </table>
+
+  <h2>3. The experiment</h2>
+  <p class="h2note">Four script conditions · four judges · one item per call · hypothesis never shown to the judge</p>
+
+  <p><b>The manipulation.</b> We take about 150 to 200 Hindi instruction-and-response pairs at three quality tiers (high, medium, low), freeze them, and render each response in four orthographies. Content is identical in all four. Only the writing system changes:</p>
+  <table>
+    <tr><th>Condition</th><th>Example ("how are you")</th><th>What it represents</th></tr>
+    <tr><td><span class="pill b">deva</span> Devanagari</td><td class="devanagari">कैसे हैं आप</td><td>Reference: the native script</td></tr>
+    <tr><td><span class="pill b">iast</span> IAST</td><td>kaise haiṁ āpa</td><td>Scholarly romanization, deterministic</td></tr>
+    <tr><td><span class="pill b">ascii</span> Stripped IAST</td><td>kaise haim apa</td><td>Plain-ASCII romanization, deterministic</td></tr>
+    <tr><td><span class="pill b">hinglish</span> Natural</td><td>kaise hain aap</td><td>What real users type; audited by a native speaker (you)</td></tr>
+  </table>
+
+  <p><b>The judges.</b> Each judge scores every item in every condition on a 0 to 100 rubric (correctness, completeness, helpfulness, clarity), one item per call so no judge ever sees two versions of the same item side by side.</p>
+  <table>
+    <tr><th>Judge</th><th>Route</th><th>Why it is in</th><th class="num">Est. cost</th></tr>
+    <tr><td>Gemini 2.5 Flash</td><td>API, temp 0 plus 3 samples</td><td>The workhorse judge people actually deploy</td><td class="num">~$2.5</td></tr>
+    <tr><td>Gemini 2.5 Pro</td><td>API, temp 0, one pass</td><td>Frontier tier of the same family</td><td class="num">~$2</td></tr>
+    <tr><td>Claude Sonnet 5 / Opus 5 / Fable 5</td><td>Session subagents with per-model override, blind packets (verified: subagents self-identify as claude-sonnet-5 and claude-opus-5)</td><td>Three judges from a second frontier family, spanning model scale, zero cost</td><td class="num">$0</td></tr>
+    <tr><td>Qwen2.5-7B (vLLM on Modal)</td><td>Open weights, logprobs</td><td>Where a script penalty is most likely; full score distribution, not just the sampled score</td><td class="num">~$4</td></tr>
+  </table>
+
+  <p><b>The five analyses.</b></p>
+  <ol class="steps">
+    <li><b>Primary test.</b> Paired score difference, deva minus each romanized condition, per judge. Wilcoxon signed-rank, bootstrap 95% confidence intervals, effect sizes, Bonferroni correction. This is the pre-registered test.</li>
+    <li><b>Gradient test.</b> Does the penalty grow as romanization gets less standard (deva → iast → ascii → hinglish)? Page's trend test.</li>
+    <li><b>Quality interaction.</b> Does the penalty concentrate in medium-quality items, where the judge has room to be swayed?</li>
+    <li><b>Mechanism probe.</b> Per item, correlate the token-inflation ratio (romanized tokens divided by Devanagari tokens) with the score penalty. This connects the tokenizer-fairness literature to the judge-bias literature for the first time.</li>
+    <li><b>Mitigation.</b> Add one line to the judge prompt ("evaluate the content regardless of script or orthography") and measure whether the gap closes. This gives practitioners something to do on Monday.</li>
+  </ol>
+
+  <div class="card green">
+    <h3>The paper survives every outcome</h3>
+    <p style="margin:0">Penalty found: headline result, a new bias axis for the judge taxonomy. Null result: the first controlled evidence that frontier judges are script-robust, publishable because the direction was pre-registered. Mixed (likely, given our pilot): frontier judges robust, open judges not, and the gradient tells the story. Pilot 1 already ran (n=10, IAST only, Claude judges): +0.2 difference, near-null under the easiest conditions, which is exactly why the design above targets the harder ones.</p>
+  </div>
+
+  <h2>4. Budget and spend tracking</h2>
+  <p class="h2note">Cap: $30. Prices verified today against ai.google.dev/gemini-api/docs/pricing</p>
+  <table>
+    <tr><th>Item</th><th>Basis</th><th class="num">Projected</th><th class="num">Worst case</th></tr>
+    <tr><td>Gemini 2.5 Flash</td><td>$0.30 / M input, $2.50 / M output · ~4,000 calls</td><td class="num">$2.50</td><td class="num">$5</td></tr>
+    <tr><td>Gemini 2.5 Pro</td><td>$1.25 / M input, $10 / M output · ~800 calls</td><td class="num">$2.00</td><td class="num">$5</td></tr>
+    <tr><td>Modal (A10G, ~$1.10/hr, 2-4 hrs)</td><td>$30/mo free starter credits apply first</td><td class="num">$0 to $4</td><td class="num">$10 (dashboard cap)</td></tr>
+    <tr><td>Claude judging</td><td>Your session limits</td><td class="num">$0</td><td class="num">$0</td></tr>
+    <tr class="total-row"><td>Total</td><td>Against the $30 cap</td><td class="num">~$5 to $9</td><td class="num">$20</td></tr>
+  </table>
+  <p>Every Gemini call logs its exact token counts from the API's usage metadata into <code>results/spend_log.jsonl</code>. Cost is computed from the official prices above, the running total prints on every batch, and the pipeline raises a hard error and stops at $25, before your $30 ceiling. Modal gets a $10 dashboard cap on your side as second insurance.</p>
+
+  <h2>5. Today's timeline</h2>
+  <ol class="steps">
+    <li><span class="pill g">done</span> Lit review: 35 papers, novelty table, pre-emption verdict (claim is open)</li>
+    <li><span class="pill r">you</span> Confirm this plan · send Gemini key · run <code>modal token new</code></li>
+    <li><span class="pill b">next</span> Build dataset (150-200 items, 4 conditions), you audit 20 Hinglish samples</li>
+    <li><span class="pill b">next</span> Run all four judges · stats · mechanism probe · mitigation arm</li>
+    <li><span class="pill b">next</span> Figures (paper-figures skill) · draft (research-paper-writing + paper-quality skills)</li>
+    <li><span class="pill b">later</span> A*-reviewer pass, then video and GIFs (bundles 4, 2, 1)</li>
+  </ol>
+
+  <h2>6. What I need from you</h2>
+  <div class="card blue">
+    <ol class="steps" style="margin-bottom:0">
+      <li><b>Confirm this plan</b> (or tell me what to change).</li>
+      <li><b>Gemini API key.</b> The safest way: in your own terminal run<br>
+      <code>echo 'export GEMINI_API_KEY=your-key-here' >> ~/.zshenv</code><br>
+      then tell me "key is in". I will pick it up from the environment without the key ever appearing in this chat. (Typing <code>! export GEMINI_API_KEY=...</code> in this session also works but the key becomes visible in the transcript.)</li>
+      <li><b>Modal.</b> In your own terminal: <code>pip install modal && modal token new</code> (browser login). Then set the $10 spend cap in the Modal dashboard under Settings → Usage limits.</li>
+      <li>Later today: 5 minutes as the <b>native-speaker auditor</b> for 20 Hinglish items.</li>
+    </ol>
+  </div>
+
+  <p class="footer">All materials live in /Users/prometheus/Desktop/VizzAI/research/ · lit_review/ (35-paper CSV, novelty table) · EXPERIMENT_PLAN.md · MILESTONES.md · script-bias-pilot/ (pilot 1 results) · experiments/cost_tracker.py (spend log, $25 hard stop)</p>
+
+</div>
+</body>
+</html>
