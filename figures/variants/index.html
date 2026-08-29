@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Figure variants for review</title>
+<style>
+  body { background: #ffffff; color: #16130d; font-family: "STIX Two Text", Georgia, "Times New Roman", serif;
+         max-width: 1080px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+  h1 { font-size: 1.5rem; font-weight: 600; margin: 0 0 0.4rem; }
+  h2 { font-size: 1.15rem; font-weight: 600; margin: 2.8rem 0 0.2rem; border-top: 1px solid #e7e2d5; padding-top: 1.6rem; }
+  p.note { color: #6d665a; font-size: 0.95rem; margin: 0.2rem 0 1rem; }
+  figure { margin: 1.6rem 0; }
+  figure img { width: 100%; height: auto; display: block; border: 1px solid #e7e2d5; }
+  figcaption { font-size: 0.9rem; color: #6d665a; margin-top: 0.45rem; }
+  figcaption code { font-family: ui-monospace, Menlo, monospace; font-size: 0.85em; color: #3a352b; }
+</style>
+</head>
+<body>
+<h1>Results figure variants</h1>
+<p class="note">Variant A is the current version in the paper. B&ndash;D are alternatives; nothing in the paper has been changed. All variants are drawn from <code>results/analysis.json</code> at 300&thinsp;dpi, 6.3&thinsp;in wide.</p>
+
+<h2>Figure 2 &mdash; overall score shift by judge &times; condition</h2>
+
+<figure>
+  <img src="../fig2_forest.png" alt="Figure 2 variant A: forest plot">
+  <figcaption><code>fig2_forest.png</code> &mdash; <b>A (current).</b> Forest plot: mean shift with 95% CI per judge and condition.</figcaption>
+</figure>
+
+<figure>
+  <img src="fig2B_bars.png" alt="Figure 2 variant B: grouped horizontal bars">
+  <figcaption><code>fig2B_bars.png</code> &mdash; <b>B.</b> Grouped horizontal bars with CI whiskers, judge logos, and shift values labeled at the bar ends. Emphasizes magnitude comparison within each judge.</figcaption>
+</figure>
+
+<figure>
+  <img src="fig2C_heatmap.png" alt="Figure 2 variant C: heatmap">
+  <figcaption><code>fig2C_heatmap.png</code> &mdash; <b>C.</b> Judge &times; condition matrix; diverging color around zero (blue = deflation, magenta = inflation), asterisk marks p&nbsp;&lt;&nbsp;0.01. Most compact; reads as a summary table.</figcaption>
+</figure>
+
+<figure>
+  <img src="fig2D_dumbbell.png" alt="Figure 2 variant D: dumbbell">
+  <figcaption><code>fig2D_dumbbell.png</code> &mdash; <b>D.</b> Dumbbell on the absolute 0&ndash;100 score axis (clipped to 42&ndash;70): black tick = Devanagari baseline, dots = the same answers rescored in each roman condition. Shows the inflation as literal displacement.</figcaption>
+</figure>
+
+<h2>Figure 3 &mdash; tier concentration (Flash + Pro)</h2>
+
+<figure>
+  <img src="../fig3_tiers.png" alt="Figure 3 variant A: point-line per tier">
+  <figcaption><code>fig3_tiers.png</code> &mdash; <b>A (current).</b> Thick point-line per condition across tiers, CI whiskers.</figcaption>
+</figure>
+
+<figure>
+  <img src="fig3B_bars.png" alt="Figure 3 variant B: grouped bars">
+  <figcaption><code>fig3B_bars.png</code> &mdash; <b>B.</b> Grouped vertical bars by tier &times; condition with CI whiskers, two panels. Conventional; makes the medium-tier spike read as height.</figcaption>
+</figure>
+
+<figure>
+  <img src="fig3C_slope.png" alt="Figure 3 variant C: slope with CI bands">
+  <figcaption><code>fig3C_slope.png</code> &mdash; <b>C.</b> Thin slope lines with shaded 95% CI bands and direct end labels; annotation on the Flash medium-tier peak. Quieter than A; bands show CI overlap.</figcaption>
+</figure>
+
+<figure>
+  <img src="fig3D_dot.png" alt="Figure 3 variant D: dot-range">
+  <figcaption><code>fig3D_dot.png</code> &mdash; <b>D.</b> Single-panel dot-range: rows are tier &times; judge (Flash/Pro interleaved), horizontal 95% CI segments colored by condition. Puts Flash and Pro on one shared axis.</figcaption>
+</figure>
+
+</body>
+</html>
