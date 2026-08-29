@@ -1,0 +1,62 @@
+<!doctype html><meta charset="utf-8">
+<style>
+  body { margin:0; background:#ffffff; width:1720px; font-family:'Times New Roman',serif; }
+  .strip { display:flex; gap:14px; padding:18px 20px 6px; align-items:stretch; }
+  .colwrap { display:flex; flex-direction:column; align-items:center; flex:1; }
+  .srcwrap { width:250px; flex:none; display:flex; flex-direction:column; align-items:center; }
+  .chip { background:#fbf0d2; border:1px solid #e5d9ae; border-radius:10px; padding:7px 14px;
+          text-align:center; font-weight:bold; font-size:19px; margin-bottom:8px; line-height:1.25; }
+  .chip .sub { font-weight:normal; font-style:italic; font-size:16px; }
+  .quote { background:#d7e6f5; border:1px solid #b9cfe8; border-radius:12px; padding:12px 14px;
+           font-size:18px; line-height:1.42; color:#16130d; flex:1; }
+  .src { background:#e8e6e1; border:1px solid #c9c5bc; border-radius:12px; padding:12px 14px;
+         font-size:18px; line-height:1.5; flex:1; }
+  .deva { font-family:'Tiro Devanagari Hindi','Devanagari MT'; }
+  .credit { font-size:15px; color:#6d665a; font-style:italic; margin-top:6px; text-align:center;}
+  .score { margin-top:9px; font-size:22px; font-weight:bold; }
+  .dashsep { border-left:2px dashed #b9b2a4; margin:6px 2px; }
+  .band { position:relative; margin:10px 20px 16px; height:64px; }
+  .bandarrow { position:absolute; inset:0;
+    background:linear-gradient(90deg, #f6d9d3 0%, #eba396 55%, #d95f4b 100%);
+    clip-path:polygon(0 22%, 96.5% 22%, 96.5% 0, 100% 50%, 96.5% 100%, 96.5% 78%, 0 78%);
+    opacity:0.85; }
+  .bandlabel { position:absolute; left:14px; top:50%; transform:translateY(-50%);
+    font-weight:bold; font-size:19px; }
+  .bandtext { position:absolute; top:50%; transform:translateY(-50%); font-size:18px; font-style:italic; }
+  .bandtext b { text-decoration:underline; font-style:normal; }
+</style>
+<div class="strip">
+  <div class="srcwrap">
+    <div class="chip">One frozen answer<br><span class="sub">(item M02, medium tier)</span></div>
+    <div class="src"><span class="deva">रेफ्रिजरेटर में एक विशेष गैस होती है जिसे रेफ्रिजरेंट कहते हैं। कंप्रेसर इस गैस को दबाकर पाइपों में घुमाता है। ...</span></div>
+    <div class="credit">from the released dataset</div>
+  </div>
+  <div class="dashsep"></div>
+  <div class="colwrap">
+    <div class="chip">Devanagari<br><span class="sub">(native script)</span></div>
+    <div class="quote"><span class="deva">"रेफ्रिजरेटर में एक विशेष गैस होती है जिसे रेफ्रिजरेंट कहते हैं। कंप्रेसर इस गैस को दबाकर पाइपों में घुमाता है। जब यह गैस फैलती है तो अंदर की गर्मी सोख लेती है ..."</span></div>
+    <div class="score" style="color:#155e8c;">60 / 100</div>
+  </div>
+  <div class="colwrap">
+    <div class="chip">IAST<br><span class="sub">(scholarly romanization)</span></div>
+    <div class="quote">"rephrijareṭara meṃ eka viśeṣa gaisa hotī hai jise rephrijareṃṭa kahate haiṃ. kaṃpresara isa gaisa ko dabākara pāipoṃ meṃ ghumātā hai ..."</div>
+    <div class="score" style="color:#c0641a;">85 / 100</div>
+  </div>
+  <div class="colwrap">
+    <div class="chip">ASCII<br><span class="sub">(diacritics stripped)</span></div>
+    <div class="quote">"rephrijaretara mem eka visesa gaisa hoti hai jise rephrijaremta kahate haim. kampresara isa gaisa ko dabakara paipom mem ghumata hai ..."</div>
+    <div class="score" style="color:#1c7a55;">90 / 100</div>
+  </div>
+  <div class="colwrap">
+    <div class="chip">Hinglish<br><span class="sub">(user-style)</span></div>
+    <div class="quote">"Refrigerator mein ek vishesh gas hoti hai jise refrigerant kehte hain. Compressor is gas ko dabakar pipon mein ghumata hai ..."</div>
+    <div class="score" style="color:#b3006b;">80 / 100</div>
+  </div>
+</div>
+<div class="band">
+  <div class="bandarrow"></div>
+  <div class="bandlabel">Same content,<br>one judge:</div>
+  <div class="bandtext" style="left:250px;"><b>native script: 60</b></div>
+  <div class="bandtext" style="left:44%;">judged by Gemini 3.6 Flash, temperature 0</div>
+  <div class="bandtext" style="right:80px;"><b>romanized: 80 to 90</b></div>
+</div>

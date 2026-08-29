@@ -21,15 +21,19 @@
 
 \title{\textbf{Do LLM Judges Penalise the Script?\\
 \large A script-controlled audit of LLM-as-judge scoring for Hindi in Devanagari versus romanized orthographies}}
-\author{Team Vizuara\\ \small \texttt{https://abraar237.github.io/script-bias-llm-judges/}}
-\date{August 29, 2026 \quad (working draft v3)}
+\author{\textbf{Mohammed Abraar}\\ Vizuara Research\\ \small \texttt{abraar@vizz.vizuara.ai}\\ \small \url{https://abraar237.github.io/script-bias-llm-judges/}}
+\date{August 29, 2026}
 
 \begin{document}
+\twocolumn[{
 \maketitle
-
-\begin{abstract}
+\begin{center}\begin{minipage}{0.86\textwidth}
+\small
+\begin{center}\textbf{Abstract}\end{center}
 \noindent Large language models now grade other language models. These LLM judges feed leaderboards, reward models, and production quality gates, and every such pipeline assumes that the writing system of an answer does not move its score. We test that assumption directly for Hindi, a language written both in its native Devanagari script and, by hundreds of millions of users online, in the Latin alphabet. We hold content fixed and vary only the script: 150 Hindi instruction and response pairs at three quality tiers, each rendered in native Devanagari and three romanizations (scholarly IAST, diacritic-stripped ASCII, and natural user-style Hinglish), scored blind by six judges from three model families. We pre-registered the direction of the effect: we predicted romanized text would score lower. The data reversed our prediction, and we report that reversal plainly. First, Gemini 3.6 Flash scores identical romanized content \textbf{2.2 to 3.4 points higher} than Devanagari on a 100-point scale (all $p \le 0.003$), and the inflation concentrates at \textbf{6.5 to 7.8 points} in medium-quality responses, where a judge has the most discretion. Second, the effect shrinks but survives at the frontier tier: Gemini 3.1 Pro inflates by 1.1 points overall (all $p \le 0.003$). Third, the bias changes shape at the open-weights tier: Qwen2.5-7B inflates scholarly IAST by \textbf{7.6} points and ASCII by \textbf{6.0} points, concentrated at $\mathbf{+17.8}$ points on low-quality items, yet is flat on natural Hinglish ($+0.1$, $p = 0.97$). Fourth, three Claude judges are script-invariant to within half a point, except a small penalty in our pre-registered direction: Opus 5 on ASCII, $-1.2$ points ($p = 0.002$). Fifth, the obvious fix fails: instructing the judge to ignore the script leaves the inflation intact. Finally, mechanism probes rule out tokenization length (romanized Hindi costs 1.33 to 1.98 times the tokens of Devanagari, but token inflation does not predict score shift, $|r| \le 0.18$) while showing the script is perceived: judge rationales name the orthography on 41 to 57 percent of romanized items versus 1 percent of Devanagari items. Script bias in LLM judges is real, heterogeneous across judges in size and sign, and cannot be instructed away.
-\end{abstract}
+\end{minipage}\end{center}
+\vspace{1.2em}
+}]
 
 \begin{figure*}[t]
   \centering
@@ -69,21 +73,12 @@ Our contributions:
 
 \textbf{Indic evaluation.} Benchmarks for Indic languages evaluate in the conventional native script only: MEGA \citep{ahuja2023mega}, IndicXTREME \citep{doddapaneni2023indicxtreme}, IndicGenBench \citep{singh2024indicgenbench}, MILU \citep{verma2024milu}. Airavata \citep{gala2024airavata} exemplifies current practice: its Hindi generations are GPT-4-judged in Devanagari, with the judge itself unvalidated. Our result says that practice is sensitive to an unexamined variable.
 
-\begin{tcolorbox}[enhanced, float*=t, width=\textwidth, colback=white, colframe=black!70, boxrule=0.6pt, arc=2mm, left=6pt, right=6pt, top=4pt, bottom=4pt]
-\small
-\textbf{Qualitative example [item M02, medium tier].} \emph{Same content, one script flip, twenty points.}\\[3pt]
-\begin{minipage}[t]{0.48\textwidth}
-\textcolor{slate}{\textbf{Devanagari rendering} \hfill \textbf{score 60/100}}\\[2pt]
-{\devafont रेफ्रिजरेटर में एक विशेष गैस होती है जिसे रेफ्रिजरेंट कहते हैं। कंप्रेसर इस गैस को दबाकर पाइपों में घुमाता है। जब यह गैस फैलती है तो अंदर की गर्मी सोख लेती है ...}\\[3pt]
-\emph{Judge rationale:} ``The response correctly explains the basic concept, but fails to provide a detailed, step-by-step breakdown ...''
-\end{minipage}\hfill
-\begin{minipage}[t]{0.48\textwidth}
-\textcolor{hot}{\textbf{Hinglish rendering (identical content)} \hfill \textbf{score 80/100}}\\[2pt]
-Refrigerator mein ek vishesh gas hoti hai jise refrigerant kehte hain. Compressor is gas ko dabakar pipon mein ghumata hai. Jab yeh gas failti hai to andar ki garmi sokh leti hai ...\\[3pt]
-\emph{Judge rationale:} ``The response accurately explains the concept \emph{in simple Hinglish}, but lacks a detailed step-by-step breakdown as requested.''
-\end{minipage}\\[4pt]
-Both rationales identify the same deficiency (missing step-by-step detail), and the Hinglish rationale even names the script, yet the identical content scores twenty points higher romanized. Judge: Gemini 3.6 Flash, temperature 0.
-\end{tcolorbox}
+\begin{figure*}[t]
+  \centering
+  \includegraphics[width=0.99\textwidth]{assets/fig6_example.png}
+  \caption{\textbf{Qualitative example: one frozen answer, four orthographies, one judge, thirty points of spread.} Item M02 (medium tier) rendered in the four conditions of \S\ref{sec:method} and scored by Gemini 3.6 Flash at temperature 0, one rendering per call. The Devanagari original scores 60; the three romanized renderings of the identical content score 85, 90, and 80. The judge's rationale for the ASCII rendering even praises how ``accurately and clearly'' it explains the process, while the Devanagari rationale flags the same response as lacking detail. Text shown verbatim from the released dataset and score files.}
+  \label{fig:example}
+\end{figure*}
 
 \section{Method}
 \label{sec:method}
@@ -148,7 +143,7 @@ Three conclusions follow. Script bias in LLM judges exists. It is a property of 
 
 \subsection{The bias lives where the judge has discretion}
 
-Figure~\ref{fig:tiers} splits the shift by quality tier. Under Gemini 3.6 Flash, high-quality items shift by at most 1.3 points in either direction against a ceiling near 99. Low-quality items shift by at most 2.7 points against a floor near 15. Medium-quality items, which score near 51 in Devanagari, inflate by $+7.8$ (IAST), $+7.4$ (ASCII), and $+6.5$ (Hinglish) points, all $p \le 1.5 \times 10^{-4}$. The same shape holds for Pro at smaller magnitude. This is the pattern one expects if romanization blurs the judge's view of quality: content whose flaws are obvious stays low, content whose merits are obvious stays high, and ambiguous content drifts toward a generous middle. The qualitative example box shows one such drift verbatim: identical refrigerator explanations, the same deficiency named in both rationales, and a twenty-point gap.
+Figure~\ref{fig:tiers} splits the shift by quality tier. Under Gemini 3.6 Flash, high-quality items shift by at most 1.3 points in either direction against a ceiling near 99. Low-quality items shift by at most 2.7 points against a floor near 15. Medium-quality items, which score near 51 in Devanagari, inflate by $+7.8$ (IAST), $+7.4$ (ASCII), and $+6.5$ (Hinglish) points, all $p \le 1.5 \times 10^{-4}$. The same shape holds for Pro at smaller magnitude. This is the pattern one expects if romanization blurs the judge's view of quality: content whose flaws are obvious stays low, content whose merits are obvious stays high, and ambiguous content drifts toward a generous middle. Figure~\ref{fig:example} shows one such drift verbatim: one refrigerator explanation, four orthographies, and a thirty-point spread under a single judge.
 
 \subsection{Telling the judge to ignore the script does not work}
 \label{sec:mitigation}

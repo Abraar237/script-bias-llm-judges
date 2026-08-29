@@ -8,9 +8,10 @@
   .deva { font-family:'Tiro Devanagari Hindi','Devanagari MT'; }
   .sub { font-size:16px; color:#6d665a; margin-top:6px; }
   svg.arrows { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; }
-  .outrow { position:absolute; width:340px; height:56px; border:1.4px solid #b9b2a4; border-radius:9px;
+  .outrow { position:absolute; width:352px; height:56px; border:1.4px solid #b9b2a4; border-radius:9px;
             display:flex; align-items:center; justify-content:space-between; padding:0 16px; box-sizing:border-box; background:#fff; }
-  .oname { font-size:19px; color:#16130d; }
+  .oname { font-size:19px; color:#16130d; display:flex; align-items:center; gap:9px; }
+  .oname img { height:30px; width:auto; }
   .oval  { font-size:21px; font-weight:bold; }
   .note { position:absolute; font-size:15.5px; color:#6d665a; text-align:center; }
   .eyeb { position:absolute; font-style:italic; font-size:18px; color:#6d665a; }
@@ -60,9 +61,9 @@
   </div>
 
   <div class="eyeb" style="left:1130px; top:52px;">measured shift vs. Devanagari</div>
-  <div class="outrow" style="left:1130px; top:100px;"><span class="oname">Gemini 3.6 Flash</span><span class="oval" style="color:#b3006b;">+2.2 to +3.4</span></div>
-  <div class="outrow" style="left:1130px; top:240px;"><span class="oname">Gemini 3.1 Pro</span><span class="oval" style="color:#b3006b;">+1.1</span></div>
-  <div class="outrow" style="left:1130px; top:380px;"><span class="oname">Qwen2.5-7B</span><span class="oval" style="color:#b3006b;">+6.0 to +7.6*</span></div>
-  <div class="outrow" style="left:1130px; top:520px;"><span class="oname">Claude (3 judges)</span><span class="oval" style="color:#1c7a55;">&asymp; 0</span></div>
+  <div class="outrow" style="left:1130px; top:100px;"><span class="oname"><img src="logos/Gemini_icon.png">Gemini 3.6 Flash</span><span class="oval" style="color:#b3006b;">+2.2 to +3.4</span></div>
+  <div class="outrow" style="left:1130px; top:240px;"><span class="oname"><img src="logos/Gemini_icon.png">Gemini 3.1 Pro</span><span class="oval" style="color:#b3006b;">+1.1</span></div>
+  <div class="outrow" style="left:1130px; top:380px;"><span class="oname"><img src="logos/Qwen_icon.png">Qwen2.5-7B</span><span class="oval" style="color:#b3006b;">+6.0 to +7.6*</span></div>
+  <div class="outrow" style="left:1130px; top:520px;"><span class="oname"><img src="logos/Claude_AI_symbol.png">Claude (3 judges)</span><span class="oval" style="color:#1c7a55;">&asymp; 0</span></div>
   <div class="note" style="left:1130px; top:588px; width:340px;">*flat on Hinglish; concentrated in formal<br>romanizations of low-quality items</div>
 </div>
