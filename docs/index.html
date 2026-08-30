@@ -157,6 +157,11 @@
     .hidesm { display: none; }
     .wrap { padding-top: 36px; }
   }
+
+  .gifnote { font-family: Helvetica, Arial, sans-serif; font-size: 12px; color: var(--muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px; }
+  .filmwrap { margin: 34px 0 40px; border: 1px solid var(--rule); border-radius: 14px; overflow: hidden; background: #000; position: relative; }
+  .filmwrap video { display: block; width: 100%; height: auto; }
+  .filmcap { font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: var(--muted); padding: 12px 16px; background: #fff; }
 </style>
 </head>
 <body>
@@ -182,8 +187,8 @@
   <p class="dek">We held Hindi answers fixed and changed only the writing system. We predicted romanized text would score lower. Instead, Gemini judges scored it higher, by up to 7.8 points on ambiguous content, Claude judges did not move, a small open judge inflated bad answers by up to 17.8 points, and telling the judge to ignore the script changed nothing.</p>
 
   <div class="byline">
-    <b>Team Vizuara</b>
-    <span class="dot">&middot;</span> <span>working draft v1</span>
+    <b>Mohammed Abraar</b>
+    <span class="dot">&middot;</span> <span></span>
     <span class="dot">&middot;</span> <span>14 minute read</span>
     <span class="dot">&middot;</span> <a href="paper.pdf">read the paper</a>
     <span class="dot">&middot;</span> <a href="https://github.com/Abraar237/script-bias-llm-judges">get the code and data</a>
@@ -212,8 +217,21 @@
     <div class="stat"><div class="v">4,200</div><div class="k">scripted judgments</div></div>
   </div>
 
+  <div class="filmwrap">
+    <video controls preload="none" poster="assets/film-poster.png">
+      <source src="assets/film.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="filmcap" style="margin:-40px 0 40px; border:1px solid var(--rule); border-top:none; border-radius:0 0 14px 14px;"><b>The three-minute film.</b> The whole study, narrated: the two alphabets, the blind experiment, the reversed prediction, the three judge personalities, and the fix that fails. 1080p, 3:49.</div>
+
   <h2 id="scripts">1. One language, two ways to write it down</h2>
   <p>A language is what you speak. A script is the set of symbols you use to write it down. The two are separable: the same sentence can be written in different symbol systems, the way the same song can be pressed on vinyl or saved as a file.</p>
+  <div class="fig">
+    <div class="gifnote">animated &middot; from the film</div>
+    <img src="assets/gifs/hook.gif" alt="The same Hindi question typed two ways. The letters change, the meaning does not, and the score chips quietly disagree.">
+    <div class="figcap">The same Hindi question typed two ways. The letters change, the meaning does not, and the score chips quietly disagree.</div>
+  </div>
+
   <p><b>Devanagari</b> (<span class="devanagari">देवनागरी</span>) is the native script of Hindi. It is also the script of Marathi, Nepali, and Sanskrit, and over 600 million people read it. <b>The Latin script</b> is the one you are reading right now. Writing Hindi in Latin letters is called <b>romanization</b>: you spell out the sounds of the Hindi words using English letters.</p>
 
   <div class="fig">
@@ -304,6 +322,12 @@
   <p>Prior work could not test this cleanly. Studies that compared Hindi against English compared two different texts, so language and script were tangled together. We untangle them: hold the language and the content fixed, flip only the script, and watch the score.</p>
 
   <h2 id="design">3. The experiment: one answer, four spellings, six judges</h2>
+  <div class="fig">
+    <div class="gifnote">animated &middot; from the film</div>
+    <img src="assets/gifs/split.gif" alt="One frozen answer splits into its four orthographies: Devanagari, scholarly IAST, stripped ASCII, and user-style Hinglish, on their way to the same blind judge.">
+    <div class="figcap">One frozen answer splits into its four orthographies: Devanagari, scholarly IAST, stripped ASCII, and user-style Hinglish, on their way to the same blind judge.</div>
+  </div>
+
 
   <div class="fig">
     <img src="assets/fig1_schematic.png" alt="Schematic: one Hindi answer rendered in two scripts, both scored blind by the same judge; the measured medium-tier means are 51 for Devanagari and 59 for romanized under Gemini 3.6 Flash">
@@ -328,8 +352,20 @@
   </div>
 
   <h2 id="reversal">4. We predicted a penalty. The judges gave a bonus.</h2>
-
   <div class="fig">
+    <div class="gifnote">animated &middot; from the film</div>
+    <img src="assets/gifs/flip.gif" alt="The pre-registered prediction said romanized text would score lower. The data swung the arrow the other way.">
+    <div class="figcap">The pre-registered prediction said romanized text would score lower. The data swung the arrow the other way.</div>
+  </div>
+
+
+  
+  <div class="fig">
+    <div class="gifnote">animated &middot; from the film</div>
+    <img src="assets/gifs/forest.gif" alt="The forest plot assembling judge by judge: Gemini intervals grow to the right of zero, Qwen shoots furthest on formal romanizations, the Claude rows hug zero.">
+    <div class="figcap">The forest plot assembling judge by judge: Gemini intervals grow to the right of zero, Qwen shoots furthest on formal romanizations, the Claude rows hug zero.</div>
+  </div>
+<div class="fig">
     <img src="assets/fig2_forest.png" alt="Forest plot of score shift by judge and romanization with 95 percent confidence intervals; Gemini and Qwen intervals sit right of zero, Claude intervals straddle zero except Opus on ASCII">
     <div class="figcap"><b>Score shift by judge and romanization, with 95 percent bootstrap confidence intervals.</b> Each interval is the mean within-item shift (romanized minus Devanagari) over n = 150 paired items. Right of the dashed zero line means romanized content scored higher than the same content in Devanagari.</div>
   </div>
@@ -351,6 +387,12 @@
   <p>This is the pattern one expects if romanization blurs the judge's view of quality. Content whose flaws are obvious stays low. Content whose merits are obvious stays high. Ambiguous content drifts toward a generous middle. And ambiguous content is exactly where real systems compete: a 7-point swing at the middle of the scale is enough to reorder closely ranked models.</p>
 
   <h2 id="mitigation">6. Telling the judge to ignore the script does not work</h2>
+  <div class="fig">
+    <div class="gifnote">animated &middot; from the film</div>
+    <img src="assets/gifs/fix.gif" alt="The instruction types itself into the judge prompt, the bars land where they were, and the verdict stamps: nothing changed.">
+    <div class="figcap">The instruction types itself into the judge prompt, the bars land where they were, and the verdict stamps: nothing changed.</div>
+  </div>
+
 
   <div class="fig">
     <img src="assets/fig4_mitigation.png" alt="Medium-tier shift under the standard rubric versus the rubric with an ignore-the-script instruction; the two lines overlap">
@@ -402,7 +444,7 @@
   <p>All datasets, per-call score files, the scripted analysis, figure build scripts, and spend logs are released. Every number on this page traces to <code>results/analysis.json</code>, generated by <code>experiments/analyze.py</code> from the raw judgment files. Total marginal compute cost of the study: under 5 US dollars of API spend plus roughly one A10G GPU-hour.</p>
 
   <footer>
-    <div><b style="color:var(--ink2)">Team Vizuara</b> &middot; <a href="mailto:hello@viz-scl.com">hello@viz-scl.com</a></div>
+    <div><b style="color:var(--ink2)">Mohammed Abraar, Vizuara Research</b> &middot; <a href="mailto:hello@viz-scl.com">hello@viz-scl.com</a></div>
     <div><a href="paper.pdf">Paper</a> &middot; <a href="https://github.com/Abraar237/script-bias-llm-judges">GitHub</a> &middot; Working draft v1, August 29, 2026</div>
   </footer>
 
