@@ -1,0 +1,79 @@
+{
+ "crossscript_control": {
+  "design": "deliberately mismatched instruction/response script cells vs the matched cells of the core arms; a large negative mismatch effect would mean script mismatch, not orthography, drives penalties",
+  "judges": {
+   "gemini-3.6-flash": {
+    "mismatch_deva_instr_ascii_resp_minus_matched_ascii": {
+     "n": 150,
+     "mean": -13.5,
+     "ci95": [
+      -15.63,
+      -11.47
+     ],
+     "p": 5e-05
+    },
+    "mismatch_iast_instr_deva_resp_minus_matched_deva": {
+     "n": 150,
+     "mean": 3.1,
+     "ci95": [
+      2.1,
+      4.2
+     ],
+     "p": 5e-05
+    }
+   },
+   "claude-sonnet-5": {
+    "mismatch_deva_instr_ascii_resp_minus_matched_ascii": {
+     "n": 150,
+     "mean": -16.08,
+     "ci95": [
+      -19.57,
+      -12.54
+     ],
+     "p": 5e-05
+    },
+    "mismatch_iast_instr_deva_resp_minus_matched_deva": {
+     "n": 150,
+     "mean": -3.71,
+     "ci95": [
+      -5.51,
+      -1.99
+     ],
+     "p": 5e-05
+    }
+   }
+  }
+ },
+ "testretest_claude_sonnet": {
+  "n_item_conditions": 60,
+  "mean_within_item_sd": 2.0,
+  "mean_within_item_range": 4.67,
+  "perfectly_stable": 13
+ },
+ "anchored_pointwise_flash": {
+  "design": "pointwise scoring with the frozen Devanagari original in context as a calibration reference; unanchored pointwise baseline is +2.17 (Table 1), pairwise preference is 288/300 deva",
+  "result": {
+   "n": 150,
+   "ascii_minus_deva_mean": -0.97,
+   "ci95": [
+    -4.87,
+    3.13
+   ],
+   "p": 0.65117,
+   "by_tier": {
+    "high": {
+     "n": 50,
+     "mean": -10.4
+    },
+    "medium": {
+     "n": 50,
+     "mean": -4.2
+    },
+    "low": {
+     "n": 50,
+     "mean": 11.7
+    }
+   }
+  }
+ }
+}

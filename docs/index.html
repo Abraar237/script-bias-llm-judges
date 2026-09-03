@@ -205,7 +205,7 @@
       <li><a href="#protocol">The way you measure it can hide it</a></li>
       <li><a href="#mitigation">No prompt fixes it, and some prompts make it worse</a></li>
       <li><a href="#mechanism">The judge sees the script and inflates anyway</a></li>
-      <li><a href="#followup">Five follow-up batteries, five objections closed</a></li>
+      <li><a href="#followup">Eight follow-up batteries, eight objections closed</a></li>
       <li><a href="#practitioners">What practitioners should do</a></li>
       <li><a href="#limitations">What this study cannot claim</a></li>
       <li><a href="#reproduce">Paper, data, and code</a></li>
@@ -414,13 +414,16 @@
   <p><b>The script is perceived.</b> The judge's own rationales show it sees what it is scoring. Under Gemini 3.6 Flash, 47 percent of IAST rationales, 57 percent of ASCII rationales, and 41 percent of Hinglish rationales explicitly mention the script or the romanization, against 1 percent for Devanagari. Some rationales even name the orthography as a deficiency while the score lands higher than the Devanagari twin's.</p>
   <p>Put together, the bias operates despite awareness. That is consistent with the mitigation failure: this is a miscalibration of quality assessment through an unfamiliar surface form, not an oversight the model can be alerted out of.</p>
 
-  <h2 id="followup">9. Five follow-up batteries, five objections closed</h2>
-  <p>After the first release we ran 3,300 further judgments aimed at the sharpest objections a careful reader would raise. Each one produced a definite answer.</p>
+  <h2 id="followup">9. Eight follow-up batteries, eight objections closed</h2>
+  <p>After the first release we ran 4,500 further judgments aimed at the sharpest objections a careful reader would raise. Each one produced a definite answer.</p>
   <ul class="plain">
     <li><b>Is any of this just noise?</b> We called the same judge five times on the same 60 item-conditions. Mean call-to-call standard deviation: <span class="num">1.66</span> points. Sonnet's <span class="num">&minus;12.3</span>, Qwen's <span class="num">+6.0</span> to <span class="num">+7.6</span>, and the medium-tier inflations sit far outside that band.</li>
     <li><b>Is Sonnet's penalty just a fair clarity call?</b> We reran the main arms with the rubric split into four separate sub-scores. Clarity carries 68 percent of Sonnet's ASCII penalty, but correctness drops <span class="num">&minus;1.6</span> and helpfulness <span class="num">&minus;0.5</span>, both highly significant, on content that is identical by construction. A majority-legitimate judgment with a bias residue you can now point at. On Flash the same test says the opposite: its small ASCII penalty is pure clarity.</li>
     <li><b>Does it matter for leaderboards?</b> We showed judges the Devanagari and ASCII twins side by side, both orders. Flash picked Devanagari 288 times out of 300; Sonnet 293 out of 300; ASCII won zero trials on either judge. The same Flash that pays ASCII <b>more</b> when scoring alone prefers Devanagari 96 percent of the time in head-to-head: the two standard protocols disagree in sign, and preference-trained reward models sit on the pairwise side.</li>
     <li><b>Is the "discretion" story just ceiling and floor?</b> A logit-scale reanalysis removes the bounded-scale compression; the medium tier still moves most. The discretion reading survives.</li>
+    <li><b>Is it question-answer script mismatch?</b> Our design always matched the instruction's script to the response's, and a control shows why that mattered: an ASCII answer to a <i>Devanagari</i> question scores <span class="num">13.5</span> to <span class="num">16.1</span> points lower than the same answer to a script-matched question. Mismatch is a real, separate, larger penalty, and every headline number excludes it by construction.</li>
+    <li><b>Is the stochastic judge just noisy?</b> The Claude arm now has its own repeated-call noise floor: SD <span class="num">2.00</span>. Sonnet's <span class="num">&minus;12.3</span> clears it six-fold.</li>
+    <li><b>Which protocol tells the truth?</b> Giving pointwise scoring an in-context reference answer makes Flash's ASCII inflation vanish and reverse to <span class="num">&minus;10.4</span> on high-quality items, siding with the pairwise verdict: the anchored judgments agree, and unanchored pointwise is the outlier.</li>
     <li><b>Do the stats survive correction?</b> Benjamini-Hochberg over all 198 p-values: 108 survive at q = 0.05, including every headline effect.</li>
   </ul>
   <p>A GPT-family judge also joined the audit: GPT-5.6 is the most script-robust judge tested (largest shift <span class="num">+1.2</span> on IAST), though it still inflates low-quality romanized items by 3 to 4 points. With Fable 5, that makes two data points for the most reassuring pattern in the study: the most capable judges are the least script-biased.</p>

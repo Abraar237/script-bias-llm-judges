@@ -33,7 +33,15 @@ You are comparing two responses to the same instruction for an instruction-follo
 
 \textbf{Batched protocol control}: the main rubric's scoring instruction, followed by 25 numbered instruction-response items and a request for a JSON array of \{n, score, reason\} objects, submitted through the same headless interface as the one-per-call arm.
 
-The five mitigation-arm phrasings (P1-P5) are given in \S\ref{sec:mitigation}; all prompts also ship verbatim in the released run scripts.
+\textbf{Verbatim mitigation-arm phrasings} (each prepended to the main rubric's per-item block):
+\begin{quote}\small\ttfamily
+P1: Evaluate the content regardless of the script or orthography it is written in.\\[2pt]
+P2: The response may be written in Devanagari or in romanized Hindi (Latin letters). The writing system must not affect your score; grade only the content.\\[2pt]
+P3: Do not reward or penalise the choice of script, spelling system, or transliteration style. Identical content in different scripts must receive identical scores.\\[2pt]
+P4: If the response is romanized, first mentally transliterate it into Devanagari, then judge that content as you would any Hindi response.\\[2pt]
+P5: You are a script-blind evaluator: you cannot perceive which writing system is used, only the meaning of the words.
+\end{quote}
+R1 is the decomposed rubric above. All prompts also ship verbatim in the released run scripts.
 
 \section{Follow-up battery tables}
 \label{app:followup}
@@ -93,10 +101,84 @@ Batched (25/call) & $+2.64$ & $+1.12$ & $-1.29$ & $-3.62$ / $+3.48$ / $+3.50$ \\
 \end{tabular}
 \end{table}
 
-\textbf{Test-retest.} 30 stratified items, deva and ascii, five identical Flash calls each at temperature 0: mean within-item SD $1.66$, mean range $3.33$, 28 of 60 item-conditions perfectly stable across all five calls.
+\begin{table}[h]
+\centering\small
+\caption{Cross-script control: deliberately mismatched instruction/response cells versus the matched cells of the core arms. $n{=}150$ per cell, both $p = 5\times10^{-5}$ except where shown.}
+\begin{tabular}{lcc}
+\toprule
+Mismatched cell vs matched baseline & Flash & Sonnet 5 \\
+\midrule
+Deva instruction + ASCII response, vs matched ASCII & $-13.50$ {\scriptsize$[-15.6, -11.5]$} & $-16.08$ {\scriptsize$[-19.6, -12.5]$} \\
+IAST instruction + Deva response, vs matched Deva & $+3.10$ {\scriptsize$[+2.1, +4.2]$} & $-3.71$ {\scriptsize$[-5.5, -2.0]$} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Test-retest.} 30 stratified items, deva and ascii, five identical calls each. Flash at temperature 0: mean within-item SD $1.66$, mean range $3.33$, 28 of 60 item-conditions perfectly stable. Sonnet 5 through the headless interface under default sampling: SD $2.00$, mean range $4.67$, 13 of 60 perfectly stable.
+
+\textbf{Anchored pointwise} (Flash, deva original as in-context reference, $n{=}150$ pairs): ASCII minus deva $-0.97$ overall ($[-4.9, +3.1]$, $p{=}0.65$); by tier $-10.4$ (high), $-4.2$ (medium), $+11.7$ (low). The deva cell's response equals its reference, so we read this battery directionally.
 
 \textbf{FDR correction.} Benjamini-Hochberg over all 198 reported p-values: 108 remain significant at $q{=}0.05$, including every effect named in the abstract. The full per-test table ships in \texttt{analysis\_extra.json}.
 
 \textbf{Logit-scale tier reanalysis} (Flash). Transforming scores by $\mathrm{logit}(s/100)$ (clipped to $[0.5, 99.5]$) before differencing removes bounded-scale compression. The medium tier retains the largest shift under all three romanizations (logit shifts $+0.29$ to $+0.35$, versus at most $+0.22$ for high and low tiers, and $-0.48$ for high-tier ASCII), so the discretion account survives the transform.
 
 \textbf{Qwen leading-token distribution.} Top-20 logprobs at the first score token (leading digit for two-digit scores): expectation $5.70$ (deva), $6.33$ (IAST), $6.17$ (ASCII), $5.73$ (Hinglish); within-call SD $0.60$ to $0.62$ throughout, consistent with a mode move rather than a widening.
+
+
+\section{Per-tier shifts for every judge}
+\label{app:tiers}
+
+Mean within-item shift versus Devanagari by quality tier (high / medium / low, $n{=}50$ per tier), one-item-per-call arms. Rows are the headline (isolated-protocol) numbers behind Table~1 and Figure~3.
+
+\begin{table}[h]
+\centering\small
+\begin{tabular}{llccc}
+\toprule
+Judge & Condition & High & Medium & Low \\
+\midrule
+Gemini 3.6 Flash & IAST & $+0.50$ & $+7.80$ & $+2.00$ \\
+ & ASCII & $-1.30$ & $+7.40$ & $+0.40$ \\
+ & Hinglish & $+0.20$ & $+6.50$ & $+2.70$ \\
+Gemini 3.1 Pro & IAST & $0.00$ & $+2.20$ & $+1.30$ \\
+ & ASCII & $-0.70$ & $+2.10$ & $+1.90$ \\
+ & Hinglish & $0.00$ & $+2.70$ & $+0.70$ \\
+Qwen2.5-7B & IAST & $-1.50$ & $+6.60$ & $+17.80$ \\
+ & ASCII & $-1.90$ & $+2.60$ & $+17.40$ \\
+ & Hinglish & $-0.20$ & $-1.40$ & $+1.80$ \\
+Claude Sonnet 5 & IAST & $-6.74$ & $-3.80$ & $+2.44$ \\
+ & ASCII & $-24.28$ & $-12.96$ & $+0.38$ \\
+ & Hinglish & $-5.58$ & $-3.90$ & $+1.34$ \\
+Claude Opus 5 & IAST & $-1.02$ & $+0.12$ & $+0.50$ \\
+ & ASCII & $-6.18$ & $-4.08$ & $-0.02$ \\
+ & Hinglish & $-1.82$ & $-1.94$ & $+0.22$ \\
+Claude Fable 5 & IAST & $-0.28$ & $+2.78$ & $+1.80$ \\
+ & ASCII & $-3.78$ & $+1.46$ & $+1.42$ \\
+ & Hinglish & $-0.06$ & $-0.32$ & $+0.78$ \\
+GPT-5.6 & IAST & $+0.40$ & $-0.60$ & $+3.84$ \\
+ & ASCII & $-1.84$ & $+0.26$ & $+3.06$ \\
+ & Hinglish & $+0.02$ & $+0.56$ & $+1.28$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Mitigation battery, full per-arm table}
+\label{app:mitigation}
+
+Gemini 3.6 Flash, mean shift versus Devanagari per arm (all items $n{=}150$; medium tier $n{=}50$ in parentheses). Qwen per-arm numbers are in \S\ref{sec:mitigation}.
+
+\begin{table}[h]
+\centering\small
+\begin{tabular}{lccc}
+\toprule
+Arm & IAST & ASCII & Hinglish \\
+\midrule
+None (baseline) & $+3.43$ ($+7.80$) & $+2.17$ ($+7.40$) & $+3.13$ ($+6.50$) \\
+P1 plain & $+2.73$ ($+7.20$) & $+2.03$ ($+6.10$) & $+3.07$ ($+7.20$) \\
+P2 explicit warning & $+2.33$ ($+5.20$) & $+1.73$ ($+5.20$) & $+2.23$ ($+5.30$) \\
+P3 fairness & $+3.00$ ($+6.90$) & $+3.07$ ($+8.00$) & $+2.93$ ($+6.60$) \\
+P4 transliterate-first & $+2.10$ ($+4.40$) & $+1.93$ ($+5.20$) & $+1.83$ ($+4.40$) \\
+P5 script-blind persona & $+3.27$ ($+7.70$) & $+2.97$ ($+7.70$) & $+3.80$ ($+8.90$) \\
+R1 decomposed rubric & $+1.47$ ($+2.78$) & $-2.36$ ($-2.76$) & $+1.37$ ($+2.14$) \\
+\bottomrule
+\end{tabular}
+\end{table}
