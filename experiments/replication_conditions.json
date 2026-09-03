@@ -1,0 +1,665 @@
+[
+ {
+  "id": "RH00",
+  "tier": "high",
+  "domain": "health",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "पानी पीने के सही तरीके और इसके स्वास्थ्य लाभों के बारे में बताएं।",
+  "instruction_iast": "pānī pīne ke sahī tarīke aura isake svāsthya lābhoṃ ke bāre meṃ batāeṃ|",
+  "conditions": {
+   "deva": "शरीर को स्वस्थ रखने के लिए सही तरीके से पानी पीना बहुत आवश्यक है। सुबह उठकर खाली पेट एक से दो गिलास हल्का गर्म पानी पीना चाहिए, जिसे उषापान कहा जाता है। इससे पाचन तंत्र मजबूत होता है और शरीर के विषैले तत्व बाहर निकल जाते हैं। पानी हमेशा बैठकर और घूंट-घूंट कर पीना चाहिए ताकि मुंह की लार पानी के साथ मिलकर पेट में जाए, जो एसिडिटी को कम करती है। भोजन के तुरंत बाद पानी पीने से बचना चाहिए; भोजन के कम से कम पैंतालीस मिनट बाद ही पानी पिएं। दिन भर में कम से कम आठ से दस गिलास पानी पीने से त्वचा में चमक आती है, वजन नियंत्रित रहता है, और गुर्दे सुचारू रूप से कार्य करते हैं। खड़े होकर पानी पीने से जोड़ों के दर्द की समस्या हो सकती है।",
+   "iast": "śarīra ko svastha rakhane ke lie sahī tarīke se pānī pīnā bahuta āvaśyaka hai| subaha uṭhakara khālī peṭa eka se do gilāsa halkā garma pānī pīnā cāhie, jise uṣāpāna kahā jātā hai| isase pācana taṃtra majabūta hotā hai aura śarīra ke viṣaile tatva bāhara nikala jāte haiṃ| pānī hameśā baiṭhakara aura ghūṃṭa-ghūṃṭa kara pīnā cāhie tāki muṃha kī lāra pānī ke sātha milakara peṭa meṃ jāe, jo esiḍiṭī ko kama karatī hai| bhojana ke turaṃta bāda pānī pīne se bacanā cāhie; bhojana ke kama se kama paiṃtālīsa minaṭa bāda hī pānī pieṃ| dina bhara meṃ kama se kama āṭha se dasa gilāsa pānī pīne se tvacā meṃ camaka ātī hai, vajana niyaṃtrita rahatā hai, aura gurde sucārū rūpa se kārya karate haiṃ| khar̤e hokara pānī pīne se jor̤oṃ ke darda kī samasyā ho sakatī hai|",
+   "ascii": "sarira ko svastha rakhane ke lie sahi tarike se pani pina bahuta avasyaka hai| subaha uthakara khali peta eka se do gilasa halka garma pani pina cahie, jise usapana kaha jata hai| isase pacana tamtra majabuta hota hai aura sarira ke visaile tatva bahara nikala jate haim| pani hamesa baithakara aura ghumta-ghumta kara pina cahie taki mumha ki lara pani ke satha milakara peta mem jae, jo esiditi ko kama karati hai| bhojana ke turamta bada pani pine se bacana cahie; bhojana ke kama se kama paimtalisa minata bada hi pani piem| dina bhara mem kama se kama atha se dasa gilasa pani pine se tvaca mem camaka ati hai, vajana niyamtrita rahata hai, aura gurde sucaru rupa se karya karate haim| khare hokara pani pine se jorom ke darda ki samasya ho sakati hai|"
+  }
+ },
+ {
+  "id": "RH01",
+  "tier": "high",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "सिंधु घाटी सभ्यता की प्रमुख विशेषताओं का वर्णन करें।",
+  "instruction_iast": "siṃdhu ghāṭī sabhyatā kī pramukha viśeṣatāoṃ kā varṇana kareṃ|",
+  "conditions": {
+   "deva": "सिंधु घाटी सभ्यता, जिसे हड़प्पा सभ्यता भी कहा जाता है, विश्व की प्राचीनतम और सबसे विकसित सभ्यताओं में से एक थी। इसकी सबसे प्रमुख विशेषता इसकी उन्नत नगर नियोजन प्रणाली थी। शहर दो हिस्सों में बंटे थे: दुर्ग और निचला शहर। सड़कें एक-दूसरे को समकोण पर काटती थीं और जल निकासी की पक्की और ढकी हुई व्यवस्था बहुत ही उत्कृष्ट थी। घरों का निर्माण पक्की ईंटों से किया गया था, जिनमें कुएं और स्नानागार होते थे। इसके अलावा, यह सभ्यता व्यापार और कृषि में भी अत्यधिक समृद्ध थी। यहाँ के लोग सूती और ऊनी वस्त्रों का उपयोग करते थे। मुहरों का उपयोग व्यापारिक लेन-देन के लिए होता था, जिन पर जानवरों के चित्र और लिपियाँ अंकित हैं। यह शांतिप्रिय सभ्यता थी क्योंकि यहाँ हथियारों के साक्ष्य बहुत कम मिले हैं।",
+   "iast": "siṃdhu ghāṭī sabhyatā, jise har̤appā sabhyatā bhī kahā jātā hai, viśva kī prācīnatama aura sabase vikasita sabhyatāoṃ meṃ se eka thī| isakī sabase pramukha viśeṣatā isakī unnata nagara niyojana praṇālī thī| śahara do hissoṃ meṃ baṃṭe the: durga aura nicalā śahara| sar̤akeṃ eka-dūsare ko samakoṇa para kāṭatī thīṃ aura jala nikāsī kī pakkī aura ḍhakī huī vyavasthā bahuta hī utkṛṣṭa thī| gharoṃ kā nirmāṇa pakkī īṃṭoṃ se kiyā gayā thā, jinameṃ kueṃ aura snānāgāra hote the| isake alāvā, yaha sabhyatā vyāpāra aura kṛṣi meṃ bhī atyadhika samṛddha thī| yahā~ ke loga sūtī aura ūnī vastroṃ kā upayoga karate the| muharoṃ kā upayoga vyāpārika lena-dena ke lie hotā thā, jina para jānavaroṃ ke citra aura lipiyā~ aṃkita haiṃ| yaha śāṃtipriya sabhyatā thī kyoṃki yahā~ hathiyāroṃ ke sākṣya bahuta kama mile haiṃ|",
+   "ascii": "simdhu ghati sabhyata, jise harappa sabhyata bhi kaha jata hai, visva ki pracinatama aura sabase vikasita sabhyataom mem se eka thi| isaki sabase pramukha visesata isaki unnata nagara niyojana pranali thi| sahara do hissom mem bamte the: durga aura nicala sahara| sarakem eka-dusare ko samakona para katati thim aura jala nikasi ki pakki aura dhaki hui vyavastha bahuta hi utkrsta thi| gharom ka nirmana pakki imtom se kiya gaya tha, jinamem kuem aura snanagara hote the| isake alava, yaha sabhyata vyapara aura krsi mem bhi atyadhika samrddha thi| yaha~ ke loga suti aura uni vastrom ka upayoga karate the| muharom ka upayoga vyaparika lena-dena ke lie hota tha, jina para janavarom ke citra aura lipiya~ amkita haim| yaha samtipriya sabhyata thi kyomki yaha~ hathiyarom ke saksya bahuta kama mile haim|"
+  }
+ },
+ {
+  "id": "RH02",
+  "tier": "high",
+  "domain": "personal finance",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "आपातकालीन निधि (इमरजेंसी फंड) क्या है और यह क्यों महत्वपूर्ण है?",
+  "instruction_iast": "āpātakālīna nidhi (imarajeṃsī phaṃḍa) kyā hai aura yaha kyoṃ mahatvapūrṇa hai?",
+  "conditions": {
+   "deva": "आपातकालीन निधि या इमरजेंसी फंड वह धनराशि है जिसे हम अप्रत्याशित आर्थिक संकटों का सामना करने के लिए बचाकर रखते हैं। जीवन में कभी भी अचानक नौकरी जाने, गंभीर बीमारी, या किसी बड़ी दुर्घटना जैसी स्थितियां उत्पन्न हो सकती हैं। ऐसे समय में यह फंड हमारी आर्थिक सुरक्षा सुनिश्चित करता है और हमें कर्ज लेने से बचाता है। वित्तीय विशेषज्ञों के अनुसार, एक आदर्श आपातकालीन निधि में कम से कम छह महीने के घरेलू खर्चों के बराबर की राशि होनी चाहिए। इस पैसे को ऐसे बैंक खाते या लिक्विड म्यूचुअल फंड में रखना चाहिए जहाँ से इसे आवश्यकता पड़ने पर तुरंत निकाला जा सके। इस फंड का निर्माण हर महीने अपनी आय का कुछ हिस्सा नियमित रूप से बचाकर किया जा सकता है। यह मानसिक शांति और वित्तीय स्थिरता प्रदान करता है।",
+   "iast": "āpātakālīna nidhi yā imarajeṃsī phaṃḍa vaha dhanarāśi hai jise hama apratyāśita ārthika saṃkaṭoṃ kā sāmanā karane ke lie bacākara rakhate haiṃ| jīvana meṃ kabhī bhī acānaka naukarī jāne, gaṃbhīra bīmārī, yā kisī bar̤ī durghaṭanā jaisī sthitiyāṃ utpanna ho sakatī haiṃ| aise samaya meṃ yaha phaṃḍa hamārī ārthika surakṣā suniścita karatā hai aura hameṃ karja lene se bacātā hai| vittīya viśeṣajñoṃ ke anusāra, eka ādarśa āpātakālīna nidhi meṃ kama se kama chaha mahīne ke gharelū kharcoṃ ke barābara kī rāśi honī cāhie| isa paise ko aise baiṃka khāte yā likviḍa myūcuala phaṃḍa meṃ rakhanā cāhie jahā~ se ise āvaśyakatā par̤ane para turaṃta nikālā jā sake| isa phaṃḍa kā nirmāṇa hara mahīne apanī āya kā kucha hissā niyamita rūpa se bacākara kiyā jā sakatā hai| yaha mānasika śāṃti aura vittīya sthiratā pradāna karatā hai|",
+   "ascii": "apatakalina nidhi ya imarajemsi phamda vaha dhanarasi hai jise hama apratyasita arthika samkatom ka samana karane ke lie bacakara rakhate haim| jivana mem kabhi bhi acanaka naukari jane, gambhira bimari, ya kisi bari durghatana jaisi sthitiyam utpanna ho sakati haim| aise samaya mem yaha phamda hamari arthika suraksa suniscita karata hai aura hamem karja lene se bacata hai| vittiya visesajnom ke anusara, eka adarsa apatakalina nidhi mem kama se kama chaha mahine ke gharelu kharcom ke barabara ki rasi honi cahie| isa paise ko aise baimka khate ya likvida myucuala phamda mem rakhana cahie jaha~ se ise avasyakata parane para turamta nikala ja sake| isa phamda ka nirmana hara mahine apani aya ka kucha hissa niyamita rupa se bacakara kiya ja sakata hai| yaha manasika samti aura vittiya sthirata pradana karata hai|"
+  }
+ },
+ {
+  "id": "RH03",
+  "tier": "high",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "प्रकाश संश्लेषण की प्रक्रिया को सरल शब्दों में समझाइए।",
+  "instruction_iast": "prakāśa saṃśleṣaṇa kī prakriyā ko sarala śabdoṃ meṃ samajhāie|",
+  "conditions": {
+   "deva": "प्रकाश संश्लेषण वह महत्वपूर्ण जैविक प्रक्रिया है जिसके द्वारा हरे पौधे अपना भोजन स्वयं बनाते हैं। इस प्रक्रिया के लिए पौधों को चार मुख्य चीजों की आवश्यकता होती है: सूर्य का प्रकाश, पानी, कार्बन डाइऑक्साइड और क्लोरोफिल। क्लोरोफिल पौधों की पत्तियों में पाया जाने वाला वह हरा वर्णक है जो सूर्य की ऊर्जा को सोखने का काम करता है। जड़ें मिट्टी से पानी और आवश्यक खनिज अवशोषित करती हैं, जबकि पत्तियां हवा से कार्बन डाइऑक्साइड ग्रहण करती हैं। सूर्य के प्रकाश की उपस्थिति में, पौधे इन तत्वों का उपयोग करके ग्लूकोज (शर्करा) का निर्माण करते हैं, जो उनके विकास और ऊर्जा के लिए आवश्यक है। इस पूरी प्रक्रिया के दौरान ऑक्सीजन गैस उपोत्पाद के रूप में बाहर निकलती है, जो पृथ्वी पर सभी प्राणियों के जीवित रहने के लिए अत्यंत महत्वपूर्ण है।",
+   "iast": "prakāśa saṃśleṣaṇa vaha mahatvapūrṇa jaivika prakriyā hai jisake dvārā hare paudhe apanā bhojana svayaṃ banāte haiṃ| isa prakriyā ke lie paudhoṃ ko cāra mukhya cījoṃ kī āvaśyakatā hotī hai: sūrya kā prakāśa, pānī, kārbana ḍāiऑksāiḍa aura klorophila| klorophila paudhoṃ kī pattiyoṃ meṃ pāyā jāne vālā vaha harā varṇaka hai jo sūrya kī ūrjā ko sokhane kā kāma karatā hai| jar̤eṃ miṭṭī se pānī aura āvaśyaka khanija avaśoṣita karatī haiṃ, jabaki pattiyāṃ havā se kārbana ḍāiऑksāiḍa grahaṇa karatī haiṃ| sūrya ke prakāśa kī upasthiti meṃ, paudhe ina tatvoṃ kā upayoga karake glūkoja (śarkarā) kā nirmāṇa karate haiṃ, jo unake vikāsa aura ūrjā ke lie āvaśyaka hai| isa pūrī prakriyā ke daurāna ऑksījana gaisa upotpāda ke rūpa meṃ bāhara nikalatī hai, jo pṛthvī para sabhī prāṇiyoṃ ke jīvita rahane ke lie atyaṃta mahatvapūrṇa hai|",
+   "ascii": "prakasa samslesana vaha mahatvapurna jaivika prakriya hai jisake dvara hare paudhe apana bhojana svayam banate haim| isa prakriya ke lie paudhom ko cara mukhya cijom ki avasyakata hoti hai: surya ka prakasa, pani, karbana daiऑksaida aura klorophila| klorophila paudhom ki pattiyom mem paya jane vala vaha hara varnaka hai jo surya ki urja ko sokhane ka kama karata hai| jarem mitti se pani aura avasyaka khanija avasosita karati haim, jabaki pattiyam hava se karbana daiऑksaida grahana karati haim| surya ke prakasa ki upasthiti mem, paudhe ina tatvom ka upayoga karake glukoja (sarkara) ka nirmana karate haim, jo unake vikasa aura urja ke lie avasyaka hai| isa puri prakriya ke daurana ऑksijana gaisa upotpada ke rupa mem bahara nikalati hai, jo prthvi para sabhi praniyom ke jivita rahane ke lie atyamta mahatvapurna hai|"
+  }
+ },
+ {
+  "id": "RH04",
+  "tier": "high",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "घर पर स्वादिष्ट और पौष्टिक खिचड़ी बनाने की विधि बताइए।",
+  "instruction_iast": "ghara para svādiṣṭa aura pauṣṭika khicar̤ī banāne kī vidhi batāie|",
+  "conditions": {
+   "deva": "स्वादिष्ट और पौष्टिक खिचड़ी बनाने के लिए आपको आधा कप चावल, आधा कप मूंग दाल, एक बारीक कटा हुआ प्याज, एक टमाटर, हरी मिर्च, जीरा, हल्दी और स्वादानुसार नमक की आवश्यकता होगी। सबसे पहले चावल और दाल को धोकर आधे घंटे के लिए पानी में भिगो दें। अब प्रेशर कुकर में दो चम्मच घी या तेल गरम करें। इसमें आधा चम्मच जीरा और एक चुटकी हींग डालें। इसके बाद कटा हुआ प्याज और हरी मिर्च डालकर सुनहरा होने तक भूनें। फिर कटे हुए टमाटर, आधा चम्मच हल्दी और नमक डालकर अच्छी तरह पकाएं। अब भीगे हुए चावल और दाल कुकर में डालें और लगभग तीन से चार कप पानी मिला दें। कुकर का ढक्कन बंद करें और मध्यम आंच पर तीन सीटी आने तक पकाएं। गरमागरम खिचड़ी तैयार है।",
+   "iast": "svādiṣṭa aura pauṣṭika khicar̤ī banāne ke lie āpako ādhā kapa cāvala, ādhā kapa mūṃga dāla, eka bārīka kaṭā huā pyāja, eka ṭamāṭara, harī mirca, jīrā, haldī aura svādānusāra namaka kī āvaśyakatā hogī| sabase pahale cāvala aura dāla ko dhokara ādhe ghaṃṭe ke lie pānī meṃ bhigo deṃ| aba preśara kukara meṃ do cammaca ghī yā tela garama kareṃ| isameṃ ādhā cammaca jīrā aura eka cuṭakī hīṃga ḍāleṃ| isake bāda kaṭā huā pyāja aura harī mirca ḍālakara sunaharā hone taka bhūneṃ| phira kaṭe hue ṭamāṭara, ādhā cammaca haldī aura namaka ḍālakara acchī taraha pakāeṃ| aba bhīge hue cāvala aura dāla kukara meṃ ḍāleṃ aura lagabhaga tīna se cāra kapa pānī milā deṃ| kukara kā ḍhakkana baṃda kareṃ aura madhyama āṃca para tīna sīṭī āne taka pakāeṃ| garamāgarama khicar̤ī taiyāra hai|",
+   "ascii": "svadista aura paustika khicari banane ke lie apako adha kapa cavala, adha kapa mumga dala, eka barika kata hua pyaja, eka tamatara, hari mirca, jira, haldi aura svadanusara namaka ki avasyakata hogi| sabase pahale cavala aura dala ko dhokara adhe ghamte ke lie pani mem bhigo dem| aba presara kukara mem do cammaca ghi ya tela garama karem| isamem adha cammaca jira aura eka cutaki himga dalem| isake bada kata hua pyaja aura hari mirca dalakara sunahara hone taka bhunem| phira kate hue tamatara, adha cammaca haldi aura namaka dalakara acchi taraha pakaem| aba bhige hue cavala aura dala kukara mem dalem aura lagabhaga tina se cara kapa pani mila dem| kukara ka dhakkana bamda karem aura madhyama amca para tina siti ane taka pakaem| garamagarama khicari taiyara hai|"
+  }
+ },
+ {
+  "id": "RH05",
+  "tier": "high",
+  "domain": "health",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "पानी पीने के सही तरीके और फायदों के बारे में बताएं।",
+  "instruction_iast": "pānī pīne ke sahī tarīke aura phāyadoṃ ke bāre meṃ batāeṃ|",
+  "conditions": {
+   "deva": "स्वस्थ रहने के लिए सही मात्रा में और सही तरीके से पानी पीना बहुत आवश्यक है। सुबह उठकर खाली पेट एक या दो गिलास हल्का गर्म पानी पीना चाहिए, इससे शरीर के विषैले तत्व बाहर निकल जाते हैं और पाचन तंत्र मजबूत होता है। खाना खाते समय पानी पीने से बचना चाहिए, बल्कि भोजन करने के आधे घंटे पहले या एक घंटे बाद पानी पीना सही रहता है। दिन भर में एक वयस्क को कम से कम 8-10 गिलास पानी अवश्य पीना चाहिए। खड़े होकर पानी पीने से घुटनों और जोड़ों में दर्द की समस्या हो सकती है, इसलिए हमेशा बैठकर और घूंट-घूंट करके पानी पीना चाहिए। पर्याप्त पानी पीने से त्वचा में चमक आती है, थकान दूर होती है और शरीर ऊर्जावान बना रहता है।",
+   "iast": "svastha rahane ke lie sahī mātrā meṃ aura sahī tarīke se pānī pīnā bahuta āvaśyaka hai| subaha uṭhakara khālī peṭa eka yā do gilāsa halkā garma pānī pīnā cāhie, isase śarīra ke viṣaile tatva bāhara nikala jāte haiṃ aura pācana taṃtra majabūta hotā hai| khānā khāte samaya pānī pīne se bacanā cāhie, balki bhojana karane ke ādhe ghaṃṭe pahale yā eka ghaṃṭe bāda pānī pīnā sahī rahatā hai| dina bhara meṃ eka vayaska ko kama se kama 8-10 gilāsa pānī avaśya pīnā cāhie| khar̤e hokara pānī pīne se ghuṭanoṃ aura jor̤oṃ meṃ darda kī samasyā ho sakatī hai, isalie hameśā baiṭhakara aura ghūṃṭa-ghūṃṭa karake pānī pīnā cāhie| paryāpta pānī pīne se tvacā meṃ camaka ātī hai, thakāna dūra hotī hai aura śarīra ūrjāvāna banā rahatā hai|",
+   "ascii": "svastha rahane ke lie sahi matra mem aura sahi tarike se pani pina bahuta avasyaka hai| subaha uthakara khali peta eka ya do gilasa halka garma pani pina cahie, isase sarira ke visaile tatva bahara nikala jate haim aura pacana tamtra majabuta hota hai| khana khate samaya pani pine se bacana cahie, balki bhojana karane ke adhe ghamte pahale ya eka ghamte bada pani pina sahi rahata hai| dina bhara mem eka vayaska ko kama se kama 8-10 gilasa pani avasya pina cahie| khare hokara pani pine se ghutanom aura jorom mem darda ki samasya ho sakati hai, isalie hamesa baithakara aura ghumta-ghumta karake pani pina cahie| paryapta pani pine se tvaca mem camaka ati hai, thakana dura hoti hai aura sarira urjavana bana rahata hai|"
+  }
+ },
+ {
+  "id": "RH06",
+  "tier": "high",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "प्रकाश संश्लेषण की प्रक्रिया क्या है? सरल शब्दों में समझाएं।",
+  "instruction_iast": "prakāśa saṃśleṣaṇa kī prakriyā kyā hai? sarala śabdoṃ meṃ samajhāeṃ|",
+  "conditions": {
+   "deva": "प्रकाश संश्लेषण वह महत्वपूर्ण वैज्ञानिक प्रक्रिया है जिसके द्वारा हरे पौधे अपना भोजन स्वयं बनाते हैं। इस प्रक्रिया में पौधे सूर्य के प्रकाश, कार्बन डाइऑक्साइड और पानी का उपयोग करते हैं। पौधों की पत्तियों में क्लोरोफिल नामक एक हरा वर्णक होता है, जो सूर्य की ऊर्जा को सोखने का कार्य करता है। जब सूर्य की किरणें पत्तियों पर पड़ती हैं, तो पौधे जड़ों के माध्यम से मिट्टी से खींचे गए पानी और हवा से ली गई कार्बन डाइऑक्साइड को मिलाकर ग्लूकोज (शर्करा) का निर्माण करते हैं। यह ग्लूकोज पौधों के विकास और ऊर्जा के लिए भोजन का काम करता है। इस पूरी प्रक्रिया के दौरान पौधे ऑक्सीजन गैस को उप-उत्पाद के रूप में हवा में छोड़ते हैं, जो पृथ्वी पर सभी जीव-जंतुओं के सांस लेने के लिए अत्यंत आवश्यक है।",
+   "iast": "prakāśa saṃśleṣaṇa vaha mahatvapūrṇa vaijñānika prakriyā hai jisake dvārā hare paudhe apanā bhojana svayaṃ banāte haiṃ| isa prakriyā meṃ paudhe sūrya ke prakāśa, kārbana ḍāiऑksāiḍa aura pānī kā upayoga karate haiṃ| paudhoṃ kī pattiyoṃ meṃ klorophila nāmaka eka harā varṇaka hotā hai, jo sūrya kī ūrjā ko sokhane kā kārya karatā hai| jaba sūrya kī kiraṇeṃ pattiyoṃ para par̤atī haiṃ, to paudhe jar̤oṃ ke mādhyama se miṭṭī se khīṃce gae pānī aura havā se lī gaī kārbana ḍāiऑksāiḍa ko milākara glūkoja (śarkarā) kā nirmāṇa karate haiṃ| yaha glūkoja paudhoṃ ke vikāsa aura ūrjā ke lie bhojana kā kāma karatā hai| isa pūrī prakriyā ke daurāna paudhe ऑksījana gaisa ko upa-utpāda ke rūpa meṃ havā meṃ chor̤ate haiṃ, jo pṛthvī para sabhī jīva-jaṃtuoṃ ke sāṃsa lene ke lie atyaṃta āvaśyaka hai|",
+   "ascii": "prakasa samslesana vaha mahatvapurna vaijnanika prakriya hai jisake dvara hare paudhe apana bhojana svayam banate haim| isa prakriya mem paudhe surya ke prakasa, karbana daiऑksaida aura pani ka upayoga karate haim| paudhom ki pattiyom mem klorophila namaka eka hara varnaka hota hai, jo surya ki urja ko sokhane ka karya karata hai| jaba surya ki kiranem pattiyom para parati haim, to paudhe jarom ke madhyama se mitti se khimce gae pani aura hava se li gai karbana daiऑksaida ko milakara glukoja (sarkara) ka nirmana karate haim| yaha glukoja paudhom ke vikasa aura urja ke lie bhojana ka kama karata hai| isa puri prakriya ke daurana paudhe ऑksijana gaisa ko upa-utpada ke rupa mem hava mem chorate haim, jo prthvi para sabhi jiva-jamtuom ke samsa lene ke lie atyamta avasyaka hai|"
+  }
+ },
+ {
+  "id": "RH07",
+  "tier": "high",
+  "domain": "personal finance",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "आपातकालीन फंड क्या है और यह क्यों जरूरी है?",
+  "instruction_iast": "āpātakālīna phaṃḍa kyā hai aura yaha kyoṃ jarūrī hai?",
+  "conditions": {
+   "deva": "आपातकालीन फंड वह बचत राशि है जिसे अचानक आने वाले आर्थिक संकटों या अप्रत्याशित खर्चों का सामना करने के लिए अलग रखा जाता है। जीवन में कभी भी बीमारी, दुर्घटना, अचानक नौकरी छूट जाना या घर की कोई बड़ी मरम्मत जैसी स्थितियां आ सकती हैं। ऐसे समय में यदि आपके पास आपातकालीन फंड है, तो आपको किसी से कर्ज लेने या अपने दीर्घकालिक निवेशों को तोड़ने की आवश्यकता नहीं पड़ती। वित्तीय विशेषज्ञों के अनुसार, आपके आपातकालीन फंड में कम से कम छह महीने के घरेलू खर्चों के बराबर राशि होनी चाहिए। इस फंड को ऐसे बैंक खाते या लिक्विड म्यूचुअल फंड में रखना चाहिए जहां से जरूरत पड़ने पर पैसे तुरंत और आसानी से निकाले जा सकें। यह फंड व्यक्ति को मानसिक शांति और आर्थिक सुरक्षा प्रदान करता है।",
+   "iast": "āpātakālīna phaṃḍa vaha bacata rāśi hai jise acānaka āne vāle ārthika saṃkaṭoṃ yā apratyāśita kharcoṃ kā sāmanā karane ke lie alaga rakhā jātā hai| jīvana meṃ kabhī bhī bīmārī, durghaṭanā, acānaka naukarī chūṭa jānā yā ghara kī koī bar̤ī marammata jaisī sthitiyāṃ ā sakatī haiṃ| aise samaya meṃ yadi āpake pāsa āpātakālīna phaṃḍa hai, to āpako kisī se karja lene yā apane dīrghakālika niveśoṃ ko tor̤ane kī āvaśyakatā nahīṃ par̤atī| vittīya viśeṣajñoṃ ke anusāra, āpake āpātakālīna phaṃḍa meṃ kama se kama chaha mahīne ke gharelū kharcoṃ ke barābara rāśi honī cāhie| isa phaṃḍa ko aise baiṃka khāte yā likviḍa myūcuala phaṃḍa meṃ rakhanā cāhie jahāṃ se jarūrata par̤ane para paise turaṃta aura āsānī se nikāle jā sakeṃ| yaha phaṃḍa vyakti ko mānasika śāṃti aura ārthika surakṣā pradāna karatā hai|",
+   "ascii": "apatakalina phamda vaha bacata rasi hai jise acanaka ane vale arthika samkatom ya apratyasita kharcom ka samana karane ke lie alaga rakha jata hai| jivana mem kabhi bhi bimari, durghatana, acanaka naukari chuta jana ya ghara ki koi bari marammata jaisi sthitiyam a sakati haim| aise samaya mem yadi apake pasa apatakalina phamda hai, to apako kisi se karja lene ya apane dirghakalika nivesom ko torane ki avasyakata nahim parati| vittiya visesajnom ke anusara, apake apatakalina phamda mem kama se kama chaha mahine ke gharelu kharcom ke barabara rasi honi cahie| isa phamda ko aise baimka khate ya likvida myucuala phamda mem rakhana cahie jaham se jarurata parane para paise turamta aura asani se nikale ja sakem| yaha phamda vyakti ko manasika samti aura arthika suraksa pradana karata hai|"
+  }
+ },
+ {
+  "id": "RH08",
+  "tier": "high",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "सिंधु घाटी सभ्यता की प्रमुख विशेषताएं क्या थीं?",
+  "instruction_iast": "siṃdhu ghāṭī sabhyatā kī pramukha viśeṣatāeṃ kyā thīṃ?",
+  "conditions": {
+   "deva": "सिंधु घाटी सभ्यता प्राचीन विश्व की सबसे उन्नत और रहस्यमयी सभ्यताओं में से एक थी। इसकी सबसे प्रमुख विशेषता इसकी उत्कृष्ट नगर योजना थी। यहाँ के शहर, जैसे हड़प्पा और मोहनजोदड़ो, ग्रिड प्रणाली पर बसे हुए थे, जहाँ सड़कें एक-दूसरे को समकोण पर काटती थीं। मकान पक्की ईंटों से बने होते थे और कई घरों में कुएं तथा स्नानागार होते थे। इस सभ्यता की जल निकासी (ड्रेनेज) प्रणाली बहुत ही आधुनिक थी; नालियां ढकी हुई होती थीं और सड़कों के किनारे बनी होती थीं। इसके अलावा, सिंधु घाटी के लोग व्यापार और कृषि में भी निपुण थे। वे सूती कपड़े, आभूषण और मिट्टी के बर्तनों का निर्माण करते थे। उनकी लिपि चित्रात्मक थी, जिसे आज तक पूरी तरह से पढ़ा नहीं जा सका है। यह सभ्यता अपनी व्यवस्थित जीवनशैली के लिए जानी जाती है।",
+   "iast": "siṃdhu ghāṭī sabhyatā prācīna viśva kī sabase unnata aura rahasyamayī sabhyatāoṃ meṃ se eka thī| isakī sabase pramukha viśeṣatā isakī utkṛṣṭa nagara yojanā thī| yahā~ ke śahara, jaise har̤appā aura mohanajodar̤o, griḍa praṇālī para base hue the, jahā~ sar̤akeṃ eka-dūsare ko samakoṇa para kāṭatī thīṃ| makāna pakkī īṃṭoṃ se bane hote the aura kaī gharoṃ meṃ kueṃ tathā snānāgāra hote the| isa sabhyatā kī jala nikāsī (ḍreneja) praṇālī bahuta hī ādhunika thī; nāliyāṃ ḍhakī huī hotī thīṃ aura sar̤akoṃ ke kināre banī hotī thīṃ| isake alāvā, siṃdhu ghāṭī ke loga vyāpāra aura kṛṣi meṃ bhī nipuṇa the| ve sūtī kapar̤e, ābhūṣaṇa aura miṭṭī ke bartanoṃ kā nirmāṇa karate the| unakī lipi citrātmaka thī, jise āja taka pūrī taraha se par̤hā nahīṃ jā sakā hai| yaha sabhyatā apanī vyavasthita jīvanaśailī ke lie jānī jātī hai|",
+   "ascii": "simdhu ghati sabhyata pracina visva ki sabase unnata aura rahasyamayi sabhyataom mem se eka thi| isaki sabase pramukha visesata isaki utkrsta nagara yojana thi| yaha~ ke sahara, jaise harappa aura mohanajodaro, grida pranali para base hue the, jaha~ sarakem eka-dusare ko samakona para katati thim| makana pakki imtom se bane hote the aura kai gharom mem kuem tatha snanagara hote the| isa sabhyata ki jala nikasi (dreneja) pranali bahuta hi adhunika thi; naliyam dhaki hui hoti thim aura sarakom ke kinare bani hoti thim| isake alava, simdhu ghati ke loga vyapara aura krsi mem bhi nipuna the| ve suti kapare, abhusana aura mitti ke bartanom ka nirmana karate the| unaki lipi citratmaka thi, jise aja taka puri taraha se parha nahim ja saka hai| yaha sabhyata apani vyavasthita jivanasaili ke lie jani jati hai|"
+  }
+ },
+ {
+  "id": "RH09",
+  "tier": "high",
+  "domain": "technology",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "क्लाउड कंप्यूटिंग क्या है और इसके मुख्य लाभ क्या हैं?",
+  "instruction_iast": "klāuḍa kaṃpyūṭiṃga kyā hai aura isake mukhya lābha kyā haiṃ?",
+  "conditions": {
+   "deva": "क्लाउड कंप्यूटिंग एक ऐसी तकनीक है जिसके माध्यम से हम इंटरनेट का उपयोग करके डेटा स्टोर कर सकते हैं और विभिन्न सॉफ्टवेयर या सर्वर सेवाओं का लाभ उठा सकते हैं। पहले हमें अपना डेटा कंप्यूटर की हार्ड ड्राइव में सुरक्षित रखना पड़ता था, लेकिन क्लाउड कंप्यूटिंग के जरिए हम डेटा को इंटरनेट पर रिमोट सर्वर पर सुरक्षित रख सकते हैं। गूगल ड्राइव और ड्रॉपबॉक्स इसके सामान्य उदाहरण हैं। इसके कई लाभ हैं; सबसे बड़ा फायदा यह है कि आप दुनिया के किसी भी कोने से अपने डेटा को एक्सेस कर सकते हैं। इसके अलावा, इसमें हार्डवेयर खरीदने या मेंटेनेंस का भारी खर्च बचता है, जिससे कंपनियों का पैसा और समय दोनों बचते हैं। क्लाउड सेवाएं अत्यधिक सुरक्षित होती हैं और डेटा खो जाने पर बैकअप के जरिए उसे आसानी से वापस प्राप्त किया जा सकता है।",
+   "iast": "klāuḍa kaṃpyūṭiṃga eka aisī takanīka hai jisake mādhyama se hama iṃṭaraneṭa kā upayoga karake ḍeṭā sṭora kara sakate haiṃ aura vibhinna saॉphṭaveyara yā sarvara sevāoṃ kā lābha uṭhā sakate haiṃ| pahale hameṃ apanā ḍeṭā kaṃpyūṭara kī hārḍa ḍrāiva meṃ surakṣita rakhanā par̤atā thā, lekina klāuḍa kaṃpyūṭiṃga ke jarie hama ḍeṭā ko iṃṭaraneṭa para rimoṭa sarvara para surakṣita rakha sakate haiṃ| gūgala ḍrāiva aura ḍraॉpabaॉksa isake sāmānya udāharaṇa haiṃ| isake kaī lābha haiṃ; sabase bar̤ā phāyadā yaha hai ki āpa duniyā ke kisī bhī kone se apane ḍeṭā ko eksesa kara sakate haiṃ| isake alāvā, isameṃ hārḍaveyara kharīdane yā meṃṭeneṃsa kā bhārī kharca bacatā hai, jisase kaṃpaniyoṃ kā paisā aura samaya donoṃ bacate haiṃ| klāuḍa sevāeṃ atyadhika surakṣita hotī haiṃ aura ḍeṭā kho jāne para baikaapa ke jarie use āsānī se vāpasa prāpta kiyā jā sakatā hai|",
+   "ascii": "klauda kampyutimga eka aisi takanika hai jisake madhyama se hama imtaraneta ka upayoga karake deta stora kara sakate haim aura vibhinna saॉphtaveyara ya sarvara sevaom ka labha utha sakate haim| pahale hamem apana deta kampyutara ki harda draiva mem suraksita rakhana parata tha, lekina klauda kampyutimga ke jarie hama deta ko imtaraneta para rimota sarvara para suraksita rakha sakate haim| gugala draiva aura draॉpabaॉksa isake samanya udaharana haim| isake kai labha haim; sabase bara phayada yaha hai ki apa duniya ke kisi bhi kone se apane deta ko eksesa kara sakate haim| isake alava, isamem hardaveyara kharidane ya memtenemsa ka bhari kharca bacata hai, jisase kampaniyom ka paisa aura samaya donom bacate haim| klauda sevaem atyadhika suraksita hoti haim aura deta kho jane para baikaapa ke jarie use asani se vapasa prapta kiya ja sakata hai|"
+  }
+ },
+ {
+  "id": "RH10",
+  "tier": "high",
+  "domain": "health",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "प्रतिदिन पर्याप्त पानी पीने के क्या मुख्य लाभ हैं?",
+  "instruction_iast": "pratidina paryāpta pānī pīne ke kyā mukhya lābha haiṃ?",
+  "conditions": {
+   "deva": "हमारे शरीर के लिए प्रतिदिन पर्याप्त पानी पीना अत्यंत महत्वपूर्ण है। पानी शरीर के तापमान को नियंत्रित करने में मदद करता है और त्वचा को स्वस्थ तथा चमकदार बनाए रखता है। यह पाचन तंत्र को सुचारू रूप से चलाने में सहायक है, जिससे कब्ज जैसी समस्याएं नहीं होतीं। इसके अलावा, पानी शरीर से हानिकारक तत्वों (टॉक्सिन्स) को पसीने और मूत्र के जरिए बाहर निकालने का कार्य करता है। पर्याप्त मात्रा में पानी पीने से जोड़ों में चिकनाहट बनी रहती है, जिससे दर्द की संभावना कम होती है। यह मस्तिष्क की कार्यक्षमता को भी बढ़ाता है, जिससे एकाग्रता और ऊर्जा का स्तर दिनभर बना रहता है। स्वस्थ जीवन के लिए हमें रोजाना कम से कम आठ से दस गिलास पानी अवश्य पीना चाहिए।",
+   "iast": "hamāre śarīra ke lie pratidina paryāpta pānī pīnā atyaṃta mahatvapūrṇa hai| pānī śarīra ke tāpamāna ko niyaṃtrita karane meṃ madada karatā hai aura tvacā ko svastha tathā camakadāra banāe rakhatā hai| yaha pācana taṃtra ko sucārū rūpa se calāne meṃ sahāyaka hai, jisase kabja jaisī samasyāeṃ nahīṃ hotīṃ| isake alāvā, pānī śarīra se hānikāraka tatvoṃ (ṭaॉksinsa) ko pasīne aura mūtra ke jarie bāhara nikālane kā kārya karatā hai| paryāpta mātrā meṃ pānī pīne se jor̤oṃ meṃ cikanāhaṭa banī rahatī hai, jisase darda kī saṃbhāvanā kama hotī hai| yaha mastiṣka kī kāryakṣamatā ko bhī bar̤hātā hai, jisase ekāgratā aura ūrjā kā stara dinabhara banā rahatā hai| svastha jīvana ke lie hameṃ rojānā kama se kama āṭha se dasa gilāsa pānī avaśya pīnā cāhie|",
+   "ascii": "hamare sarira ke lie pratidina paryapta pani pina atyamta mahatvapurna hai| pani sarira ke tapamana ko niyamtrita karane mem madada karata hai aura tvaca ko svastha tatha camakadara banae rakhata hai| yaha pacana tamtra ko sucaru rupa se calane mem sahayaka hai, jisase kabja jaisi samasyaem nahim hotim| isake alava, pani sarira se hanikaraka tatvom (taॉksinsa) ko pasine aura mutra ke jarie bahara nikalane ka karya karata hai| paryapta matra mem pani pine se jorom mem cikanahata bani rahati hai, jisase darda ki sambhavana kama hoti hai| yaha mastiska ki karyaksamata ko bhi barhata hai, jisase ekagrata aura urja ka stara dinabhara bana rahata hai| svastha jivana ke lie hamem rojana kama se kama atha se dasa gilasa pani avasya pina cahie|"
+  }
+ },
+ {
+  "id": "RH11",
+  "tier": "high",
+  "domain": "personal finance",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "आपातकालीन निधि (इमरजेंसी फंड) बनाना क्यों आवश्यक है और इसकी कितनी राशि होनी चाहिए?",
+  "instruction_iast": "āpātakālīna nidhi (imarajeṃsī phaṃḍa) banānā kyoṃ āvaśyaka hai aura isakī kitanī rāśi honī cāhie?",
+  "conditions": {
+   "deva": "आपातकालीन निधि (इमरजेंसी फंड) जीवन की अप्रत्याशित आर्थिक चुनौतियों, जैसे अचानक नौकरी जाना, चिकित्सा आपातकाल या घर की बड़ी मरम्मत के समय वित्तीय सुरक्षा प्रदान करती है। यह निधि हमें ऐसे कठिन समय में कर्ज लेने या अपने दीर्घकालिक निवेशों को तोड़ने से बचाती है। इससे मानसिक शांति मिलती है और हम बिना किसी तनाव के समस्याओं का सामना कर पाते हैं। वित्तीय विशेषज्ञों के अनुसार, एक आदर्श आपातकालीन निधि में आपके कम से कम छह महीने के अनिवार्य खर्चों के बराबर राशि होनी चाहिए। इसमें घर का किराया, ईएमआई, राशन, बिजली का बिल और बच्चों की फीस जैसे आवश्यक खर्चे शामिल होते हैं। इस राशि को आसानी से निकाले जा सकने वाले बचत खाते या लिक्विड म्यूचुअल फंड में रखना सबसे सुरक्षित और लाभदायक माना जाता है।",
+   "iast": "āpātakālīna nidhi (imarajeṃsī phaṃḍa) jīvana kī apratyāśita ārthika cunautiyoṃ, jaise acānaka naukarī jānā, cikitsā āpātakāla yā ghara kī bar̤ī marammata ke samaya vittīya surakṣā pradāna karatī hai| yaha nidhi hameṃ aise kaṭhina samaya meṃ karja lene yā apane dīrghakālika niveśoṃ ko tor̤ane se bacātī hai| isase mānasika śāṃti milatī hai aura hama binā kisī tanāva ke samasyāoṃ kā sāmanā kara pāte haiṃ| vittīya viśeṣajñoṃ ke anusāra, eka ādarśa āpātakālīna nidhi meṃ āpake kama se kama chaha mahīne ke anivārya kharcoṃ ke barābara rāśi honī cāhie| isameṃ ghara kā kirāyā, īemaāī, rāśana, bijalī kā bila aura baccoṃ kī phīsa jaise āvaśyaka kharce śāmila hote haiṃ| isa rāśi ko āsānī se nikāle jā sakane vāle bacata khāte yā likviḍa myūcuala phaṃḍa meṃ rakhanā sabase surakṣita aura lābhadāyaka mānā jātā hai|",
+   "ascii": "apatakalina nidhi (imarajemsi phamda) jivana ki apratyasita arthika cunautiyom, jaise acanaka naukari jana, cikitsa apatakala ya ghara ki bari marammata ke samaya vittiya suraksa pradana karati hai| yaha nidhi hamem aise kathina samaya mem karja lene ya apane dirghakalika nivesom ko torane se bacati hai| isase manasika samti milati hai aura hama bina kisi tanava ke samasyaom ka samana kara pate haim| vittiya visesajnom ke anusara, eka adarsa apatakalina nidhi mem apake kama se kama chaha mahine ke anivarya kharcom ke barabara rasi honi cahie| isamem ghara ka kiraya, iemaai, rasana, bijali ka bila aura baccom ki phisa jaise avasyaka kharce samila hote haim| isa rasi ko asani se nikale ja sakane vale bacata khate ya likvida myucuala phamda mem rakhana sabase suraksita aura labhadayaka mana jata hai|"
+  }
+ },
+ {
+  "id": "RH12",
+  "tier": "high",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "सिंधु घाटी सभ्यता की प्रमुख विशेषताएँ क्या थीं?",
+  "instruction_iast": "siṃdhu ghāṭī sabhyatā kī pramukha viśeṣatāe~ kyā thīṃ?",
+  "conditions": {
+   "deva": "सिंधु घाटी सभ्यता विश्व की सबसे प्राचीन और उन्नत सभ्यताओं में से एक थी। इसकी सबसे प्रमुख विशेषता इसकी उत्कृष्ट नगर योजना थी। यहाँ के शहर ग्रिड प्रणाली पर आधारित थे, जहाँ सड़कें एक-दूसरे को समकोण पर काटती थीं। पक्की ईंटों से बने बहुमंजिला घर और बेहतरीन जल निकासी प्रणाली इस सभ्यता की वैज्ञानिक सोच को दर्शाते हैं। हर घर में कुएं और स्नानघर होते थे। इसके अलावा, यह सभ्यता अपने व्यापार और कृषि के लिए भी प्रसिद्ध थी। यहाँ के लोग सूती वस्त्रों का निर्माण करते थे और माप-तौल के मानकीकृत बाटों का उपयोग करते थे। लोथल जैसे बंदरगाहों से विदेशी व्यापार होता था। शांतिप्रिय समाज होने के कारण यहाँ से हथियारों के अवशेष बहुत कम मिले हैं। मुहरों पर मिली लिपि आज तक पढ़ी नहीं जा सकी है, जो इसे और भी रहस्यमयी बनाती है।",
+   "iast": "siṃdhu ghāṭī sabhyatā viśva kī sabase prācīna aura unnata sabhyatāoṃ meṃ se eka thī| isakī sabase pramukha viśeṣatā isakī utkṛṣṭa nagara yojanā thī| yahā~ ke śahara griḍa praṇālī para ādhārita the, jahā~ sar̤akeṃ eka-dūsare ko samakoṇa para kāṭatī thīṃ| pakkī īṃṭoṃ se bane bahumaṃjilā ghara aura behatarīna jala nikāsī praṇālī isa sabhyatā kī vaijñānika soca ko darśāte haiṃ| hara ghara meṃ kueṃ aura snānaghara hote the| isake alāvā, yaha sabhyatā apane vyāpāra aura kṛṣi ke lie bhī prasiddha thī| yahā~ ke loga sūtī vastroṃ kā nirmāṇa karate the aura māpa-taula ke mānakīkṛta bāṭoṃ kā upayoga karate the| lothala jaise baṃdaragāhoṃ se videśī vyāpāra hotā thā| śāṃtipriya samāja hone ke kāraṇa yahā~ se hathiyāroṃ ke avaśeṣa bahuta kama mile haiṃ| muharoṃ para milī lipi āja taka par̤hī nahīṃ jā sakī hai, jo ise aura bhī rahasyamayī banātī hai|",
+   "ascii": "simdhu ghati sabhyata visva ki sabase pracina aura unnata sabhyataom mem se eka thi| isaki sabase pramukha visesata isaki utkrsta nagara yojana thi| yaha~ ke sahara grida pranali para adharita the, jaha~ sarakem eka-dusare ko samakona para katati thim| pakki imtom se bane bahumamjila ghara aura behatarina jala nikasi pranali isa sabhyata ki vaijnanika soca ko darsate haim| hara ghara mem kuem aura snanaghara hote the| isake alava, yaha sabhyata apane vyapara aura krsi ke lie bhi prasiddha thi| yaha~ ke loga suti vastrom ka nirmana karate the aura mapa-taula ke manakikrta batom ka upayoga karate the| lothala jaise bamdaragahom se videsi vyapara hota tha| samtipriya samaja hone ke karana yaha~ se hathiyarom ke avasesa bahuta kama mile haim| muharom para mili lipi aja taka parhi nahim ja saki hai, jo ise aura bhi rahasyamayi banati hai|"
+  }
+ },
+ {
+  "id": "RH13",
+  "tier": "high",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "प्रकाश संश्लेषण (फोटोसिंथेसिस) की प्रक्रिया को सरल शब्दों में समझाइए।",
+  "instruction_iast": "prakāśa saṃśleṣaṇa (phoṭosiṃthesisa) kī prakriyā ko sarala śabdoṃ meṃ samajhāie|",
+  "conditions": {
+   "deva": "प्रकाश संश्लेषण वह प्रक्रिया है जिसके द्वारा हरे पौधे अपना भोजन स्वयं बनाते हैं। इसके लिए पौधों को सूर्य का प्रकाश, पानी, कार्बन डाइऑक्साइड और क्लोरोफिल (पत्तियों का हरा वर्णक) की आवश्यकता होती है। पौधे अपनी जड़ों के माध्यम से मिट्टी से पानी सोखते हैं और पत्तियों के छिद्रों द्वारा हवा से कार्बन डाइऑक्साइड ग्रहण करते हैं। सूर्य के प्रकाश की उपस्थिति में, क्लोरोफिल इन तत्वों को मिलाकर ग्लूकोज का निर्माण करता है, जो पौधे का भोजन है। इस प्रक्रिया के दौरान ऑक्सीजन गैस उत्पन्न होती है, जिसे पौधे हवा में छोड़ देते हैं। यह ऑक्सीजन पृथ्वी पर सभी जीव-जंतुओं के जीवित रहने के लिए अत्यंत आवश्यक है। इस प्रकार, प्रकाश संश्लेषण न केवल पौधों को पोषण देता है, बल्कि पर्यावरण में ऑक्सीजन और कार्बन डाइऑक्साइड का संतुलन भी बनाए रखता है।",
+   "iast": "prakāśa saṃśleṣaṇa vaha prakriyā hai jisake dvārā hare paudhe apanā bhojana svayaṃ banāte haiṃ| isake lie paudhoṃ ko sūrya kā prakāśa, pānī, kārbana ḍāiऑksāiḍa aura klorophila (pattiyoṃ kā harā varṇaka) kī āvaśyakatā hotī hai| paudhe apanī jar̤oṃ ke mādhyama se miṭṭī se pānī sokhate haiṃ aura pattiyoṃ ke chidroṃ dvārā havā se kārbana ḍāiऑksāiḍa grahaṇa karate haiṃ| sūrya ke prakāśa kī upasthiti meṃ, klorophila ina tatvoṃ ko milākara glūkoja kā nirmāṇa karatā hai, jo paudhe kā bhojana hai| isa prakriyā ke daurāna ऑksījana gaisa utpanna hotī hai, jise paudhe havā meṃ chor̤a dete haiṃ| yaha ऑksījana pṛthvī para sabhī jīva-jaṃtuoṃ ke jīvita rahane ke lie atyaṃta āvaśyaka hai| isa prakāra, prakāśa saṃśleṣaṇa na kevala paudhoṃ ko poṣaṇa detā hai, balki paryāvaraṇa meṃ ऑksījana aura kārbana ḍāiऑksāiḍa kā saṃtulana bhī banāe rakhatā hai|",
+   "ascii": "prakasa samslesana vaha prakriya hai jisake dvara hare paudhe apana bhojana svayam banate haim| isake lie paudhom ko surya ka prakasa, pani, karbana daiऑksaida aura klorophila (pattiyom ka hara varnaka) ki avasyakata hoti hai| paudhe apani jarom ke madhyama se mitti se pani sokhate haim aura pattiyom ke chidrom dvara hava se karbana daiऑksaida grahana karate haim| surya ke prakasa ki upasthiti mem, klorophila ina tatvom ko milakara glukoja ka nirmana karata hai, jo paudhe ka bhojana hai| isa prakriya ke daurana ऑksijana gaisa utpanna hoti hai, jise paudhe hava mem chora dete haim| yaha ऑksijana prthvi para sabhi jiva-jamtuom ke jivita rahane ke lie atyamta avasyaka hai| isa prakara, prakasa samslesana na kevala paudhom ko posana deta hai, balki paryavarana mem ऑksijana aura karbana daiऑksaida ka samtulana bhi banae rakhata hai|"
+  }
+ },
+ {
+  "id": "RH14",
+  "tier": "high",
+  "domain": "technology",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "कृत्रिम बुद्धिमत्ता (आर्टिफिशियल इंटेलिजेंस) क्या है और यह हमारे दैनिक जीवन को कैसे प्रभावित कर रही है?",
+  "instruction_iast": "kṛtrima buddhimattā (ārṭiphiśiyala iṃṭelijeṃsa) kyā hai aura yaha hamāre dainika jīvana ko kaise prabhāvita kara rahī hai?",
+  "conditions": {
+   "deva": "कृत्रिम बुद्धिमत्ता (आर्टिफिशियल इंटेलिजेंस) कंप्यूटर विज्ञान की वह शाखा है जो मशीनों को इंसानों की तरह सोचने, सीखने और निर्णय लेने में सक्षम बनाती है। इसका मुख्य उद्देश्य मशीनों को बुद्धिमान बनाना है ताकि वे जटिल कार्यों को स्वायत्त रूप से कर सकें। आज यह तकनीक हमारे दैनिक जीवन का एक अभिन्न अंग बन चुकी है। स्मार्टफोन में वॉयस असिस्टेंट, सोशल मीडिया पर सामग्री के सुझाव, और ऑनलाइन शॉपिंग में उत्पाद की सिफारिशें इसके सामान्य उदाहरण हैं। इसके अलावा, चिकित्सा क्षेत्र में बीमारियों की सटीक पहचान, शिक्षा में व्यक्तिगत शिक्षण और परिवहन में स्व-चालित गाड़ियाँ (सेल्फ-ड्राइविंग कार) कृत्रिम बुद्धिमत्ता के ही चमत्कार हैं। यह तकनीक न केवल हमारे काम को आसान और तेज बना रही है, बल्कि विभिन्न उद्योगों में क्रांति लाकर मानव जीवन के स्तर को भी निरंतर सुधार रही है।",
+   "iast": "kṛtrima buddhimattā (ārṭiphiśiyala iṃṭelijeṃsa) kaṃpyūṭara vijñāna kī vaha śākhā hai jo maśīnoṃ ko iṃsānoṃ kī taraha socane, sīkhane aura nirṇaya lene meṃ sakṣama banātī hai| isakā mukhya uddeśya maśīnoṃ ko buddhimāna banānā hai tāki ve jaṭila kāryoṃ ko svāyatta rūpa se kara sakeṃ| āja yaha takanīka hamāre dainika jīvana kā eka abhinna aṃga bana cukī hai| smārṭaphona meṃ vaॉyasa asisṭeṃṭa, sośala mīḍiyā para sāmagrī ke sujhāva, aura ऑnalāina śaॉpiṃga meṃ utpāda kī siphāriśeṃ isake sāmānya udāharaṇa haiṃ| isake alāvā, cikitsā kṣetra meṃ bīmāriyoṃ kī saṭīka pahacāna, śikṣā meṃ vyaktigata śikṣaṇa aura parivahana meṃ sva-cālita gār̤iyā~ (selpha-ḍrāiviṃga kāra) kṛtrima buddhimattā ke hī camatkāra haiṃ| yaha takanīka na kevala hamāre kāma ko āsāna aura teja banā rahī hai, balki vibhinna udyogoṃ meṃ krāṃti lākara mānava jīvana ke stara ko bhī niraṃtara sudhāra rahī hai|",
+   "ascii": "krtrima buddhimatta (artiphisiyala imtelijemsa) kampyutara vijnana ki vaha sakha hai jo masinom ko imsanom ki taraha socane, sikhane aura nirnaya lene mem saksama banati hai| isaka mukhya uddesya masinom ko buddhimana banana hai taki ve jatila karyom ko svayatta rupa se kara sakem| aja yaha takanika hamare dainika jivana ka eka abhinna amga bana cuki hai| smartaphona mem vaॉyasa asistemta, sosala midiya para samagri ke sujhava, aura ऑnalaina saॉpimga mem utpada ki sipharisem isake samanya udaharana haim| isake alava, cikitsa ksetra mem bimariyom ki satika pahacana, siksa mem vyaktigata siksana aura parivahana mem sva-calita gariya~ (selpha-draivimga kara) krtrima buddhimatta ke hi camatkara haim| yaha takanika na kevala hamare kama ko asana aura teja bana rahi hai, balki vibhinna udyogom mem kramti lakara manava jivana ke stara ko bhi niramtara sudhara rahi hai|"
+  }
+ },
+ {
+  "id": "RH15",
+  "tier": "high",
+  "domain": "health",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "ध्यान (meditation) करने के क्या मुख्य शारीरिक और मानसिक लाभ हैं?",
+  "instruction_iast": "dhyāna (meditation) karane ke kyā mukhya śārīrika aura mānasika lābha haiṃ?",
+  "conditions": {
+   "deva": "ध्यान (मेडिटेशन) करने के कई शारीरिक और मानसिक लाभ होते हैं। मानसिक स्तर पर, यह तनाव और चिंता को कम करने में अत्यधिक सहायक है। नियमित ध्यान करने से मन शांत रहता है, एकाग्रता बढ़ती है और नकारात्मक विचारों से मुक्ति मिलती है। इससे मानसिक स्पष्टता और निर्णय लेने की क्षमता में सुधार होता है। शारीरिक स्तर पर, ध्यान रक्तचाप (ब्लड प्रेशर) को नियंत्रित करने में मदद करता है। यह हृदय गति को सामान्य रखता है और नींद की गुणवत्ता में सुधार करता है। इसके अलावा, ध्यान करने से शरीर की प्रतिरक्षा प्रणाली (इम्यून सिस्टम) मजबूत होती है, जिससे बीमारियों से लड़ने की क्षमता बढ़ती है। संक्षेप में, ध्यान एक समग्र अभ्यास है जो हमारे शरीर और मस्तिष्क दोनों को स्वस्थ, ऊर्जावान और संतुलित बनाए रखने में महत्वपूर्ण भूमिका निभाता है।",
+   "iast": "dhyāna (meḍiṭeśana) karane ke kaī śārīrika aura mānasika lābha hote haiṃ| mānasika stara para, yaha tanāva aura ciṃtā ko kama karane meṃ atyadhika sahāyaka hai| niyamita dhyāna karane se mana śāṃta rahatā hai, ekāgratā bar̤hatī hai aura nakārātmaka vicāroṃ se mukti milatī hai| isase mānasika spaṣṭatā aura nirṇaya lene kī kṣamatā meṃ sudhāra hotā hai| śārīrika stara para, dhyāna raktacāpa (blaḍa preśara) ko niyaṃtrita karane meṃ madada karatā hai| yaha hṛdaya gati ko sāmānya rakhatā hai aura nīṃda kī guṇavattā meṃ sudhāra karatā hai| isake alāvā, dhyāna karane se śarīra kī pratirakṣā praṇālī (imyūna sisṭama) majabūta hotī hai, jisase bīmāriyoṃ se lar̤ane kī kṣamatā bar̤hatī hai| saṃkṣepa meṃ, dhyāna eka samagra abhyāsa hai jo hamāre śarīra aura mastiṣka donoṃ ko svastha, ūrjāvāna aura saṃtulita banāe rakhane meṃ mahatvapūrṇa bhūmikā nibhātā hai|",
+   "ascii": "dhyana (meditesana) karane ke kai saririka aura manasika labha hote haim| manasika stara para, yaha tanava aura cimta ko kama karane mem atyadhika sahayaka hai| niyamita dhyana karane se mana samta rahata hai, ekagrata barhati hai aura nakaratmaka vicarom se mukti milati hai| isase manasika spastata aura nirnaya lene ki ksamata mem sudhara hota hai| saririka stara para, dhyana raktacapa (blada presara) ko niyamtrita karane mem madada karata hai| yaha hrdaya gati ko samanya rakhata hai aura nimda ki gunavatta mem sudhara karata hai| isake alava, dhyana karane se sarira ki pratiraksa pranali (imyuna sistama) majabuta hoti hai, jisase bimariyom se larane ki ksamata barhati hai| samksepa mem, dhyana eka samagra abhyasa hai jo hamare sarira aura mastiska donom ko svastha, urjavana aura samtulita banae rakhane mem mahatvapurna bhumika nibhata hai|"
+  }
+ },
+ {
+  "id": "RH16",
+  "tier": "high",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "घर पर आसानी से स्वादिष्ट दाल मखनी कैसे बनाई जा सकती है?",
+  "instruction_iast": "ghara para āsānī se svādiṣṭa dāla makhanī kaise banāī jā sakatī hai?",
+  "conditions": {
+   "deva": "घर पर स्वादिष्ट दाल मखनी बनाने के लिए साबुत उड़द की दाल और थोड़े से राजमा को रात भर पानी में भिगो दें। अगले दिन इन्हें धोकर कुकर में पानी, नमक और तेजपत्ता डालकर धीमी आंच पर अच्छी तरह गलने तक उबाल लें। अब एक पैन में मक्खन या घी गरम करें और उसमें बारीक कटा हुआ लहसुन, अदरक और हरी मिर्च भूनें। फिर टमाटर की प्यूरी, लाल मिर्च पाउडर, गरम मसाला और थोड़ा सा धनिया पाउडर डालकर तब तक पकाएं जब तक मसाला तेल न छोड़ने लगे। उबली हुई दाल को इस मसाले में मिलाएं और धीमी आंच पर कम से कम आधे घंटे तक उबलने दें, ताकि सारे स्वाद आपस में मिल जाएं। अंत में, ऊपर से ताजी क्रीम (मलाई) और थोड़ा और मक्खन डालकर गरमागरम नान या चावल के साथ परोसें।",
+   "iast": "ghara para svādiṣṭa dāla makhanī banāne ke lie sābuta ur̤ada kī dāla aura thor̤e se rājamā ko rāta bhara pānī meṃ bhigo deṃ| agale dina inheṃ dhokara kukara meṃ pānī, namaka aura tejapattā ḍālakara dhīmī āṃca para acchī taraha galane taka ubāla leṃ| aba eka paina meṃ makkhana yā ghī garama kareṃ aura usameṃ bārīka kaṭā huā lahasuna, adaraka aura harī mirca bhūneṃ| phira ṭamāṭara kī pyūrī, lāla mirca pāuḍara, garama masālā aura thor̤ā sā dhaniyā pāuḍara ḍālakara taba taka pakāeṃ jaba taka masālā tela na chor̤ane lage| ubalī huī dāla ko isa masāle meṃ milāeṃ aura dhīmī āṃca para kama se kama ādhe ghaṃṭe taka ubalane deṃ, tāki sāre svāda āpasa meṃ mila jāeṃ| aṃta meṃ, ūpara se tājī krīma (malāī) aura thor̤ā aura makkhana ḍālakara garamāgarama nāna yā cāvala ke sātha paroseṃ|",
+   "ascii": "ghara para svadista dala makhani banane ke lie sabuta urada ki dala aura thore se rajama ko rata bhara pani mem bhigo dem| agale dina inhem dhokara kukara mem pani, namaka aura tejapatta dalakara dhimi amca para acchi taraha galane taka ubala lem| aba eka paina mem makkhana ya ghi garama karem aura usamem barika kata hua lahasuna, adaraka aura hari mirca bhunem| phira tamatara ki pyuri, lala mirca paudara, garama masala aura thora sa dhaniya paudara dalakara taba taka pakaem jaba taka masala tela na chorane lage| ubali hui dala ko isa masale mem milaem aura dhimi amca para kama se kama adhe ghamte taka ubalane dem, taki sare svada apasa mem mila jaem| amta mem, upara se taji krima (malai) aura thora aura makkhana dalakara garamagarama nana ya cavala ke satha parosem|"
+  }
+ },
+ {
+  "id": "RM00",
+  "tier": "medium",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "पनीर बटर मसाला बनाने की पूरी विधि और आवश्यक सामग्री के बारे में विस्तार से बताइए।",
+  "instruction_iast": "panīra baṭara masālā banāne kī pūrī vidhi aura āvaśyaka sāmagrī ke bāre meṃ vistāra se batāie|",
+  "conditions": {
+   "deva": "पनीर बटर मसाला बनाने के लिए आपको पनीर, टमाटर, प्याज, मक्खन और कुछ मसालों की आवश्यकता होगी। सबसे पहले प्याज और टमाटर को भून कर उनका पेस्ट बना लें। फिर एक पैन में मक्खन गरम करें और उसमें यह पेस्ट डालें। इसके बाद कुछ मसाले और पानी डालकर ग्रेवी तैयार करें। अंत में पनीर के टुकड़े डालकर थोड़ी देर तक पकाएं और गरम परोसें।",
+   "iast": "panīra baṭara masālā banāne ke lie āpako panīra, ṭamāṭara, pyāja, makkhana aura kucha masāloṃ kī āvaśyakatā hogī| sabase pahale pyāja aura ṭamāṭara ko bhūna kara unakā pesṭa banā leṃ| phira eka paina meṃ makkhana garama kareṃ aura usameṃ yaha pesṭa ḍāleṃ| isake bāda kucha masāle aura pānī ḍālakara grevī taiyāra kareṃ| aṃta meṃ panīra ke ṭukar̤e ḍālakara thor̤ī dera taka pakāeṃ aura garama paroseṃ|",
+   "ascii": "panira batara masala banane ke lie apako panira, tamatara, pyaja, makkhana aura kucha masalom ki avasyakata hogi| sabase pahale pyaja aura tamatara ko bhuna kara unaka pesta bana lem| phira eka paina mem makkhana garama karem aura usamem yaha pesta dalem| isake bada kucha masale aura pani dalakara grevi taiyara karem| amta mem panira ke tukare dalakara thori dera taka pakaem aura garama parosem|"
+  }
+ },
+ {
+  "id": "RM01",
+  "tier": "medium",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "भारतीय स्वतंत्रता संग्राम में महात्मा गांधी के प्रमुख आंदोलनों का विस्तार से वर्णन करें।",
+  "instruction_iast": "bhāratīya svataṃtratā saṃgrāma meṃ mahātmā gāṃdhī ke pramukha āṃdolanoṃ kā vistāra se varṇana kareṃ|",
+  "conditions": {
+   "deva": "भारतीय स्वतंत्रता संग्राम में महात्मा गांधी का बहुत बड़ा योगदान रहा है। उन्होंने सत्य और अहिंसा के मार्ग पर चलकर कई महत्वपूर्ण आंदोलन किए। इनमें असहयोग आंदोलन, सविनय अवज्ञा आंदोलन और भारत छोड़ो आंदोलन प्रमुख हैं। इन आंदोलनों ने पूरे देश को एक साथ लाने का काम किया और ब्रिटिश सरकार पर भारी दबाव डाला, जिससे भारत को आज़ादी मिलने में काफी मदद मिली।",
+   "iast": "bhāratīya svataṃtratā saṃgrāma meṃ mahātmā gāṃdhī kā bahuta bar̤ā yogadāna rahā hai| unhoṃne satya aura ahiṃsā ke mārga para calakara kaī mahatvapūrṇa āṃdolana kie| inameṃ asahayoga āṃdolana, savinaya avajñā āṃdolana aura bhārata chor̤o āṃdolana pramukha haiṃ| ina āṃdolanoṃ ne pūre deśa ko eka sātha lāne kā kāma kiyā aura briṭiśa sarakāra para bhārī dabāva ḍālā, jisase bhārata ko āzādī milane meṃ kāphī madada milī|",
+   "ascii": "bharatiya svatamtrata samgrama mem mahatma gamdhi ka bahuta bara yogadana raha hai| unhomne satya aura ahimsa ke marga para calakara kai mahatvapurna amdolana kie| inamem asahayoga amdolana, savinaya avajna amdolana aura bharata choro amdolana pramukha haim| ina amdolanom ne pure desa ko eka satha lane ka kama kiya aura britisa sarakara para bhari dabava dala, jisase bharata ko azadi milane mem kaphi madada mili|"
+  }
+ },
+ {
+  "id": "RM02",
+  "tier": "medium",
+  "domain": "health",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "वजन कम करने के लिए एक स्वस्थ दिनचर्या और पूरे दिन के डाइट प्लान के बारे में बताएं।",
+  "instruction_iast": "vajana kama karane ke lie eka svastha dinacaryā aura pūre dina ke ḍāiṭa plāna ke bāre meṃ batāeṃ|",
+  "conditions": {
+   "deva": "वजन कम करने के लिए आपको अपनी जीवनशैली में बदलाव करना चाहिए। सुबह जल्दी उठकर व्यायाम करना या पैदल चलना बहुत फायदेमंद होता है। अपने भोजन में ताजे फल और हरी सब्जियों को शामिल करें। जंक फूड, मीठी चीज़ें और तली हुई चीज़ों से बिल्कुल बचना चाहिए। इसके अलावा, दिन भर में पर्याप्त मात्रा में पानी पीना भी बहुत जरूरी है।",
+   "iast": "vajana kama karane ke lie āpako apanī jīvanaśailī meṃ badalāva karanā cāhie| subaha jaldī uṭhakara vyāyāma karanā yā paidala calanā bahuta phāyademaṃda hotā hai| apane bhojana meṃ tāje phala aura harī sabjiyoṃ ko śāmila kareṃ| jaṃka phūḍa, mīṭhī cīzeṃ aura talī huī cīzoṃ se bilkula bacanā cāhie| isake alāvā, dina bhara meṃ paryāpta mātrā meṃ pānī pīnā bhī bahuta jarūrī hai|",
+   "ascii": "vajana kama karane ke lie apako apani jivanasaili mem badalava karana cahie| subaha jaldi uthakara vyayama karana ya paidala calana bahuta phayademamda hota hai| apane bhojana mem taje phala aura hari sabjiyom ko samila karem| jamka phuda, mithi cizem aura tali hui cizom se bilkula bacana cahie| isake alava, dina bhara mem paryapta matra mem pani pina bhi bahuta jaruri hai|"
+  }
+ },
+ {
+  "id": "RM03",
+  "tier": "medium",
+  "domain": "technology",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "आर्टिफिशियल इंटेलिजेंस (एआई) क्या है और भविष्य में इसके प्रमुख फायदे और नुकसान क्या होंगे?",
+  "instruction_iast": "ārṭiphiśiyala iṃṭelijeṃsa (eāī) kyā hai aura bhaviṣya meṃ isake pramukha phāyade aura nukasāna kyā hoṃge?",
+  "conditions": {
+   "deva": "आर्टिफिशियल इंटेलिजेंस (एआई) कंप्यूटर विज्ञान की एक शाखा है जिसमें मशीनों को इंसानों की तरह सोचने और काम करने के लिए बनाया जाता है। एआई का फायदा यह है कि यह तेजी से काम करता है और गलतियां कम करता है। इसका उपयोग चिकित्सा, शिक्षा और कई अन्य क्षेत्रों में हो रहा है। हालाँकि, एआई के कारण कुछ नौकरियां कम होने का खतरा भी बना रहता है।",
+   "iast": "ārṭiphiśiyala iṃṭelijeṃsa (eāī) kaṃpyūṭara vijñāna kī eka śākhā hai jisameṃ maśīnoṃ ko iṃsānoṃ kī taraha socane aura kāma karane ke lie banāyā jātā hai| eāī kā phāyadā yaha hai ki yaha tejī se kāma karatā hai aura galatiyāṃ kama karatā hai| isakā upayoga cikitsā, śikṣā aura kaī anya kṣetroṃ meṃ ho rahā hai| hālā~ki, eāī ke kāraṇa kucha naukariyāṃ kama hone kā khatarā bhī banā rahatā hai|",
+   "ascii": "artiphisiyala imtelijemsa (eai) kampyutara vijnana ki eka sakha hai jisamem masinom ko imsanom ki taraha socane aura kama karane ke lie banaya jata hai| eai ka phayada yaha hai ki yaha teji se kama karata hai aura galatiyam kama karata hai| isaka upayoga cikitsa, siksa aura kai anya ksetrom mem ho raha hai| hala~ki, eai ke karana kucha naukariyam kama hone ka khatara bhi bana rahata hai|"
+  }
+ },
+ {
+  "id": "RM04",
+  "tier": "medium",
+  "domain": "personal finance",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "शेयर बाज़ार में निवेश शुरू करने के लिए मुझे क्या-क्या कदम उठाने चाहिए? पूरी प्रक्रिया समझाएं।",
+  "instruction_iast": "śeyara bāzāra meṃ niveśa śurū karane ke lie mujhe kyā-kyā kadama uṭhāne cāhie? pūrī prakriyā samajhāeṃ|",
+  "conditions": {
+   "deva": "शेयर बाज़ार में निवेश करने के लिए आपको सबसे पहले एक डीमैट खाता और ट्रेडिंग खाता खोलना होगा। इसके लिए पैन कार्ड, आधार कार्ड और बैंक खाते की आवश्यकता होती है। खाता खुलने के बाद आप शेयर खरीद और बेच सकते हैं। निवेश करने से पहले बाज़ार की अच्छी तरह से जानकारी लेना और समझदारी से अपने पैसे लगाना बहुत जरूरी होता है।",
+   "iast": "śeyara bāzāra meṃ niveśa karane ke lie āpako sabase pahale eka ḍīmaiṭa khātā aura ṭreḍiṃga khātā kholanā hogā| isake lie paina kārḍa, ādhāra kārḍa aura baiṃka khāte kī āvaśyakatā hotī hai| khātā khulane ke bāda āpa śeyara kharīda aura beca sakate haiṃ| niveśa karane se pahale bāzāra kī acchī taraha se jānakārī lenā aura samajhadārī se apane paise lagānā bahuta jarūrī hotā hai|",
+   "ascii": "seyara bazara mem nivesa karane ke lie apako sabase pahale eka dimaita khata aura tredimga khata kholana hoga| isake lie paina karda, adhara karda aura baimka khate ki avasyakata hoti hai| khata khulane ke bada apa seyara kharida aura beca sakate haim| nivesa karane se pahale bazara ki acchi taraha se janakari lena aura samajhadari se apane paise lagana bahuta jaruri hota hai|"
+  }
+ },
+ {
+  "id": "RM05",
+  "tier": "medium",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "प्रकाश संश्लेषण की प्रक्रिया को विस्तार से समझाएं और इसके मुख्य घटक बताएं।",
+  "instruction_iast": "prakāśa saṃśleṣaṇa kī prakriyā ko vistāra se samajhāeṃ aura isake mukhya ghaṭaka batāeṃ|",
+  "conditions": {
+   "deva": "प्रकाश संश्लेषण वह प्रक्रिया है जिसके द्वारा हरे पौधे अपना भोजन बनाते हैं। इसमें पौधे सूर्य के प्रकाश का उपयोग करते हैं। इस प्रक्रिया में कार्बन डाइऑक्साइड और पानी का उपयोग होता है, जिससे ऑक्सीजन बाहर निकलती है। यह पृथ्वी पर जीवन के लिए बहुत महत्वपूर्ण है क्योंकि इससे हमें सांस लेने के लिए ऑक्सीजन मिलती है।",
+   "iast": "prakāśa saṃśleṣaṇa vaha prakriyā hai jisake dvārā hare paudhe apanā bhojana banāte haiṃ| isameṃ paudhe sūrya ke prakāśa kā upayoga karate haiṃ| isa prakriyā meṃ kārbana ḍāiऑksāiḍa aura pānī kā upayoga hotā hai, jisase ऑksījana bāhara nikalatī hai| yaha pṛthvī para jīvana ke lie bahuta mahatvapūrṇa hai kyoṃki isase hameṃ sāṃsa lene ke lie ऑksījana milatī hai|",
+   "ascii": "prakasa samslesana vaha prakriya hai jisake dvara hare paudhe apana bhojana banate haim| isamem paudhe surya ke prakasa ka upayoga karate haim| isa prakriya mem karbana daiऑksaida aura pani ka upayoga hota hai, jisase ऑksijana bahara nikalati hai| yaha prthvi para jivana ke lie bahuta mahatvapurna hai kyomki isase hamem samsa lene ke lie ऑksijana milati hai|"
+  }
+ },
+ {
+  "id": "RM06",
+  "tier": "medium",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "भारतीय स्वतंत्रता संग्राम में महात्मा गांधी के योगदान और उनके प्रमुख आंदोलनों का विस्तृत वर्णन करें।",
+  "instruction_iast": "bhāratīya svataṃtratā saṃgrāma meṃ mahātmā gāṃdhī ke yogadāna aura unake pramukha āṃdolanoṃ kā vistṛta varṇana kareṃ|",
+  "conditions": {
+   "deva": "महात्मा गांधी ने भारत की आजादी में बहुत बड़ा योगदान दिया था। उन्होंने हमेशा सत्य और अहिंसा का मार्ग अपनाया। उनके नेतृत्व में कई बड़े आंदोलन हुए। गांधीजी ने अंग्रेजों के खिलाफ असहयोग आंदोलन शुरू किया था जिसमें विदेशी वस्तुओं का बहिष्कार किया गया। इसके अलावा उन्होंने नमक सत्याग्रह भी किया था। अंत में पंद्रह अगस्त उन्नीस सौ सैंतालीस को भारत आजाद हो गया।",
+   "iast": "mahātmā gāṃdhī ne bhārata kī ājādī meṃ bahuta bar̤ā yogadāna diyā thā| unhoṃne hameśā satya aura ahiṃsā kā mārga apanāyā| unake netṛtva meṃ kaī bar̤e āṃdolana hue| gāṃdhījī ne aṃgrejoṃ ke khilāpha asahayoga āṃdolana śurū kiyā thā jisameṃ videśī vastuoṃ kā bahiṣkāra kiyā gayā| isake alāvā unhoṃne namaka satyāgraha bhī kiyā thā| aṃta meṃ paṃdraha agasta unnīsa sau saiṃtālīsa ko bhārata ājāda ho gayā|",
+   "ascii": "mahatma gamdhi ne bharata ki ajadi mem bahuta bara yogadana diya tha| unhomne hamesa satya aura ahimsa ka marga apanaya| unake netrtva mem kai bare amdolana hue| gamdhiji ne amgrejom ke khilapha asahayoga amdolana suru kiya tha jisamem videsi vastuom ka bahiskara kiya gaya| isake alava unhomne namaka satyagraha bhi kiya tha| amta mem pamdraha agasta unnisa sau saimtalisa ko bharata ajada ho gaya|"
+  }
+ },
+ {
+  "id": "RM07",
+  "tier": "medium",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "घर पर स्वादिष्ट पनीर बटर मसाला बनाने की पूरी विधि और आवश्यक सामग्री की सूची दें।",
+  "instruction_iast": "ghara para svādiṣṭa panīra baṭara masālā banāne kī pūrī vidhi aura āvaśyaka sāmagrī kī sūcī deṃ|",
+  "conditions": {
+   "deva": "पनीर बटर मसाला बनाने के लिए आपको पनीर, टमाटर, प्याज, मक्खन और कुछ मसालों की जरूरत होगी। सबसे पहले एक कढ़ाई में मक्खन गरम करें और उसमें प्याज और टमाटर को अच्छे से भून लें। जब यह मिश्रण पक जाए तो इसमें पनीर के टुकड़े डाल दें। थोड़ी देर पकाने के बाद आपका पनीर बटर मसाला तैयार हो जाएगा। इसे आप रोटी के साथ खा सकते हैं।",
+   "iast": "panīra baṭara masālā banāne ke lie āpako panīra, ṭamāṭara, pyāja, makkhana aura kucha masāloṃ kī jarūrata hogī| sabase pahale eka kar̤hāī meṃ makkhana garama kareṃ aura usameṃ pyāja aura ṭamāṭara ko acche se bhūna leṃ| jaba yaha miśraṇa paka jāe to isameṃ panīra ke ṭukar̤e ḍāla deṃ| thor̤ī dera pakāne ke bāda āpakā panīra baṭara masālā taiyāra ho jāegā| ise āpa roṭī ke sātha khā sakate haiṃ|",
+   "ascii": "panira batara masala banane ke lie apako panira, tamatara, pyaja, makkhana aura kucha masalom ki jarurata hogi| sabase pahale eka karhai mem makkhana garama karem aura usamem pyaja aura tamatara ko acche se bhuna lem| jaba yaha misrana paka jae to isamem panira ke tukare dala dem| thori dera pakane ke bada apaka panira batara masala taiyara ho jaega| ise apa roti ke satha kha sakate haim|"
+  }
+ },
+ {
+  "id": "RM08",
+  "tier": "medium",
+  "domain": "health",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "वजन कम करने के लिए एक स्वस्थ दिनचर्या और आहार योजना के बारे में विस्तार से बताएं।",
+  "instruction_iast": "vajana kama karane ke lie eka svastha dinacaryā aura āhāra yojanā ke bāre meṃ vistāra se batāeṃ|",
+  "conditions": {
+   "deva": "वजन कम करने के लिए आपको अपनी दिनचर्या में बदलाव करना चाहिए। सुबह उठकर व्यायाम करना बहुत फायदेमंद होता है। आपको अपने आहार में हरी सब्जियां और ताजे फल शामिल करने चाहिए। जंक फूड और ज्यादा चीनी वाली चीजों से दूर रहना चाहिए। इसके साथ ही दिन भर में खूब पानी पीना चाहिए। पर्याप्त नींद लेना भी शरीर के लिए जरूरी है।",
+   "iast": "vajana kama karane ke lie āpako apanī dinacaryā meṃ badalāva karanā cāhie| subaha uṭhakara vyāyāma karanā bahuta phāyademaṃda hotā hai| āpako apane āhāra meṃ harī sabjiyāṃ aura tāje phala śāmila karane cāhie| jaṃka phūḍa aura jyādā cīnī vālī cījoṃ se dūra rahanā cāhie| isake sātha hī dina bhara meṃ khūba pānī pīnā cāhie| paryāpta nīṃda lenā bhī śarīra ke lie jarūrī hai|",
+   "ascii": "vajana kama karane ke lie apako apani dinacarya mem badalava karana cahie| subaha uthakara vyayama karana bahuta phayademamda hota hai| apako apane ahara mem hari sabjiyam aura taje phala samila karane cahie| jamka phuda aura jyada cini vali cijom se dura rahana cahie| isake satha hi dina bhara mem khuba pani pina cahie| paryapta nimda lena bhi sarira ke lie jaruri hai|"
+  }
+ },
+ {
+  "id": "RM09",
+  "tier": "medium",
+  "domain": "personal finance",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "शेयर बाजार में निवेश शुरू करने के लिए आवश्यक कदम और कुछ महत्वपूर्ण टिप्स साझा करें।",
+  "instruction_iast": "śeyara bājāra meṃ niveśa śurū karane ke lie āvaśyaka kadama aura kucha mahatvapūrṇa ṭipsa sājhā kareṃ|",
+  "conditions": {
+   "deva": "शेयर बाजार में निवेश करने के लिए सबसे पहले आपको एक डीमैट खाता खुलवाना होगा। इसके लिए आप किसी भी अच्छे ब्रोकर से संपर्क कर सकते हैं। खाता खुलने के बाद आप शेयर खरीद और बेच सकते हैं। निवेश करने से पहले कंपनी के बारे में जानकारी लेना अच्छा होता है। हमेशा उतना ही पैसा लगाएं जितना आप जोखिम उठा सकते हैं।",
+   "iast": "śeyara bājāra meṃ niveśa karane ke lie sabase pahale āpako eka ḍīmaiṭa khātā khulavānā hogā| isake lie āpa kisī bhī acche brokara se saṃparka kara sakate haiṃ| khātā khulane ke bāda āpa śeyara kharīda aura beca sakate haiṃ| niveśa karane se pahale kaṃpanī ke bāre meṃ jānakārī lenā acchā hotā hai| hameśā utanā hī paisā lagāeṃ jitanā āpa jokhima uṭhā sakate haiṃ|",
+   "ascii": "seyara bajara mem nivesa karane ke lie sabase pahale apako eka dimaita khata khulavana hoga| isake lie apa kisi bhi acche brokara se samparka kara sakate haim| khata khulane ke bada apa seyara kharida aura beca sakate haim| nivesa karane se pahale kampani ke bare mem janakari lena accha hota hai| hamesa utana hi paisa lagaem jitana apa jokhima utha sakate haim|"
+  }
+ },
+ {
+  "id": "RM10",
+  "tier": "medium",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "प्रकाश संश्लेषण की पूरी प्रक्रिया और इसके महत्व को विस्तार से समझाएं।",
+  "instruction_iast": "prakāśa saṃśleṣaṇa kī pūrī prakriyā aura isake mahatva ko vistāra se samajhāeṃ|",
+  "conditions": {
+   "deva": "प्रकाश संश्लेषण वह प्रक्रिया है जिसके द्वारा हरे पौधे अपना भोजन बनाते हैं। इसमें पौधे सूर्य के प्रकाश, पानी और कार्बन डाइऑक्साइड का उपयोग करते हैं। पत्तियों में मौजूद क्लोरोफिल इस प्रक्रिया में मदद करता है। इसके परिणामस्वरूप ऑक्सीजन गैस बाहर निकलती है जो सभी जीवों के लिए जरूरी है। यह प्रक्रिया पर्यावरण के लिए बहुत महत्वपूर्ण है।",
+   "iast": "prakāśa saṃśleṣaṇa vaha prakriyā hai jisake dvārā hare paudhe apanā bhojana banāte haiṃ| isameṃ paudhe sūrya ke prakāśa, pānī aura kārbana ḍāiऑksāiḍa kā upayoga karate haiṃ| pattiyoṃ meṃ maujūda klorophila isa prakriyā meṃ madada karatā hai| isake pariṇāmasvarūpa ऑksījana gaisa bāhara nikalatī hai jo sabhī jīvoṃ ke lie jarūrī hai| yaha prakriyā paryāvaraṇa ke lie bahuta mahatvapūrṇa hai|",
+   "ascii": "prakasa samslesana vaha prakriya hai jisake dvara hare paudhe apana bhojana banate haim| isamem paudhe surya ke prakasa, pani aura karbana daiऑksaida ka upayoga karate haim| pattiyom mem maujuda klorophila isa prakriya mem madada karata hai| isake parinamasvarupa ऑksijana gaisa bahara nikalati hai jo sabhi jivom ke lie jaruri hai| yaha prakriya paryavarana ke lie bahuta mahatvapurna hai|"
+  }
+ },
+ {
+  "id": "RM11",
+  "tier": "medium",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "भारतीय स्वतंत्रता संग्राम में महात्मा गांधी के सभी प्रमुख आंदोलनों का विस्तृत वर्णन करें।",
+  "instruction_iast": "bhāratīya svataṃtratā saṃgrāma meṃ mahātmā gāṃdhī ke sabhī pramukha āṃdolanoṃ kā vistṛta varṇana kareṃ|",
+  "conditions": {
+   "deva": "महात्मा गांधी ने भारतीय स्वतंत्रता संग्राम में बहुत महत्वपूर्ण भूमिका निभाई थी। उन्होंने सत्य और अहिंसा के मार्ग पर चलकर कई आंदोलन किए। उनका सबसे प्रसिद्ध आंदोलन असहयोग आंदोलन था, जिसमें विदेशी वस्तुओं का बहिष्कार किया गया था। इसके अलावा उन्होंने नमक सत्याग्रह भी किया था जिसे दांडी मार्च के नाम से जाना जाता है। इन आंदोलनों ने देश को एकजुट किया।",
+   "iast": "mahātmā gāṃdhī ne bhāratīya svataṃtratā saṃgrāma meṃ bahuta mahatvapūrṇa bhūmikā nibhāī thī| unhoṃne satya aura ahiṃsā ke mārga para calakara kaī āṃdolana kie| unakā sabase prasiddha āṃdolana asahayoga āṃdolana thā, jisameṃ videśī vastuoṃ kā bahiṣkāra kiyā gayā thā| isake alāvā unhoṃne namaka satyāgraha bhī kiyā thā jise dāṃḍī mārca ke nāma se jānā jātā hai| ina āṃdolanoṃ ne deśa ko ekajuṭa kiyā|",
+   "ascii": "mahatma gamdhi ne bharatiya svatamtrata samgrama mem bahuta mahatvapurna bhumika nibhai thi| unhomne satya aura ahimsa ke marga para calakara kai amdolana kie| unaka sabase prasiddha amdolana asahayoga amdolana tha, jisamem videsi vastuom ka bahiskara kiya gaya tha| isake alava unhomne namaka satyagraha bhi kiya tha jise damdi marca ke nama se jana jata hai| ina amdolanom ne desa ko ekajuta kiya|"
+  }
+ },
+ {
+  "id": "RM12",
+  "tier": "medium",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "घर पर पारंपरिक गाजर का हलवा बनाने की स्टेप-बाय-स्टेप रेसिपी और सामग्री की पूरी सूची दें।",
+  "instruction_iast": "ghara para pāraṃparika gājara kā halavā banāne kī sṭepa-bāya-sṭepa resipī aura sāmagrī kī pūrī sūcī deṃ|",
+  "conditions": {
+   "deva": "गाजर का हलवा बनाने के लिए आपको ताजी गाजर, दूध, चीनी, घी और कुछ मेवों की आवश्यकता होगी। सबसे पहले गाजर को धोकर अच्छी तरह कद्दूकस कर लें। इसके बाद एक कड़ाही में घी गरम करें और उसमें कद्दूकस की हुई गाजर को भून लें। फिर इसमें दूध डालकर तब तक पकाएं जब तक दूध सूख न जाए। आखिर में चीनी और मेवे मिला दें।",
+   "iast": "gājara kā halavā banāne ke lie āpako tājī gājara, dūdha, cīnī, ghī aura kucha mevoṃ kī āvaśyakatā hogī| sabase pahale gājara ko dhokara acchī taraha kaddūkasa kara leṃ| isake bāda eka kar̤āhī meṃ ghī garama kareṃ aura usameṃ kaddūkasa kī huī gājara ko bhūna leṃ| phira isameṃ dūdha ḍālakara taba taka pakāeṃ jaba taka dūdha sūkha na jāe| ākhira meṃ cīnī aura meve milā deṃ|",
+   "ascii": "gajara ka halava banane ke lie apako taji gajara, dudha, cini, ghi aura kucha mevom ki avasyakata hogi| sabase pahale gajara ko dhokara acchi taraha kaddukasa kara lem| isake bada eka karahi mem ghi garama karem aura usamem kaddukasa ki hui gajara ko bhuna lem| phira isamem dudha dalakara taba taka pakaem jaba taka dudha sukha na jae| akhira mem cini aura meve mila dem|"
+  }
+ },
+ {
+  "id": "RM13",
+  "tier": "medium",
+  "domain": "health",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "वजन कम करने के लिए एक आदर्श दैनिक डाइट प्लान और व्यायाम की दिनचर्या बताएं।",
+  "instruction_iast": "vajana kama karane ke lie eka ādarśa dainika ḍāiṭa plāna aura vyāyāma kī dinacaryā batāeṃ|",
+  "conditions": {
+   "deva": "वजन कम करने के लिए आपको अपने खान-पान पर विशेष ध्यान देना चाहिए। अपने भोजन में ताजे फल, हरी सब्जियां और प्रोटीन शामिल करें। जंक फूड और ज्यादा चीनी वाली चीजों से पूरी तरह बचें। इसके साथ ही शारीरिक रूप से सक्रिय रहना भी जरूरी है। आप रोजाना सुबह उठकर टहलने जा सकते हैं या थोड़ी देर योग कर सकते हैं। पानी खूब पिएं।",
+   "iast": "vajana kama karane ke lie āpako apane khāna-pāna para viśeṣa dhyāna denā cāhie| apane bhojana meṃ tāje phala, harī sabjiyāṃ aura proṭīna śāmila kareṃ| jaṃka phūḍa aura jyādā cīnī vālī cījoṃ se pūrī taraha baceṃ| isake sātha hī śārīrika rūpa se sakriya rahanā bhī jarūrī hai| āpa rojānā subaha uṭhakara ṭahalane jā sakate haiṃ yā thor̤ī dera yoga kara sakate haiṃ| pānī khūba pieṃ|",
+   "ascii": "vajana kama karane ke lie apako apane khana-pana para visesa dhyana dena cahie| apane bhojana mem taje phala, hari sabjiyam aura protina samila karem| jamka phuda aura jyada cini vali cijom se puri taraha bacem| isake satha hi saririka rupa se sakriya rahana bhi jaruri hai| apa rojana subaha uthakara tahalane ja sakate haim ya thori dera yoga kara sakate haim| pani khuba piem|"
+  }
+ },
+ {
+  "id": "RM14",
+  "tier": "medium",
+  "domain": "personal finance",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "एक युवा पेशेवर के लिए निवेश के विभिन्न विकल्पों और रिटायरमेंट प्लानिंग के बारे में विस्तार से बताएं।",
+  "instruction_iast": "eka yuvā peśevara ke lie niveśa ke vibhinna vikalpoṃ aura riṭāyarameṃṭa plāniṃga ke bāre meṃ vistāra se batāeṃ|",
+  "conditions": {
+   "deva": "एक युवा पेशेवर को अपनी कमाई का कुछ हिस्सा हमेशा बचाना चाहिए। निवेश शुरू करने के लिए म्यूचुअल फंड और फिक्स्ड डिपॉजिट अच्छे विकल्प हो सकते हैं। शेयर बाजार में भी सोच-समझकर पैसा लगाया जा सकता है। रिटायरमेंट के लिए आप पब्लिक प्रोविडेंट फंड में निवेश कर सकते हैं क्योंकि इसमें टैक्स की छूट मिलती है। जल्दी निवेश शुरू करना भविष्य के लिए फायदेमंद होता है।",
+   "iast": "eka yuvā peśevara ko apanī kamāī kā kucha hissā hameśā bacānā cāhie| niveśa śurū karane ke lie myūcuala phaṃḍa aura phiksḍa ḍipaॉjiṭa acche vikalpa ho sakate haiṃ| śeyara bājāra meṃ bhī soca-samajhakara paisā lagāyā jā sakatā hai| riṭāyarameṃṭa ke lie āpa pablika proviḍeṃṭa phaṃḍa meṃ niveśa kara sakate haiṃ kyoṃki isameṃ ṭaiksa kī chūṭa milatī hai| jaldī niveśa śurū karanā bhaviṣya ke lie phāyademaṃda hotā hai|",
+   "ascii": "eka yuva pesevara ko apani kamai ka kucha hissa hamesa bacana cahie| nivesa suru karane ke lie myucuala phamda aura phiksda dipaॉjita acche vikalpa ho sakate haim| seyara bajara mem bhi soca-samajhakara paisa lagaya ja sakata hai| ritayaramemta ke lie apa pablika providemta phamda mem nivesa kara sakate haim kyomki isamem taiksa ki chuta milati hai| jaldi nivesa suru karana bhavisya ke lie phayademamda hota hai|"
+  }
+ },
+ {
+  "id": "RM15",
+  "tier": "medium",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "भारत के स्वतंत्रता संग्राम में महात्मा गांधी के प्रमुख आंदोलनों का वर्णन करें।",
+  "instruction_iast": "bhārata ke svataṃtratā saṃgrāma meṃ mahātmā gāṃdhī ke pramukha āṃdolanoṃ kā varṇana kareṃ|",
+  "conditions": {
+   "deva": "महात्मा गांधी ने भारत के स्वतंत्रता संग्राम में बहुत महत्वपूर्ण भूमिका निभाई थी। उन्होंने कई बड़े आंदोलनों का नेतृत्व किया, जिनमें असहयोग आंदोलन और सविनय अवज्ञा आंदोलन शामिल हैं। इन आंदोलनों ने पूरे देश के लोगों को एक साथ ला दिया। इसके अलावा, उन्होंने हमेशा सत्य और अहिंसा का पालन करने पर जोर दिया, जिससे अंग्रेजी सरकार पर भारी दबाव पड़ा।",
+   "iast": "mahātmā gāṃdhī ne bhārata ke svataṃtratā saṃgrāma meṃ bahuta mahatvapūrṇa bhūmikā nibhāī thī| unhoṃne kaī bar̤e āṃdolanoṃ kā netṛtva kiyā, jinameṃ asahayoga āṃdolana aura savinaya avajñā āṃdolana śāmila haiṃ| ina āṃdolanoṃ ne pūre deśa ke logoṃ ko eka sātha lā diyā| isake alāvā, unhoṃne hameśā satya aura ahiṃsā kā pālana karane para jora diyā, jisase aṃgrejī sarakāra para bhārī dabāva par̤ā|",
+   "ascii": "mahatma gamdhi ne bharata ke svatamtrata samgrama mem bahuta mahatvapurna bhumika nibhai thi| unhomne kai bare amdolanom ka netrtva kiya, jinamem asahayoga amdolana aura savinaya avajna amdolana samila haim| ina amdolanom ne pure desa ke logom ko eka satha la diya| isake alava, unhomne hamesa satya aura ahimsa ka palana karane para jora diya, jisase amgreji sarakara para bhari dabava para|"
+  }
+ },
+ {
+  "id": "RM16",
+  "tier": "medium",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "घर पर आसानी से पनीर बटर मसाला बनाने की पूरी विधि और आवश्यक सामग्री बताइए।",
+  "instruction_iast": "ghara para āsānī se panīra baṭara masālā banāne kī pūrī vidhi aura āvaśyaka sāmagrī batāie|",
+  "conditions": {
+   "deva": "पनीर बटर मसाला बनाने के लिए आपको ताज़ा पनीर, मक्खन, टमाटर, प्याज, और कुछ सूखे मसालों की आवश्यकता होगी। सबसे पहले प्याज और टमाटर को पीसकर एक अच्छी ग्रेवी तैयार कर लें। फिर एक पैन में मक्खन गरम करें और उसमें यह पेस्ट डालकर अच्छी तरह भून लें। जब ग्रेवी पक जाए, तो उसमें पनीर के टुकड़े डाल दें। आपका स्वादिष्ट पनीर तैयार है।",
+   "iast": "panīra baṭara masālā banāne ke lie āpako tāzā panīra, makkhana, ṭamāṭara, pyāja, aura kucha sūkhe masāloṃ kī āvaśyakatā hogī| sabase pahale pyāja aura ṭamāṭara ko pīsakara eka acchī grevī taiyāra kara leṃ| phira eka paina meṃ makkhana garama kareṃ aura usameṃ yaha pesṭa ḍālakara acchī taraha bhūna leṃ| jaba grevī paka jāe, to usameṃ panīra ke ṭukar̤e ḍāla deṃ| āpakā svādiṣṭa panīra taiyāra hai|",
+   "ascii": "panira batara masala banane ke lie apako taza panira, makkhana, tamatara, pyaja, aura kucha sukhe masalom ki avasyakata hogi| sabase pahale pyaja aura tamatara ko pisakara eka acchi grevi taiyara kara lem| phira eka paina mem makkhana garama karem aura usamem yaha pesta dalakara acchi taraha bhuna lem| jaba grevi paka jae, to usamem panira ke tukare dala dem| apaka svadista panira taiyara hai|"
+  }
+ },
+ {
+  "id": "RL00",
+  "tier": "low",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "गुरुत्वाकर्षण क्या है?",
+  "instruction_iast": "gurutvākarṣaṇa kyā hai?",
+  "conditions": {
+   "deva": "गुरुत्वाकर्षण एक प्रकार की शक्ति है जिससे चीजें नीचे गिरती हैं। यह मुख्य रूप से हवा के दबाव के कारण होता है। बस यही कारण है कि हम हमेशा जमीन पर आसानी से चल सकते हैं।",
+   "iast": "gurutvākarṣaṇa eka prakāra kī śakti hai jisase cījeṃ nīce giratī haiṃ| yaha mukhya rūpa se havā ke dabāva ke kāraṇa hotā hai| basa yahī kāraṇa hai ki hama hameśā jamīna para āsānī se cala sakate haiṃ|",
+   "ascii": "gurutvakarsana eka prakara ki sakti hai jisase cijem nice girati haim| yaha mukhya rupa se hava ke dabava ke karana hota hai| basa yahi karana hai ki hama hamesa jamina para asani se cala sakate haim|"
+  }
+ },
+ {
+  "id": "RL01",
+  "tier": "low",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "अच्छी चाय कैसे बनाएं?",
+  "instruction_iast": "acchī cāya kaise banāeṃ?",
+  "conditions": {
+   "deva": "चाय बनाने के लिए सबसे पहले पानी गरम करें। उसमें थोड़ी चायपत्ती और चीनी डालें। फिर थोड़ा दूध मिला लें। उसे अच्छे से उबाल लें और आपकी चाय पीने के लिए बिल्कुल तैयार है।",
+   "iast": "cāya banāne ke lie sabase pahale pānī garama kareṃ| usameṃ thor̤ī cāyapattī aura cīnī ḍāleṃ| phira thor̤ā dūdha milā leṃ| use acche se ubāla leṃ aura āpakī cāya pīne ke lie bilkula taiyāra hai|",
+   "ascii": "caya banane ke lie sabase pahale pani garama karem| usamem thori cayapatti aura cini dalem| phira thora dudha mila lem| use acche se ubala lem aura apaki caya pine ke lie bilkula taiyara hai|"
+  }
+ },
+ {
+  "id": "RL02",
+  "tier": "low",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "ताजमहल किसने बनवाया था और क्यों?",
+  "instruction_iast": "tājamahala kisane banavāyā thā aura kyoṃ?",
+  "conditions": {
+   "deva": "ताजमहल शाहजहाँ ने बनवाया था। उसने इसे अपनी पत्नी की याद में बनाया था। यह भारत के आगरा शहर में स्थित है और बहुत सुंदर दिखता है। दुनिया भर से लोग इसे देखने आते हैं।",
+   "iast": "tājamahala śāhajahā~ ne banavāyā thā| usane ise apanī patnī kī yāda meṃ banāyā thā| yaha bhārata ke āgarā śahara meṃ sthita hai aura bahuta suṃdara dikhatā hai| duniyā bhara se loga ise dekhane āte haiṃ|",
+   "ascii": "tajamahala sahajaha~ ne banavaya tha| usane ise apani patni ki yada mem banaya tha| yaha bharata ke agara sahara mem sthita hai aura bahuta sumdara dikhata hai| duniya bhara se loga ise dekhane ate haim|"
+  }
+ },
+ {
+  "id": "RL03",
+  "tier": "low",
+  "domain": "health",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "वजन कम करने के लिए क्या करना चाहिए?",
+  "instruction_iast": "vajana kama karane ke lie kyā karanā cāhie?",
+  "conditions": {
+   "deva": "वजन कम करने के लिए आपको खाना पूरी तरह छोड़ देना चाहिए। अगर आप दिन भर सिर्फ पानी पिएंगे तो वजन बहुत जल्दी कम होगा। इसके अलावा बस रोज थोड़ा बहुत टहल लिया करें।",
+   "iast": "vajana kama karane ke lie āpako khānā pūrī taraha chor̤a denā cāhie| agara āpa dina bhara sirpha pānī pieṃge to vajana bahuta jaldī kama hogā| isake alāvā basa roja thor̤ā bahuta ṭahala liyā kareṃ|",
+   "ascii": "vajana kama karane ke lie apako khana puri taraha chora dena cahie| agara apa dina bhara sirpha pani piemge to vajana bahuta jaldi kama hoga| isake alava basa roja thora bahuta tahala liya karem|"
+  }
+ },
+ {
+  "id": "RL04",
+  "tier": "low",
+  "domain": "technology",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "कंप्यूटर में रैम (RAM) का क्या काम होता है?",
+  "instruction_iast": "kaṃpyūṭara meṃ raima (RAM) kā kyā kāma hotā hai?",
+  "conditions": {
+   "deva": "रैम कंप्यूटर का एक जरूरी हिस्सा है। यह कंप्यूटर को काफी तेज बनाता है। इसके बिना आप बिल्कुल भी इंटरनेट नहीं चला सकते हैं। यह बस एक छोटी चिप जैसी होती है जो मशीन के अंदर लगी होती है।",
+   "iast": "raima kaṃpyūṭara kā eka jarūrī hissā hai| yaha kaṃpyūṭara ko kāphī teja banātā hai| isake binā āpa bilkula bhī iṃṭaraneṭa nahīṃ calā sakate haiṃ| yaha basa eka choṭī cipa jaisī hotī hai jo maśīna ke aṃdara lagī hotī hai|",
+   "ascii": "raima kampyutara ka eka jaruri hissa hai| yaha kampyutara ko kaphi teja banata hai| isake bina apa bilkula bhi imtaraneta nahim cala sakate haim| yaha basa eka choti cipa jaisi hoti hai jo masina ke amdara lagi hoti hai|"
+  }
+ },
+ {
+  "id": "RL05",
+  "tier": "low",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "पानी क्यों उबलता है?",
+  "instruction_iast": "pānī kyoṃ ubalatā hai?",
+  "conditions": {
+   "deva": "पानी इसलिए उबलता है क्योंकि उसे बहुत गरम किया जाता है। जब वह ज्यादा गरम होता है तो उसमें से गैस निकलने लगती है।",
+   "iast": "pānī isalie ubalatā hai kyoṃki use bahuta garama kiyā jātā hai| jaba vaha jyādā garama hotā hai to usameṃ se gaisa nikalane lagatī hai|",
+   "ascii": "pani isalie ubalata hai kyomki use bahuta garama kiya jata hai| jaba vaha jyada garama hota hai to usamem se gaisa nikalane lagati hai|"
+  }
+ },
+ {
+  "id": "RL06",
+  "tier": "low",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "ताजमहल किसने बनवाया था?",
+  "instruction_iast": "tājamahala kisane banavāyā thā?",
+  "conditions": {
+   "deva": "ताजमहल को मुग़ल सम्राट अकबर ने अपनी पत्नी की याद में बनवाया था। यह बहुत बड़ा है और पूरी तरह सफेद रंग का है।",
+   "iast": "tājamahala ko muġala samrāṭa akabara ne apanī patnī kī yāda meṃ banavāyā thā| yaha bahuta bar̤ā hai aura pūrī taraha sapheda raṃga kā hai|",
+   "ascii": "tajamahala ko mugala samrata akabara ne apani patni ki yada mem banavaya tha| yaha bahuta bara hai aura puri taraha sapheda ramga ka hai|"
+  }
+ },
+ {
+  "id": "RL07",
+  "tier": "low",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "चाय कैसे बनाते हैं?",
+  "instruction_iast": "cāya kaise banāte haiṃ?",
+  "conditions": {
+   "deva": "चाय बनाने के लिए बस पानी, चायपत्ती, चीनी और दूध को मिला लें। फिर उसे गैस पर थोड़ा गरम कर लें और छान कर पी लें।",
+   "iast": "cāya banāne ke lie basa pānī, cāyapattī, cīnī aura dūdha ko milā leṃ| phira use gaisa para thor̤ā garama kara leṃ aura chāna kara pī leṃ|",
+   "ascii": "caya banane ke lie basa pani, cayapatti, cini aura dudha ko mila lem| phira use gaisa para thora garama kara lem aura chana kara pi lem|"
+  }
+ },
+ {
+  "id": "RL08",
+  "tier": "low",
+  "domain": "health",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "विटामिन सी के क्या फायदे हैं?",
+  "instruction_iast": "viṭāmina sī ke kyā phāyade haiṃ?",
+  "conditions": {
+   "deva": "विटामिन सी खाने से आपकी हड्डियां बहुत मजबूत होती हैं। आपको इसे हर दिन खाना चाहिए। यह मीठे फलों में बहुत ज्यादा पाया जाता है।",
+   "iast": "viṭāmina sī khāne se āpakī haḍḍiyāṃ bahuta majabūta hotī haiṃ| āpako ise hara dina khānā cāhie| yaha mīṭhe phaloṃ meṃ bahuta jyādā pāyā jātā hai|",
+   "ascii": "vitamina si khane se apaki haddiyam bahuta majabuta hoti haim| apako ise hara dina khana cahie| yaha mithe phalom mem bahuta jyada paya jata hai|"
+  }
+ },
+ {
+  "id": "RL09",
+  "tier": "low",
+  "domain": "technology",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "कंप्यूटर का सीपीयू क्या काम करता है?",
+  "instruction_iast": "kaṃpyūṭara kā sīpīyū kyā kāma karatā hai?",
+  "conditions": {
+   "deva": "सीपीयू कंप्यूटर का एक बहुत ही जरूरी हिस्सा है। यह बस बिजली से चलता है और आपके कंप्यूटर को ऑन रखने में मदद करता है।",
+   "iast": "sīpīyū kaṃpyūṭara kā eka bahuta hī jarūrī hissā hai| yaha basa bijalī se calatā hai aura āpake kaṃpyūṭara ko ऑna rakhane meṃ madada karatā hai|",
+   "ascii": "sipiyu kampyutara ka eka bahuta hi jaruri hissa hai| yaha basa bijali se calata hai aura apake kampyutara ko ऑna rakhane mem madada karata hai|"
+  }
+ },
+ {
+  "id": "RL10",
+  "tier": "low",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "सूर्य ग्रहण कैसे होता है?",
+  "instruction_iast": "sūrya grahaṇa kaise hotā hai?",
+  "conditions": {
+   "deva": "सूर्य ग्रहण तब होता है जब चाँद बीच में आ जाता है। इससे दिन में अँधेरा हो जाता है। यह हर महीने होता है और बहुत खतरनाक होता है।",
+   "iast": "sūrya grahaṇa taba hotā hai jaba cā~da bīca meṃ ā jātā hai| isase dina meṃ a~dherā ho jātā hai| yaha hara mahīne hotā hai aura bahuta khataranāka hotā hai|",
+   "ascii": "surya grahana taba hota hai jaba ca~da bica mem a jata hai| isase dina mem a~dhera ho jata hai| yaha hara mahine hota hai aura bahuta khataranaka hota hai|"
+  }
+ },
+ {
+  "id": "RL11",
+  "tier": "low",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "अच्छी चाय बनाने का तरीका क्या है?",
+  "instruction_iast": "acchī cāya banāne kā tarīkā kyā hai?",
+  "conditions": {
+   "deva": "चाय बनाने के लिए पानी गरम करें। फिर उसमें चायपत्ती और दूध डाल दें। थोड़ी देर बाद गैस बंद कर दें और चीनी मिला लें। बस चाय तैयार है।",
+   "iast": "cāya banāne ke lie pānī garama kareṃ| phira usameṃ cāyapattī aura dūdha ḍāla deṃ| thor̤ī dera bāda gaisa baṃda kara deṃ aura cīnī milā leṃ| basa cāya taiyāra hai|",
+   "ascii": "caya banane ke lie pani garama karem| phira usamem cayapatti aura dudha dala dem| thori dera bada gaisa bamda kara dem aura cini mila lem| basa caya taiyara hai|"
+  }
+ },
+ {
+  "id": "RL12",
+  "tier": "low",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "ताजमहल किसने और क्यों बनवाया था?",
+  "instruction_iast": "tājamahala kisane aura kyoṃ banavāyā thā?",
+  "conditions": {
+   "deva": "ताजमहल शाहजहाँ ने बनवाया था। यह एक बहुत बड़ी सफेद इमारत है जो आगरा में है। लोग इसे देखने जाते हैं क्योंकि यह बहुत सुंदर है।",
+   "iast": "tājamahala śāhajahā~ ne banavāyā thā| yaha eka bahuta bar̤ī sapheda imārata hai jo āgarā meṃ hai| loga ise dekhane jāte haiṃ kyoṃki yaha bahuta suṃdara hai|",
+   "ascii": "tajamahala sahajaha~ ne banavaya tha| yaha eka bahuta bari sapheda imarata hai jo agara mem hai| loga ise dekhane jate haim kyomki yaha bahuta sumdara hai|"
+  }
+ },
+ {
+  "id": "RL13",
+  "tier": "low",
+  "domain": "health",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "वजन कम करने के लिए क्या करना चाहिए?",
+  "instruction_iast": "vajana kama karane ke lie kyā karanā cāhie?",
+  "conditions": {
+   "deva": "वजन कम करने के लिए आपको बस खाना छोड़ देना चाहिए। पानी ज्यादा पिएं और बाहर का खाना बिल्कुल बंद कर दें। इससे आप जल्द ही पतले हो जाएंगे।",
+   "iast": "vajana kama karane ke lie āpako basa khānā chor̤a denā cāhie| pānī jyādā pieṃ aura bāhara kā khānā bilkula baṃda kara deṃ| isase āpa jalda hī patale ho jāeṃge|",
+   "ascii": "vajana kama karane ke lie apako basa khana chora dena cahie| pani jyada piem aura bahara ka khana bilkula bamda kara dem| isase apa jalda hi patale ho jaemge|"
+  }
+ },
+ {
+  "id": "RL14",
+  "tier": "low",
+  "domain": "geography",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "भारत की सबसे लंबी नदी कौन सी है और वह कहाँ से निकलती है?",
+  "instruction_iast": "bhārata kī sabase laṃbī nadī kauna sī hai aura vaha kahā~ se nikalatī hai?",
+  "conditions": {
+   "deva": "भारत की सबसे लंबी नदी गंगा है। यह पहाड़ों से निकलती है और समुद्र में मिल जाती है। इसमें बहुत सारा पानी होता है जो खेती के काम आता है।",
+   "iast": "bhārata kī sabase laṃbī nadī gaṃgā hai| yaha pahār̤oṃ se nikalatī hai aura samudra meṃ mila jātī hai| isameṃ bahuta sārā pānī hotā hai jo khetī ke kāma ātā hai|",
+   "ascii": "bharata ki sabase lambi nadi gamga hai| yaha paharom se nikalati hai aura samudra mem mila jati hai| isamem bahuta sara pani hota hai jo kheti ke kama ata hai|"
+  }
+ },
+ {
+  "id": "RL15",
+  "tier": "low",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "पानी क्यों उबलता है?",
+  "instruction_iast": "pānī kyoṃ ubalatā hai?",
+  "conditions": {
+   "deva": "जब आप पानी को बहुत ज्यादा गर्म करते हैं, तो वह उबलने लगता है। इसका तापमान 90 डिग्री सेल्सियस तक पहुँच जाता है और भाप बन जाती है।",
+   "iast": "jaba āpa pānī ko bahuta jyādā garma karate haiṃ, to vaha ubalane lagatā hai| isakā tāpamāna 90 ḍigrī selsiyasa taka pahu~ca jātā hai aura bhāpa bana jātī hai|",
+   "ascii": "jaba apa pani ko bahuta jyada garma karate haim, to vaha ubalane lagata hai| isaka tapamana 90 digri selsiyasa taka pahu~ca jata hai aura bhapa bana jati hai|"
+  }
+ },
+ {
+  "id": "RL16",
+  "tier": "low",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_deva": "अच्छी चाय कैसे बनाएं?",
+  "instruction_iast": "acchī cāya kaise banāeṃ?",
+  "conditions": {
+   "deva": "चाय बनाने के लिए आपको बस पानी, चायपत्ती और चीनी को मिलाना है। इसे थोड़ी देर गैस पर रख दें और फिर छानकर पी लें।",
+   "iast": "cāya banāne ke lie āpako basa pānī, cāyapattī aura cīnī ko milānā hai| ise thor̤ī dera gaisa para rakha deṃ aura phira chānakara pī leṃ|",
+   "ascii": "caya banane ke lie apako basa pani, cayapatti aura cini ko milana hai| ise thori dera gaisa para rakha dem aura phira chanakara pi lem|"
+  }
+ }
+]

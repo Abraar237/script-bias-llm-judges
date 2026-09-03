@@ -114,6 +114,99 @@ if os.path.exists(p):
         "result": res,
     }
 
+
+# --- 4. Matched-interface Sonnet core arm (OpenRouter gateway, temp 0) ---
+p = os.path.join(RES, "scores_openrouter_anthropic_claude-sonnet-5.jsonl")
+if os.path.exists(p):
+    by, tier = defaultdict(dict), {}
+    for line in open(p):
+        r = json.loads(line)
+        if r["score"] is not None:
+            by[r["id"]][r["condition"]] = r["score"]; tier[r["id"]] = r["tier"]
+    block = {}
+    for cond in ["iast", "ascii", "hinglish"]:
+        ids = [i for i in by if "deva" in by[i] and cond in by[i]]
+        diffs = [by[i][cond] - by[i]["deva"] for i in ids]
+        e = {"n": len(diffs), "mean_shift": round(st.mean(diffs), 2),
+             "ci95": boot_ci(diffs), "p": perm_p(diffs), "by_tier": {}}
+        for t in ["high", "medium", "low"]:
+            td = [by[i][cond] - by[i]["deva"] for i in ids if tier[i] == t]
+            if td:
+                e["by_tier"][t] = round(st.mean(td), 2)
+        block[cond] = e
+    OUT["matched_interface_sonnet"] = {
+        "design": "full Sonnet core arm through the same OpenAI-compatible gateway as GPT-5.6, temperature 0, one item per call",
+        "conditions": block}
+
+# --- 5. Authorship replication set (Gemini-authored, 51 items) ---
+repl = {}
+for path, judge in [("replication_claude-sonnet-5.jsonl", "claude-sonnet-5"),
+                    ("replication_gemini-3.6-flash.jsonl", "gemini-3.6-flash")]:
+    fp = os.path.join(RES, path)
+    if not os.path.exists(fp):
+        continue
+    by, tier = defaultdict(dict), {}
+    for line in open(fp):
+        r = json.loads(line)
+        if r["score"] is not None:
+            by[r["id"]][r["condition"]] = r["score"]; tier[r["id"]] = r["tier"]
+    jb = {}
+    for cond in ["iast", "ascii"]:
+        ids = [i for i in by if "deva" in by[i] and cond in by[i]]
+        diffs = [by[i][cond] - by[i]["deva"] for i in ids]
+        e = {"n": len(diffs), "mean_shift": round(st.mean(diffs), 2),
+             "ci95": boot_ci(diffs), "p": perm_p(diffs), "by_tier": {}}
+        for t in ["high", "medium", "low"]:
+            td = [by[i][cond] - by[i]["deva"] for i in ids if tier[i] == t]
+            if td:
+                e["by_tier"][t] = {"mean": round(st.mean(td), 2), "p": perm_p(td), "n": len(td)}
+        jb[cond] = e
+    repl[judge] = jb
+OUT["authorship_replication"] = {"author_model": "gemini-3.1-pro-preview", "judges": repl}
+
+# --- 6. Pairwise, all seven judges ---
+from collections import Counter
+from math import comb
+pw = {}
+for f, j in [("pairwise_gemini-3.6-flash.jsonl", "gemini-3.6-flash"),
+             ("pairwise_claude-sonnet-5.jsonl", "claude-sonnet-5"),
+             ("pairwise_gemini-3.1-pro-preview.jsonl", "gemini-3.1-pro-preview"),
+             ("pairwise_claude-opus-5.jsonl", "claude-opus-5"),
+             ("pairwise_claude-fable-5.jsonl", "claude-fable-5"),
+             ("pairwise_gpt-5.6-terra.jsonl", "gpt-5.6"),
+             ("pairwise_qwen-2.5-7b.jsonl", "qwen-2.5-7b")]:
+    fp = os.path.join(RES, f)
+    if not os.path.exists(fp):
+        continue
+    rows = [json.loads(l) for l in open(fp)]
+    c = Counter(r["script_winner"] for r in rows)
+    d_w, a_w = c.get("deva", 0), c.get("ascii", 0)
+    n = d_w + a_w
+    p_sign = min(1.0, sum(comb(n, k) for k in range(min(d_w, a_w) + 1)) / 2 ** n * 2) if n else None
+    pw[j] = {"deva": d_w, "ascii": a_w, "tie": c.get("tie", 0),
+             "unparsed": sum(1 for r in rows if r["script_winner"] is None),
+             "sign_p": p_sign}
+OUT["pairwise_all_judges"] = pw
+
+# --- 7. Ranking-flip demo ---
+fp = os.path.join(RES, "ranking_claude-sonnet-5.jsonl")
+if os.path.exists(fp):
+    scores = defaultdict(lambda: defaultdict(list))
+    for line in open(fp):
+        r = json.loads(line)
+        if r["score"] is not None:
+            scores[r["script"]][r["system"]].append(r["score"])
+    rk = {}
+    for script, sysmap in scores.items():
+        means = {sysname: round(st.mean(v), 2) for sysname, v in sysmap.items()}
+        order = sorted(means, key=means.get, reverse=True)
+        rk[script] = {"means": means, "ranking": order,
+                      "n_per_system": {k: len(v) for k, v in sysmap.items()}}
+    flip = rk.get("deva", {}).get("ranking") != rk.get("ascii", {}).get("ranking")
+    OUT["ranking_flip_demo"] = {"judge": "claude-sonnet-5",
+                                "systems": ["qwen-2.5-7b", "gemini-3.6-flash", "gemini-3.1-pro-preview"],
+                                "per_script": rk, "ranking_changed": flip}
+
 path = os.path.join(RES, "analysis_batteries2.json")
 json.dump(OUT, open(path, "w"), indent=1)
 print(f"wrote {path}")

@@ -75,5 +75,261 @@
     }
    }
   }
+ },
+ "matched_interface_sonnet": {
+  "design": "full Sonnet core arm through the same OpenAI-compatible gateway as GPT-5.6, temperature 0, one item per call",
+  "conditions": {
+   "iast": {
+    "n": 150,
+    "mean_shift": 0.49,
+    "ci95": [
+     -0.6,
+     1.63
+    ],
+    "p": 0.40408,
+    "by_tier": {
+     "high": -2.64,
+     "medium": 2.3,
+     "low": 1.8
+    }
+   },
+   "ascii": {
+    "n": 150,
+    "mean_shift": -3.64,
+    "ci95": [
+     -5.02,
+     -2.26
+    ],
+    "p": 5e-05,
+    "by_tier": {
+     "high": -9.24,
+     "medium": -2.56,
+     "low": 0.88
+    }
+   },
+   "hinglish": {
+    "n": 150,
+    "mean_shift": 1.89,
+    "ci95": [
+     0.92,
+     2.94
+    ],
+    "p": 5e-05,
+    "by_tier": {
+     "high": -0.24,
+     "medium": 5.28,
+     "low": 0.64
+    }
+   }
+  }
+ },
+ "authorship_replication": {
+  "author_model": "gemini-3.1-pro-preview",
+  "judges": {
+   "claude-sonnet-5": {
+    "iast": {
+     "n": 51,
+     "mean_shift": 2.92,
+     "ci95": [
+      -0.18,
+      5.98
+     ],
+     "p": 0.07245,
+     "by_tier": {
+      "high": {
+       "mean": -2.82,
+       "p": 0.0853,
+       "n": 17
+      },
+      "medium": {
+       "mean": 4.29,
+       "p": 0.18469,
+       "n": 17
+      },
+      "low": {
+       "mean": 7.29,
+       "p": 0.0259,
+       "n": 17
+      }
+     }
+    },
+    "ascii": {
+     "n": 51,
+     "mean_shift": -4.27,
+     "ci95": [
+      -9.37,
+      0.98
+     ],
+     "p": 0.11809,
+     "by_tier": {
+      "high": {
+       "mean": -16.71,
+       "p": 0.0001,
+       "n": 17
+      },
+      "medium": {
+       "mean": -3.35,
+       "p": 0.37433,
+       "n": 17
+      },
+      "low": {
+       "mean": 7.24,
+       "p": 0.20759,
+       "n": 17
+      }
+     }
+    }
+   },
+   "gemini-3.6-flash": {
+    "iast": {
+     "n": 51,
+     "mean_shift": 4.61,
+     "ci95": [
+      2.65,
+      6.86
+     ],
+     "p": 5e-05,
+     "by_tier": {
+      "high": {
+       "mean": 0.29,
+       "p": 1.0,
+       "n": 17
+      },
+      "medium": {
+       "mean": 5.59,
+       "p": 0.01815,
+       "n": 17
+      },
+      "low": {
+       "mean": 7.94,
+       "p": 0.00395,
+       "n": 17
+      }
+     }
+    },
+    "ascii": {
+     "n": 51,
+     "mean_shift": 2.75,
+     "ci95": [
+      0.69,
+      5.1
+     ],
+     "p": 0.0198,
+     "by_tier": {
+      "high": {
+       "mean": 0,
+       "p": 1.0,
+       "n": 17
+      },
+      "medium": {
+       "mean": 2.35,
+       "p": 0.37238,
+       "n": 17
+      },
+      "low": {
+       "mean": 5.88,
+       "p": 0.03025,
+       "n": 17
+      }
+     }
+    }
+   }
+  }
+ },
+ "pairwise_all_judges": {
+  "gemini-3.6-flash": {
+   "deva": 288,
+   "ascii": 0,
+   "tie": 12,
+   "unparsed": 0,
+   "sign_p": 4.021529366771898e-87
+  },
+  "claude-sonnet-5": {
+   "deva": 293,
+   "ascii": 0,
+   "tie": 7,
+   "unparsed": 0,
+   "sign_p": 1.256727927116218e-88
+  },
+  "gemini-3.1-pro-preview": {
+   "deva": 299,
+   "ascii": 0,
+   "tie": 1,
+   "unparsed": 0,
+   "sign_p": 1.9636373861190906e-90
+  },
+  "claude-opus-5": {
+   "deva": 300,
+   "ascii": 0,
+   "tie": 0,
+   "unparsed": 0,
+   "sign_p": 9.818186930595453e-91
+  },
+  "claude-fable-5": {
+   "deva": 300,
+   "ascii": 0,
+   "tie": 0,
+   "unparsed": 0,
+   "sign_p": 9.818186930595453e-91
+  },
+  "gpt-5.6": {
+   "deva": 283,
+   "ascii": 0,
+   "tie": 17,
+   "unparsed": 0,
+   "sign_p": 1.2868893973670072e-85
+  },
+  "qwen-2.5-7b": {
+   "deva": 252,
+   "ascii": 8,
+   "tie": 40,
+   "unparsed": 0,
+   "sign_p": 5.178052024970587e-64
+  }
+ },
+ "ranking_flip_demo": {
+  "judge": "claude-sonnet-5",
+  "systems": [
+   "qwen-2.5-7b",
+   "gemini-3.6-flash",
+   "gemini-3.1-pro-preview"
+  ],
+  "per_script": {
+   "deva": {
+    "means": {
+     "gemini-3.1-pro-preview": 57.06,
+     "gemini-3.6-flash": 62.24,
+     "qwen-2.5-7b": 12.78
+    },
+    "ranking": [
+     "gemini-3.6-flash",
+     "gemini-3.1-pro-preview",
+     "qwen-2.5-7b"
+    ],
+    "n_per_system": {
+     "gemini-3.1-pro-preview": 50,
+     "gemini-3.6-flash": 50,
+     "qwen-2.5-7b": 50
+    }
+   },
+   "ascii": {
+    "means": {
+     "gemini-3.1-pro-preview": 51.88,
+     "gemini-3.6-flash": 56.18,
+     "qwen-2.5-7b": 15.62
+    },
+    "ranking": [
+     "gemini-3.6-flash",
+     "gemini-3.1-pro-preview",
+     "qwen-2.5-7b"
+    ],
+    "n_per_system": {
+     "gemini-3.1-pro-preview": 50,
+     "gemini-3.6-flash": 50,
+     "qwen-2.5-7b": 50
+    }
+   }
+  },
+  "ranking_changed": false
  }
 }

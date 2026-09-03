@@ -1,0 +1,300 @@
+{"id": "H14", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L43", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "M34", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "L46", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "more accurate and clear in language"}
+{"id": "M09", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "H30", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are equally clear, correct, and complete."}
+{"id": "H44", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "ascii", "reason": "Response A uses Hindi script consistently and maintains the original language of the instruction."}
+{"id": "M12", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more grammatically correct and clear."}
+{"id": "L05", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "B is more accurate and clear in its use of Hindi language."}
+{"id": "M22", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "L08", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are similar in content and lack detail, but they convey the basic information correctly."}
+{"id": "M15", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more readable."}
+{"id": "M19", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更准确和清晰地描述了眼睛问题和预防方法。"}
+{"id": "L32", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "M13", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H41", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially the same and provide clear, helpful, and practical advice on time management."}
+{"id": "H50", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are very similar in content and quality."}
+{"id": "L19", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H01", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "L25", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more accurate in explaining cloud computing and its benefits."}
+{"id": "H45", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more grammatically correct and uses more natural language."}
+{"id": "M29", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more grammatically correct and uses more appropriate terminology."}
+{"id": "H05", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful due to proper language use and additional examples."}
+{"id": "H44", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H08", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "L28", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially the same with minor differences in language and clarity."}
+{"id": "M02", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更准确和流畅地使用了中文"}
+{"id": "M12", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "M20", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more accurate and provides a clearer explanation."}
+{"id": "L39", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more comprehensible in Hindi."}
+{"id": "L35", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more grammatically correct"}
+{"id": "H24", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更清晰易懂"}
+{"id": "M48", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H22", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more accurate and uses simpler language for clarity."}
+{"id": "L31", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more comprehensible in Hindi."}
+{"id": "L47", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "more coherent and clearer"}
+{"id": "M10", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更准确和详细地回答了问题。"}
+{"id": "H13", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "H21", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L31", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "more coherent and grammatically correct"}
+{"id": "L35", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more comprehensible in Hindi."}
+{"id": "H01", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more concise and uses correct English throughout."}
+{"id": "H39", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more grammatically correct and uses more appropriate terminology."}
+{"id": "M37", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更清晰地解释了系统性投资计划的概念和优势。"}
+{"id": "L23", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is in correct Hindi and more clear and helpful."}
+{"id": "H28", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "ascii", "reason": "Response A uses the correct language and is more detailed."}
+{"id": "H09", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more concise and maintains a smoother flow."}
+{"id": "M45", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L33", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is more coherent and provides a clearer explanation."}
+{"id": "M05", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is clearer and more accurate in explaining the physics principles involved."}
+{"id": "M07", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more grammatically correct and provides a clearer narrative."}
+{"id": "L14", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more clear and grammatically correct."}
+{"id": "L18", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are poorly written and lack detail, making it difficult to determine a clear winner based on the given criteria."}
+{"id": "H19", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L46", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially the same with minor differences in spelling and are not very detailed or helpful."}
+{"id": "L15", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are poorly written and do not provide a detailed recipe as requested."}
+{"id": "H06", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more concise and maintains the same level of detail and clarity as Response A."}
+{"id": "H23", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clear, helpful, and provides practical advice."}
+{"id": "L07", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is more coherent and provides a better explanation of Ashoka's reign and policies."}
+{"id": "M25", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更准确和详细地描述了蓝牙和WiFi的区别。"}
+{"id": "M39", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "H17", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "ascii", "reason": "Response A uses more specific Hindi words and phrases, making it more comprehensible for Hindi speakers."}
+{"id": "M50", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L30", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is more coherent and provides a better explanation."}
+{"id": "M27", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer, more grammatically correct, and provides more detailed information."}
+{"id": "M29", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "M24", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "स्पष्टता और व्याकरण के लिए"}
+{"id": "L22", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more comprehensible in English."}
+{"id": "L27", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are incomplete and lack detail on the cultural and mythological significance of Holi."}
+{"id": "H48", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "响应B的语法和表达更为流畅自然。"}
+{"id": "H48", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H34", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more concise and grammatically correct."}
+{"id": "M39", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更准确和流畅地使用了英语和印度语的混合表达方式。"}
+{"id": "L21", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "B is more accurate and clear in explaining AI."}
+{"id": "L09", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "B is more accurate and clear in its use of Hindi language."}
+{"id": "H33", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are equally clear, correct, and comprehensive."}
+{"id": "L05", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H15", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is more clear and helpful with proper grammar and additional details."}
+{"id": "H02", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "M17", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more grammatically correct and clear."}
+{"id": "H12", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L29", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is more grammatically correct and provides more detailed information."}
+{"id": "L09", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H21", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更清晰易懂"}
+{"id": "M26", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "H27", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is more clear and provides more detail and context."}
+{"id": "L02", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are incorrect and incomplete, but they are equally poor."}
+{"id": "H41", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L16", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": " clearer and more detailed explanation"}
+{"id": "H35", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed with proper examples and explanations."}
+{"id": "M11", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is clearer and more detailed."}
+{"id": "M25", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and uses correct terminology."}
+{"id": "M31", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "H04", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is in correct Hindi and more clear and helpful."}
+{"id": "H25", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "L03", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "more coherent and grammatically correct"}
+{"id": "L24", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful in providing methods to avoid online cyber fraud."}
+{"id": "M43", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更清晰地指出了电器消耗最大的部分，并且使用了正确的词汇和语法。"}
+{"id": "M30", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "L36", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "more accurate and clear"}
+{"id": "L38", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially the same and convey the same information in a similar manner."}
+{"id": "L29", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更准确和完整地描述了翁姆节日在泰米尔纳德邦的庆祝方式以及它在南印度的重要性。"}
+{"id": "L27", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are similar in content and lack detail."}
+{"id": "L06", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more complete in describing the causes and outcomes of the 1857 freedom struggle."}
+{"id": "M13", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "स्पष्टता और सही व्याकरण के कारण"}
+{"id": "L01", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are incorrect and do not address the instruction properly."}
+{"id": "L43", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "more coherent and grammatically correct"}
+{"id": "M33", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B uses correct Hindi grammar and is more fluent."}
+{"id": "L37", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful in providing a step-by-step guide."}
+{"id": "H07", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "L44", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more accurate in language"}
+{"id": "L19", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more coherent"}
+{"id": "H45", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H32", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "M33", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "H26", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "ascii", "reason": "Response A is slightly more concise and flows better in Hindi."}
+{"id": "M15", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more accurate"}
+{"id": "H27", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more concise and maintains a smoother flow in English."}
+{"id": "M40", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful with proper grammar and examples."}
+{"id": "L44", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L16", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "more clear and grammatically correct"}
+{"id": "M18", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is more coherent and provides a clearer explanation."}
+{"id": "M50", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更准确地使用了指令中的语言和结构。"}
+{"id": "H08", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "ascii", "reason": "Response A provides more detailed information and examples."}
+{"id": "M04", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and uses correct grammar."}
+{"id": "L30", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more clear and grammatically correct."}
+{"id": "M26", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more clear and grammatically correct."}
+{"id": "M40", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is clearer and more comprehensible in Hindi."}
+{"id": "H34", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is more clear and provides more detailed information."}
+{"id": "H20", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H37", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H40", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L20", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially the same in meaning and lack detail about the right times and quantities to drink water."}
+{"id": "M37", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "M24", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "M16", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L40", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H10", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is more detailed, clear, and grammatically correct."}
+{"id": "M47", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more accurate and uses correct grammar and vocabulary."}
+{"id": "L39", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "B is more accurate and clear in language."}
+{"id": "M17", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "L42", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially the same in meaning and lack detail and examples as requested in the instruction."}
+{"id": "M22", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is clearer and more accurate in explaining the process."}
+{"id": "M31", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more coherent"}
+{"id": "L14", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more comprehensible in Hindi."}
+{"id": "L18", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "more accurate and clear"}
+{"id": "H46", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H35", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more concise and easier to understand."}
+{"id": "L34", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is clearer and more grammatically correct."}
+{"id": "M01", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "L45", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more accurate in language and meaning"}
+{"id": "L50", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more grammatically correct"}
+{"id": "H25", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are equally clear, correct, and helpful in explaining the difference between RAM and storage."}
+{"id": "L02", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially the same and convey the same information, just with slight differences in language and structure."}
+{"id": "M08", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "L41", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more accurate in terms of language and meaning"}
+{"id": "H50", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L23", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "सरल भाषा में विस्तार से समझाता है"}
+{"id": "H16", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are very similar in content and quality."}
+{"id": "H43", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L25", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H20", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more clear and concise."}
+{"id": "M42", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L48", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "M21", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H31", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "L12", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more accurate instructions in Hindi"}
+{"id": "L01", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially the same and lack detail on the actual process of light absorption and its importance."}
+{"id": "M11", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Clearer and more helpful instructions."}
+{"id": "H24", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "H29", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Both responses are very similar, but B is slightly more polished and consistent in its use of Hindi."}
+{"id": "L17", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L20", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially the same and convey the same information in slightly different words."}
+{"id": "H22", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more comprehensible in English."}
+{"id": "L47", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is more coherent and provides useful advice."}
+{"id": "L48", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more grammatically correct"}
+{"id": "H11", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "M07", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "H38", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more fluent and uses correct English terminology."}
+{"id": "H49", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially the same in content and quality."}
+{"id": "M30", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more accurate and uses the correct language and script."}
+{"id": "H42", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "ascii", "reason": "Response A uses the correct language and provides more detailed advice."}
+{"id": "L07", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more grammatically correct and clear."}
+{"id": "H49", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful due to proper language use and better structure."}
+{"id": "M45", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more grammatically correct"}
+{"id": "L36", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are incorrect and incomplete, but Response A has slightly better grammar and coherence."}
+{"id": "M38", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更准确和流畅地使用了中文"}
+{"id": "L28", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are similar in content and structure, and neither provides a detailed explanation as requested."}
+{"id": "L17", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses convey the same information but in different languages."}
+{"id": "H36", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "M36", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "स्पष्टता और व्यापकता के लिए"}
+{"id": "L04", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "more accurate and clear"}
+{"id": "L32", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "more accurate and clear"}
+{"id": "L06", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更符合原指令的语言规范和清晰度要求"}
+{"id": "L24", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially the same and convey the same message with slight differences in language and structure."}
+{"id": "L10", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially the same in content and structure, just with minor differences in language."}
+{"id": "L21", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are poorly written and lack clarity and completeness."}
+{"id": "M44", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more accurate"}
+{"id": "H47", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "M06", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more grammatically correct and uses more appropriate terminology."}
+{"id": "H29", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "L41", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H13", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "more accurate and clear in instructions"}
+{"id": "M27", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more grammatically correct and provides a clearer explanation."}
+{"id": "M04", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more grammatically correct and uses more precise scientific terms."}
+{"id": "M18", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more accurate and comprehensive in explaining the symptoms, causes, diagnosis, and remedies of vitamin D deficiency."}
+{"id": "M28", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more accurate and coherent in describing Onam."}
+{"id": "L37", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses convey the same advice but in identical wording, hence they are equally good."}
+{"id": "M46", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more grammatically correct"}
+{"id": "M41", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "more accurate and coherent"}
+{"id": "L15", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more accurate in terms of language and recipe instructions."}
+{"id": "M03", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "响应B的语法和表达更为流畅自然。"}
+{"id": "H17", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "M41", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L26", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "L34", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are incorrect and incomplete, but Response A has slightly better grammar and conveys more information."}
+{"id": "L08", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially the same and lack detail and clarity."}
+{"id": "M47", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more relevant to the instruction."}
+{"id": "L10", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are poorly written and lack detail."}
+{"id": "M38", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more comprehensible in Hindi."}
+{"id": "L38", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H06", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "M42", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more clear and uses proper grammar and vocabulary."}
+{"id": "L40", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are very similar and lack detail."}
+{"id": "L04", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is more coherent and provides a more detailed explanation."}
+{"id": "H18", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially identical in content and quality."}
+{"id": "H23", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更简洁明了，易于理解"}
+{"id": "H42", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L49", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more coherent"}
+{"id": "M34", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more grammatically correct and uses more appropriate terminology."}
+{"id": "H02", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more concise and directly addresses the instruction."}
+{"id": "L13", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "more accurate and fluent in language"}
+{"id": "H04", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more clear and concise."}
+{"id": "M20", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H36", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "响应B更通顺，使用了更标准的英语，易于理解。"}
+{"id": "M46", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L33", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more grammatically correct and provides a clearer explanation."}
+{"id": "M05", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more comprehensible in Hindi."}
+{"id": "M02", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more understandable."}
+{"id": "M44", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "M09", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more grammatically correct and clearer."}
+{"id": "H10", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "ascii", "reason": "Response A is more concise and includes the date and location more clearly."}
+{"id": "H18", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H11", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more concise and uses proper grammar and vocabulary."}
+{"id": "L26", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "स्पष्टता और विस्तार के लिए"}
+{"id": "H30", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is more clear and detailed."}
+{"id": "M01", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is clearer and more grammatically correct."}
+{"id": "L11", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "M14", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "M35", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "M35", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more clear and uses correct grammar and vocabulary."}
+{"id": "H03", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more accurate and uses correct terminology."}
+{"id": "M03", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and uses more appropriate scientific terms."}
+{"id": "H12", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more concise"}
+{"id": "L50", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H28", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is more detailed and clearer in its explanation."}
+{"id": "H38", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "L03", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more complete in explaining the water cycle."}
+{"id": "M28", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "H15", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is clearer and more concise."}
+{"id": "L12", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H47", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more clear and uses proper English."}
+{"id": "H07", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more concise and uses modern Hindi, making it easier to read and understand."}
+{"id": "M08", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more clear and grammatically correct."}
+{"id": "M32", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "M19", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "H14", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more concise and grammatically correct."}
+{"id": "H46", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更通顺易读"}
+{"id": "H37", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially identical in content, clarity, and completeness."}
+{"id": "H26", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "H32", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more concise and directly addresses the instruction without extra details."}
+{"id": "L45", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is more coherent and provides a clearer explanation."}
+{"id": "H33", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "L22", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more coherent in Hindi"}
+{"id": "M43", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more comprehensible in Hindi."}
+{"id": "H19", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "ascii", "reason": "Response A uses the correct term 'फाइबर' and provides more detailed examples."}
+{"id": "M06", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed in Hindi."}
+{"id": "M23", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and uses correct grammar."}
+{"id": "L11", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": " clearer and more accurate instructions in the local language"}
+{"id": "H09", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "H31", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are equally clear, correct, and complete."}
+{"id": "H16", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more detailed."}
+{"id": "M16", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "more accurate and clear instructions"}
+{"id": "L49", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are similar in content but lack detail and clarity."}
+{"id": "M32", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is clearer and more coherent."}
+{"id": "H39", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer, more coherent, and provides more useful information."}
+{"id": "H40", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially the same and provide clear, helpful advice on creating a monthly budget after the first job."}
+{"id": "L13", "tier": "low", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is more readable and provides a clearer explanation."}
+{"id": "H05", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更清晰地使用了现代科学术语和结构"}
+{"id": "M14", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更准确和详细"}
+{"id": "H03", "tier": "high", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and provides more relevant examples."}
+{"id": "M49", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more helpful."}
+{"id": "M21", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is clearer and more coherent."}
+{"id": "L42", "tier": "low", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially the same and convey the same meaning."}
+{"id": "M23", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "更清晰且语法正确"}
+{"id": "M49", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more grammatically correct and conveys the message more clearly."}
+{"id": "H43", "tier": "high", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "B", "script_winner": "deva", "reason": "Response B is more concise and uses proper English, making it easier to understand."}
+{"id": "M10", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "M36", "tier": "medium", "order": "deva_first", "judge": "qwen-2.5-7b", "winner": "A", "script_winner": "deva", "reason": "Response A is clearer and more grammatically correct."}
+{"id": "M48", "tier": "medium", "order": "ascii_first", "judge": "qwen-2.5-7b", "winner": "tie", "script_winner": "tie", "reason": "Both responses are essentially the same and provide clear, helpful advice on creating a study timetable."}
