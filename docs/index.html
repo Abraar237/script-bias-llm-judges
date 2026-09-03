@@ -227,9 +227,9 @@
   <h2 id="scripts">1. One language, two ways to write it down</h2>
   <p>A language is what you speak. A script is the set of symbols you use to write it down. The two are separable: the same sentence can be written in different symbol systems, the way the same song can be pressed on vinyl or saved as a file.</p>
   <div class="fig">
-    <div class="gifnote">animated &middot; from the film</div>
-    <img src="assets/gifs/hook.gif" alt="The same Hindi question typed two ways. The letters change, the meaning does not, and the score chips quietly disagree.">
-    <div class="figcap">The same Hindi question typed two ways. The letters change, the meaning does not, and the score chips quietly disagree.</div>
+    <div class="gifnote">animated concept card</div>
+    <img src="assets/gifs/same-answer-two-grades.gif" alt="The same answer in two alphabets goes to the same blind judge and comes back with two different grades: 51 in Devanagari, 59 romanized.">
+    <div class="figcap">The same answer in two alphabets goes to the same blind judge and comes back with two different grades: 51 in Devanagari, 59 romanized (Gemini 3.6 Flash, medium tier).</div>
   </div>
 
   <p><b>Devanagari</b> (<span class="devanagari">देवनागरी</span>) is the native script of Hindi. It is also the script of Marathi, Nepali, and Sanskrit, and over 600 million people read it. <b>The Latin script</b> is the one you are reading right now. Writing Hindi in Latin letters is called <b>romanization</b>: you spell out the sounds of the Hindi words using English letters.</p>
@@ -323,13 +323,6 @@
 
   <h2 id="design">3. The experiment: one answer, four spellings, six judges</h2>
   <div class="fig">
-    <div class="gifnote">animated &middot; from the film</div>
-    <img src="assets/gifs/split.gif" alt="One frozen answer splits into its four orthographies: Devanagari, scholarly IAST, stripped ASCII, and user-style Hinglish, on their way to the same blind judge.">
-    <div class="figcap">One frozen answer splits into its four orthographies: Devanagari, scholarly IAST, stripped ASCII, and user-style Hinglish, on their way to the same blind judge.</div>
-  </div>
-
-
-  <div class="fig">
     <img src="assets/fig1_schematic.png" alt="Schematic: one Hindi answer rendered in two scripts, both scored blind by the same judge; the measured medium-tier means are 51 for Devanagari and 59 for romanized under Gemini 3.6 Flash">
     <div class="figcap"><b>The experiment in one picture.</b> One Hindi answer is rendered in two scripts and both versions are scored by the same judge, which never sees the two side by side. Content is identical on both paths, so any score gap is script bias by construction. The numbers shown (51 versus 59) are the measured Devanagari and romanized means for medium-quality items under Gemini 3.6 Flash.</div>
   </div>
@@ -353,19 +346,6 @@
 
   <h2 id="reversal">4. We predicted a penalty. The judges gave a bonus.</h2>
   <div class="fig">
-    <div class="gifnote">animated &middot; from the film</div>
-    <img src="assets/gifs/flip.gif" alt="The pre-registered prediction said romanized text would score lower. The data swung the arrow the other way.">
-    <div class="figcap">The pre-registered prediction said romanized text would score lower. The data swung the arrow the other way.</div>
-  </div>
-
-
-  
-  <div class="fig">
-    <div class="gifnote">animated &middot; from the film</div>
-    <img src="assets/gifs/forest.gif" alt="The forest plot assembling judge by judge: Gemini intervals grow to the right of zero, Qwen shoots furthest on formal romanizations, the Claude rows hug zero.">
-    <div class="figcap">The forest plot assembling judge by judge: Gemini intervals grow to the right of zero, Qwen shoots furthest on formal romanizations, the Claude rows hug zero.</div>
-  </div>
-<div class="fig">
     <img src="assets/fig2_forest.png" alt="Forest plot of score shift by judge and romanization with 95 percent confidence intervals; Gemini and Qwen intervals sit right of zero, Claude intervals straddle zero except Opus on ASCII">
     <div class="figcap"><b>Score shift by judge and romanization, with 95 percent bootstrap confidence intervals.</b> Each interval is the mean within-item shift (romanized minus Devanagari) over n = 150 paired items. Right of the dashed zero line means romanized content scored higher than the same content in Devanagari.</div>
   </div>
@@ -379,6 +359,12 @@
   <h2 id="discretion">5. The inflation lives where the judge has discretion</h2>
 
   <div class="fig">
+    <div class="gifnote">animated concept card</div>
+    <img src="assets/gifs/where-the-judge-bends.gif" alt="Where the judge can be swayed: near-perfect answers sit at the ceiling and terrible ones at the floor; only the ambiguous middle has room to drift.">
+    <div class="figcap">Where the judge can be swayed: near-perfect answers sit at the ceiling and terrible ones at the floor; only the ambiguous middle has room to drift, and it drifts by 7.8 points.</div>
+  </div>
+
+  <div class="fig">
     <img src="assets/fig3_tiers.png" alt="Score shift by quality tier for the two Gemini judges; high and low tiers move little, medium tier items shift 6.5 to 7.8 points under Flash and 2.1 to 2.7 under Pro">
     <div class="figcap"><b>The bias concentrates in medium-quality responses.</b> Mean shift by intended quality tier for the two Gemini judges, with 95 percent bootstrap intervals (n = 50 items per tier).</div>
   </div>
@@ -388,9 +374,9 @@
 
   <h2 id="mitigation">6. Telling the judge to ignore the script does not work</h2>
   <div class="fig">
-    <div class="gifnote">animated &middot; from the film</div>
-    <img src="assets/gifs/fix.gif" alt="The instruction types itself into the judge prompt, the bars land where they were, and the verdict stamps: nothing changed.">
-    <div class="figcap">The instruction types itself into the judge prompt, the bars land where they were, and the verdict stamps: nothing changed.</div>
+    <div class="gifnote">animated concept card</div>
+    <img src="assets/gifs/the-fix-that-backfires.gif" alt="Five script-blindness instructions, tested on Qwen2.5-7B: every one of them made the inflation worse than no instruction at all.">
+    <div class="figcap">Five script-blindness instructions, tested on Qwen2.5-7B: every one of them made the inflation worse than no instruction at all.</div>
   </div>
 
 
