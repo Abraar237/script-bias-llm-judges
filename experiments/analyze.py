@@ -49,7 +49,7 @@ def load_claude(name):
 
 
 def wilcoxon_p(diffs, n_perm=20000):
-    """Two-sided sign-flip permutation test on paired differences."""
+    """Two-sided sign-flip permutation test on the sum of paired differences."""
     d = [x for x in diffs if x != 0]
     if not d:
         return 1.0
@@ -82,7 +82,7 @@ def analyze_judge(by, tier, reasons, label):
             out["conditions"][cond] = {"n": len(diffs), "note": "insufficient pairs yet"}
             continue
         lo, hi = boot_ci(diffs)
-        sd = st.pstdev(diffs) or 1e-9
+        sd = st.stdev(diffs) if len(diffs) > 1 else 1e-9
         entry = {
             "n": len(pairs),
             "mean_deva": round(st.mean(p[0] for p in pairs), 2),

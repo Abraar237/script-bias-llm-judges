@@ -1,0 +1,113 @@
+# Hinglish audit — check each pair: does the Hinglish say EXACTLY the same thing as the Devanagari?
+# Mark each item OK or PROBLEM (with a note). 20 items.
+# Audited by: Mohammed Abraar (native Hindi speaker), 2026-09-03.
+# Result: 20/20 OK. No content changed, added, or dropped in any item; word order and
+# punctuation preserved throughout. Recurring, non-problematic pattern: common loanwords
+# (cup, cooker, minute, fridge, paper, calorie, EMI, credit card, June) are rendered in their
+# English spelling rather than a phonetic Hindi respelling. This matches how real Hinglish
+# writers actually spell these words and is not a fidelity defect.
+
+--- 1. [H41]
+DEVA:     समय प्रबंधन की शुरुआत यह स्वीकारने से होती है कि सब कुछ नहीं हो सकता — चुनना पड़ता है। इसलिए हर सुबह या पिछली रात दिन के तीन सबसे महत्वपूर्ण काम तय करें और सबसे कठिन काम को पहले निपटाएं, जब ऊर्जा सर्वाधिक होती है। कामों को महत्व और तात्कालिकता के आधार पर छांटना सीखें; हर 'तुरंत' दिखने वाला काम महत्वपूर्ण नहीं होता। बड़े कामों को छोटे टुकड़ों में बांटें, ताकि शुरुआत का डर कम हो। एक बार में एक ही का
+HINGLISH: Samay prabandhan ki shuruaat yeh sweekarne se hoti hai ki sab kuch nahin ho sakta — chunna padta hai. Isliye har subah ya pichhli raat din ke teen sabse mahatvapurna kaam tay karein aur sabse kathin kaam ko pehle niptayen, jab urja sarvadhik hoti hai. Kaamon ko mahatva aur taatkalikta ke aadhar par chhantna seekhein; har 'turant' dikhne wala kaam mahatvapurna nahin hota. Bade kaamon ko chhote tukd
+VERDICT: OK
+
+--- 2. [H08]
+DEVA:     सिंधु घाटी सभ्यता, जिसे हड़प्पा सभ्यता भी कहते हैं, विश्व की प्राचीनतम नगरीय सभ्यताओं में से एक थी। इसका परिपक्व काल लगभग 2600 से 1900 ईसा पूर्व माना जाता है। हड़प्पा और मोहनजोदड़ो इसके प्रमुख नगर थे; भारत में लोथल, धोलावीरा, कालीबंगा और राखीगढ़ी जैसे स्थल मिले हैं। इस सभ्यता की सबसे बड़ी विशेषता नगर योजना थी — सीधी चौड़ी सड़कें, पकी ईंटों के मकान और ढकी नालियों वाली उत्कृष्ट जल निकासी व्यवस्था। म
+HINGLISH: Sindhu ghati sabhyata, jise Harappa sabhyata bhi kehte hain, vishwa ki pracheentam nagariya sabhyataon mein se ek thi. Iska paripakva kaal lagbhag 2600 se 1900 Isa poorv mana jata hai. Harappa aur Mohenjodaro iske pramukh nagar the; Bharat mein Lothal, Dholavira, Kalibanga aur Rakhigarhi jaise sthal mile hain. Is sabhyata ki sabse badi visheshta nagar yojana thi — seedhi chaudi sadkein, paki eento
+VERDICT: OK
+
+--- 3. [H02]
+DEVA:     आसमान नीला इसलिए दिखता है क्योंकि सूर्य का प्रकाश वायुमंडल में बिखरता है। सूर्य की रोशनी वास्तव में सात रंगों से मिलकर बनी होती है, जिनकी तरंगदैर्ध्य अलग-अलग होती है। जब यह प्रकाश हवा के अणुओं से टकराता है, तो छोटी तरंगदैर्ध्य वाले रंग — नीला और बैंगनी — कहीं अधिक बिखरते हैं। इस घटना को रेले प्रकीर्णन कहते हैं। बैंगनी रंग नीले से भी अधिक बिखरता है, लेकिन सूर्य के प्रकाश में उसकी मात्रा कम होती है
+HINGLISH: Aasman neela isliye dikhta hai kyunki surya ka prakash vayumandal mein bikharta hai. Surya ki roshni vastav mein saat rangon se milkar bani hoti hai, jinki tarangdairdhya alag-alag hoti hai. Jab yeh prakash hawa ke anuon se takrata hai, to chhoti tarangdairdhya wale rang — neela aur baingani — kahin adhik bikharte hain. Is ghatna ko Rayleigh prakirnan kehte hain. Baingani rang neele se bhi adhik b
+VERDICT: OK
+
+--- 4. [H18]
+DEVA:     निर्जलीकरण यानी शरीर में पानी की कमी, गर्मियों में विशेष रूप से आम समस्या है। इसके शुरुआती लक्षण हैं — अधिक प्यास लगना, मुंह और होंठ सूखना, गहरे पीले रंग का पेशाब, थकान, सिरदर्द और चक्कर आना। छोटे बच्चों में सुस्ती, धंसी आंखें और रोते समय आंसू न आना गंभीर संकेत हैं। बचाव के लिए दिनभर थोड़ा-थोड़ा पानी पीते रहें, प्यास लगने का इंतज़ार न करें। तेज़ धूप में निकलते समय पानी साथ रखें और नींबू-पानी, नारि
+HINGLISH: Nirjalikaran yani sharir mein pani ki kami, garmiyon mein vishesh roop se aam samasya hai. Iske shuruaati lakshan hain — adhik pyaas lagna, munh aur honth sookhna, gehre peele rang ka peshab, thakan, sirdard aur chakkar aana. Chhote bacchon mein susti, dhansi aankhein aur rote samay aansu na aana gambhir sanket hain. Bachav ke liye dinbhar thoda-thoda pani peete rahein, pyaas lagne ka intezaar na
+VERDICT: OK
+
+--- 5. [H16]
+DEVA:     सुबह की सैर सेहत के लिए सबसे सरल और प्रभावी व्यायामों में से एक है। नियमित तेज़ चाल से टहलने पर हृदय मज़बूत होता है, रक्त संचार सुधरता है और रक्तचाप नियंत्रित रहने में मदद मिलती है। यह वज़न घटाने और मधुमेह के खतरे को कम करने में भी सहायक है, क्योंकि चलने से कैलोरी खर्च होती है और इंसुलिन की कार्यक्षमता बेहतर होती है। सुबह की ताज़ी हवा और हल्की धूप से मन प्रसन्न रहता है; धूप शरीर में विटामिन डी बना
+HINGLISH: Subah ki sair sehat ke liye sabse saral aur prabhavi vyayamon mein se ek hai. Niyamit tez chaal se tahalne par hriday mazboot hota hai, rakt sanchar sudharta hai aur raktchaap niyantrit rehne mein madad milti hai. Yeh vazan ghatane aur madhumeh ke khatre ko kam karne mein bhi sahayak hai, kyunki chalne se calorie kharch hoti hai aur insulin ki karyakshamta behtar hoti hai. Subah ki taazi hawa aur
+VERDICT: OK (note: कैलोरी/इंसुलिन respelled as "calorie"/"insulin", English spelling of a common loanword; not a content change)
+
+--- 6. [H15]
+DEVA:     मूंग दाल की खिचड़ी हल्की, पौष्टिक और पचने में आसान होती है, इसलिए इसे बीमारों से लेकर बच्चों तक सबके लिए आदर्श भोजन माना जाता है। इसे बनाने के लिए आधा कप चावल और आधा कप धुली मूंग दाल को धोकर दस मिनट भिगो दें। कुकर में एक चम्मच घी गर्म कर जीरा और हींग का तड़का लगाएं; चाहें तो कटी अदरक और हरी मिर्च भी डालें। अब भीगे चावल-दाल, हल्दी, नमक और लगभग चार कप पानी डालकर तीन सीटी आने तक पकाएं। पानी की मात्रा
+HINGLISH: Moong daal ki khichdi halki, paushtik aur pachne mein aasan hoti hai, isliye ise bimaron se lekar bacchon tak sabke liye aadarsh bhojan mana jata hai. Ise banane ke liye aadha cup chawal aur aadha cup dhuli moong daal ko dhokar das minute bhigo dein. Cooker mein ek chammach ghee garam kar jeera aur heeng ka tadka lagayein; chahein to kati adrak aur hari mirch bhi daalein. Ab bheege chawal-daal, ha
+VERDICT: OK (note: कप/मिनट/कुकर respelled as "cup"/"minute"/"Cooker", English spelling of common loanwords; not a content change)
+
+--- 7. [H09]
+DEVA:     झांसी की रानी लक्ष्मीबाई भारतीय इतिहास की सबसे वीर महिलाओं में गिनी जाती हैं। उनका जन्म वाराणसी में हुआ था और बचपन का नाम मणिकर्णिका था, जिसे प्यार से 'मनु' कहा जाता था। झांसी के राजा गंगाधर राव से विवाह के बाद वे लक्ष्मीबाई कहलाईं। पति की मृत्यु के बाद अंग्रेज़ों ने हड़प नीति के तहत उनके दत्तक पुत्र को उत्तराधिकारी मानने से इनकार कर झांसी हड़पनी चाही। रानी ने 'मैं अपनी झांसी नहीं दूंगी' की घोषणा
+HINGLISH: Jhansi ki Rani Laxmibai bharatiya itihas ki sabse veer mahilaon mein gini jati hain. Unka janm Varanasi mein hua tha aur bachpan ka naam Manikarnika tha, jise pyar se 'Manu' kaha jata tha. Jhansi ke raja Gangadhar Rao se vivah ke baad ve Laxmibai kehlayin. Pati ki mrityu ke baad angrezon ne hadap niti ke tahat unke dattak putra ko uttaradhikari manne se inkar kar Jhansi hadapni chahi. Rani ne 'mai
+VERDICT: OK
+
+--- 8. [M48]
+DEVA:     टाइम टेबल बनाते समय सबसे पहले अपने कमजोर विषयों की पहचान करें और उन्हें दिन के उस समय रखें जब आपकी एकाग्रता सबसे अच्छी रहती है। हर विषय को रोज थोड़ा-थोड़ा समय देना, एक ही विषय को पूरे दिन पढ़ने से बेहतर होता है। बीच-बीच में छोटे ब्रेक जरूर रखें।
+HINGLISH: Time table banate samay sabse pehle apne kamzor vishayon ki pehchan karein aur unhe din ke us samay rakhein jab aapki ekagrata sabse acchi rehti hai. Har vishay ko roz thoda-thoda samay dena, ek hi vishay ko pure din padhne se behtar hota hai. Beech-beech mein chhote break zaroor rakhein.
+VERDICT: OK
+
+--- 9. [M07]
+DEVA:     रज़िया सुल्तान दिल्ली सल्तनत की पहली और एकमात्र महिला शासक थीं। वे इल्तुतमिश की बेटी थीं और 1236 में गद्दी पर बैठीं। उन्होंने पर्दा त्यागकर खुले दरबार में शासन किया, जो उस दौर में साहसिक कदम था। तुर्की अमीरों को एक महिला का शासन स्वीकार नहीं था, इसलिए उन्हें लगातार विरोध झेलना पड़ा।
+HINGLISH: Razia Sultan Dilli saltanat ki pehli aur ekmatra mahila shasak thin. Ve Iltutmish ki beti thin aur 1236 mein gaddi par baithin. Unhone parda tyagkar khule darbar mein shasan kiya, jo us daur mein sahasik kadam tha. Turki ameeron ko ek mahila ka shasan sweekar nahi tha, isliye unhe lagatar virodh jhelna pada.
+VERDICT: OK
+
+--- 10. [M44]
+DEVA:     हरी पत्तेदार सब्जियों को बिना धोए, हल्के गीले कपड़े या पेपर में लपेटकर फ्रिज में रखें, धोकर रखने से वे जल्दी गलने लगती हैं। टमाटर और केले को फ्रिज से बाहर रखना बेहतर होता है। धनिया-पुदीना को पानी के गिलास में डंठल डुबोकर रखने से वे कई दिन ताजे रहते हैं।
+HINGLISH: Hari pattedar sabziyon ko bina dhoye, halke geele kapde ya paper mein lapetkar fridge mein rakhein, dhokar rakhne se ve jaldi galne lagti hain. Tamatar aur kele ko fridge se bahar rakhna behtar hota hai. Dhaniya-pudina ko paani ke gilas mein danthal dubokar rakhne se ve kai din taze rehte hain.
+VERDICT: OK (note: पेपर/फ्रिज respelled as "paper"/"fridge", English spelling of common loanwords; not a content change)
+
+--- 11. [M35]
+DEVA:     दक्षिण-पश्चिम मॉनसूनी हवाएं हिंद महासागर से नमी लेकर भारत की ओर बढ़ती हैं। भौगोलिक स्थिति के कारण भारतीय मुख्य भूमि में इनका पहला पड़ाव केरल का तट होता है, जहां ये आमतौर पर जून की शुरुआत में पहुंचती हैं। इसके बाद ये हवाएं धीरे-धीरे उत्तर की ओर बढ़ते हुए पूरे देश में बारिश कराती हैं।
+HINGLISH: Dakshin-paschim monsooni hawayein Hind Mahasagar se nami lekar Bharat ki or badhti hain. Bhaugolik sthiti ke karan bharatiya mukhya bhoomi mein inka pehla padav Kerala ka tat hota hai, jahan ye aam taur par June ki shuruat mein pahunchti hain. Iske baad ye hawayein dheere-dheere uttar ki or badhte hue pure desh mein barish karati hain.
+VERDICT: OK
+
+--- 12. [M06]
+DEVA:     सिंधु घाटी सभ्यता की जल निकासी व्यवस्था अपने समय की सबसे उन्नत व्यवस्थाओं में गिनी जाती है। हर घर की नालियां सड़क किनारे बनी ढकी हुई मुख्य नालियों से जुड़ी थीं। नालियां पक्की ईंटों से बनाई गई थीं और उनकी नियमित सफाई का प्रबंध था। यह दिखाता है कि नगर नियोजन में स्वच्छता को कितना महत्व दिया गया था।
+HINGLISH: Sindhu ghati sabhyata ki jal nikasi vyavastha apne samay ki sabse unnat vyavasthaon mein gini jaati hai. Har ghar ki naaliyan sadak kinare bani dhaki hui mukhya naaliyon se judi thin. Naaliyan pakki eenton se banai gayi thin aur unki niyamit safai ka prabandh tha. Yeh dikhata hai ki nagar niyojan mein swachhta ko kitna mahatva diya gaya tha.
+VERDICT: OK
+
+--- 13. [M38]
+DEVA:     क्रेडिट स्कोर खराब होने का सबसे बड़ा कारण है समय पर ईएमआई या क्रेडिट कार्ड का बिल न चुकाना। इसे सुधारने के लिए सबसे पहले सारे बकाया भुगतान नियमित करें। दूसरा, क्रेडिट कार्ड की सीमा का पूरा इस्तेमाल न करें, तीस प्रतिशत से कम खर्च रखना अच्छा माना जाता है। सुधार में कुछ महीने लगते हैं।
+HINGLISH: Credit score kharab hone ka sabse bada karan hai samay par EMI ya credit card ka bill na chukana. Ise sudharne ke liye sabse pehle saare bakaya bhugtan niyamit karein. Doosra, credit card ki seema ka pura istemal na karein, tees pratishat se kam kharch rakhna accha maana jata hai. Sudhar mein kuch mahine lagte hain.
+VERDICT: OK (note: क्रेडिट स्कोर/ईएमआई/क्रेडिट कार्ड respelled as "Credit score"/"EMI"/"credit card", English spelling of common loanwords; not a content change)
+
+--- 14. [M28]
+DEVA:     ओणम राजा महाबली की कथा से जुड़ा है, जिनके बारे में मान्यता है कि वे साल में एक बार अपनी प्रजा से मिलने आते हैं। इस दौरान घरों के आंगन में फूलों से पूकलम नामक सुंदर रंगोली बनाई जाती है। यह त्योहार फसल कटाई की खुशी का भी प्रतीक है और दस दिनों तक चलता है।
+HINGLISH: Onam raja Mahabali ki katha se juda hai, jinke baare mein manyata hai ki ve saal mein ek baar apni praja se milne aate hain. Is dauran gharon ke aangan mein phoolon se pookalam naamak sundar rangoli banai jaati hai. Yeh tyohar fasal katai ki khushi ka bhi prateek hai aur das dinon tak chalta hai.
+VERDICT: OK
+
+--- 15. [L03]
+DEVA:     पानी भाप बनता है, बादल बनते हैं, बारिश होती है। यही चक्र बार-बार चलता रहता है। इसमें और कुछ खास नहीं है।
+HINGLISH: Pani bhaap banta hai, baadal bante hain, barish hoti hai. Yahi chakra baar-baar chalta rehta hai. Ismein aur kuch khaas nahi hai.
+VERDICT: OK
+
+--- 16. [L02]
+DEVA:     न्यूटन के तीन नियम हैं। पहला नियम गति के बारे में है, दूसरा नियम भी गति के बारे में है और तीसरा नियम भी गति से जुड़ा है। तीनों महत्वपूर्ण हैं।
+HINGLISH: Newton ke teen niyam hain. Pehla niyam gati ke baare mein hai, doosra niyam bhi gati ke baare mein hai aur teesra niyam bhi gati se juda hai. Teenon mahatvapurn hain.
+VERDICT: OK
+
+--- 17. [L06]
+DEVA:     1857 में विद्रोह हुआ था क्योंकि लोग अंग्रेजों से नाराज थे। लड़ाई हुई और बाद में सब शांत हो गया। इतिहास की किताबों में सब लिखा है।
+HINGLISH: 1857 mein vidroh hua tha kyunki log angrezon se naraz the. Ladai hui aur baad mein sab shant ho gaya. Itihas ki kitabon mein sab likha hai.
+VERDICT: OK
+
+--- 18. [L14]
+DEVA:     चावल पीसकर घोल बना लीजिए और तवे पर फैला दीजिए। तुरंत डोसा बन जाता है। दाल की जरूरत नहीं होती, सिर्फ चावल काफी है।
+HINGLISH: Chawal peeskar ghol bana lijiye aur tawe par phaila dijiye. Turant dosa ban jata hai. Dal ki zaroorat nahi hoti, sirf chawal kafi hai.
+VERDICT: OK
+
+--- 19. [L15]
+DEVA:     टमाटर का सूप बना लीजिए, अच्छा रहता है। बाकी सूप भी लगभग ऐसे ही बनते हैं, सब्जी उबालो और पीस लो। पाँच गिनाने की जरूरत नहीं।
+HINGLISH: Tamatar ka soup bana lijiye, accha rehta hai. Baki soup bhi lagbhag aise hi bante hain, sabzi ubalo aur pees lo. Paanch ginane ki zaroorat nahi.
+VERDICT: OK
+
+--- 20. [L33]
+DEVA:     मानसून समुद्र से आता है और बारिश कराता है। किसान खुश हो जाते हैं। बारिश अच्छी तो फसल अच्छी, बारिश खराब तो फसल खराब।
+HINGLISH: Monsoon samudra se aata hai aur barish karata hai. Kisan khush ho jate hain. Barish acchi to fasal acchi, barish kharab to fasal kharab.
+VERDICT: OK
+
+## Summary
+20/20 OK. 0 problems. 4 items carry a non-problem note about English-spelled loanwords
+(items 5, 6, 10, 13), which reflects authentic Hinglish usage rather than a fidelity defect.
+This audit supports the paper's no-paraphrase-rule claim for the hinglish condition.
