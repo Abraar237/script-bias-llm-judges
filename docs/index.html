@@ -184,7 +184,7 @@
   <h1>Do LLM judges penalise the script?</h1>
   <p class="subtitle">A script-controlled audit of LLM-as-judge scoring for Hindi, in native Devanagari versus three romanizations.</p>
 
-  <p class="dek">We held Hindi answers fixed and changed only the writing system. We predicted romanized text would score lower. What we found is stranger. Gemini judges scored it higher, by up to 7.8 points on ambiguous content. Claude judges scored it lower, by up to 12.3 points. A small open judge inflated bad answers by up to 17.8 points. The measurement protocol can hide all of it. And no prompt we tested reliably fixes it.</p>
+  <p class="dek">We held Hindi answers fixed and changed only the writing system. We predicted romanized text would score lower. What we found is stranger. Gemini judges scored it higher, by up to 7.8 points on ambiguous content. Claude judges scored it lower, by up to 12.3 points. A small open judge inflated bad answers by up to 17.8 points. Batch size alone, in a controlled test, can hide all of it. In head-to-head comparisons the judges picked Devanagari 581 times out of 600, with zero wins for plain-keyboard romanization. And no prompt we tested reliably fixes it.</p>
 
   <div class="byline">
     <b>Mohammed Abraar</b>
@@ -199,12 +199,13 @@
     <ol>
       <li><a href="#scripts">One language, two ways to write it down</a></li>
       <li><a href="#judges">Machines now grade machines, and nobody checked the letters</a></li>
-      <li><a href="#design">The experiment: one answer, four spellings, six judges</a></li>
+      <li><a href="#design">The experiment: one answer, four spellings, seven judges</a></li>
       <li><a href="#reversal">We predicted a penalty. Only Claude delivered it.</a></li>
       <li><a href="#discretion">The inflation lives where the judge has discretion</a></li>
       <li><a href="#protocol">The way you measure it can hide it</a></li>
       <li><a href="#mitigation">No prompt fixes it, and some prompts make it worse</a></li>
       <li><a href="#mechanism">The judge sees the script and inflates anyway</a></li>
+      <li><a href="#followup">Five follow-up batteries, five objections closed</a></li>
       <li><a href="#practitioners">What practitioners should do</a></li>
       <li><a href="#limitations">What this study cannot claim</a></li>
       <li><a href="#reproduce">Paper, data, and code</a></li>
@@ -322,7 +323,7 @@
   <p>The reliability literature has catalogued many failure modes of these judges: position bias, verbosity bias, self-preference. Every catalogue so far shares one silent assumption: the <em>writing system</em> of the judged text does not move the score. For a language with two written lives, that assumption carries real weight. A judge that scores <span class="devanagari">आप कैसे हैं?</span> and <code>aap kaise hain?</code> differently is not measuring quality. It is measuring orthography.</p>
   <p>Prior work could not test this cleanly. Studies that compared Hindi against English compared two different texts, so language and script were tangled together. We untangle them: hold the language and the content fixed, flip only the script, and watch the score.</p>
 
-  <h2 id="design">3. The experiment: one answer, four spellings, six judges</h2>
+  <h2 id="design">3. The experiment: one answer, four spellings, seven judges</h2>
   <div class="fig">
     <img src="assets/fig1_schematic.png" alt="Schematic: one Hindi answer rendered in two scripts, both scored blind by the same judge; the measured medium-tier means are 51 for Devanagari and 59 for romanized under Gemini 3.6 Flash">
     <div class="figcap"><b>The experiment in one picture.</b> One Hindi answer is rendered in two scripts and both versions are scored by the same judge, which never sees the two side by side. Content is identical on both paths, so any score gap is script bias by construction. The numbers shown (51 versus 59) are the measured Devanagari and romanized means for medium-quality items under Gemini 3.6 Flash.</div>
@@ -337,7 +338,7 @@
     <li><span class="swatch" style="background:#1c7a55"></span><b>hinglish</b>: a natural user-style respelling, under a strict no-paraphrase rule. Every word, the word order, and all punctuation are preserved.</li>
   </ul>
   <p>These colors keep their meaning in every figure below.</p>
-  <p>Six judges from three families scored every item in every condition on a 0 to 100 rubric: Gemini 3.6 Flash and Gemini 3.1 Pro through the API at temperature 0, one item per call, in randomized order; Claude Sonnet 5, Opus 5, and Fable 5 as pinned model ids, also one item per call, so no call ever saw the same item in two scripts; and Qwen2.5-7B-Instruct running open-weights on a single GPU. The Claude judges were additionally measured under an earlier batched protocol, 150 items per session with conditions rotated in a Latin square. Comparing the two protocols became a finding in its own right (Section 6). No judge was told the study concerns scripts. Each judge returned a score and a one-sentence reason, and the reasons became data too.</p>
+  <p>Seven judges from four families scored every item in every condition on a 0 to 100 rubric: Gemini 3.6 Flash and Gemini 3.1 Pro through the API at temperature 0, one item per call, in randomized order; Claude Sonnet 5, Opus 5, and Fable 5 as pinned model ids, also one item per call, so no call ever saw the same item in two scripts; GPT-5.6 one item per call at temperature 0 through a unified gateway; and Qwen2.5-7B-Instruct running open-weights on a single GPU. The Claude judges were additionally measured under an earlier batched protocol, 150 items per session with conditions rotated in a Latin square. Comparing the two protocols became a finding in its own right (Section 6). No judge was told the study concerns scripts. Each judge returned a score and a one-sentence reason, and the reasons became data too.</p>
   <p>The unit of analysis is the within-item paired difference: the score of the romanized version minus the score of the Devanagari version of the same item. We report mean shifts with bootstrap 95 percent confidence intervals and two-sided permutation tests. Every number on this page comes from one scripted analysis, <code>analyze.py</code>, and its output ships with the paper.</p>
 
   <div class="card slate">
@@ -381,6 +382,7 @@
   </div>
 
   <p>Our first Claude measurements used batched sessions: each session scored 150 items in one context, with conditions rotated in a Latin square. Under that protocol, all three Claude judges looked script-invariant, shifting by at most 0.54 points in eight of nine comparisons. Then we reran the identical items one per call. The answer flipped. The invariance was an artifact of the batch. A judge that has just scored dozens of items appears to anchor its scale on content quality and stops reacting to surface form. A judge shown one item in isolation has nothing to anchor against, and the orthography moves the score.</p>
+  <p>Because those first two arms also differed in interface and temperature, we later ran a clean control: the same Sonnet 5, the same interface, the same per-item rubric and sampling, with items simply grouped 25 to a call. Batch size alone reproduces the masking. The <span class="num">&minus;12.3</span> ASCII penalty becomes <span class="num">+1.1</span>, and the high-tier penalty collapses from <span class="num">&minus;24.3</span> to <span class="num">&minus;3.6</span>. Nothing else varied, so nothing else can explain it.</p>
   <p>This matters beyond our study. Batched audits are common because they are cheap, and in this study a batched audit masked a 12-point bias. A judge-bias measurement should state its context protocol. And most production judging is one item per call, which is exactly the protocol under which the biases here are largest.</p>
 
   <h2 id="mitigation">7. No prompt fixes it, and some prompts make it worse</h2>
@@ -412,7 +414,18 @@
   <p><b>The script is perceived.</b> The judge's own rationales show it sees what it is scoring. Under Gemini 3.6 Flash, 47 percent of IAST rationales, 57 percent of ASCII rationales, and 41 percent of Hinglish rationales explicitly mention the script or the romanization, against 1 percent for Devanagari. Some rationales even name the orthography as a deficiency while the score lands higher than the Devanagari twin's.</p>
   <p>Put together, the bias operates despite awareness. That is consistent with the mitigation failure: this is a miscalibration of quality assessment through an unfamiliar surface form, not an oversight the model can be alerted out of.</p>
 
-  <h2 id="practitioners">9. What practitioners should do</h2>
+  <h2 id="followup">9. Five follow-up batteries, five objections closed</h2>
+  <p>After the first release we ran 3,300 further judgments aimed at the sharpest objections a careful reader would raise. Each one produced a definite answer.</p>
+  <ul class="plain">
+    <li><b>Is any of this just noise?</b> We called the same judge five times on the same 60 item-conditions. Mean call-to-call standard deviation: <span class="num">1.66</span> points. Sonnet's <span class="num">&minus;12.3</span>, Qwen's <span class="num">+6.0</span> to <span class="num">+7.6</span>, and the medium-tier inflations sit far outside that band.</li>
+    <li><b>Is Sonnet's penalty just a fair clarity call?</b> We reran the main arms with the rubric split into four separate sub-scores. Clarity carries 68 percent of Sonnet's ASCII penalty, but correctness drops <span class="num">&minus;1.6</span> and helpfulness <span class="num">&minus;0.5</span>, both highly significant, on content that is identical by construction. A majority-legitimate judgment with a bias residue you can now point at. On Flash the same test says the opposite: its small ASCII penalty is pure clarity.</li>
+    <li><b>Does it matter for leaderboards?</b> We showed judges the Devanagari and ASCII twins side by side, both orders. Flash picked Devanagari 288 times out of 300; Sonnet 293 out of 300; ASCII won zero trials on either judge. The same Flash that pays ASCII <b>more</b> when scoring alone prefers Devanagari 96 percent of the time in head-to-head: the two standard protocols disagree in sign, and preference-trained reward models sit on the pairwise side.</li>
+    <li><b>Is the "discretion" story just ceiling and floor?</b> A logit-scale reanalysis removes the bounded-scale compression; the medium tier still moves most. The discretion reading survives.</li>
+    <li><b>Do the stats survive correction?</b> Benjamini-Hochberg over all 198 p-values: 108 survive at q = 0.05, including every headline effect.</li>
+  </ul>
+  <p>A GPT-family judge also joined the audit: GPT-5.6 is the most script-robust judge tested (largest shift <span class="num">+1.2</span> on IAST), though it still inflates low-quality romanized items by 3 to 4 points. With Fable 5, that makes two data points for the most reassuring pattern in the study: the most capable judges are the least script-biased.</p>
+
+  <h2 id="practitioners">10. What practitioners should do</h2>
   <p>The audience for this result is anyone who runs an LLM judge over Hindi text: Hindi leaderboard evaluations, reward models trained on judged Hindi generations, and quality gates in front of romanized-Hindi chatbots. Three concrete steps follow from the data.</p>
   <ol class="plain">
     <li><b>Do not rely on a prompt line.</b> Across six mitigation arms, prompting was partial at best on Gemini, flipped the sign of the ASCII effect under the decomposed rubric, and made every number worse on Qwen. Section 7 is the direct evidence.</li>
@@ -425,26 +438,27 @@
     <p>Which judge a practitioner picks silently changes how romanized-Hindi systems rank, in size and in sign: the same romanized answer gains roughly 7 points on ambiguous content under Gemini 3.6 Flash and loses up to 12.3 points under Claude Sonnet 5.</p>
   </div>
 
-  <h2 id="limitations">10. What this study cannot claim</h2>
+  <h2 id="limitations">11. What this study cannot claim</h2>
   <p>Several weaknesses were design choices made for speed and budget, and a reader should weigh them.</p>
   <ul class="plain">
     <li><b>The dataset is model-authored.</b> All 150 items and their quality tiers were generated by a language model under human-specified tier definitions, then frozen. Tier intent was strongly realised in the scores, but model-authored Hindi may differ from human Hindi in ways that interact with romanization. The hinglish condition is likewise a model respelling under a strict no-paraphrase rule; the protocol includes a 20-item native-speaker fidelity audit, and the audited sample ships with the data.</li>
-    <li><b>The Claude judges were measured under two protocols.</b> The headline Claude numbers come from one-item-per-call invocations of pinned model ids, which matches the Gemini and Qwen arms; the earlier batched sessions are reported as the protocol comparison in Section 6. One residual difference remains: the headless interface does not expose temperature control, so the Claude judgments use default sampling where the API arms use temperature 0. One of the three Claude judges shares a model family with the orchestrator of this study; the blind single-item calls mitigate, and the family's penalty direction is opposite to the inflation a self-favouring judge would produce.</li>
-    <li><b>Scale and scope are modest.</b> One language, 150 items, six judges, one seed at temperature 0. The mitigation battery covers six prompt-level arms on two judge families but no training-level intervention. The quality tiers are coarse; a continuous-quality design would resolve the discretion story more finely.</li>
+    <li><b>The Claude judges were measured under two protocols.</b> The headline Claude numbers come from one-item-per-call invocations of pinned model ids, which matches the Gemini and Qwen arms; the earlier batched sessions are reported as the protocol comparison in Section 6. One residual difference remains: the headless interface does not expose temperature control, so the Claude judgments use default sampling where the API arms use temperature 0; the batch-size control in Section 6 holds this interface fixed, but the cross-family Gemini-versus-Sonnet comparison still varies interface and family together. One of the three Claude judges shares a model family with the orchestrator of this study; the blind single-item calls mitigate, and the family's penalty direction is opposite to the inflation a self-favouring judge would produce.</li>
+    <li><b>Scale and scope are modest.</b> One language, 150 items, seven judges. The mitigation battery covers six prompt-level arms on two judge families but no training-level intervention. The quality tiers are coarse, though the logit reanalysis (Section 9) now defends the discretion story against the scale-compression objection.</li>
+    <li><b>There is still no human anchor.</b> Every number is a shift relative to Devanagari, not to a native reader's judgment; whether judges over-pay romanized text or under-pay Devanagari cannot be decided without human ratings on the same rubric. This is the one experiment the follow-up batteries do not cover, and it is next.</li>
     <li><b>The pre-registration was directional and informal.</b> It was recorded in the project log before data collection, not filed with a third-party registry. We state it because it disciplined our reporting: the largest effects run opposite to what we predicted, and the one family that matched the prediction only shows it under isolated judging.</li>
   </ul>
 
-  <h2 id="reproduce">11. Paper, data, and code</h2>
+  <h2 id="reproduce">12. Paper, data, and code</h2>
   <p>The full paper contains the method, the statistics, and the prior-work delineation in detail.</p>
   <ul class="plain">
     <li><a href="paper.pdf">Read the paper (PDF)</a></li>
     <li><a href="https://github.com/Abraar237/script-bias-llm-judges">Code, datasets, and per-call score files on GitHub</a></li>
   </ul>
-  <p>All datasets, per-call score files, the scripted analysis, figure build scripts, and spend logs are released. Every number on this page traces to <code>results/analysis.json</code>, generated by <code>experiments/analyze.py</code> from the raw judgment files. Total marginal compute cost of the study: under 5 US dollars of API spend plus roughly one A10G GPU-hour.</p>
+  <p>All datasets, per-call score files, the scripted analysis, figure build scripts, and spend logs are released. Every number on this page traces to <code>results/analysis.json</code>, <code>results/analysis_extra.json</code>, and <code>results/analysis_batteries.json</code>, generated by the scripted analyses in <code>experiments/</code> from the raw judgment files. Total marginal compute cost of the study: under 6 US dollars of metered API spend plus roughly one A10G GPU-hour.</p>
 
   <footer>
     <div><b style="color:var(--ink2)">Mohammed Abraar, Vizuara Research</b> &middot; <a href="mailto:hello@viz-scl.com">hello@viz-scl.com</a></div>
-    <div><a href="paper.pdf">Paper</a> &middot; <a href="https://github.com/Abraar237/script-bias-llm-judges">GitHub</a> &middot; Working draft v4, September 3, 2026</div>
+    <div><a href="paper.pdf">Paper</a> &middot; <a href="https://github.com/Abraar237/script-bias-llm-judges">GitHub</a> &middot; Working draft v5, September 3, 2026</div>
   </footer>
 
 </div>
