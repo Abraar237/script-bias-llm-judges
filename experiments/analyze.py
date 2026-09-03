@@ -122,6 +122,14 @@ def main():
         ("claude-opus-5", "opus", "claude"),
         ("claude-fable-5", "fable", "claude"),
         ("qwen2.5-7b-instruct", os.path.join(RES, "scores_qwen2.5-7b_logprobs.jsonl"), "qwen"),
+        ("claude-sonnet-5-api", os.path.join(RES, "scores_claude-api_claude-sonnet-5.jsonl"), "gemini"),
+        ("claude-opus-5-api", os.path.join(RES, "scores_claude-api_claude-opus-5.jsonl"), "gemini"),
+        ("claude-fable-5-api", os.path.join(RES, "scores_claude-api_claude-fable-5.jsonl"), "gemini"),
+        ("gemini-3.6-flash+armP2", os.path.join(RES, "scores_gemini-3.6-flash_armP2-t0.jsonl"), "gemini"),
+        ("gemini-3.6-flash+armP3", os.path.join(RES, "scores_gemini-3.6-flash_armP3-t0.jsonl"), "gemini"),
+        ("gemini-3.6-flash+armP4", os.path.join(RES, "scores_gemini-3.6-flash_armP4-t0.jsonl"), "gemini"),
+        ("gemini-3.6-flash+armP5", os.path.join(RES, "scores_gemini-3.6-flash_armP5-t0.jsonl"), "gemini"),
+        ("gemini-3.6-flash+armR1", os.path.join(RES, "scores_gemini-3.6-flash_armR1-t0.jsonl"), "gemini"),
     ]
     for label, src, kind in specs:
         try:
@@ -135,6 +143,28 @@ def main():
                 report["judges"].append(analyze_judge(by, tier, reasons, label))
         except FileNotFoundError:
             print(f"skip {label}: not found")
+    # Qwen mitigation battery (arm field, raw text scores)
+    qmit_path = os.path.join(RES, "scores_qwen2.5-7b_mitigation.jsonl")
+    if os.path.exists(qmit_path):
+        import re as _re
+        arms = {}
+        byarm = {}
+        for line in open(qmit_path):
+            r = json.loads(line)
+            m = _re.match(r"^\s*(\d{1,3})", r["text"])
+            if not (m and 0 <= int(m.group(1)) <= 100):
+                continue
+            byarm.setdefault(r["arm"], {}).setdefault(r["id"], {})[r["condition"]] = int(m.group(1))
+        for arm, by2 in sorted(byarm.items()):
+            entry = {}
+            for cond in CONDS:
+                pairs = [(v["deva"], v[cond]) for v in by2.values() if "deva" in v and cond in v]
+                diffs = [c - d for d, c in pairs]
+                lo, hi = boot_ci(diffs)
+                entry[cond] = {"mean_shift": round(st.mean(diffs), 2), "ci95": [round(lo, 2), round(hi, 2)],
+                               "p": round(wilcoxon_p(diffs), 5), "n": len(diffs)}
+            arms[arm] = entry
+        report["qwen_mitigation_battery"] = arms
     with open(os.path.join(RES, "analysis.json"), "w") as f:
         json.dump(report, f, indent=1)
     for j in report["judges"]:

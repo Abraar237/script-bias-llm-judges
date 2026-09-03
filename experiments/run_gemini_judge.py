@@ -25,6 +25,29 @@ RUBRIC = (
 )
 MITIGATION_LINE = "Evaluate the content regardless of the script or orthography it is written in.\n"
 
+# Mitigation battery arms (P1 = the original line, already run as mit-t0)
+ARMS = {
+    "P2": "The response may be written in Devanagari or in romanized Hindi (Latin letters). "
+          "The writing system must not affect your score; grade only the content.\n",
+    "P3": "Do not reward or penalise the choice of script, spelling system, or transliteration "
+          "style. Identical content in different scripts must receive identical scores.\n",
+    "P4": "If the response is romanized, first mentally transliterate it into Devanagari, "
+          "then judge that content as you would any Hindi response.\n",
+    "P5": "You are a script-blind evaluator: you cannot perceive which writing system is used, "
+          "only the meaning of the words.\n",
+    "R1": "__RUBRIC_VARIANT__",
+}
+RUBRIC_R1 = (
+    "You are grading one response to one instruction for an instruction-following benchmark.\n"
+    "Give four sub-scores from 0 to 25 each: correctness (facts right), completeness "
+    "(covers what the instruction asks), helpfulness, clarity. The total is their sum.\n"
+    "Judge this item on its own merits.\n"
+    "Instruction:\n{instruction}\n\nResponse:\n{response}\n\n"
+    'Reply with ONLY a JSON object: {{"correctness": <0-25>, "completeness": <0-25>, '
+    '"helpfulness": <0-25>, "clarity": <0-25>, "score": <integer 0-100 sum>, '
+    '"reason": "<one short sentence>"}}'
+)
+
 
 def api_key():
     for line in open(os.path.join(HERE, "..", ".env")):
@@ -80,6 +103,7 @@ def main():
     ap.add_argument("--temp", type=float, default=0.0)
     ap.add_argument("--seed-tag", default="t0")
     ap.add_argument("--mitigation", action="store_true")
+    ap.add_argument("--arm", choices=list(ARMS), default=None)
     ap.add_argument("--limit", type=int, default=0)
     args = ap.parse_args()
 
@@ -88,7 +112,7 @@ def main():
     if args.limit:
         items = items[: args.limit]
 
-    tag = ("mit-" if args.mitigation else "") + args.seed_tag
+    tag = (f"arm{args.arm}-" if args.arm else ("mit-" if args.mitigation else "")) + args.seed_tag
     out_path = os.path.join(RESULTS_DIR, f"scores_{args.model}_{tag}.jsonl")
     os.makedirs(RESULTS_DIR, exist_ok=True)
     done = set()
@@ -104,6 +128,12 @@ def main():
     print(f"{len(jobs)} calls to run ({len(done)} already done). Spend so far ${spent():.3f}")
 
     mit = MITIGATION_LINE if args.mitigation else ""
+    rubric = RUBRIC
+    if args.arm == "R1":
+        rubric = RUBRIC_R1
+        mit = ""
+    elif args.arm:
+        mit = ARMS[args.arm]
     with open(out_path, "a") as out:
         for n, (it, cond) in enumerate(jobs, 1):
             if cond == "deva":
@@ -112,7 +142,7 @@ def main():
                 instr = it.get("instruction_hinglish") or it["instruction_iast"]
             else:
                 instr = it["instruction_iast"]
-            prompt = RUBRIC.format(mitigation=mit, instruction=instr, response=it["conditions"][cond])
+            prompt = rubric.format(mitigation=mit, instruction=instr, response=it["conditions"][cond]) if "{mitigation}" in rubric else rubric.format(instruction=instr, response=it["conditions"][cond])
             text, tin, tout = call_gemini(args.model, prompt, args.temp, key)
             total = log_call(args.model, tin, tout, tag=f"{tag}/{it['id']}/{cond}")
             score, reason = parse_score(text)
