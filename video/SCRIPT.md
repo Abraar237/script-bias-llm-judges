@@ -32,7 +32,7 @@ Every number below is verbatim from the paper. No em dashes, no emojis, anywhere
 
 **NARRATOR**
 
-> So researchers at Vizuara ran the cleanest test they could. One hundred and fifty Hindi answers, frozen at three quality levels, each rendered four ways: native Devanagari, scholarly IAST with diacritics, plain ASCII, and the natural Hinglish people actually type. Six judges from three model families scored every version blind, 4,200 judgments, never two scripts side by side. Identical content on every path, so any score gap is script bias by construction.
+> So researchers at Vizuara ran the cleanest test they could. One hundred and fifty Hindi answers, frozen at three quality levels, each rendered four ways: native Devanagari, scholarly IAST with diacritics, plain ASCII, and the natural Hinglish people actually type. Six judges from three model families scored every version blind (a seventh, GPT-5.6, joined the audit after this film was made), 4,200 core judgments, never two scripts side by side. Identical content on every path, so any score gap is script bias by construction.
 
 **Visual.** Figure 1 rebuilt as an animation: one answer card splits into four script variants, each travels down its own path to the same judge, and the paths never touch. The 51 versus 59 readout from the paper's schematic lands at the end.
 
@@ -52,7 +52,7 @@ Every number below is verbatim from the paper. No em dashes, no emojis, anywhere
 
 **NARRATOR**
 
-> Three judge families, three personalities. Gemini 3.6 Flash inflates romanized Hindi by up to 3.4 points overall, and by 7.8 on medium-quality answers, where a judge has the most discretion. A mediocre answer scoring 51 in Devanagari drifts to 59 in Latin letters. Gemini 3.1 Pro shrinks it to 1.1 points, smaller but still there. The small open judge, Qwen 2.5 7B, is stranger: it inflates scholarly IAST by 7.6 points, and by 17.8 on low-quality answers. Dress a bad answer in diacritics and it stops noticing the answer is bad. Yet on everyday Hinglish it stays flat. And the three Claude judges barely move, script-invariant to within half a point. One exception: Opus 5 docks the harshest romanization by 1.2 points, the only result anywhere in the study in the predicted direction.
+> Three judge families, three personalities. Gemini 3.6 Flash inflates romanized Hindi by up to 3.4 points overall, and by 7.8 on medium-quality answers, where a judge has the most discretion. A mediocre answer scoring 51 in Devanagari drifts to 59 in Latin letters. Gemini 3.1 Pro shrinks it to 1.1 points, smaller but still there. The small open judge, Qwen 2.5 7B, is stranger: it inflates scholarly IAST by 7.6 points, and by 17.8 on low-quality answers. Dress a bad answer in diacritics and it stops noticing the answer is bad. Yet on everyday Hinglish it stays flat. And the Claude family moves the opposite way, the way the team originally predicted. Judged one answer at a time, Sonnet 5 taxes romanized Hindi by up to 12.3 points, Opus 5 by 3.4, and the largest model, Fable 5, barely at all. Measured in big batches, the Claude penalty vanishes entirely; how you run the audit decides what you see. (v2 narration; the rendered final.mp4 matches this text, see film/audio/seg5.txt.)
 
 **Visual.** Figure 2 redrawn live: the forest plot assembles judge by judge, each confidence-interval bar growing out from the dashed zero line as its judge is named. Cut to Figure 3 for the discretion line, with the medium-tier bars stretching furthest. For Qwen, its 17.8 bar shoots past the axis while the Hinglish bar sits on zero. For Claude, three rows of intervals hugging zero, then the single Opus ASCII bar slides left.
 
@@ -101,7 +101,7 @@ Estimated at a documentary pace of about 155 words per minute, with two-second b
 | 1:52 | "Gemini 3.1 Pro shrinks it to 1.1 points" | Pro bars grow, one third the length, still right of zero |
 | 1:59 | "Qwen 2.5 7B... 7.6 points, and by 17.8 on low-quality answers" | Qwen bars: the 17.8 bar shoots past the axis edge |
 | 2:10 | "on everyday Hinglish it stays flat" | Qwen's Hinglish bar sits on the zero line |
-| 2:14 | "the three Claude judges barely move" | Three rows of intervals hugging zero |
+| 2:14 | "the Claude family moves the opposite way" | Sonnet/Opus arrows below zero; batch-vs-isolated flip |
 | 2:19 | "Opus 5 docks the harshest romanization by 1.2 points" | The single Opus ASCII bar slides left of zero |
 | 2:26 | "There is an obvious fix, and it fails" | The mitigation sentence types itself into the judge prompt |
 | 2:34 | "7.8 points of inflation without the instruction, 7.2 with it" | Fig 4: with-instruction bars land on the without bars, the flat line |
