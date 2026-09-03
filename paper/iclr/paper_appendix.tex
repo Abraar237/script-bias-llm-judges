@@ -255,13 +255,13 @@ Qwen2.5-7B & $12.78$ & $15.62$ & $+2.84$ \\
 
 \begin{table}[H]
 \centering\small
-\caption{Serbian replication: 51 Gemini-authored items in Cyrillic and Gaj Latin (an official lossless one-to-one transform), script-matched instructions, one item per call, $n{=}51$ pairs per judge; 17 per tier.}
+\caption{Serbian replication: 150 Gemini-authored items in Cyrillic and Gaj Latin (an official lossless one-to-one transform), script-matched instructions, one item per call, $n{=}150$ pairs per judge; 50 per tier.}
 \begin{tabular}{lcccc}
 \toprule
 Judge & Overall (latn$-$cyrl) & $p$ & Medium tier & High / Low \\
 \midrule
-Gemini 3.6 Flash & $-1.08$ {\scriptsize$[-2.7, +0.4]$} & $0.21$ & $-3.82$ ($p{=}0.036$) & $0.00$ / $+0.59$ \\
-Claude Sonnet 5 & $-1.51$ {\scriptsize$[-3.3, +0.3]$} & $0.11$ & $-4.76$ ($p{=}0.031$) & $-0.12$ / $+0.35$ \\
+Gemini 3.6 Flash & $-0.83$ {\scriptsize$[-1.8, +0.1]$} & $0.098$ & $-2.70$ ($p{=}0.015$) & $-0.10$ / $+0.30$ \\
+Claude Sonnet 5 & $\mathbf{-2.19}$ {\scriptsize$[-3.2, -1.2]$} & $10^{-4}$ & $-2.38$ ($p{=}0.038$) & $-1.06$ ($p{=}0.008$) / $-3.14$ ($p{=}0.005$) \\
 \bottomrule
 \end{tabular}
 \end{table}
