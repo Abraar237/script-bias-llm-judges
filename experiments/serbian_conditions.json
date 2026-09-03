@@ -1,0 +1,614 @@
+[
+ {
+  "id": "SH00",
+  "tier": "high",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Објасни шта је био узрок Првог српског устанка и ко га је предводио.",
+  "instruction_latn": "Objasni šta je bio uzrok Prvog srpskog ustanka i ko ga je predvodio.",
+  "conditions": {
+   "cyrl": "Први српски устанак, који је почео 1804. године, представља кључни догађај у модерној српској историји. Главни узрок устанка био је терор дахија, одметнутих јањичарских заповедника који су преузели власт у Београдском пашалуку након убиства Хаџи Мустафа-паше. Њихова суровост кулминирала је \"Сечом кнезова\", када су погубљени многи угледни српски прваци како би се спречила евентуална побуна. Овај догађај је, међутим, изазвао супротан ефекат и убрзао избијање устанка. На збору у Орашцу, на Сретење 1804. године, за вођу устанка изабран је Ђорђе Петровић, познатији као Карађорђе. Под његовим вођством, устаници су првобитно тражили само повратак аутономије у оквиру Османског царства, али су убрзо циљеви прерасли у борбу за потпуну независност и ослобођење српског народа од вишевековне турске власти.",
+   "latn": "Prvi srpski ustanak, koji je počeo 1804. godine, predstavlja ključni događaj u modernoj srpskoj istoriji. Glavni uzrok ustanka bio je teror dahija, odmetnutih janjičarskih zapovednika koji su preuzeli vlast u Beogradskom pašaluku nakon ubistva Hadži Mustafa-paše. Njihova surovost kulminirala je \"Sečom knezova\", kada su pogubljeni mnogi ugledni srpski prvaci kako bi se sprečila eventualna pobuna. Ovaj događaj je, međutim, izazvao suprotan efekat i ubrzao izbijanje ustanka. Na zboru u Orašcu, na Sretenje 1804. godine, za vođu ustanka izabran je Đorđe Petrović, poznatiji kao Karađorđe. Pod njegovim vođstvom, ustanici su prvobitno tražili samo povratak autonomije u okviru Osmanskog carstva, ali su ubrzo ciljevi prerasli u borbu za potpunu nezavisnost i oslobođenje srpskog naroda od viševekovne turske vlasti."
+  }
+ },
+ {
+  "id": "SH01",
+  "tier": "high",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Како настају црне рупе у свемиру и шта је хоризонт догађаја?",
+  "instruction_latn": "Kako nastaju crne rupe u svemiru i šta je horizont događaja?",
+  "conditions": {
+   "cyrl": "Црне рупе у свемиру најчешће настају након смрти масивних звезда. Када звезда која је знатно тежа од нашег Сунца потроши своје нуклеарно гориво, она више не може да се одупре сопственој гравитацији. Њено језгро се урушава само у себе, изазивајући снажну експлозију познату као супернова. Оно што остане након експлозије наставља да се сабија у једну тачку бесконачне густине, коју називамо сингуларитет. Гравитационо поље око ове тачке постаје толико снажно да ништа не може да му побегне. Граница око црне рупе иза које повратак више није могућ назива се хоризонт догађаја. Било која материја или светлост која пређе ову замишљену линију заувек је заробљена. Зато су црне рупе невидљиве, а њихово присуство можемо детектовати само индиректно, посматрањем њиховог утицаја на околне звезде и гасове.",
+   "latn": "Crne rupe u svemiru najčešće nastaju nakon smrti masivnih zvezda. Kada zvezda koja je znatno teža od našeg Sunca potroši svoje nuklearno gorivo, ona više ne može da se odupre sopstvenoj gravitaciji. Njeno jezgro se urušava samo u sebe, izazivajući snažnu eksploziju poznatu kao supernova. Ono što ostane nakon eksplozije nastavlja da se sabija u jednu tačku beskonačne gustine, koju nazivamo singularitet. Gravitaciono polje oko ove tačke postaje toliko snažno da ništa ne može da mu pobegne. Granica oko crne rupe iza koje povratak više nije moguć naziva se horizont događaja. Bilo koja materija ili svetlost koja pređe ovu zamišljenu liniju zauvek je zarobljena. Zato su crne rupe nevidljive, a njihovo prisustvo možemo detektovati samo indirektno, posmatranjem njihovog uticaja na okolne zvezde i gasove."
+  }
+ },
+ {
+  "id": "SH02",
+  "tier": "high",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Који су основни састојци и кораци за припрему традиционалне српске гибанице?",
+  "instruction_latn": "Koji su osnovni sastojci i koraci za pripremu tradicionalne srpske gibanice?",
+  "conditions": {
+   "cyrl": "Традиционална српска гибаница је укусна пита са сиром која се често припрема за доручак или као предјело на слављима. Основни састојци су коре за питу (око 500 грама), свежи крављи сир (најбоље пуномасни), јаја, уље, кисела вода и со. За почетак, у дубокој посуди умутите четири до пет јаја, додајте пола килограма измрвљеног сира, шољицу уља и око две чаше киселе воде. Смеса треба да буде житка и благо слана. На дно подмазаног плеха ставите две коре као основу. Затим, остале коре једну по једну гужвајте, умачите у припремљени фил од сира и ређајте у плех док не потрошите материјал. На крају, све прекријте са још две равне коре, премажите са мало уља и пеците у рерни загрејаној на двеста степени око четрдесет минута, док не порумени.",
+   "latn": "Tradicionalna srpska gibanica je ukusna pita sa sirom koja se često priprema za doručak ili kao predjelo na slavljima. Osnovni sastojci su kore za pitu (oko 500 grama), sveži kravlji sir (najbolje punomasni), jaja, ulje, kisela voda i so. Za početak, u dubokoj posudi umutite četiri do pet jaja, dodajte pola kilograma izmrvljenog sira, šoljicu ulja i oko dve čaše kisele vode. Smesa treba da bude žitka i blago slana. Na dno podmazanog pleha stavite dve kore kao osnovu. Zatim, ostale kore jednu po jednu gužvajte, umačite u pripremljeni fil od sira i ređajte u pleh dok ne potrošite materijal. Na kraju, sve prekrijte sa još dve ravne kore, premažite sa malo ulja i pecite u rerni zagrejanoj na dvesta stepeni oko četrdeset minuta, dok ne porumeni."
+  }
+ },
+ {
+  "id": "SH03",
+  "tier": "high",
+  "domain": "personal finance",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Наведи три кључна савета за успешно управљање личним финансијама и штедњу.",
+  "instruction_latn": "Navedi tri ključna saveta za uspešno upravljanje ličnim finansijama i štednju.",
+  "conditions": {
+   "cyrl": "Успешно управљање личним финансијама захтева дисциплину и пажљиво планирање. Први кључни савет је креирање месечног буџета. Бележите све своје приходе и расходе како бисте тачно знали где ваш новац одлази. Ово вам помаже да идентификујете непотребне трошкове које можете елиминисати. Други важан корак је изградња фонда за хитне случајеве. Стручњаци препоручују да увек имате сачуван износ који покрива ваше животне трошкове за три до шест месеци. Овај новац пружа сигурност у случају неочекиваних догађаја попут губитка посла или болести. Трећи савет је правило \"прво плати себи\". Уместо да штедите оно што остане на крају месеца, чим примите плату, аутоматски пребаците одређени проценат на штедни рачун. Ова навика осигурава континуиран раст ваше уштеђевине, чинећи вас дугорочно финансијски стабилнијим.",
+   "latn": "Uspešno upravljanje ličnim finansijama zahteva disciplinu i pažljivo planiranje. Prvi ključni savet je kreiranje mesečnog budžeta. Beležite sve svoje prihode i rashode kako biste tačno znali gde vaš novac odlazi. Ovo vam pomaže da identifikujete nepotrebne troškove koje možete eliminisati. Drugi važan korak je izgradnja fonda za hitne slučajeve. Stručnjaci preporučuju da uvek imate sačuvan iznos koji pokriva vaše životne troškove za tri do šest meseci. Ovaj novac pruža sigurnost u slučaju neočekivanih događaja poput gubitka posla ili bolesti. Treći savet je pravilo \"prvo plati sebi\". Umesto da štedite ono što ostane na kraju meseca, čim primite platu, automatski prebacite određeni procenat na štedni račun. Ova navika osigurava kontinuiran rast vaše ušteđevine, čineći vas dugoročno finansijski stabilnijim."
+  }
+ },
+ {
+  "id": "SH04",
+  "tier": "high",
+  "domain": "health",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Објасни зашто је сан важан за људско здравље и колико сати сна је препоручљиво.",
+  "instruction_latn": "Objasni zašto je san važan za ljudsko zdravlje i koliko sati sna je preporučljivo.",
+  "conditions": {
+   "cyrl": "Сан је један од најважнијих стубова људског здравља, подједнако битан као правилна исхрана и физичка активност. Током спавања, наше тело пролази кроз кључне процесе обнове. Мозак консолидује памћење, обрађује информације прикупљене током дана и чисти се од токсина. Истовремено, ћелије у телу се регенеришу, мишићи се опорављају, а имунолошки систем се јача, што нас чини отпорнијим на инфекције. Недостатак сна може довести до озбиљних здравствених проблема, укључући повећан ризик од кардиоваскуларних болести, дијабетеса, гојазности и депресије. Такође, хронична неиспаваност негативно утиче на концентрацију, расположење и продуктивност. За одрасле особе, стручњаци препоручују између седам и девет сати квалитетног сна сваке ноћи. Деци и тинејџерима је потребно још више одмора за правилан физички и ментални развој. Редовна рутина спавања кључна је за дугорочно благостање.",
+   "latn": "San je jedan od najvažnijih stubova ljudskog zdravlja, podjednako bitan kao pravilna ishrana i fizička aktivnost. Tokom spavanja, naše telo prolazi kroz ključne procese obnove. Mozak konsoliduje pamćenje, obrađuje informacije prikupljene tokom dana i čisti se od toksina. Istovremeno, ćelije u telu se regenerišu, mišići se oporavljaju, a imunološki sistem se jača, što nas čini otpornijim na infekcije. Nedostatak sna može dovesti do ozbiljnih zdravstvenih problema, uključući povećan rizik od kardiovaskularnih bolesti, dijabetesa, gojaznosti i depresije. Takođe, hronična neispavanost negativno utiče na koncentraciju, raspoloženje i produktivnost. Za odrasle osobe, stručnjaci preporučuju između sedam i devet sati kvalitetnog sna svake noći. Deci i tinejdžerima je potrebno još više odmora za pravilan fizički i mentalni razvoj. Redovna rutina spavanja ključna je za dugoročno blagostanje."
+  }
+ },
+ {
+  "id": "SH05",
+  "tier": "high",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Објасни шта је фотосинтеза и зашто је важна за живот на Земљи.",
+  "instruction_latn": "Objasni šta je fotosinteza i zašto je važna za život na Zemlji.",
+  "conditions": {
+   "cyrl": "Фотосинтеза је биохемијски процес у којем биљке, алге и неке бактерије користе сунчеву енергију како би претвориле угљен-диоксид и воду у глукозу и кисеоник. Овај процес се одвија у хлоропластима, где пигмент хлорофил апсорбује светлост. Глукоза служи као основни извор енергије за раст и развој биљака, док се кисеоник ослобађа у атмосферу као нуспроизвод. Важност фотосинтезе за живот на Земљи је немерљива. Прво, она је темељ сваког ланца исхране, јер биљоједи једу биљке, а месоједи биљоједе. Друго, фотосинтеза одржава ниво кисеоника у атмосфери, који је неопходан за дисање већине живих бића. Без овог процеса, живот какав познајемо не би могао да опстане, јер би нестало хране и кисеоника.",
+   "latn": "Fotosinteza je biohemijski proces u kojem biljke, alge i neke bakterije koriste sunčevu energiju kako bi pretvorile ugljen-dioksid i vodu u glukozu i kiseonik. Ovaj proces se odvija u hloroplastima, gde pigment hlorofil apsorbuje svetlost. Glukoza služi kao osnovni izvor energije za rast i razvoj biljaka, dok se kiseonik oslobađa u atmosferu kao nusproizvod. Važnost fotosinteze za život na Zemlji je nemerljiva. Prvo, ona je temelj svakog lanca ishrane, jer biljojedi jedu biljke, a mesojedi biljojede. Drugo, fotosinteza održava nivo kiseonika u atmosferi, koji je neophodan za disanje većine živih bića. Bez ovog procesa, život kakav poznajemo ne bi mogao da opstane, jer bi nestalo hrane i kiseonika."
+  }
+ },
+ {
+  "id": "SH06",
+  "tier": "high",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Који су били главни узроци Првог српског устанка 1804. године?",
+  "instruction_latn": "Koji su bili glavni uzroci Prvog srpskog ustanka 1804. godine?",
+  "conditions": {
+   "cyrl": "Први српски устанак, који је почео 1804. године, био је резултат дугогодишњег незадовољства српског народа под османском влашћу. Главни узрок био је терор који су спроводиле дахије – одметнути јањичарски заповедници који су преузели власт у Београдском пашалуку. Они су укинули повластице које је Србима раније дао султан Селим III, увели сурове порезе, присилан рад и самовољно кажњавање. Кап која је прелила чашу била је \"Сеча кнезова\" почетком 1804. године, када су дахије, плашећи се побуне, погубиле десетине најугледнијих српских кнезова, свештеника и трговаца. Овај догађај је изазвао огроман гнев у народу. Уместо да застраши Србе, он их је ујединио. Под вођством Карађорђа Петровића, народ се подигао на оружје, прво да би се ослободио зулума дахија, а касније и да би стекао потпуну независност од Османског царства.",
+   "latn": "Prvi srpski ustanak, koji je počeo 1804. godine, bio je rezultat dugogodišnjeg nezadovoljstva srpskog naroda pod osmanskom vlašću. Glavni uzrok bio je teror koji su sprovodile dahije – odmetnuti janjičarski zapovednici koji su preuzeli vlast u Beogradskom pašaluku. Oni su ukinuli povlastice koje je Srbima ranije dao sultan Selim III, uveli surove poreze, prisilan rad i samovoljno kažnjavanje. Kap koja je prelila čašu bila je \"Seča knezova\" početkom 1804. godine, kada su dahije, plašeći se pobune, pogubile desetine najuglednijih srpskih knezova, sveštenika i trgovaca. Ovaj događaj je izazvao ogroman gnev u narodu. Umesto da zastraši Srbe, on ih je ujedinio. Pod vođstvom Karađorđa Petrovića, narod se podigao na oružje, prvo da bi se oslobodio zuluma dahija, a kasnije i da bi stekao potpunu nezavisnost od Osmanskog carstva."
+  }
+ },
+ {
+  "id": "SH07",
+  "tier": "high",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Како се припрема традиционална српска гибаница са сиром?",
+  "instruction_latn": "Kako se priprema tradicionalna srpska gibanica sa sirom?",
+  "conditions": {
+   "cyrl": "Традиционална српска гибаница са сиром је укусно и популарно јело које се лако припрема. Од састојака су вам потребне танке коре за питу (око 500 грама), 500 грама ситног или згњеченог тврдог сира, 4 до 5 јаја, шољица уља, шољица киселе воде и мало соли. У дубокој посуди умутите јаја, па додајте сир, уље, киселу воду и со по укусу. Све добро измешајте како бисте добили јединствен фил. Плех за печење подмажите уљем. На дно ставите две коре, а затим сваку следећу кору благо згужвајте, умочите у припремљени фил од сира и ређајте у плех док не потрошите материјал. На врх ставите две равне коре које ће затворити гибаницу. Премажите је са мало уља и пеците у рерни загрејаној на 200 степени око 40 минута, док не порумени.",
+   "latn": "Tradicionalna srpska gibanica sa sirom je ukusno i popularno jelo koje se lako priprema. Od sastojaka su vam potrebne tanke kore za pitu (oko 500 grama), 500 grama sitnog ili zgnječenog tvrdog sira, 4 do 5 jaja, šoljica ulja, šoljica kisele vode i malo soli. U dubokoj posudi umutite jaja, pa dodajte sir, ulje, kiselu vodu i so po ukusu. Sve dobro izmešajte kako biste dobili jedinstven fil. Pleh za pečenje podmažite uljem. Na dno stavite dve kore, a zatim svaku sledeću koru blago zgužvajte, umočite u pripremljeni fil od sira i ređajte u pleh dok ne potrošite materijal. Na vrh stavite dve ravne kore koje će zatvoriti gibanicu. Premažite je sa malo ulja i pecite u rerni zagrejanoj na 200 stepeni oko 40 minuta, dok ne porumeni."
+  }
+ },
+ {
+  "id": "SH08",
+  "tier": "high",
+  "domain": "personal finance",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Који су најбољи начини за уштеду новца у свакодневном животу?",
+  "instruction_latn": "Koji su najbolji načini za uštedu novca u svakodnevnom životu?",
+  "conditions": {
+   "cyrl": "Уштеда новца у свакодневном животу захтева дисциплину и планирање, али доноси дугорочну сигурност. Први корак је вођење кућног буџета; бележите све приходе и расходе како бисте тачно знали где ваш новац одлази. Друго, планирајте куповину намирница. Увек идите у продавницу са списком и сити, чиме ћете избећи импулсивне куповине и бацање хране. Трећи савет је да смањите трошкове становања штедњом енергије – гасите светла, користите штедљиве сијалице и пазите на потрошњу воде и струје. Такође, преиспитајте своје месечне претплате за услуге које не користите редовно, попут разних стриминг сервиса или теретане. На крају, покушајте да део прихода аутоматски пребаците на штедни рачун чим примите плату. Ове мале промене у навикама временом стварају значајан финансијски простор.",
+   "latn": "Ušteda novca u svakodnevnom životu zahteva disciplinu i planiranje, ali donosi dugoročnu sigurnost. Prvi korak je vođenje kućnog budžeta; beležite sve prihode i rashode kako biste tačno znali gde vaš novac odlazi. Drugo, planirajte kupovinu namirnica. Uvek idite u prodavnicu sa spiskom i siti, čime ćete izbeći impulsivne kupovine i bacanje hrane. Treći savet je da smanjite troškove stanovanja štednjom energije – gasite svetla, koristite štedljive sijalice i pazite na potrošnju vode i struje. Takođe, preispitajte svoje mesečne pretplate za usluge koje ne koristite redovno, poput raznih striming servisa ili teretane. Na kraju, pokušajte da deo prihoda automatski prebacite na štedni račun čim primite platu. Ove male promene u navikama vremenom stvaraju značajan finansijski prostor."
+  }
+ },
+ {
+  "id": "SH09",
+  "tier": "high",
+  "domain": "health",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Које су кључне предности редовне физичке активности за здравље човека?",
+  "instruction_latn": "Koje su ključne prednosti redovne fizičke aktivnosti za zdravlje čoveka?",
+  "conditions": {
+   "cyrl": "Редовна физичка активност има бројне и кључне предности за целокупно здравље човека, утичући позитивно и на тело и на ум. На физичком нивоу, вежбање јача срчани мишић, побољшава циркулацију и помаже у одржавању здравог крвног притиска, чиме се значајно смањује ризик од кардиоваскуларних болести. Такође, помаже у контроли телесне тежине, убрзава метаболизам и спречава настанак дијабетеса типа 2. Активност је важна и за очување густине костију и мишићне масе. На менталном нивоу, физичка активност стимулише лучење ендорфина, хормона среће, који смањује ниво стреса, анксиозности и симптоме депресије. Људи који редовно вежбају имају бољи квалитет сна и више енергије током дана. Препоручује се бар 150 минута умерене активности недељно за оптималне резултате.",
+   "latn": "Redovna fizička aktivnost ima brojne i ključne prednosti za celokupno zdravlje čoveka, utičući pozitivno i na telo i na um. Na fizičkom nivou, vežbanje jača srčani mišić, poboljšava cirkulaciju i pomaže u održavanju zdravog krvnog pritiska, čime se značajno smanjuje rizik od kardiovaskularnih bolesti. Takođe, pomaže u kontroli telesne težine, ubrzava metabolizam i sprečava nastanak dijabetesa tipa 2. Aktivnost je važna i za očuvanje gustine kostiju i mišićne mase. Na mentalnom nivou, fizička aktivnost stimuliše lučenje endorfina, hormona sreće, koji smanjuje nivo stresa, anksioznosti i simptome depresije. Ljudi koji redovno vežbaju imaju bolji kvalitet sna i više energije tokom dana. Preporučuje se bar 150 minuta umerene aktivnosti nedeljno za optimalne rezultate."
+  }
+ },
+ {
+  "id": "SH10",
+  "tier": "high",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Како настају црне рупе у свемиру?",
+  "instruction_latn": "Kako nastaju crne rupe u svemiru?",
+  "conditions": {
+   "cyrl": "Црне рупе настају када масивне звезде, на крају свог животног века, потроше своје нуклеарно гориво. Ово доводи до губитка унутрашњег притиска који се супротстављао гравитацији, што изазива колапс звезде услед сопствене теже. Овај процес се често завршава спектакуларном експлозијом познатом као супернова. Спољашњи слојеви звезде се одбацују у свемир, док се језгро континуирано урушава. Ако је маса преосталог језгра довољно велика (обично више од три масе нашег Сунца), колапс се не може зауставити. Сва материја се сабија у једну тачку бесконачне густине, познату као сингуларитет. Око сингуларитета се формира хоризонт догађаја, граница иза које гравитација постаје толико снажна да чак ни светлост не може да јој побегне. Тако се рађа нова црна рупа, невидљиви али изузетно моћни објекат у свемиру.",
+   "latn": "Crne rupe nastaju kada masivne zvezde, na kraju svog životnog veka, potroše svoje nuklearno gorivo. Ovo dovodi do gubitka unutrašnjeg pritiska koji se suprotstavljao gravitaciji, što izaziva kolaps zvezde usled sopstvene teže. Ovaj proces se često završava spektakularnom eksplozijom poznatom kao supernova. Spoljašnji slojevi zvezde se odbacuju u svemir, dok se jezgro kontinuirano urušava. Ako je masa preostalog jezgra dovoljno velika (obično više od tri mase našeg Sunca), kolaps se ne može zaustaviti. Sva materija se sabija u jednu tačku beskonačne gustine, poznatu kao singularitet. Oko singulariteta se formira horizont događaja, granica iza koje gravitacija postaje toliko snažna da čak ni svetlost ne može da joj pobegne. Tako se rađa nova crna rupa, nevidljivi ali izuzetno moćni objekat u svemiru."
+  }
+ },
+ {
+  "id": "SH11",
+  "tier": "high",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Објасни историјски значај Стефана Немање за средњовековну Србију.",
+  "instruction_latn": "Objasni istorijski značaj Stefana Nemanje za srednjovekovnu Srbiju.",
+  "conditions": {
+   "cyrl": "Стефан Немања је једна од најзначајнијих личности српске историје, јер се сматра оснивачем моћне средњовековне српске државе и династије Немањића, која је владала Србијом више од два века. Током своје владавине у 12. веку, Немања је успео да уједини расуте српске територије, укључујући Рашку, Дукљу, Травунију и Захумље, стварајући тиме снажну и независну државу. Поред војних и политичких успеха, његов значај се огледа и у културном и духовном препороду. Подигао је бројне задужбине, међу којима су најпознатији манастири Студеница и Хиландар на Светој Гори. Након повлачења са власти, замонашио се под именом Симеон и заједно са сином Савом поставио темеље Српске православне цркве. Његово наслеђе је обликовало национални и духовни идентитет српског народа.",
+   "latn": "Stefan Nemanja je jedna od najznačajnijih ličnosti srpske istorije, jer se smatra osnivačem moćne srednjovekovne srpske države i dinastije Nemanjića, koja je vladala Srbijom više od dva veka. Tokom svoje vladavine u 12. veku, Nemanja je uspeo da ujedini rasute srpske teritorije, uključujući Rašku, Duklju, Travuniju i Zahumlje, stvarajući time snažnu i nezavisnu državu. Pored vojnih i političkih uspeha, njegov značaj se ogleda i u kulturnom i duhovnom preporodu. Podigao je brojne zadužbine, među kojima su najpoznatiji manastiri Studenica i Hilandar na Svetoj Gori. Nakon povlačenja sa vlasti, zamonašio se pod imenom Simeon i zajedno sa sinom Savom postavio temelje Srpske pravoslavne crkve. Njegovo nasleđe je oblikovalo nacionalni i duhovni identitet srpskog naroda."
+  }
+ },
+ {
+  "id": "SH12",
+  "tier": "high",
+  "domain": "personal finance",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Који су најбољи савети за почетнике који желе да почну да штеде новац?",
+  "instruction_latn": "Koji su najbolji saveti za početnike koji žele da počnu da štede novac?",
+  "conditions": {
+   "cyrl": "За почетак успешне штедње, најважније је успоставити јасан преглед прихода и расхода. Први корак је креирање месечног буџета; бележите сваки трошак како бисте идентификовали где ваш новац непотребно одлази. Примените правило 50/30/20, где 50% прихода иде на основне потребе, 30% на жеље, а 20% директно на штедњу или отплату дугова. Други важан савет је аутоматизација штедње. Подесите трајни налог у банци тако да се одређени износ аутоматски пребацује на штедни рачун чим примите плату. На овај начин нећете доћи у искушење да потрошите тај новац. Такође, пре него што обавите већу куповину, сачекајте 24 сата; ово помаже у спречавању импулсивних трошкова. Коначно, поставите јасне финансијске циљеве, попут фонда за хитне случајеве, што ће вас додатно мотивисати.",
+   "latn": "Za početak uspešne štednje, najvažnije je uspostaviti jasan pregled prihoda i rashoda. Prvi korak je kreiranje mesečnog budžeta; beležite svaki trošak kako biste identifikovali gde vaš novac nepotrebno odlazi. Primenite pravilo 50/30/20, gde 50% prihoda ide na osnovne potrebe, 30% na želje, a 20% direktno na štednju ili otplatu dugova. Drugi važan savet je automatizacija štednje. Podesite trajni nalog u banci tako da se određeni iznos automatski prebacuje na štedni račun čim primite platu. Na ovaj način nećete doći u iskušenje da potrošite taj novac. Takođe, pre nego što obavite veću kupovinu, sačekajte 24 sata; ovo pomaže u sprečavanju impulsivnih troškova. Konačno, postavite jasne finansijske ciljeve, poput fonda za hitne slučajeve, što će vas dodatno motivisati."
+  }
+ },
+ {
+  "id": "SH13",
+  "tier": "high",
+  "domain": "health",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Зашто је важно уносити довољно воде у организам сваког дана?",
+  "instruction_latn": "Zašto je važno unositi dovoljno vode u organizam svakog dana?",
+  "conditions": {
+   "cyrl": "Редован и довољан унос воде је кључан за правилно функционисање целог организма, јер вода чини око 60% наше телесне масе. Она игра виталну улогу у одржавању телесне температуре путем знојења и дисања. Вода је неопходна за варење, јер помаже у разградњи хране и апсорпцији хранљивих материја у цревима. Такође, омогућава бубрезима да ефикасно филтрирају крв и избацују токсине и отпадне материје кроз урин. Довољна хидратација директно утиче на ниво енергије и когнитивне функције; чак и блага дехидратација може изазвати главобољу, умор и пад концентрације. Поред тога, вода подмазује зглобове и штити осетљива ткива. Стручњаци углавном препоручују око две литре воде дневно, али тачна количина зависи од нивоа физичке активности, климе у којој живите и општег здравственог стања.",
+   "latn": "Redovan i dovoljan unos vode je ključan za pravilno funkcionisanje celog organizma, jer voda čini oko 60% naše telesne mase. Ona igra vitalnu ulogu u održavanju telesne temperature putem znojenja i disanja. Voda je neophodna za varenje, jer pomaže u razgradnji hrane i apsorpciji hranljivih materija u crevima. Takođe, omogućava bubrezima da efikasno filtriraju krv i izbacuju toksine i otpadne materije kroz urin. Dovoljna hidratacija direktno utiče na nivo energije i kognitivne funkcije; čak i blaga dehidratacija može izazvati glavobolju, umor i pad koncentracije. Pored toga, voda podmazuje zglobove i štiti osetljiva tkiva. Stručnjaci uglavnom preporučuju oko dve litre vode dnevno, ali tačna količina zavisi od nivoa fizičke aktivnosti, klime u kojoj živite i opšteg zdravstvenog stanja."
+  }
+ },
+ {
+  "id": "SH14",
+  "tier": "high",
+  "domain": "technology",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Шта је ВПН и које су његове главне предности приликом коришћења интернета?",
+  "instruction_latn": "Šta je VPN i koje su njegove glavne prednosti prilikom korišćenja interneta?",
+  "conditions": {
+   "cyrl": "ВПН (Виртуелна приватна мрежа) је технологија која ствара сигурну и шифровану везу између вашег уређаја и интернета. Када користите ВПН, ваш интернет саобраћај пролази кроз приватни сервер пре него што стигне до крајње дестинације, чиме се маскира ваша стварна ИП адреса. Главна предност ВПН-а је побољшана приватност и безбедност; он штити ваше личне податке од хакера, посебно када користите јавне, незаштићене Wi-Fi мреже у кафићима или на аеродромима. Такође, ВПН вам омогућава да заобиђете географска ограничења и цензуру, пружајући приступ садржајима, сервисима и веб-сајтовима који можда нису доступни у вашој земљи. На крају, спречава интернет провајдере и оглашиваче да прате ваше активности на мрежи, чиме вам враћа контролу над вашим дигиталним отиском.",
+   "latn": "VPN (Virtuelna privatna mreža) je tehnologija koja stvara sigurnu i šifrovanu vezu između vašeg uređaja i interneta. Kada koristite VPN, vaš internet saobraćaj prolazi kroz privatni server pre nego što stigne do krajnje destinacije, čime se maskira vaša stvarna IP adresa. Glavna prednost VPN-a je poboljšana privatnost i bezbednost; on štiti vaše lične podatke od hakera, posebno kada koristite javne, nezaštićene Wi-Fi mreže u kafićima ili na aerodromima. Takođe, VPN vam omogućava da zaobiđete geografska ograničenja i cenzuru, pružajući pristup sadržajima, servisima i veb-sajtovima koji možda nisu dostupni u vašoj zemlji. Na kraju, sprečava internet provajdere i oglašivače da prate vaše aktivnosti na mreži, čime vam vraća kontrolu nad vašim digitalnim otiskom."
+  }
+ },
+ {
+  "id": "SH15",
+  "tier": "high",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Објасни шта је црна рупа и како настаје.",
+  "instruction_latn": "Objasni šta je crna rupa i kako nastaje.",
+  "conditions": {
+   "cyrl": "Црна рупа је део свемира где је гравитација толико јака да ништа, чак ни светлост, не може да јој побегне. Она настаје када врло масивна звезда дође до краја свог живота и остане без горива за нуклеарне реакције. Тада звезда више не може да се одупире сопственој гравитацији, што доводи до експлозије познате као супернова. Преостало језгро звезде се затим урушава само у себе, сабијајући огромну масу у изузетно мали простор. Ова огромна густина ствара гравитационо поље које закривљује простор и време око себе. Црне рупе не можемо видети директно, већ њихово присуство откривамо посматрањем како њихова гравитација утиче на околне звезде и гасове у свемиру.",
+   "latn": "Crna rupa je deo svemira gde je gravitacija toliko jaka da ništa, čak ni svetlost, ne može da joj pobegne. Ona nastaje kada vrlo masivna zvezda dođe do kraja svog života i ostane bez goriva za nuklearne reakcije. Tada zvezda više ne može da se odupire sopstvenoj gravitaciji, što dovodi do eksplozije poznate kao supernova. Preostalo jezgro zvezde se zatim urušava samo u sebe, sabijajući ogromnu masu u izuzetno mali prostor. Ova ogromna gustina stvara gravitaciono polje koje zakrivljuje prostor i vreme oko sebe. Crne rupe ne možemo videti direktno, već njihovo prisustvo otkrivamo posmatranjem kako njihova gravitacija utiče na okolne zvezde i gasove u svemiru."
+  }
+ },
+ {
+  "id": "SH16",
+  "tier": "high",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Који су били главни узроци за почетак Првог светског рата?",
+  "instruction_latn": "Koji su bili glavni uzroci za početak Prvog svetskog rata?",
+  "conditions": {
+   "cyrl": "Први светски рат је био резултат сложеног низа фактора који су се деценијама накупљали у Европи. Главни узроци се често деле на четири основна елемента: милитаризам, савезништва, империјализам и национализам. Европске силе су се интензивно наоружавале и стварале велике војске (милитаризам). Постојала су два велика војна блока: Силе Антанте и Централне силе, што је значило да сукоб две земље лако може увући све остале. Борба за колоније и ресурсе широм света додатно је појачавала тензије (империјализам). На крају, снажан национализам, посебно на Балкану, стварао је нестабилност. Директан повод за рат био је Сарајевски атентат 28. јуна 1914. године, када је Гаврило Принцип убио аустроугарског престолонаследника Франца Фердинанда, што је покренуло ланчану реакцију објава рата.",
+   "latn": "Prvi svetski rat je bio rezultat složenog niza faktora koji su se decenijama nakupljali u Evropi. Glavni uzroci se često dele na četiri osnovna elementa: militarizam, savezništva, imperijalizam i nacionalizam. Evropske sile su se intenzivno naoružavale i stvarale velike vojske (militarizam). Postojala su dva velika vojna bloka: Sile Antante i Centralne sile, što je značilo da sukob dve zemlje lako može uvući sve ostale. Borba za kolonije i resurse širom sveta dodatno je pojačavala tenzije (imperijalizam). Na kraju, snažan nacionalizam, posebno na Balkanu, stvarao je nestabilnost. Direktan povod za rat bio je Sarajevski atentat 28. juna 1914. godine, kada je Gavrilo Princip ubio austrougarskog prestolonaslednika Franca Ferdinanda, što je pokrenulo lančanu reakciju objava rata."
+  }
+ },
+ {
+  "id": "SM00",
+  "tier": "medium",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Објасни како настаје дуга и који су основни услови за њену појаву.",
+  "instruction_latn": "Objasni kako nastaje duga i koji su osnovni uslovi za njenu pojavu.",
+  "conditions": {
+   "cyrl": "Дуга је метеоролошки феномен који настаје када се сунчева светлост прелама кроз капљице воде у атмосфери. Да би се дуга видела, потребно је да пада киша и да сунце сија у исто време. Светлост се разлаже на различите боје. То је леп призор који често можемо видети после летњих пљускова.",
+   "latn": "Duga je meteorološki fenomen koji nastaje kada se sunčeva svetlost prelama kroz kapljice vode u atmosferi. Da bi se duga videla, potrebno je da pada kiša i da sunce sija u isto vreme. Svetlost se razlaže na različite boje. To je lep prizor koji često možemo videti posle letnjih pljuskova."
+  }
+ },
+ {
+  "id": "SM01",
+  "tier": "medium",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Наведи најважније догађаје из Првог српског устанка и његове главне вође.",
+  "instruction_latn": "Navedi najvažnije događaje iz Prvog srpskog ustanka i njegove glavne vođe.",
+  "conditions": {
+   "cyrl": "Први српски устанак је почео 1804. године у Орашцу као одговор на сечу кнезова. Главни вођа устанка био је Ђорђе Петровић, познатији као Карађорђе. Устаници су водили многе битке против Турака и успели су да ослободе значајан део Србије. Устанак је трајао до 1813. године када је угушен од стране османске војске.",
+   "latn": "Prvi srpski ustanak je počeo 1804. godine u Orašcu kao odgovor na seču knezova. Glavni vođa ustanka bio je Đorđe Petrović, poznatiji kao Karađorđe. Ustanici su vodili mnoge bitke protiv Turaka i uspeli su da oslobode značajan deo Srbije. Ustanak je trajao do 1813. godine kada je ugušen od strane osmanske vojske."
+  }
+ },
+ {
+  "id": "SM02",
+  "tier": "medium",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Напиши детаљан рецепт за традиционалну српску гибаницу, укључујући све састојке и кораке печења.",
+  "instruction_latn": "Napiši detaljan recept za tradicionalnu srpsku gibanicu, uključujući sve sastojke i korake pečenja.",
+  "conditions": {
+   "cyrl": "За традиционалну српску гибаницу потребне су вам готове коре, сир, јаја, уље и минерална вода. Прво умутите јаја са сиром и додајте мало воде и уља. Затим узимајте једну по једну кору, гужвајте је и умачите у припремљени фил од сира. Ређајте коре у подмазан плех. Када све завршите, ставите у рерну да се пече док не порумени.",
+   "latn": "Za tradicionalnu srpsku gibanicu potrebne su vam gotove kore, sir, jaja, ulje i mineralna voda. Prvo umutite jaja sa sirom i dodajte malo vode i ulja. Zatim uzimajte jednu po jednu koru, gužvajte je i umačite u pripremljeni fil od sira. Ređajte kore u podmazan pleh. Kada sve završite, stavite u rernu da se peče dok ne porumeni."
+  }
+ },
+ {
+  "id": "SM03",
+  "tier": "medium",
+  "domain": "technology",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Објасни шта је вештачка интелигенција и како се она примењује у свакодневном животу.",
+  "instruction_latn": "Objasni šta je veštačka inteligencija i kako se ona primenjuje u svakodnevnom životu.",
+  "conditions": {
+   "cyrl": "Вештачка интелигенција је грана рачунарства која се бави развојем компјутерских система способних да обављају задатке који захтевају људску интелигенцију. Ови системи уче из велике количине података и доносе одлуке. У свакодневном животу је користимо када претражујемо интернет или када користимо паметне телефоне. Такође помаже у препознавању гласа на нашим уређајима.",
+   "latn": "Veštačka inteligencija je grana računarstva koja se bavi razvojem kompjuterskih sistema sposobnih da obavljaju zadatke koji zahtevaju ljudsku inteligenciju. Ovi sistemi uče iz velike količine podataka i donose odluke. U svakodnevnom životu je koristimo kada pretražujemo internet ili kada koristimo pametne telefone. Takođe pomaže u prepoznavanju glasa na našim uređajima."
+  }
+ },
+ {
+  "id": "SM04",
+  "tier": "medium",
+  "domain": "health",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Који су најбољи начини за очување здравља срца и превенцију кардиоваскуларних болести?",
+  "instruction_latn": "Koji su najbolji načini za očuvanje zdravlja srca i prevenciju kardiovaskularnih bolesti?",
+  "conditions": {
+   "cyrl": "За очување здравља срца веома је важно да водите здрав начин живота. Требало би да једете пуно воћа и поврћа, а да избегавате масну и слатку храну. Такође, редовна физичка активност је кључна, па је препоручљиво да шетате сваки дан. Поред тога, важно је да не пушите цигарете, јер дуван озбиљно штети крвним судовима.",
+   "latn": "Za očuvanje zdravlja srca veoma je važno da vodite zdrav način života. Trebalo bi da jedete puno voća i povrća, a da izbegavate masnu i slatku hranu. Takođe, redovna fizička aktivnost je ključna, pa je preporučljivo da šetate svaki dan. Pored toga, važno je da ne pušite cigarete, jer duvan ozbiljno šteti krvnim sudovima."
+  }
+ },
+ {
+  "id": "SM05",
+  "tier": "medium",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Који су били главни узроци Првог светског рата и како је Сарајевски атентат утицао на почетак сукоба?",
+  "instruction_latn": "Koji su bili glavni uzroci Prvog svetskog rata i kako je Sarajevski atentat uticao na početak sukoba?",
+  "conditions": {
+   "cyrl": "Први светски рат је почео хиљаду деветсто четрнаесте године након што је Гаврило Принцип извршио атентат на аустроугарског престолонаследника Франца Фердинанда у Сарајеву. Овај догађај је био директан повод за рат јер је Аустроугарска убрзо након тога објавила рат Србији. Овај локални сукоб се брзо проширио на друге државе због постојећих савеза.",
+   "latn": "Prvi svetski rat je počeo hiljadu devetsto četrnaeste godine nakon što je Gavrilo Princip izvršio atentat na austrougarskog prestolonaslednika Franca Ferdinanda u Sarajevu. Ovaj događaj je bio direktan povod za rat jer je Austrougarska ubrzo nakon toga objavila rat Srbiji. Ovaj lokalni sukob se brzo proširio na druge države zbog postojećih saveza."
+  }
+ },
+ {
+  "id": "SM06",
+  "tier": "medium",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Можеш ли ми дати детаљан рецепт за традиционалну српску сарму, укључујући све састојке и тачно време кувања?",
+  "instruction_latn": "Možeš li mi dati detaljan recept za tradicionalnu srpsku sarmu, uključujući sve sastojke i tačno vreme kuvanja?",
+  "conditions": {
+   "cyrl": "Традиционална српска сарма се прави од листова киселог купуса, млевеног меса и пиринча. Потребно је да продинстате лук и месо, додате зачине и пиринач, а затим ту смесу умотате у листове купуса. Сарме се слажу у велику шерпу и кувају на тихој ватри. Ово је веома популарно јело које се често спрема за славе и празнике.",
+   "latn": "Tradicionalna srpska sarma se pravi od listova kiselog kupusa, mlevenog mesa i pirinča. Potrebno je da prodinstate luk i meso, dodate začine i pirinač, a zatim tu smesu umotate u listove kupusa. Sarme se slažu u veliku šerpu i kuvaju na tihoj vatri. Ovo je veoma popularno jelo koje se često sprema za slave i praznike."
+  }
+ },
+ {
+  "id": "SM07",
+  "tier": "medium",
+  "domain": "health",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Које су главне предности редовног вежбања за физичко и ментално здравље и колико пута недељно треба тренирати?",
+  "instruction_latn": "Koje su glavne prednosti redovnog vežbanja za fizičko i mentalno zdravlje i koliko puta nedeljno treba trenirati?",
+  "conditions": {
+   "cyrl": "Редовно вежбање је изузетно важно за одржавање доброг физичког здравља. Физичка активност помаже у јачању мишића, побољшању кондиције и одржавању здраве телесне тежине. Такође, вежбање може смањити ризик од разних болести попут дијабетеса и проблема са срцем. Због тога се препоручује да људи буду физички активни како би се осећали боље и имали више енергије током дана.",
+   "latn": "Redovno vežbanje je izuzetno važno za održavanje dobrog fizičkog zdravlja. Fizička aktivnost pomaže u jačanju mišića, poboljšanju kondicije i održavanju zdrave telesne težine. Takođe, vežbanje može smanjiti rizik od raznih bolesti poput dijabetesa i problema sa srcem. Zbog toga se preporučuje da ljudi budu fizički aktivni kako bi se osećali bolje i imali više energije tokom dana."
+  }
+ },
+ {
+  "id": "SM08",
+  "tier": "medium",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Објасни како настају црне рупе и које су њихове основне карактеристике у свемиру.",
+  "instruction_latn": "Objasni kako nastaju crne rupe i koje su njihove osnovne karakteristike u svemiru.",
+  "conditions": {
+   "cyrl": "Црне рупе у свемиру настају када веома масивне звезде дођу до краја свог живота и колабирају под утицајем сопствене гравитације. Овај процес ствара изузетно густ објекат са толико снажном гравитационом силом да ништа не може побећи од њега. Оне представљају једне од најфасцинантнијих појава у целом универзуму које научници и даље проучавају.",
+   "latn": "Crne rupe u svemiru nastaju kada veoma masivne zvezde dođu do kraja svog života i kolabiraju pod uticajem sopstvene gravitacije. Ovaj proces stvara izuzetno gust objekat sa toliko snažnom gravitacionom silom da ništa ne može pobeći od njega. One predstavljaju jedne od najfascinantnijih pojava u celom univerzumu koje naučnici i dalje proučavaju."
+  }
+ },
+ {
+  "id": "SM09",
+  "tier": "medium",
+  "domain": "personal finance",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Који су најбољи начини за штедњу новца сваког месеца и како направити дугорочни инвестициони план?",
+  "instruction_latn": "Koji su najbolji načini za štednju novca svakog meseca i kako napraviti dugoročni investicioni plan?",
+  "conditions": {
+   "cyrl": "Један од најбољих начина за штедњу новца јесте да водите детаљну евиденцију о својим месечним приходима и расходима. Важно је да избегавате непотребне трошкове, попут честих одлазака у ресторане или куповине ствари које вам заиста нису потребне. Ако сваког месеца одвојите одређени проценат плате на посебан рачун, временом ћете скупити значајну суму новца за хитне случајеве.",
+   "latn": "Jedan od najboljih načina za štednju novca jeste da vodite detaljnu evidenciju o svojim mesečnim prihodima i rashodima. Važno je da izbegavate nepotrebne troškove, poput čestih odlazaka u restorane ili kupovine stvari koje vam zaista nisu potrebne. Ako svakog meseca odvojite određeni procenat plate na poseban račun, vremenom ćete skupiti značajnu sumu novca za hitne slučajeve."
+  }
+ },
+ {
+  "id": "SM10",
+  "tier": "medium",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Објасни како настају црне рупе и које су њихове главне карактеристике.",
+  "instruction_latn": "Objasni kako nastaju crne rupe i koje su njihove glavne karakteristike.",
+  "conditions": {
+   "cyrl": "Црне рупе настају када масивне звезде потроше своје нуклеарно гориво и доживе гравитациони колапс на крају свог живота. Овај процес често прати снажна експлозија позната као супернова. Када се звезда уруши, формира се тачка бесконачне густине. Главна карактеристика црних рупа је њихова невероватно јака гравитација. Међутим, постоје и други начини њиховог настанка у свемиру.",
+   "latn": "Crne rupe nastaju kada masivne zvezde potroše svoje nuklearno gorivo i dožive gravitacioni kolaps na kraju svog života. Ovaj proces često prati snažna eksplozija poznata kao supernova. Kada se zvezda uruši, formira se tačka beskonačne gustine. Glavna karakteristika crnih rupa je njihova neverovatno jaka gravitacija. Međutim, postoje i drugi načini njihovog nastanka u svemiru."
+  }
+ },
+ {
+  "id": "SM11",
+  "tier": "medium",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Опиши узроке и најважније битке Првог светског рата.",
+  "instruction_latn": "Opiši uzroke i najvažnije bitke Prvog svetskog rata.",
+  "conditions": {
+   "cyrl": "Први светски рат је почео 1914. године након атентата на надвојводу Франца Фердинанда у Сарајеву. Овај догађај је покренуо низ објава рата због постојећих војних савеза у Европи. Током рата су се водиле многе тешке борбе, а посебно се истичу битка на Соми и битка код Вердена. Рат је трајао четири године и однео је милионе живота пре него што је завршен.",
+   "latn": "Prvi svetski rat je počeo 1914. godine nakon atentata na nadvojvodu Franca Ferdinanda u Sarajevu. Ovaj događaj je pokrenuo niz objava rata zbog postojećih vojnih saveza u Evropi. Tokom rata su se vodile mnoge teške borbe, a posebno se ističu bitka na Somi i bitka kod Verdena. Rat je trajao četiri godine i odneo je milione života pre nego što je završen."
+  }
+ },
+ {
+  "id": "SM12",
+  "tier": "medium",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Напиши детаљан рецепт за традиционалну српску сарму, укључујући све састојке и кораке припреме.",
+  "instruction_latn": "Napiši detaljan recept za tradicionalnu srpsku sarmu, uključujući sve sastojke i korake pripreme.",
+  "conditions": {
+   "cyrl": "За припрему традиционалне српске сарме биће вам потребни кисели купус, мешано млевено месо, пиринач, црни лук и разни зачини попут соли, бибера и алеве паприке. Прво продинстајте лук и месо, па додајте пиринач. Овом смесом пуните листове киселог купуса и мотајте их у мале ролнице. Сарме сложите у велику шерпу и кувајте на тихој ватри неколико сати док не омекшају.",
+   "latn": "Za pripremu tradicionalne srpske sarme biće vam potrebni kiseli kupus, mešano mleveno meso, pirinač, crni luk i razni začini poput soli, bibera i aleve paprike. Prvo prodinstajte luk i meso, pa dodajte pirinač. Ovom smesom punite listove kiselog kupusa i motajte ih u male rolnice. Sarme složite u veliku šerpu i kuvajte na tihoj vatri nekoliko sati dok ne omekšaju."
+  }
+ },
+ {
+  "id": "SM13",
+  "tier": "medium",
+  "domain": "personal finance",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Који су најбољи начини за штедњу новца и инвестирање за почетнике са малим примањима?",
+  "instruction_latn": "Koji su najbolji načini za štednju novca i investiranje za početnike sa malim primanjima?",
+  "conditions": {
+   "cyrl": "Ако имате мала примања, најважнији корак је да направите месечни буџет и пратите све своје трошкове. Покушајте да смањите непотребне издатке, као што су чести одласци у ресторане или куповина скупе одеће. Што се тиче инвестирања, добро је почети са малим износима које ћете редовно одвајати. Можете размотрити улагање у инвестиционе фондове или штедњу у банци како бисте временом увећали свој капитал.",
+   "latn": "Ako imate mala primanja, najvažniji korak je da napravite mesečni budžet i pratite sve svoje troškove. Pokušajte da smanjite nepotrebne izdatke, kao što su česti odlasci u restorane ili kupovina skupe odeće. Što se tiče investiranja, dobro je početi sa malim iznosima koje ćete redovno odvajati. Možete razmotriti ulaganje u investicione fondove ili štednju u banci kako biste vremenom uvećali svoj kapital."
+  }
+ },
+ {
+  "id": "SM14",
+  "tier": "medium",
+  "domain": "health",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Наведи и објасни предности редовне физичке активности за ментално и физичко здравље.",
+  "instruction_latn": "Navedi i objasni prednosti redovne fizičke aktivnosti za mentalno i fizičko zdravlje.",
+  "conditions": {
+   "cyrl": "Редовна физичка активност је веома важна за одржавање општег здравља организма. Када вежбате, ваше тело сагорева калорије, што помаже у одржавању здраве телесне тежине и смањује ризик од срчаних обољења. Такође, вежбање позитивно утиче на расположење јер се током активности лучи ендорфин, познат као хормон среће. Људи који редовно тренирају често имају више енергије током дана и боље спавају ноћу.",
+   "latn": "Redovna fizička aktivnost je veoma važna za održavanje opšteg zdravlja organizma. Kada vežbate, vaše telo sagoreva kalorije, što pomaže u održavanju zdrave telesne težine i smanjuje rizik od srčanih oboljenja. Takođe, vežbanje pozitivno utiče na raspoloženje jer se tokom aktivnosti luči endorfin, poznat kao hormon sreće. Ljudi koji redovno treniraju često imaju više energije tokom dana i bolje spavaju noću."
+  }
+ },
+ {
+  "id": "SM15",
+  "tier": "medium",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Објасни узроке и последице Првог светског рата, укључујући главне битке.",
+  "instruction_latn": "Objasni uzroke i posledice Prvog svetskog rata, uključujući glavne bitke.",
+  "conditions": {
+   "cyrl": "Први светски рат је почео 1914. године након атентата на надвојводу Франца Фердинанда у Сарајеву. Ово је био главни повод за сукоб између великих сила. Рат се водио у Европи, али и у другим деловима света. Завршио се 1918. године победом Савезника. Последица рата је био распад неколико великих империја, попут Аустроугарске и Османског царства, и стварање нових држава на њиховим територијама.",
+   "latn": "Prvi svetski rat je počeo 1914. godine nakon atentata na nadvojvodu Franca Ferdinanda u Sarajevu. Ovo je bio glavni povod za sukob između velikih sila. Rat se vodio u Evropi, ali i u drugim delovima sveta. Završio se 1918. godine pobedom Saveznika. Posledica rata je bio raspad nekoliko velikih imperija, poput Austrougarske i Osmanskog carstva, i stvaranje novih država na njihovim teritorijama."
+  }
+ },
+ {
+  "id": "SM16",
+  "tier": "medium",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Напиши детаљан рецепт за традиционалну српску сарму, са свим састојцима и временом кувања.",
+  "instruction_latn": "Napiši detaljan recept za tradicionalnu srpsku sarmu, sa svim sastojcima i vremenom kuvanja.",
+  "conditions": {
+   "cyrl": "За припрему традиционалне српске сарме потребан вам је кисели купус, млевено месо, пиринач и разни зачини по укусу. Прво треба да продинстате месо са луком и помешате га са пиринчем. Затим ту смесу умотате у листове киселог купуса. Сарме поређајте у велики лонац и прелијте водом. Кувајте их на шпорету док купус не постане мекан, а месо се лепо скува.",
+   "latn": "Za pripremu tradicionalne srpske sarme potreban vam je kiseli kupus, mleveno meso, pirinač i razni začini po ukusu. Prvo treba da prodinstate meso sa lukom i pomešate ga sa pirinčem. Zatim tu smesu umotate u listove kiselog kupusa. Sarme poređajte u veliki lonac i prelijte vodom. Kuvajte ih na šporetu dok kupus ne postane mekan, a meso se lepo skuva."
+  }
+ },
+ {
+  "id": "SL00",
+  "tier": "low",
+  "domain": "историја",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Ко је био Никола Тесла и шта је измислио?",
+  "instruction_latn": "Ko je bio Nikola Tesla i šta je izmislio?",
+  "conditions": {
+   "cyrl": "Никола Тесла је био неки научник из прошлости. Измислио је струју и сијалицу, ваљда. Живео је у Америци дуго и радио разне ствари са машинама и кабловима.",
+   "latn": "Nikola Tesla je bio neki naučnik iz prošlosti. Izmislio je struju i sijalicu, valjda. Živeo je u Americi dugo i radio razne stvari sa mašinama i kablovima."
+  }
+ },
+ {
+  "id": "SL01",
+  "tier": "low",
+  "domain": "кување",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Како се прави традиционална српска сарма?",
+  "instruction_latn": "Kako se pravi tradicionalna srpska sarma?",
+  "conditions": {
+   "cyrl": "За сарму ти треба купус и месо. Убациш месо у купус, смоташ и ставиш да се кува у шерпи. Куваш док не буде готово. То је то, врло је једноставно.",
+   "latn": "Za sarmu ti treba kupus i meso. Ubaciš meso u kupus, smotaš i staviš da se kuva u šerpi. Kuvaš dok ne bude gotovo. To je to, vrlo je jednostavno."
+  }
+ },
+ {
+  "id": "SL02",
+  "tier": "low",
+  "domain": "здравље",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Који су најбољи начини да се спречи прехлада током зиме?",
+  "instruction_latn": "Koji su najbolji načini da se spreči prehlada tokom zime?",
+  "conditions": {
+   "cyrl": "Па, немој да излазиш напоље кад је хладно и пиј пуно воде. Ако баш мораш да изађеш, обуци јакну. Прехлада прође сама од себе после неколико дана лежања у кревету.",
+   "latn": "Pa, nemoj da izlaziš napolje kad je hladno i pij puno vode. Ako baš moraš da izađeš, obuci jaknu. Prehlada prođe sama od sebe posle nekoliko dana ležanja u krevetu."
+  }
+ },
+ {
+  "id": "SL03",
+  "tier": "low",
+  "domain": "географија",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Који је главни град Аустралије и где се налази?",
+  "instruction_latn": "Koji je glavni grad Australije i gde se nalazi?",
+  "conditions": {
+   "cyrl": "Главни град Аустралије је Сиднеј. Налази се поред мора. Тамо има пуно кенгура и топло је. То је велики град са пуно људи и оном познатом зградом за оперу.",
+   "latn": "Glavni grad Australije je Sidnej. Nalazi se pored mora. Tamo ima puno kengura i toplo je. To je veliki grad sa puno ljudi i onom poznatom zgradom za operu."
+  }
+ },
+ {
+  "id": "SL04",
+  "tier": "low",
+  "domain": "технологија",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Како ради бежични интернет (Wi-Fi)?",
+  "instruction_latn": "Kako radi bežični internet (Wi-Fi)?",
+  "conditions": {
+   "cyrl": "Бежични интернет ради преко ваздуха. Имаш неки рутер у кући и он шаље сигнале у твој телефон. Тако можеш да гледаш видео снимке без каблова. Није ништа компликовано.",
+   "latn": "Bežični internet radi preko vazduha. Imaš neki ruter u kući i on šalje signale u tvoj telefon. Tako možeš da gledaš video snimke bez kablova. Nije ništa komplikovano."
+  }
+ },
+ {
+  "id": "SL05",
+  "tier": "low",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Ко је био први председник Сједињених Америчких Држава и када је ступио на дужност?",
+  "instruction_latn": "Ko je bio prvi predsednik Sjedinjenih Američkih Država i kada je stupio na dužnost?",
+  "conditions": {
+   "cyrl": "Први председник је био Џорџ Вашингтон. Он је био веома важан за њихову историју и ступио је на дужност негде крајем деветнаестог века.",
+   "latn": "Prvi predsednik je bio Džordž Vašington. On je bio veoma važan za njihovu istoriju i stupio je na dužnost negde krajem devetnaestog veka."
+  }
+ },
+ {
+  "id": "SL06",
+  "tier": "low",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Како да направим једноставну пасту са парадајз сосом код куће?",
+  "instruction_latn": "Kako da napravim jednostavnu pastu sa paradajz sosom kod kuće?",
+  "conditions": {
+   "cyrl": "Узмите тестенину и скувајте је у води. Онда купите парадајз сос у продавници и прелијте преко ње. То је све што вам треба за овај оброк.",
+   "latn": "Uzmite testeninu i skuvajte je u vodi. Onda kupite paradajz sos u prodavnici i prelijte preko nje. To je sve što vam treba za ovaj obrok."
+  }
+ },
+ {
+  "id": "SL07",
+  "tier": "low",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Можете ли ми објаснити шта је фотосинтеза на једноставан начин?",
+  "instruction_latn": "Možete li mi objasniti šta je fotosinteza na jednostavan način?",
+  "conditions": {
+   "cyrl": "Фотосинтеза је процес који биљке користе сваки дан. Оне узимају светлост од сунца и праве нешто од тога како би могле да преживе. То раде само зелене биљке.",
+   "latn": "Fotosinteza je proces koji biljke koriste svaki dan. One uzimaju svetlost od sunca i prave nešto od toga kako bi mogle da prežive. To rade samo zelene biljke."
+  }
+ },
+ {
+  "id": "SL08",
+  "tier": "low",
+  "domain": "geography",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Који је главни град Аустралије и по чему је познат?",
+  "instruction_latn": "Koji je glavni grad Australije i po čemu je poznat?",
+  "conditions": {
+   "cyrl": "Главни град Аустралије је Сиднеј. Он је познат по великој згради опере и кенгурима који тамо живе. Тамо је углавном јако топло током целе године.",
+   "latn": "Glavni grad Australije je Sidnej. On je poznat po velikoj zgradi opere i kengurima koji tamo žive. Tamo je uglavnom jako toplo tokom cele godine."
+  }
+ },
+ {
+  "id": "SL09",
+  "tier": "low",
+  "domain": "personal finance",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Како могу да уштедим више новца од своје месечне плате?",
+  "instruction_latn": "Kako mogu da uštedim više novca od svoje mesečne plate?",
+  "conditions": {
+   "cyrl": "Да бисте уштедели новац, само престаните да трошите на ствари које вам не требају. Ставите паре у банку сваког месеца и немојте да их дирате уопште.",
+   "latn": "Da biste uštedeli novac, samo prestanite da trošite na stvari koje vam ne trebaju. Stavite pare u banku svakog meseca i nemojte da ih dirate uopšte."
+  }
+ },
+ {
+  "id": "SL10",
+  "tier": "low",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Ко је био први римски цар и када је владао?",
+  "instruction_latn": "Ko je bio prvi rimski car i kada je vladao?",
+  "conditions": {
+   "cyrl": "Први римски цар је био Јулије Цезар. Владао је јако давно, негде пре нове ере. Имао је велику моћ и освојио је много територија за своју земљу.",
+   "latn": "Prvi rimski car je bio Julije Cezar. Vladao je jako davno, negde pre nove ere. Imao je veliku moć i osvojio je mnogo teritorija za svoju zemlju."
+  }
+ },
+ {
+  "id": "SL11",
+  "tier": "low",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Како да направим традиционалну српску сарму?",
+  "instruction_latn": "Kako da napravim tradicionalnu srpsku sarmu?",
+  "conditions": {
+   "cyrl": "Узми кисели купус и млевено месо. Умотај месо у листиће купуса и стави да се кува у великој шерпи. Кувај неколико сати док не буде готово. Једи са хлебом.",
+   "latn": "Uzmi kiseli kupus i mleveno meso. Umotaj meso u listiće kupusa i stavi da se kuva u velikoj šerpi. Kuvaj nekoliko sati dok ne bude gotovo. Jedi sa hlebom."
+  }
+ },
+ {
+  "id": "SL12",
+  "tier": "low",
+  "domain": "geography",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Који су највећи градови у Аустралији и где се налазе?",
+  "instruction_latn": "Koji su najveći gradovi u Australiji i gde se nalaze?",
+  "conditions": {
+   "cyrl": "Највећи град и главни град је Сиднеј. Ту су још и Мелбурн и Перт. Сви се они налазе негде на обали јер је унутрашњост углавном велика пустиња.",
+   "latn": "Najveći grad i glavni grad je Sidnej. Tu su još i Melburn i Pert. Svi se oni nalaze negde na obali jer je unutrašnjost uglavnom velika pustinja."
+  }
+ },
+ {
+  "id": "SL13",
+  "tier": "low",
+  "domain": "personal finance",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Који је најбољи начин да уштедим новац сваког месеца?",
+  "instruction_latn": "Koji je najbolji način da uštedim novac svakog meseca?",
+  "conditions": {
+   "cyrl": "Најбоље је да мање трошиш. Немој да купујеш ствари које ти нису потребне. Стави паре са стране чим добијеш плату и немој да их дираш уопште.",
+   "latn": "Najbolje je da manje trošiš. Nemoj da kupuješ stvari koje ti nisu potrebne. Stavi pare sa strane čim dobiješ platu i nemoj da ih diraš uopšte."
+  }
+ },
+ {
+  "id": "SL14",
+  "tier": "low",
+  "domain": "science",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Објасни ми укратко како настаје киша.",
+  "instruction_latn": "Objasni mi ukratko kako nastaje kiša.",
+  "conditions": {
+   "cyrl": "Вода испари у ваздух и онда се тамо горе скупља у облацима. Кад облаци постану превише тешки, вода само падне доле на земљу и тако настане киша.",
+   "latn": "Voda ispari u vazduh i onda se tamo gore skuplja u oblacima. Kad oblaci postanu previše teški, voda samo padne dole na zemlju i tako nastane kiša."
+  }
+ },
+ {
+  "id": "SL15",
+  "tier": "low",
+  "domain": "history",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Ко је био Никола Тесла и где је рођен?",
+  "instruction_latn": "Ko je bio Nikola Tesla i gde je rođen?",
+  "conditions": {
+   "cyrl": "Никола Тесла је био научник који је измислио струју. Рођен је негде у Србији, мислим у Београду. Био је веома паметан и радио је у Америци.",
+   "latn": "Nikola Tesla je bio naučnik koji je izmislio struju. Rođen je negde u Srbiji, mislim u Beogradu. Bio je veoma pametan i radio je u Americi."
+  }
+ },
+ {
+  "id": "SL16",
+  "tier": "low",
+  "domain": "cooking",
+  "author_model": "gemini-3.1-pro-preview",
+  "instruction_cyrl": "Како да направим традиционалну српску сарму?",
+  "instruction_latn": "Kako da napravim tradicionalnu srpsku sarmu?",
+  "conditions": {
+   "cyrl": "За сарму ти треба купус и месо. Умоташ месо у купус и ставиш да се кува дуго. Можеш додати и мало пиринча ако волиш. То је то.",
+   "latn": "Za sarmu ti treba kupus i meso. Umotaš meso u kupus i staviš da se kuva dugo. Možeš dodati i malo pirinča ako voliš. To je to."
+  }
+ }
+]

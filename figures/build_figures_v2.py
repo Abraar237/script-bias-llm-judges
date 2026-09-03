@@ -11,14 +11,18 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 RES = os.path.join(HERE, "..", "results")
 A = json.load(open(os.path.join(RES, "analysis.json")))
 J = {j["judge"]: j for j in A["judges"]}
+B = json.load(open(os.path.join(RES, "analysis_batteries.json")))
+J["gpt-5.6"] = {"judge": "gpt-5.6", "conditions": B["gpt_5_6_terra"]["conditions"]}
 CONDS = ["iast", "ascii", "hinglish"]
 
 JUDGE_ORDER = ["gemini-3.6-flash", "gemini-3.1-pro-preview", "qwen2.5-7b-instruct",
-               "claude-sonnet-5-api", "claude-opus-5-api", "claude-fable-5-api"]
+               "claude-sonnet-5-api", "claude-opus-5-api", "claude-fable-5-api",
+               "gpt-5.6"]
 JUDGE_LABELS = {"gemini-3.6-flash": "Gemini 3.6 Flash",
                 "gemini-3.1-pro-preview": "Gemini 3.1 Pro",
                 "qwen2.5-7b-instruct": "Qwen2.5-7B",
                 "claude-sonnet-5-api": "Claude Sonnet 5",
+                "gpt-5.6": "GPT-5.6",
                 "claude-opus-5-api": "Claude Opus 5",
                 "claude-fable-5-api": "Claude Fable 5"}
 
@@ -90,11 +94,11 @@ def fig_mitigation_battery():
                         mec=style.SURFACE, mew=1.0)
                 print("fig4", title.split()[0], arm, cond, v)
         zero_rule(ax, "x")
-        ax.set_title(title, fontsize=10, color=INK, pad=22)
+        ax.set_title(title, fontsize=10, color=INK, pad=8)
         ax.set_yticks(range(len(ARMS)))
         ax.set_xlabel("score shift (points)")
-        ax.text(0.5, 1.10, note.replace("\n", " "), transform=ax.transAxes, ha="center",
-                fontsize=8, color=HOT, style="italic")
+        ax.text(0.97, 0.045, note, transform=ax.transAxes, ha="right", va="bottom",
+                fontsize=7.8, color=HOT, style="italic")
     axes[0].set_yticklabels([l for _, l in reversed(ARMS)], fontsize=8.6, color=INK2)
     axes[0].set_xlim(-6, 12)
     axes[1].set_xlim(-3.5, 14.5)

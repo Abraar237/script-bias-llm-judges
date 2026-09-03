@@ -15,6 +15,13 @@
   \label{fig:mechanism}
 \end{figure}
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.72\textwidth]{assets/fig4_mitigation.png}
+  \caption{\textbf{Six mitigation arms, two families, no reliable fix.} \textbf{Left:} Gemini 3.6 Flash, medium tier, $n=50$. \textbf{Right:} Qwen2.5-7B, all items, $n=150$: every arm increases inflation.}
+  \label{fig:mitigation}
+\end{figure}
+
 \section{Verbatim judging prompts}
 \label{app:prompts}
 
@@ -235,6 +242,19 @@ System & Devanagari mean & ASCII mean & Script shift \\
 Gemini 3.6 Flash & $62.24$ & $56.18$ & $-6.06$ \\
 Gemini 3.1 Pro & $57.06$ & $51.88$ & $-5.18$ \\
 Qwen2.5-7B & $12.78$ & $15.62$ & $+2.84$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering\small
+\caption{Serbian replication: 51 Gemini-authored items in Cyrillic and Gaj Latin (an official lossless one-to-one transform), script-matched instructions, one item per call, $n{=}51$ pairs per judge; 17 per tier.}
+\begin{tabular}{lcccc}
+\toprule
+Judge & Overall (latn$-$cyrl) & $p$ & Medium tier & High / Low \\
+\midrule
+Gemini 3.6 Flash & $-1.08$ {\scriptsize$[-2.7, +0.4]$} & $0.21$ & $-3.82$ ($p{=}0.036$) & $0.00$ / $+0.59$ \\
+Claude Sonnet 5 & $-1.51$ {\scriptsize$[-3.3, +0.3]$} & $0.11$ & $-4.76$ ($p{=}0.031$) & $-0.12$ / $+0.35$ \\
 \bottomrule
 \end{tabular}
 \end{table}
